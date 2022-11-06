@@ -1,0 +1,16 @@
+{
+  "my": [
+    { "link": "https://git.katsu.moe",        "icon": "git",       "title": "Gitea" },
+    { "link": "https://utube.katsu.moe",      "icon": "youtube",   "title": "Invidious" },
+    { "link": "https://mattermost.katsu.moe", "icon": "chat-dots", "title": "Mattermost" },
+    { "link": "https://t.me/katsu_travel",    "icon": "telegram",  "title": "Travel Channel" },
+    { "link": "https://t.me/katsu_diary",     "icon": "telegram",  "title": "Nikki" }
+  ],
+  "outer": [
+    { "link": "https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax", "title": "Showdown's Markdown Cheatsheet" }
+  ],
+  "md": [
+    "index",
+    "markdown_cheatsheet"
+  ]
+}
