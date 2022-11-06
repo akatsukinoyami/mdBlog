@@ -1,3 +1,3 @@
 import { writable } from 'svelte/store';
 
-export const content = writable("Please wait...");
+export const title = writable("Katsu Nikki");

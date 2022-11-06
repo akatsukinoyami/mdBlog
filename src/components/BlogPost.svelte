@@ -1,5 +1,6 @@
 <script lang="ts">
   import parseMarkdown from "../markdown.parser";
+  import { title } from "../stores";
 
   export let link: string = "/page/index.md";
 
@@ -18,6 +19,12 @@
     return { title, content };
   };
 
+  function updateTitle(titleValue: string) {
+    let newTitle = titleValue == "Katsu Nikki" ? "Katsu Nikki" : `Katsu Nikki | ${titleValue}`
+    title.update((_) => newTitle);
+    return "";
+  }
+
 </script>
 
 {#await fetchMdAndConvert(link)}
@@ -28,7 +35,7 @@
     </div>
   </section>
   {:then {title, content}}
-  <h1 class="text-center fw-lighter mt-3">{title}</h1>
+  <h1 class="text-center fw-lighter mt-3">{title}{updateTitle(title)}</h1>
   <section class={sectionClass}>
     <article class="p-3">{@html content}</article>
   </section>
