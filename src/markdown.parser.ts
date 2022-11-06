@@ -40,15 +40,15 @@ function imageUrlExtension(path: string): ShowdownExtensionType{
   return {
     type: 'output',
     regex: /<img(.*?)src="(.*?)"(.*?)alt="(.*?)"(.*?)>/g,
-    replace: `<figure class="figure w-100">
-                <a class="button_modal" href="#$2">
+    replace: `<figure class="figure w-100" id="$2">
+                <a class="button_modal" href="#$2_modal">
                   <img $1 src="${path}/$2" $3 alt="$4" $5 style="object-fit: contain;" />
                 </a>
                 <figcaption class="figure-caption text-center" style="font-family: 'Ubuntu', Helvetica, Verdana, sans-serif;"> $4 </figcaption>
               </figure>
-              <div id="$2" class="overlay light">
+              <div id="$2_modal" class="overlay light">
                 <div class="popup d-inline-block">
-                  <a class="close" href="#">&times;</a>
+                  <a class="close" href="#" onclick="document.getElementById('$2').scrollIntoView()">&times;</a>
                   <img $1 src="${path}/$2" $3 alt="$4" $5 style="object-fit: contain; height: 100%" />
                 </div>
               </div>
