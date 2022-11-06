@@ -28,7 +28,7 @@
     </div>
   </section>
   {:then {title, content}}
-  <h1 class="text-center fw-lighter">{title}</h1>
+  <h1 class="text-center fw-lighter mt-3">{title}</h1>
   <section class={sectionClass}>
     <article class="p-3">{@html content}</article>
   </section>
