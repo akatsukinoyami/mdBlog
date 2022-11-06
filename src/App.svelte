@@ -8,7 +8,7 @@
 
 <Router primary={false}>
   <Navbar/>
-  <main class="container">
+  <main>
       <Route path="blog/:section/:post" let:params>
         <BlogPost link="/blog/{params.section}/{params.post}/index.md" />
       </Route>

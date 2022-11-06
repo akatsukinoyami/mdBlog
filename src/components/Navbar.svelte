@@ -10,7 +10,7 @@
   }
 </script>
 
-<nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top mb-3">
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand link-light" href="/">
       <img src="/favicon.ico" class="d-inline-block align-text-top" alt="Red panda icon" width="28" height="28">
