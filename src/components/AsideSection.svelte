@@ -1,14 +1,8 @@
 <script lang="ts">
 	import { Link } from "svelte-navigator";
   import type DirectoryTreeFileType from "../types/directory.tree.file.type";
+  import { blogLink, nameHumanize } from "../functions";
   export let section: DirectoryTreeFileType = { path: "", name: "" };
-
-  function nameHumanize(name: string): string {
-    return name.replaceAll('_', ' ')
-  }
-  function link(post: DirectoryTreeFileType): string {
-    return `/blog/${section.name}/${post.name}`
-  }
 </script>
 
 <div class="accordion-item">
@@ -22,7 +16,7 @@
       {#each section.children as post}
         {#if post.hasOwnProperty('children')}
           <div class="list-group-item text-capitalize">
-            <Link to={ link(post) }>
+            <Link to={ blogLink(section, post) }>
               <i class="bi bi-file-richtext-fill"></i> { nameHumanize(post.name) }
             </Link>
           </div>
