@@ -7,9 +7,12 @@
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "gen:tree:posts": "node ./scripts/inspectMdFiles.js",
-    "build:caprover": "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf",
-    "build": "yarn gen:tree:posts && rollup -c",
+    "permissions:fix": "chown -R $USER public/blog public/page",
+
+    "build": "yarn check && yarn permissions:fix && yarn gen:tree:posts && rollup -c",
     "build:prod": "yarn build && yarn build:caprover",
+    "build:caprover": "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf",
+
     "start:docker": "yarn build && docker-compose up",
     "start:docker:recreate": "yarn build && docker-compose up --build --force-recreate"
   },
