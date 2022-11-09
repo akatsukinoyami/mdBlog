@@ -1,28 +1,19 @@
 <script lang="ts">
-	import { Link } from "svelte-navigator";
+  import { Link } from "svelte-navigator";
+  import { updateTitle } from "../functions";
   import posts from "../jsons/posts.json";
-  import type DirectoryTreeFileType from "../types/directory.tree.file.type";
+  import BlogPostCard from "./BlogPostCard.svelte";
 
   export let sectionName: string;
 
-  const section = posts.children[sectionName].children
-
-  function nameHumanize(name: string): string {
-    return name.replaceAll('_', ' ')
-  }
-  function link(post: DirectoryTreeFileType): string {
-    return `/post/${section.name}/${post.name}`
-  }
+  const section = posts.children.find(section => section.name === sectionName)
+  updateTitle(sectionName)
 </script>
 
-<div>
-  {#each section as post}
+<div class="row">
+  {#each section.children as post}
     {#if post.hasOwnProperty('children')}
-      <div class="list-group-item decoration-none text-capitalize">
-        <Link to={ link(post) }>
-          <i class="bi bi-file-richtext-fill"></i> { nameHumanize(post.name) }
-        </Link>
-      </div>
+      <BlogPostCard {section} {post} />
     {/if}
   {/each}
 </div>
