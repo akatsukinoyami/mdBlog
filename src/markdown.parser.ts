@@ -1,5 +1,5 @@
 import showdown from "showdown";
-import type ShowdownExtensionType from "./types/showdown.extension.type";
+import type ShowdownExtensionType from "./interfaces/showdown.extension.interface";
 
 export default function parseMarkdown(link: string, markdown: string): string {
     return getParser(link).makeHtml(markdown);

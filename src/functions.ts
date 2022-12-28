@@ -1,5 +1,5 @@
 import { title } from "./stores";
-import type DirectoryTreeFileType from "./types/directory.tree.file.type";
+import type DirectoryTreeFileType from "./interfaces/directory.tree.file.interface";
 
 export function updateTitle(titleValue: string): string {
   title.update((_) => nameHumanize(titleValue));
