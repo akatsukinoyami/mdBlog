@@ -1,6 +1,6 @@
 <script lang="ts">
-  import AsideFolder from "./AsideSection.svelte";
-  import sections from "../jsons/posts.json";
+  import Section from "./Section.svelte";
+  import sections from "../../jsons/posts.json";
 </script>
 
 <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -12,7 +12,7 @@
     <div class="accordion accordion-flush " id="accordionExample">
       {#each sections.children as section (section.name)}
         {#if section.hasOwnProperty('children')}
-          <AsideFolder section={section} />
+          <Section section={section} />
         {/if}
       {/each}
     </div>

@@ -1,10 +1,11 @@
 <script lang="ts">
-    import { updateTitle } from "../functions";
-  import parseMarkdown from "../markdown.parser";
+  import type MdPageInterface from "../../interfaces/md.page.interface";
+  import parseMarkdown from "../../markdown.parser";
+  import { updateTitle } from "../../functions";
 
   export let link: string = "/page/index.md";
 
-  async function fetchMdAndConvert(link: string): Promise<Record<string, string>> {
+  async function fetchMdAndConvert(link: string): Promise<MdPageInterface> {
     const response = await fetch(link);
     let markdown = await response.text();
     let title = markdown.match(/# (.+)/g)[0];

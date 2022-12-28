@@ -1,8 +1,8 @@
 <script lang="ts">
+  import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
 	import { Link } from "svelte-navigator";
-  import type DirectoryTreeFileType from "../types/directory.tree.file.type";
-  import { blogLink, nameHumanize } from "../functions";
-  export let section: DirectoryTreeFileType = { path: "", name: "" };
+  import { blogLink, nameHumanize } from "../../functions";
+  export let section: DirectoryTreeFileInterface = { path: "", name: "" };
 </script>
 
 <div class="accordion-item">

@@ -1,8 +1,7 @@
 <script lang="ts">
-  import { Link } from "svelte-navigator";
-  import { updateTitle } from "../functions";
-  import posts from "../jsons/posts.json";
-  import BlogPostCard from "./BlogPostCard.svelte";
+  import posts from "../../jsons/posts.json";
+  import PostCard from "./PostCard.svelte";
+  import { updateTitle } from "../../functions";
 
   export let sectionName: string;
 
@@ -13,7 +12,7 @@
 <div class="row">
   {#each section.children as post}
     {#if post.hasOwnProperty('children')}
-      <BlogPostCard {section} {post} />
+      <PostCard {section} {post} />
     {/if}
   {/each}
 </div>

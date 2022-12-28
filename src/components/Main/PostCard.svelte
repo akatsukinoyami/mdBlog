@@ -1,10 +1,10 @@
 <script lang="ts">
-  import type DirectoryTreeFileType from "../types/directory.tree.file.type";
-  import { nameHumanize } from "../functions";
+  import { nameHumanize } from "../../functions";
+  import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
 
   export let
-    section: DirectoryTreeFileType,
-    post: DirectoryTreeFileType;
+    section: DirectoryTreeFileInterface,
+    post: DirectoryTreeFileInterface;
 
   const postName = nameHumanize(post.name);
 </script>
