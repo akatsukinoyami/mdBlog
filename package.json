@@ -6,15 +6,16 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
+
+    "archivate": "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf",
     "gen:tree:posts": "node ./scripts/inspectMdFiles.js",
     "permissions:fix": "chown -R $USER public/blog public/page",
 
     "build": "yarn check && yarn permissions:fix && yarn gen:tree:posts && rollup -c",
-    "build:prod": "yarn build && yarn build:caprover",
-    "build:caprover": "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf",
+    "build:prod": "yarn build && yarn archivate",
 
-    "start:docker": "yarn build && docker-compose up",
-    "start:docker:recreate": "yarn build && docker-compose up --build --force-recreate"
+    "start:dev": "yarn build && docker-compose up",
+    "start:dev:recreate": "yarn build && docker-compose up --build --force-recreate"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.6",
