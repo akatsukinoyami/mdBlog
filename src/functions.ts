@@ -19,9 +19,3 @@ export function blogLink(
 ): string {
   return `/blog/${section.name}/${post.name}`
 }
-
-// <div class="list-group-item decoration-none text-capitalize">
-//   <Link to={ blogLink(section, post) }>
-//     <i class="bi bi-file-richtext-fill"></i> { nameHumanize(post.name) }
-//   </Link>
-// </div>
