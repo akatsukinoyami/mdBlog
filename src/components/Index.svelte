@@ -1,11 +1,11 @@
 <script lang="ts">
-  import Index from './Index.svelte';
-  import Post from './Post.svelte';
-  import Aside from '../Aside/Index.svelte';
-  import Section from "./Section.svelte";
+  import Index from './Main/Index.svelte';
+  import Post from './Main/Post.svelte';
+  import Aside from './Aside/Index.svelte';
+  import Section from "./Main/Section.svelte";
 
 	import { Route } from "svelte-navigator";
-  import { title } from "../../stores";
+  import { title } from "../stores";
 </script>
 
 

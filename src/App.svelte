@@ -1,7 +1,7 @@
 <script lang="ts">
   import Navbar from './components/Navbar/Index.svelte';
-  import Main from './components/Main/Router.svelte';
-  import BackToTop from "./components/BackToTop.svelte";
+  import Main from './components/Index.svelte';
+  import BackToTop from "./components/Partials/BackToTop.svelte";
   import titles from "./jsons/titles.json";
 
 	import { Router } from "svelte-navigator";

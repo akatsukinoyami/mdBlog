@@ -1,14 +1,12 @@
 <script lang="ts">
-  import { nameHumanize } from "../functions";
-  import titles from "../jsons/titles.json";
+  import { nameHumanize } from "../../functions";
+  import titles from "../../jsons/titles.json";
 
   export let
     title: string,
     description: string;
 
   title = nameHumanize(title);
-  title = `${titles.mainTitle} | ${title}`;
-
   let imgUrl = location.href === location.origin + '/'
     ? location.href + 'favicon.ico'
     : location.href + '/index.jpg';

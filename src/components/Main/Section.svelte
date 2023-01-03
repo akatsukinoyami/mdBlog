@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Card from "../Card.svelte";
-  import LinkPreviewHead from "../LinkPreviewHead.svelte";
+  import Card from "../Partials/Card.svelte";
+  import LinkPreviewHead from "../Partials/LinkPreviewHead.svelte";
 
   import posts from "../../jsons/posts.json";
   import { updateTitle } from "../../functions";

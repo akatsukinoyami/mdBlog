@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LinkPreviewHead from "../LinkPreviewHead.svelte";
+  import LinkPreviewHead from "../Partials/LinkPreviewHead.svelte";
   import parseMarkdown from "../../markdown.parser";
   import { updateTitle } from "../../functions";
   import type PostMetadataInterface from "../../interfaces/post.metadata.interface";

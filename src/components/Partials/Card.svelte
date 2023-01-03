@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { nameHumanize } from "../functions";
-  import type DirectoryTreeFileInterface from "../interfaces/directory.tree.file.interface";
+  import { nameHumanize } from "../../functions";
+  import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
 
   export let
     link: string,

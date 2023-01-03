@@ -1,8 +1,8 @@
 <script lang="ts">
   import posts from "../../jsons/posts.json";
-  import Card from "../Card.svelte";
   import Post from "./Post.svelte";
-  import LinkPreviewHead from "../LinkPreviewHead.svelte";
+  import Card from "../Partials/Card.svelte";
+  import LinkPreviewHead from "../Partials/LinkPreviewHead.svelte";
   import { updateTitle } from "../../functions";
   import titles from "../../jsons/titles.json";
 
