@@ -7,32 +7,48 @@
     card: DirectoryTreeFileInterface;
 
   const cardName = nameHumanize(card.name);
+
+  function comeToPage(): void{
+    location.href = `/blog/${link}`
+  }
 </script>
 
-<div class="col mycard m-2 py-2 d-flex flex-column align-items-center">
-  <!-- svelte-ignore a11y-missing-attribute -->
-  <img src="/blog/{link}/index.jpg" class="rounded" alt="Card image for post {cardName}.">
-  <div class="mycard-body p-2 align-self-center">
-    <a href="/blog/{link}" class="text-dark">
-      <h5 class="card-title">{cardName}</h5>
-    </a>
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div class="col-12 col-sm-6 col-md-4 p-2">
+  <div
+    class="mycard text-dark rounded"
+    style='background-image: url("/blog/{link}/index.jpg")'
+    on:click={comeToPage}
+  >
+    <h5 class="card-title">{cardName}</h5>
   </div>
 </div>
 
 <style lang="sass">
-  img
-    max-width: 300px
-    max-height: 160px
 
   .mycard
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+    background-position: center center
+    background-repeat: no-repeat no-repeat
+    background-size: cover
     border: none
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+    height: 200px
+    position: relative
     transition: 0.3s
 
     &:hover
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+      cursor: pointer
 
-  .mycard-body
-    a
-      text-decoration: none
+    .card-title
+      background: rgba(256, 256, 256, 0.4)
+      bottom: 10px
+      left: 50%
+      position: absolute
+      width: 80%
+      text-align: center
+      /* смещение-x | смещение-y | радиус-размытия | цвет */
+      text-shadow: 0px 0px 4px white
+      transform: translate(-50%, 0)
+
 </style>
