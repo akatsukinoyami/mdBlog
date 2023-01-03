@@ -4,11 +4,15 @@
 
   export let
     title: string,
-    description: string,
-    imgUrl: string;
+    description: string;
 
-    title = nameHumanize(title)
-    title = `${titles.mainTitle} | ${title}`
+  title = nameHumanize(title);
+  title = `${titles.mainTitle} | ${title}`;
+
+  let imgUrl = location.href === location.origin + '/'
+    ? location.href + 'favicon.ico'
+    : location.href + '/index.jpg';
+
 </script>
 
 
@@ -19,6 +23,8 @@
   <meta property="og:site_name" content={titles.mainTitle}>
   <meta property="og:description" content={description}>
   <meta property="og:image" content={imgUrl}>
+  <meta property="og:url" content={location.href}>
+  <meta property="og:type" content='article'>
 
   <meta name="twitter:title" content={title}>
   <meta name="twitter:description" content={description}>

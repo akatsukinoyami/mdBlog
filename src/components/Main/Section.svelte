@@ -21,7 +21,7 @@
   const imgUrl = `/blog/${section.name}/index.jpg`
 </script>
 
-<LinkPreviewHead {title} {description} {imgUrl} />
+<LinkPreviewHead {title} {description} />
 <div class="row">
   {#each section.children as post}
     {#if post?.children}

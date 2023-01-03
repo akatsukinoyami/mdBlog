@@ -10,10 +10,9 @@
 
   const title = titles.mainTitle;
   const description = "Small private blog of Katsu Dev."
-  const imgUrl = "/favicon.ico"
 </script>
 
-<LinkPreviewHead {title} {description} {imgUrl} />
+<LinkPreviewHead {title} {description} />
 <Post link="/page/index" />
 <div class="row mt-4">
   {#each posts.children as section}

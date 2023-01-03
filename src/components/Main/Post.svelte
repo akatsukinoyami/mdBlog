@@ -39,7 +39,7 @@
   <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
 </div>
 {:then { title, content }}
-  <LinkPreviewHead {title} {description} imgUrl="{link}.jpg" />
+  <LinkPreviewHead {title} {description} />
   <article class="p-3">{@html content}</article>
 {:catch error}
     <p style="color: red">{error.message}</p>
