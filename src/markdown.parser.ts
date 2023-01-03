@@ -37,25 +37,16 @@ function replaceReturnWithBr(): ShowdownExtensionType{
   };
 }
 
+
 function imageUrlExtension(path: string): ShowdownExtensionType{
   return {
     type: "output",
     regex: /<img(.*?)src="(.*?)"(.*?)alt="(.*?)"(.*?)>/g,
     replace: `
-      <figure class="figure w-100" id="$2">
-        <a class="button_modal" href="#$2_modal">
-          <img $1 src="${path}/$2" $3 alt="$4" $5 style="object-fit: contain;" />
-        </a>
-        <figcaption class="figure-caption modal_caption text-center"> $4 </figcaption>
+      <figure class="figure w-100">
+        <img $1 src="${path}/$2" $3 alt="$4" $5 style="object-fit: contain;" id="$2" onclick="enlargeImage('$2')" />
+        <figcaption class="figure-caption modal_caption text-center mx-auto pt-2" style="max-width: 960px"> $4 </figcaption>
       </figure>
-
-      <div id="$2_modal" class="overlay light rounded">
-        <div class="popup d-inline-block">
-          <a class="close " href="#" onclick="document.getElementById('$2').scrollIntoView()">&times;</a>
-          <img $1 src="${path}/$2" $3 alt="$4" $5 style="object-fit: contain; height: 100%" />
-          <p class="figure-caption modal_caption text-center"> $4 </p>
-        </div>
-      </div>
     `
   };
 }
@@ -69,7 +60,7 @@ function outputBindings(): ShowdownExtensionType[]{
     h5: "pt-2 fs-6",
     p: "px-2",
     table: "table",
-    img: "rounded img-fluid pb-2",
+    img: "rounded img-fluid modal-image",
     pre: "bg-secondary bg-opacity-10 rounded p-3",
     blockquote: "blockquote border-2 border-start border-success rounded p-2",
   };

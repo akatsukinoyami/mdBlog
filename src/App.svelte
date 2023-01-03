@@ -17,6 +17,7 @@
 </svelte:head>
 
 <Router primary={false}>
+  <div id="modalBackground"></div>
   <Navbar/>
   <Main />
   <BackToTop />
