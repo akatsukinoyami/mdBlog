@@ -1,15 +1,17 @@
 <script lang="ts">
-  import type PostMetadataInterface from "../../interfaces/post.metadata.interface";
+  import LinkPreviewHead from "../LinkPreviewHead.svelte";
   import parseMarkdown from "../../markdown.parser";
   import { updateTitle } from "../../functions";
+  import type PostMetadataInterface from "../../interfaces/post.metadata.interface";
 
   export let link: string = "/page/index";
 
-  async function fetchPost(link: string): Promise<string> {
+  async function fetchPost(link: string): Promise<Record<any, any>> {
     const metadata = await fetchMetadata(link)
     updateTitle(metadata.title)
+    const content = await fetchContent(link)
 
-    return await fetchContent(link)
+    return { title: metadata.title, content }
   };
 
   async function fetchMetadata(link: string): Promise<PostMetadataInterface> {
@@ -26,14 +28,18 @@
 
     return content;
   };
+
+  const description = "Small private blog of Katsu Dev."
 </script>
 
+
 {#await fetchPost(link)}
-  <div class="d-flex align-items-center">
-    <strong>Please wait, post fetching...</strong>
-    <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
-  </div>
-{:then content}
+<div class="d-flex align-items-center">
+  <strong>Please wait, post fetching...</strong>
+  <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+</div>
+{:then { title, content }}
+  <LinkPreviewHead {title} {description} imgUrl="{link}.jpg" />
   <article class="p-3">{@html content}</article>
 {:catch error}
     <p style="color: red">{error.message}</p>

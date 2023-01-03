@@ -2,13 +2,18 @@
   import posts from "../../jsons/posts.json";
   import Card from "../Card.svelte";
   import Post from "./Post.svelte";
+  import LinkPreviewHead from "../LinkPreviewHead.svelte";
   import { updateTitle } from "../../functions";
+  import titles from "../../jsons/titles.json";
 
-  let titleValue: string = "Katsu's Nikki";
+  updateTitle(titles.mainTitle)
 
-  updateTitle(titleValue)
+  const title = titles.mainTitle;
+  const description = "Small private blog of Katsu Dev."
+  const imgUrl = "/favicon.ico"
 </script>
 
+<LinkPreviewHead {title} {description} {imgUrl} />
 <Post link="/page/index" />
 <div class="row mt-4">
   {#each posts.children as section}
