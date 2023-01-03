@@ -38,7 +38,7 @@
     font-family: 'Merriweather', Georgia, Times, serif
 
   section
-    max-width: 950px
+    max-width: 1000px
 
   h1
     text-shadow: 0px 0px 4px white
