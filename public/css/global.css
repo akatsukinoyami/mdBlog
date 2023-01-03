@@ -71,13 +71,12 @@ table {
   left: 50%;
   z-index: 1042;
   transform: translate(-50%, -50%);
-  max-width: 1200px;
-  background: white;
-
+  max-width: 1200px !important;
+  max-height: 85% !important;
 }
 
 .noscroll{
-  overflow: hidden!important
+  overflow: hidden!important;
 }
 
 .modal-background {
