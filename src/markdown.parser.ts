@@ -22,6 +22,7 @@ function getParser(link: string): showdown.Converter {
       imageUrlExtension(filterLinkParent(link))
     ]});
 }
+
 function filterLinkParent(link: string): string{
   const pathSplitted = link.split("/");
   pathSplitted.pop();
@@ -58,21 +59,25 @@ function imageUrlExtension(path: string): ShowdownExtensionType{
 }
 
 function outputBindings(): ShowdownExtensionType[]{
-  const classMap = Object.entries({
+  const classMap = {
+    h1: "pt-3",
+    h2: "pt-3",
+    h3: "pt-3",
+    h4: "pt-2 fs-5",
+    h5: "pt-2 fs-6",
+    p: "px-2",
+    table: "table",
+    img: "rounded img-fluid pb-2",
     pre: "bg-secondary bg-opacity-10 rounded p-3",
     blockquote: "blockquote border-2 border-start border-success rounded p-2",
-    img: "rounded img-fluid pb-2",
-    h1: "pt-3", h2: "pt-3",
-    h3: "pt-3", h4: "pt-2 fs-5",
-    h5: "pt-2 fs-6", p: "px-2",
-    table: "table"
-  })
-  const extensions = classMap.map((tag) => {
+  };
+  const classes = Object.keys(classMap);
+
+  return classes.map((className: string) => {
     return {
       type: "output",
-      regex: new RegExp(`<${tag[0]}(.*?)>`, 'g'),
-      replace: `<${tag[0]} class="${tag[1]}" $1>`
+      regex: new RegExp(`<${className}(.*?)>`, 'g'),
+      replace: `<${className} class="${classMap[className]}" $1>`
     }
   })
-  return extensions;
 }
