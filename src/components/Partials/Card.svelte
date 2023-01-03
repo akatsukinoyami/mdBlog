@@ -34,10 +34,13 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
     height: 200px
     position: relative
-    transition: 0.3s
+    transition: 0.6s
+    transition: transform .7s ease-out 0s
 
     &:hover
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+      transform: scale(1.08)
+      transition: transform .3s ease-out 0s
       cursor: pointer
 
     .card-title
