@@ -1,23 +1,22 @@
 <script lang="ts">
-  import type MdPageInterface from "../../interfaces/md.page.interface";
+  import type PostMetadataInterface from "../../interfaces/post.metadata.interface";
   import parseMarkdown from "../../markdown.parser";
   import { updateTitle } from "../../functions";
 
   export let link: string = "/page/index";
 
-  async function fetchPost(link: string): Promise<MdPageInterface> {
-    return {
-      title: await fetchTitle(link),
-      content: await fetchContent(link)
-    };
+  async function fetchPost(link: string): Promise<string> {
+    const metadata = await fetchMetadata(link)
+    updateTitle(metadata.title)
+
+    return await fetchContent(link)
   };
 
-  async function fetchTitle(link: string): Promise<string> {
+  async function fetchMetadata(link: string): Promise<PostMetadataInterface> {
     const responseMetadata = await fetch(`${link}.json`);
     const metadata = await responseMetadata.json();
-    const title = metadata.title;
 
-    return title;
+    return metadata;
   }
 
   async function fetchContent(link: string): Promise<string> {
@@ -34,8 +33,7 @@
     <strong>Please wait, post fetching...</strong>
     <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
   </div>
-{:then {title, content}}
-  {updateTitle(title)}
+{:then content}
   <article class="p-3">{@html content}</article>
 {:catch error}
     <p style="color: red">{error.message}</p>
