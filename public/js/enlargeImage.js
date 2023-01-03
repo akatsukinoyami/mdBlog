@@ -7,8 +7,6 @@ function enlargeImage(id){
   const background = document.getElementById('modalBackground');
   const body = document.getElementsByTagName('body')[0];
 
-  console.log(background)
-
   if (image.classList.contains(bigImage)) {
     image.classList.remove(bigImage)
     body.classList.remove(noScroll);

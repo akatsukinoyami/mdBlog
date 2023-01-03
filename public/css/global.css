@@ -73,6 +73,7 @@ table {
   transform: translate(-50%, -50%);
   max-width: 1200px !important;
   max-height: 85% !important;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
 }
 
 .noscroll{
