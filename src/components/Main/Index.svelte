@@ -16,7 +16,7 @@
   <main class="pb-4">
 
       <Route path="blog/:section/:post" let:params>
-        <Post link="/blog/{params.section}/{params.post}/index.md" />
+        <Post link="/blog/{params.section}/{params.post}/index" />
       </Route>
 
       <Route path="blog/:section" let:params>
@@ -24,11 +24,11 @@
       </Route>
 
       <Route path="page/:page" let:params>
-        <Post link="/page/{params.page}.md" />
+        <Post link="/page/{params.page}" />
       </Route>
 
       <Route>
-        <Post link="/page/index.md" />
+        <Post link="/page/index" />
       </Route>
 
   </main>

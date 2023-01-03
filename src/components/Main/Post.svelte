@@ -3,23 +3,33 @@
   import parseMarkdown from "../../markdown.parser";
   import { updateTitle } from "../../functions";
 
-  export let link: string = "/page/index.md";
+  export let link: string = "/page/index";
 
-  async function fetchMdAndConvert(link: string): Promise<MdPageInterface> {
-    const response = await fetch(link);
-    let markdown = await response.text();
-    let title = markdown.match(/# (.+)/g)[0];
+  async function fetchPost(link: string): Promise<MdPageInterface> {
+    return {
+      title: await fetchTitle(link),
+      content: await fetchContent(link)
+    };
+  };
 
-    markdown = markdown.replace(title+'\n', '')
-    title = title.replace('# ', '').replace(/\n/, '')
+  async function fetchTitle(link: string): Promise<string> {
+    const responseMetadata = await fetch(`${link}.json`);
+    const metadata = await responseMetadata.json();
+    const title = metadata.title;
 
-    let content = parseMarkdown(link, markdown);
+    return title;
+  }
 
-    return { title, content };
+  async function fetchContent(link: string): Promise<string> {
+    const responsePost = await fetch(`${link}.md`);
+    const markdown = await responsePost.text();
+    const content = parseMarkdown(link, markdown);
+
+    return content;
   };
 </script>
 
-{#await fetchMdAndConvert(link)}
+{#await fetchPost(link)}
   <div class="d-flex align-items-center">
     <strong>Please wait, post fetching...</strong>
     <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
