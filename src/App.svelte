@@ -3,7 +3,7 @@
   import Main from './components/Index.svelte';
   import ImageModal from './components/Partials/ImageModal.svelte';
   import BackToTop from "./components/Partials/BackToTop.svelte";
-  import titles from "./jsons/titles.json";
+  import i18n from "./jsons/i18n.json";
 
 	import { Router } from "svelte-navigator";
   import { title } from "./stores";
@@ -11,9 +11,9 @@
 
 <svelte:head>
   <title>{
-    $title == titles.mainTitle
-      ? titles.mainTitle
-      : `${titles.mainTitle} | ${$title}`
+    $title == i18n.mainTitle
+      ? i18n.mainTitle
+      : `${i18n.mainTitle} | ${$title}`
   }</title>
 </svelte:head>
 

@@ -4,7 +4,7 @@
   import Card from "../Partials/Card.svelte";
   import LinkPreviewHead from "../Partials/LinkPreviewHead.svelte";
   import { updateTitle } from "../../functions";
-  import titles from "../../jsons/titles.json";
+  import titles from "../../jsons/i18n.json";
 
   updateTitle(titles.mainTitle)
 

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { nameHumanize } from "../../functions";
-  import titles from "../../jsons/titles.json";
+  import i18n from "../../jsons/i18n.json";
 
   export let
     title: string,
@@ -18,7 +18,7 @@
   <meta name="description" content={description}>
 
   <meta property="og:title" content={title}>
-  <meta property="og:site_name" content={titles.mainTitle}>
+  <meta property="og:site_name" content={i18n.mainTitle}>
   <meta property="og:description" content={description}>
   <meta property="og:image" content={imgUrl}>
   <meta property="og:url" content={location.href}>

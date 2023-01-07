@@ -1,53 +1,30 @@
 import showdown from "showdown";
 import type ShowdownExtensionType from "./interfaces/showdown.extension.interface";
 
-export default function parseMarkdown(link: string, markdown: string): string {
-    return getParser(link).makeHtml(markdown);
-}
+const parser = new showdown.Converter({
+  flavor: "github",
+  ghCodeBlocks:  true,
+  ghCompatibleHeaderId:  true,
+  omitExtraWLInCodeBlocks:  true,
+  parseImgDimensions:  true,
+  simpleLineBreaks:  true,
+  strikethrough:  true,
+  tables:  true,
+  tasklists:  true,
+  extensions: [
+    replaceReturnWithBr(),
+    outputBindings(),
+  ]});
 
-function getParser(link: string): showdown.Converter {
-  return new showdown.Converter({
-    flavor: "github",
-    ghCodeBlocks:  true,
-    ghCompatibleHeaderId:  true,
-    omitExtraWLInCodeBlocks:  true,
-    parseImgDimensions:  true,
-    simpleLineBreaks:  true,
-    strikethrough:  true,
-    tables:  true,
-    tasklists:  true,
-    extensions: [
-      replaceReturnWithBr(),
-      outputBindings(),
-      imageUrlExtension(filterLinkParent(link))
-    ]});
+export default function parseMarkdown(markdown: string): string {
+  return parser.makeHtml(markdown);
 }
-
-function filterLinkParent(link: string): string{
-  const pathSplitted = link.split("/");
-  pathSplitted.pop();
-  return pathSplitted.join("/");
-};
 
 function replaceReturnWithBr(): ShowdownExtensionType{
   return {
     type: "lang",
     regex: /\\n/g,
     replace: `<br>`
-  };
-}
-
-
-function imageUrlExtension(path: string): ShowdownExtensionType{
-  return {
-    type: "output",
-    regex: /<img(.*?)src="(.*?)"(.*?)alt="(.*?)"(.*?)>/g,
-    replace: `
-      <figure class="figure w-100 m-0">
-        <img $1 src="${path}/$2" $3 alt="$4" $5 style="object-fit: contain;" id="$2" onclick="enlargeImage('$2')" />
-        <figcaption class="figure-caption modal_caption text-center mx-auto pt-2" style="max-width: 960px"> $4 </figcaption>
-      </figure>
-    `
   };
 }
 
