@@ -1,6 +1,7 @@
 <script lang="ts">
   import Navbar from './components/Navbar/Index.svelte';
   import Main from './components/Index.svelte';
+  import ImageModal from './components/Partials/ImageModal.svelte';
   import BackToTop from "./components/Partials/BackToTop.svelte";
   import titles from "./jsons/titles.json";
 
@@ -17,7 +18,7 @@
 </svelte:head>
 
 <Router primary={false}>
-  <div id="modalBackground"></div>
+  <ImageModal />
   <Navbar/>
   <Main />
   <BackToTop />

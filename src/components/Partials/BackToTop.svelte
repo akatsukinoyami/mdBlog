@@ -31,16 +31,15 @@
 
 <svelte:window on:scroll={handleOnScroll} />
 
-<a
-  href={ "#" }
+<div
   class="back-to-top"
-  on:click={goTop}
+  on:keydown={goTop}
   on:mouseenter={toggleBackground}
   on:mouseleave={toggleBackground}
   class:hidden
 >
   <i class="bi bi-arrow-up-circle{icon} text-dark"></i>
-</a>
+</div>
 
 <style lang="sass">
   .back-to-top

@@ -87,7 +87,18 @@ table {
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+}
+
+.close-modal {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1041;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  cursor: pointer;
 }

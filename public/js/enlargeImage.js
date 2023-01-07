@@ -1,19 +1,25 @@
-const bigImage = 'big-image';
-const noScroll = 'noscroll';
-const modalBackground = 'modal-background';
+const bigImageClass = ['big-image'];
+const noScrollClass = ['noscroll'];
+const modalBackgroundClass = ['modal-background'];
+const closeModalImage = ['bi', 'bi-x-lg', 'close-modal']
 
-function enlargeImage(id){
+
+function enlargeImage(id) {
   const image = document.getElementById(id);
-  const background = document.getElementById('modalBackground');
-  const body = document.getElementsByTagName('body')[0];
 
-  if (image.classList.contains(bigImage)) {
-    image.classList.remove(bigImage)
-    body.classList.remove(noScroll);
-    background.classList.remove(modalBackground);
-  } else {
-    image.classList.add(bigImage);
-    body.classList.add(noScroll);
-    background.classList.add(modalBackground);
-  };
+  function toggleImage(callbackfn) {
+    [
+      [ image, bigImageClass ],
+      [ document.getElementsByTagName('body')[0], noScrollClass ],
+      [ document.getElementById('closeModal'), closeModalImage ],
+      [ document.getElementById('modalBackground'), modalBackgroundClass],
+    ]
+      .forEach(([element, classes]) => {
+      callbackfn(element.classList, classes)
+    })
+  }
+
+  !image.classList.contains(bigImageClass)
+    ? toggleImage((classList, classes) => classList.add(...classes))
+    : toggleImage((classList, classes) => classList.remove(...classes));
 };

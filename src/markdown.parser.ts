@@ -43,7 +43,7 @@ function imageUrlExtension(path: string): ShowdownExtensionType{
     type: "output",
     regex: /<img(.*?)src="(.*?)"(.*?)alt="(.*?)"(.*?)>/g,
     replace: `
-      <figure class="figure w-100">
+      <figure class="figure w-100 m-0">
         <img $1 src="${path}/$2" $3 alt="$4" $5 style="object-fit: contain;" id="$2" onclick="enlargeImage('$2')" />
         <figcaption class="figure-caption modal_caption text-center mx-auto pt-2" style="max-width: 960px"> $4 </figcaption>
       </figure>
