@@ -39,10 +39,10 @@
   }
 
   function toggleImage(image: HTMLImageElement) {
-    const imageAlreadyBig = image.classList.contains('big-image')
+    const imageAlreadyBig = image.classList.contains(bigImageClass)
     imageAlreadyBig
-      ? image.classList.remove('big-image')
-      : image.classList.add('big-image');
+      ? image.classList.remove(bigImageClass)
+      : image.classList.add(bigImageClass);
     toggleBackground(imageAlreadyBig);
   }
 
@@ -56,9 +56,15 @@
       : null;
   }
 
+  function handleKeydown(event: KeyboardEvent) {
+    if (!(event.key === "ArrowRight" || event.key === "ArrowLeft")) return;
+    if (document.getElementsByClassName(bigImageClass).length < 1) return;
+    otherImage(event.key === "ArrowLeft" ? -1 : 1);
+  }
+
 </script>
 
-<svelte:window on:click={handleClick}/>
+<svelte:window on:click={handleClick} on:keydown={handleKeydown}/>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div id="modalBackground" on:click={closeImages} />
