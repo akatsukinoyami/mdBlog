@@ -1,10 +1,14 @@
 #!/bin/bash
 ORANGE='\033[0;33m'
+PURPLE='\033[0;35m'
 GRAY='\033[0;37m'
 NC='\033[0m' # No Color
 
 function print_in_orange {
   echo -e "${ORANGE} --- $* --- ${NC}"
+}
+function print_in_purple {
+  echo -e "${PURPLE} 🕓 $* ${NC}"
 }
 function print_in_gray {
   echo -e "${GRAY} $* ${NC}"
@@ -29,6 +33,8 @@ function build {
 }
 
 function build_prod {
+  start=$(date +%s)
+
   print_in_orange "Deleting old archive"
   print_in_gray "RUN rm -f blog.tar.gz"
   rm -f blog.tar.gz
@@ -38,10 +44,14 @@ function build_prod {
   print_in_orange "Generating arcive for caprover"
   print_in_gray "RUN tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf"
   tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf
+
+  print_in_purple "Built in: $(($(date +%s)-$start)) seconds"
 }
 
 function run {
+  start=$(date +%s)
   build
+  print_in_purple "Built in: $(($(date +%s)-$start)) seconds"
 
   print_in_orange "Starting up docker image"
   print_in_gray "RUN docker-compose up $2 $3 $4 $5 $6 $7 $8 $9"
