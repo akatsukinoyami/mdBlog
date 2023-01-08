@@ -92,13 +92,28 @@ table {
   -webkit-backdrop-filter: blur(4px);
 }
 
-.close-modal {
+.modal-icon {
   position: fixed;
-  top: 20px;
-  right: 20px;
   z-index: 1041;
   color: white;
   font-weight: 800;
   font-size: 30px;
   cursor: pointer;
+}
+
+.modal-close {
+  top: 20px;
+  right: 20px;
+}
+
+.modal-previous {
+  top: 50%;
+  left: 20px;
+  transition: translate(0, -50%);
+}
+
+.modal-next {
+  top: 50%;
+  right: 20px;
+  transition: translate(0, -50%);
 }
