@@ -1,27 +1,27 @@
 <script lang="ts">
-  const bigImageClass = 'big-image';
-  const modalImageClass = 'modal-image';
+  const
+    bigImageClass = 'big-image',
+    modalImageClass = 'modal-image',
+    modalButtonsClass = 'btn btn-outline-light bi modal-icon';
 
   $: bigImageOn = false;
-  $: document.body.classList[bigImageOn ? 'remove' : 'add']('noscroll');
+  $: document.body.classList[bigImageOn ? 'add' : 'remove']('noscroll');
 
-  function closeImages() {
+  function closeAllImages() {
     const images = document.getElementsByTagName('img');
     for (let i = 0; i < images.length; i++) {
       images[i].classList.remove(bigImageClass);
     }
-
     bigImageOn = !bigImageOn;
   }
 
-  function otherImage(event: KeyboardEvent): void {
+  function otherImage(step: number): void {
     const images = Array.from(document.getElementsByClassName(modalImageClass));
     const currentImage = document.getElementsByClassName(bigImageClass)[0] as HTMLImageElement;
 
     currentImage.classList.remove(bigImageClass);
     images[
-      images.indexOf(currentImage) +
-      (event.key === "ArrowLeft" ? -1 : 1)
+      images.indexOf(currentImage) + step
     ].classList.add(bigImageClass);
   }
 
@@ -46,9 +46,9 @@
     switch (event.key) {
       case "ArrowRight":
       case "ArrowLeft":
-        otherImage(event); break;
+        otherImage(event.key === "ArrowLeft" ? -1 : 1); break;
       case "Escape":
-        closeImages();  break;
+        closeAllImages();  break;
     }
   }
 
@@ -58,16 +58,20 @@
 
 {#if bigImageOn}
   <!-- svelte-ignore a11y-click-events-have-key-events -->
-  <div class="modal-background" on:click={closeImages} />
+  <div class="modal-background" on:click={closeAllImages} />
 
-  <!-- svelte-ignore a11y-click-events-have-key-events -->
-  <i class="bi bi-x-lg modal-icon modal-close" on:click={closeImages} />
-
-  <!-- svelte-ignore a11y-click-events-have-key-events -->
-  <i class="bi bi-chevron-right modal-icon modal-previous" on:click={() => otherImage(-1)} />
-
-  <!-- svelte-ignore a11y-click-events-have-key-events -->
-  <i class="bi bi-chevron-right modal-icon modal-next" on:click={() => otherImage(1)} />
+  <button
+    class="{modalButtonsClass} bi-x-lg modal-close"
+    type="button" on:click={closeAllImages}
+  />
+  <button
+    class="{modalButtonsClass} modal-arrows bi-chevron-left modal-previous"
+    type="button" on:click={() => otherImage(-1)}
+  />
+  <button
+    class="{modalButtonsClass} modal-arrows bi-chevron-right modal-next"
+    type="button" on:click={() => otherImage(1)}
+  />
 {/if}
 
 <style lang="sass">
@@ -90,18 +94,22 @@
       font-weight: 800
       font-size: 30px
       cursor: pointer
+      border: none
+
+      &:hover
+        color: rgba(var(--bs-dark-rgb))
 
     &close
       top: 20px
       right: 20px
 
-    &previous
+    &arrows
       top: 50%
+      transform: translate(0, -50%)
+
+    &previous
       left: 20px
-      transition: translate(0, -50%)
 
     &next
-      top: 50%
       right: 20px
-      transition: translate(0, -50%)
 </style>

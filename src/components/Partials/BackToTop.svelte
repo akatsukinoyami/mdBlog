@@ -4,28 +4,13 @@
 
   let background = false;
   $: icon = background ? '-fill' : ''
-  function toggleBackground(){
-    background = !background
-  }
 
-  function goTop() {
-    document.getElementById("TopNavbar").scrollIntoView();
-  }
-
-  function scrollContainer() {
-    return document.documentElement || document.body;
-  }
-
-  function handleOnScroll() {
-    if (!scrollContainer()) {
-      return;
-    }
-
-    if (scrollContainer().scrollTop > showOnPx) {
-      hidden = false;
-    } else {
-      hidden = true;
-    }
+  const toggleBackground = () => { background = !background; }
+  const goTop = () =>  { document.getElementById("TopNavbar").scrollIntoView(); }
+  const scrollContainer = () =>  { return document.documentElement || document.body; }
+  const handleOnScroll = () => {
+    if (!scrollContainer()) return;
+    hidden = !(scrollContainer().scrollTop > showOnPx);
   }
 </script>
 

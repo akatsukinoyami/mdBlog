@@ -49,10 +49,10 @@
 
 
 {#await fetchPost(link)}
-<div class="d-flex align-items-center">
-  <strong>Please wait, post fetching...</strong>
-  <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
-</div>
+  <div class="d-flex align-items-center">
+    <strong>Please wait, post fetching...</strong>
+    <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+  </div>
 {:then { title, description, content }}
   <LinkPreviewHead {title} {description} />
   <article class="p-3">{@html content}</article>
