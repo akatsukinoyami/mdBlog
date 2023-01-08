@@ -4,12 +4,12 @@
   import Card from "../Partials/Card.svelte";
   import LinkPreviewHead from "../Partials/LinkPreviewHead.svelte";
   import { updateTitle } from "../../functions";
-  import titles from "../../jsons/i18n.json";
+  import i18n from "../../jsons/i18n.json";
 
-  updateTitle(titles.mainTitle)
+  updateTitle(i18n.mainTitle)
 
-  const title = titles.mainTitle;
-  const description = "Small private blog of Katsu Dev."
+  const title = i18n.mainTitle;
+  const description = i18n.fallbackDescription;
 </script>
 
 <LinkPreviewHead {title} {description} />

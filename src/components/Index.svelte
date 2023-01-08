@@ -35,7 +35,7 @@
 
 <style lang="sass">
   *
-    font-family: 'Merriweather', Georgia, Times, serif
+    font-family: Montserrat, Georgia, Times, serif
 
   section
     max-width: 1000px

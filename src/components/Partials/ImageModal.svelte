@@ -89,7 +89,7 @@
 
     &icon
       position: fixed
-      z-index: 1041
+      z-index: 1043
       color: white
       font-weight: 800
       font-size: 30px

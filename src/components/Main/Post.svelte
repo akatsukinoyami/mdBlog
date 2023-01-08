@@ -44,7 +44,6 @@
       </figure>
     `)
   }
-
 </script>
 
 
