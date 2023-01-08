@@ -11,7 +11,7 @@
   <div class="offcanvas-body">
     <div class="accordion accordion-flush " id="accordionExample">
       {#each sections.children as section (section.name)}
-        {#if section.hasOwnProperty('children')}
+        {#if section?.children}
           <Section section={section} />
         {/if}
       {/each}

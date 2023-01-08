@@ -1,31 +1,22 @@
 <script lang="ts">
-  import links from '../../jsons/links.json';
-	import { Link } from "svelte-navigator";
-
-  function link(page: string): string {
-    return `/page/${page}`
-  }
-  function linkContent(page: string): string {
-    return page.replaceAll('_', ' ')
-  }
+  import linksJson from '../../jsons/links.json';
+	import { links } from "svelte-navigator";
 </script>
 
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle link-light" href={"#"} role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Pages
   </a>
-  <ul class="dropdown-menu dropdown-menu-end">
-    {#each links.md as page}
+  <ul class="dropdown-menu dropdown-menu-end" use:links>
+    {#each linksJson.md as page}
       <li>
-        <div class="dropdown-item text-capitalize">
-          <Link to={ link(page) }>{ linkContent(page) }</Link>
-        </div>
+        <a href="/page/{page}" class="dropdown-item text-capitalize">{ page.replaceAll('_', ' ') }</a>
       </li>
     {/each}
     <li>
       <hr class="dropdown-divider">
     </li>
-    {#each links.outer as { link, title }}
+    {#each linksJson.outer as { link, title }}
       <li>
         <a class="dropdown-item" href="{link}" target="_blank" rel="noreferrer">
           { title }
@@ -40,7 +31,7 @@
     My Resources
   </a>
   <ul class="dropdown-menu dropdown-menu-end">
-    {#each links.my as { link, title, icon }}
+    {#each linksJson.my as { link, title, icon }}
       <li>
         <a class="dropdown-item" href={ link } target="_blank" rel="noreferrer">
           <i class="bi bi-{icon} pe-1"></i>
@@ -54,6 +45,7 @@
 <style lang="sass">
   a
     text-decoration: none
+    color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity))
 
     &:hover
       cursor: pointer
