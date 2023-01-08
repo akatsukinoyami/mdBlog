@@ -18,7 +18,7 @@
     "@types/highlightjs": "^9.12.2",
     "@types/markdown-it": "^12.2.3",
     "@types/showdown": "^2.0.0",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.3.0-alpha1",
     "bootstrap-icons": "^1.9.1",
     "directory-tree": "^3.3.1",
     "highlight": "^0.2.4",
