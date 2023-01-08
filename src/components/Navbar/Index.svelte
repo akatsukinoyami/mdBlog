@@ -1,6 +1,14 @@
 <script lang="ts">
   import Links from './Links.svelte';
   import i18n from '../../jsons/i18n.json';
+  import { theme } from '../../stores';
+
+  let iconClasses = localStorage.theme == 'light' ? 'brightness-high' : 'moon-stars';
+
+  function toggleTheme(){
+    $theme = localStorage.theme == 'light' ? 'dark' : 'light';
+    iconClasses = localStorage.theme == 'light' ? 'moon-stars' : 'brightness-high';
+  }
 
   const logoSize = 40;
 </script>
@@ -19,10 +27,11 @@
       </ul>
     </div>
     <div>
-      <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Blog Posts</button>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <button class="btn btn-outline-light bi bi-{iconClasses} fz-40 no-borders" on:click={toggleTheme}></button>
+      <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Blog Posts</button>
     </div>
   </div>
 </nav>
@@ -37,4 +46,10 @@
     &:hover
       cursor: pointer
       color: var(--bs-blue)
+
+  .no-borders
+    border: none
+
+  .fz-40
+    font-size: 24px
 </style>

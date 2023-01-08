@@ -1,3 +1,4 @@
-import { writable } from 'svelte/store';
+import { Writable, writable } from 'svelte/store';
 
-export const title = writable("Katsu Nikki");
+export const title: Writable<string> = writable("Katsu Nikki");
+export const theme: Writable<'light' | 'dark'> = writable(localStorage.theme || 'light');

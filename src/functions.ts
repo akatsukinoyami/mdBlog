@@ -19,3 +19,8 @@ export function blogLink(
 ): string {
   return `/blog/${section.name}/${post.name}`
 }
+
+export function toggleTheme(element: HTMLElement, oldClass: string, newClass: string): void {
+  element.classList.remove(oldClass);
+  element.classList.add(newClass);
+}
