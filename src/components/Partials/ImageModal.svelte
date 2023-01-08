@@ -1,79 +1,107 @@
 <script lang="ts">
   const bigImageClass = 'big-image';
+  const modalImageClass = 'modal-image';
+
+  $: bigImageOn = false;
+  $: document.body.classList[bigImageOn ? 'remove' : 'add']('noscroll');
 
   function closeImages() {
     const images = document.getElementsByTagName('img');
-
     for (let i = 0; i < images.length; i++) {
       images[i].classList.remove(bigImageClass);
     }
 
-    toggleBackground(true);
+    bigImageOn = !bigImageOn;
   }
 
-  // true for hiding background and buttons, false to open it
-  function toggleBackground(condition: boolean): void {
-    [
-      [ document.getElementsByTagName('body')[0], ['noscroll'] ],
-      [ document.getElementById('modalBackground'), ['modal-background'] ],
-      [ document.getElementById('closeModal'), ['bi', 'bi-x-lg', 'modal-icon', 'modal-close'] ],
-      [ document.getElementById('previousImage'), ['bi', 'bi-chevron-left', 'modal-icon', 'modal-previous'] ],
-      [ document.getElementById('nextImage'), ['bi', 'bi-chevron-right', 'modal-icon', 'modal-next'] ],
-    ]
-    .forEach((elem) => {
-      const element = elem[0] as HTMLElement;
-      const classes = elem[1] as string[];
-      condition
-        ? element.classList.remove(...classes)
-        : element.classList.add(...classes);
-    })
-  }
-
-  function otherImage(step: number): void {
-    const images = Array.from(document.getElementsByClassName('modal-image'));
+  function otherImage(event: KeyboardEvent): void {
+    const images = Array.from(document.getElementsByClassName(modalImageClass));
     const currentImage = document.getElementsByClassName(bigImageClass)[0] as HTMLImageElement;
 
-    const indexOfCurrentImage = images.indexOf(currentImage)
     currentImage.classList.remove(bigImageClass);
-    images[indexOfCurrentImage+step].classList.add(bigImageClass);
+    images[
+      images.indexOf(currentImage) +
+      (event.key === "ArrowLeft" ? -1 : 1)
+    ].classList.add(bigImageClass);
   }
 
-  function toggleImage(image: HTMLImageElement) {
-    const imageAlreadyBig = image.classList.contains(bigImageClass)
-    imageAlreadyBig
-      ? image.classList.remove(bigImageClass)
-      : image.classList.add(bigImageClass);
-    toggleBackground(imageAlreadyBig);
+  function toggleImage(image: HTMLImageElement): void {
+    const imageAlreadyBig = image.classList.contains(bigImageClass);
+    image.classList[imageAlreadyBig ? 'remove' : 'add'](bigImageClass);
+    bigImageOn = !bigImageOn;
   }
 
-  function handleClick(event: MouseEvent) {
+  function handleClick(event: MouseEvent): void {
     const element = event.target as HTMLElement;
     const isImage = element.tagName == 'IMG'
-    const isModalImage = element.classList.contains('modal-image')
+    const isModalImage = element.classList.contains(modalImageClass)
 
     isImage && isModalImage
       ? toggleImage(element as HTMLImageElement)
       : null;
   }
 
-  function handleKeydown(event: KeyboardEvent) {
-    if (!(event.key === "ArrowRight" || event.key === "ArrowLeft")) return;
-    if (document.getElementsByClassName(bigImageClass).length < 1) return;
-    otherImage(event.key === "ArrowLeft" ? -1 : 1);
+  function handleKeydown(event: KeyboardEvent): void {
+    if (!bigImageOn || document.getElementsByClassName(bigImageClass).length < 1) return;
+    switch (event.key) {
+      case "ArrowRight":
+      case "ArrowLeft":
+        otherImage(event); break;
+      case "Escape":
+        closeImages();  break;
+    }
   }
 
 </script>
 
 <svelte:window on:click={handleClick} on:keydown={handleKeydown}/>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<div id="modalBackground" on:click={closeImages} />
+{#if bigImageOn}
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <div class="modal-background" on:click={closeImages} />
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<i id="closeModal" on:click={closeImages} />
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <i class="bi bi-x-lg modal-icon modal-close" on:click={closeImages} />
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<i id="previousImage" on:click={() => otherImage(-1)} />
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <i class="bi bi-chevron-right modal-icon modal-previous" on:click={() => otherImage(-1)} />
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<i id="nextImage" on:click={() => otherImage(1)} />
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <i class="bi bi-chevron-right modal-icon modal-next" on:click={() => otherImage(1)} />
+{/if}
+
+<style lang="sass">
+  .modal-
+    &background
+      position: fixed
+      top: 0
+      left: 0
+      z-index: 1040
+      width: 100vw
+      height: 100vh
+      background-color: rgba(0, 0, 0, 0.5)
+      backdrop-filter: blur(4px)
+      -webkit-backdrop-filter: blur(4px)
+
+    &icon
+      position: fixed
+      z-index: 1041
+      color: white
+      font-weight: 800
+      font-size: 30px
+      cursor: pointer
+
+    &close
+      top: 20px
+      right: 20px
+
+    &previous
+      top: 50%
+      left: 20px
+      transition: translate(0, -50%)
+
+    &next
+      top: 50%
+      right: 20px
+      transition: translate(0, -50%)
+</style>
