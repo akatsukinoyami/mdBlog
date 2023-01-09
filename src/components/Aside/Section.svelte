@@ -6,10 +6,12 @@
 </script>
 
 <div class="accordion-item">
-  <h2 class="accordion-header" id="heading_{section.name}">
+  <h2 class="accordion-header d-flex justify-content-between align-items-center" id="heading_{section.name}">
     <button class="accordion-button collapsed text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{section.name}" aria-expanded="true" aria-controls="collapse_{section.name}">
       {section.name.replaceAll('_', ' ')}
     </button>
+    <!-- svelte-ignore a11y-missing-content -->
+    <a class="bi bi-rss-fill rss fs-5 text-warning-emphasis" href="/blog/{section.name}/feed.xml" />
   </h2>
   <div id="collapse_{section.name}" class="accordion-collapse collapse" aria-labelledby="heading_{section.name}" data-bs-parent="#accordionExample">
     <div class="accordion-body list-group-flush" use:links>
@@ -33,4 +35,11 @@
     &:hover
       cursor: pointer
       color: var(--bs-blue)
+
+  .rss
+    transition: 0.1s
+
+    &:hover
+      transform: scale(1.03)
+      shadow: 0 0 2px rgba(0,0,0, 0.3)
 </style>
