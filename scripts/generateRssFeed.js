@@ -10,19 +10,33 @@ function processPost(section, post) {
     title = `${metadata.title} | ${i18n.mainTitle}` || i18n.mainTitle,
     link = `https://${i18n.domain}/blog/${section.name}/${post.name}`,
     content = fs.readFileSync(`./${post.path}/index.md`, 'utf8', (err) => console.error(err)),
-    description = content.substr(0, 1000);
+    description = content.substr(0, 1000).replaceAll(/\n\n|<br>|<\/br>/g, '');
   return `
   <item>
-    <title>${title}</title>
-    <link>${link}</link>
-    <guid>${link}</guid>
+    <title>
+      ${title}
+    </title>
+    <link>
+      ${link}
+    </link>
+    <guid>
+      ${link}
+    </guid>
     <description>
       ${description}...
     </description>
   </item>
 `
     // <pubDate>Wed, 27 Nov 2013 15:17:32 GMT (Note: The date must be in this format)</pubDate>
+}
 
+function processPosts(section) {
+  let postsString = '';
+  section.children.forEach(post => {
+    if (!post?.children) { return };
+    postsString += processPost(section, post);
+  });
+  return postsString;
 }
 
 function processSection(section) {
@@ -31,34 +45,37 @@ function processSection(section) {
     title = `${metadata.title} | ${i18n.mainTitle}` || i18n.mainTitle,
     link = `https://${i18n.domain}/blog/${section.name}`,
     description = metadata.description || i18n.fallbackDescription,
-    imgUrl = `${link}/index.jpg`;
-  let rssContent =`<?xml version="1.0" encoding="utf-8"?>
+    imgUrl = `${link}/index.jpg`,
+    items = processPosts(section);
+
+  fs.writeFileSync(`${section.path}/feed.xml`, `<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
-  <title>${title}</title>
-  <link>${link}</link>
+  <title>
+    ${title}
+  </title>
+  <link>
+    ${link}
+  </link>
   <description>
     ${description}
   </description>
   <image>
-    <title>${title}</title>
-    <link>${link}</link>
-    <url>${imgUrl}</url>
+    <title>
+      ${title}
+    </title>
+    <link>
+      ${link}
+    </link>
+    <url>
+      ${imgUrl}
+    </url>
     <width>640</width>
     <heght>480</heght>
   </image>
-  `;
-
-  section.children.forEach(post => {
-    if (!post?.children) { return };
-    rssContent += processPost(section, post);
-  });
-
-  rssContent += `
+  ${items}
 </channel>
-</rss>`;
-
-  fs.writeFileSync(`${section.path}/feed.xml`, rssContent, (err) => console.error(err))
+</rss>`, (err) => console.error(err))
 
   console.log(`Wrote xml feed for ${section.name}`);
 };

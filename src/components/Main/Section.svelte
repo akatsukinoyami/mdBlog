@@ -3,7 +3,8 @@
   import LinkPreviewHead from "../Partials/LinkPreviewHead.svelte";
 
   import posts from "../../jsons/posts.json";
-  import { updateTitle } from "../../functions";
+  import i18n from "../../jsons/i18n.json";
+  import { nameHumanize, updateTitle } from "../../functions";
 
   import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
 
@@ -20,6 +21,15 @@
     return `${section.name}/${post.name}`;
   }
 </script>
+
+<svelte:head>
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS Feed for {nameHumanize(sectionName)} of {i18n.mainTitle}"
+    href="{location.href}/feed.xml"
+  />
+</svelte:head>
 
 <div class="row">
   {#each section.children as post}
