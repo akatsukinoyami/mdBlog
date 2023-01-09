@@ -16,6 +16,8 @@
     $theme == 'light'
       ? toggleTheme(document.body, 'bg-opacity-75', 'bg-opacity-10')
       : toggleTheme(document.body, 'bg-opacity-10', 'bg-opacity-75');
+
+    document.body.setAttribute('data-bs-theme', $theme);
   }
 </script>
 
@@ -27,11 +29,9 @@
   }</title>
 </svelte:head>
 
-<div bind:this={div} data-bs-theme={$theme}>
-  <Router primary={false}>
-    <ImageModal />
-    <Navbar/>
-    <Main />
-    <BackToTop />
-    </Router>
-</div>
+<Router primary={false}>
+  <ImageModal />
+  <Navbar/>
+  <Main />
+  <BackToTop />
+</Router>

@@ -8,20 +8,19 @@
   import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
 
   export let sectionName: string;
-
-  const section = posts.children.find(section => section.name === sectionName)
   updateTitle(sectionName)
+
+  const
+    section = posts.children.find(section => section.name === sectionName),
+    title = section.name,
+    description = "Small private blog of Katsu Dev.",
+    imgUrl = `/blog/${section.name}/index.jpg`;
 
   function getLink(post: DirectoryTreeFileInterface): string {
     return `${section.name}/${post.name}`;
   }
-
-  const title = section.name;
-  const description = "Small private blog of Katsu Dev."
-  const imgUrl = `/blog/${section.name}/index.jpg`
 </script>
 
-<LinkPreviewHead {title} {description} />
 <div class="row">
   {#each section.children as post}
     {#if post?.children}
@@ -29,3 +28,5 @@
     {/if}
   {/each}
 </div>
+
+<LinkPreviewHead {title} {description} />

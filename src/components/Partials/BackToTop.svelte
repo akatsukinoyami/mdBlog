@@ -1,23 +1,31 @@
 <script lang="ts">
   export let showOnPx = 150;
-  let hidden = true;
-
-  let background = false;
+  let
+    hidden = true,
+    background = false;
   $: icon = background ? '-fill' : ''
 
-  const toggleBackground = () => { background = !background; }
-  const goTop = () =>  { document.getElementById("TopNavbar").scrollIntoView(); }
-  const scrollContainer = () =>  { return document.documentElement || document.body; }
-  const handleOnScroll = () => {
-    if (!scrollContainer()) return;
-    hidden = !(scrollContainer().scrollTop > showOnPx);
-  }
+function toggleBackground(){
+  background = !background
+}
+function goTop() {
+  const h1 = document.getElementsByTagName('h1')[0];
+  h1.scrollIntoView({block: "center", behavior: "smooth"});
+}
+function scrollContainer() {
+  return document.documentElement || document.body;
+}
+function handleOnScroll() {
+  if (!scrollContainer()) return;
+  hidden = !(scrollContainer().scrollTop > showOnPx);
+}
 </script>
 
 <svelte:window on:scroll={handleOnScroll} />
 
 <div
   class="back-to-top"
+  on:click={goTop}
   on:keydown={goTop}
   on:mouseenter={toggleBackground}
   on:mouseleave={toggleBackground}
@@ -35,7 +43,8 @@
     position: fixed
     z-index: 99
     user-select: none
-    color: black
+    color: rgba(var(--bs-dark-rgb))
+    cursor: pointer
 
   .back-to-top.hidden
     opacity: 0
