@@ -4,57 +4,61 @@ PURPLE='\033[0;35m'
 GRAY='\033[0;37m'
 NC='\033[0m' # No Color
 
-function print_in_orange {
+function print_description {
   echo -e "${ORANGE} --- $* --- ${NC}"
 }
-function print_in_purple {
-  echo -e "${PURPLE} 🕓 $* ${NC}"
+function print_command {
+  echo -e "${GRAY} RUN $* ${NC}"
 }
-function print_in_gray {
-  echo -e "${GRAY} $* ${NC}"
+function print_time {
+  echo -e "${PURPLE} 🕓 Done in $*s ${NC}"
 }
 
 function fix_permissions {
-  print_in_orange "Fixing permissions for blog posts and pictures"
-  print_in_gray "RUN chown -R $USER public/blog public/page && chmod -R 744 public/blog public/page"
+  print_description "Fixing permissions for blog posts and pictures"
+  print_command "chown -R $USER public/blog public/page && chmod -R 744 public/blog public/page"
   chown -R $USER public/blog public/page && chmod -R 744 public/blog public/page
 }
 
 function build {
   fix_permissions
 
-  print_in_orange "Generating tree of blog posts and pictures"
-  print_in_gray "RUN node ./scripts/inspectMdFiles.js"
+  print_description "Generating tree of blog posts and pictures"
+  print_command "node ./scripts/inspectMdFiles.js"
   node ./scripts/inspectMdFiles.js
 
-  print_in_orange "Building project"
-  print_in_gray "RUN yarn build"
+  print_description "Generating rss feeds for every section"
+  print_command "node ./scripts/generateRssFeed.js"
+  node ./scripts/generateRssFeed.js
+
+  print_description "Building project"
+  print_command "yarn build"
   yarn build
 }
 
 function build_prod {
   start=$(date +%s)
 
-  print_in_orange "Deleting old archive"
-  print_in_gray "RUN rm -f blog.tar.gz"
+  print_description "Deleting old archive"
+  print_command "rm -f blog.tar.gz"
   rm -f blog.tar.gz
 
   build
 
-  print_in_orange "Generating arcive for caprover"
-  print_in_gray "RUN tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf"
+  print_description "Generating arcive for caprover"
+  print_command "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf"
   tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf
 
-  print_in_purple "Built in: $(($(date +%s)-$start)) seconds"
+  print_time "$(($(date +%s)-$start))"
 }
 
 function run {
   start=$(date +%s)
   build
-  print_in_purple "Built in: $(($(date +%s)-$start)) seconds"
+  print_time "$(($(date +%s)-$start))"
 
-  print_in_orange "Starting up docker image"
-  print_in_gray "RUN docker-compose up $2 $3 $4 $5 $6 $7 $8 $9"
+  print_description "Starting up docker image"
+  print_command "docker-compose up $2 $3 $4 $5 $6 $7 $8 $9"
   docker-compose up $2 $3 $4 $5 $6 $7 $8 $9
 }
 
