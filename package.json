@@ -1,12 +1,23 @@
 {
-  "name": "svelte-app",
+  "name": "mdblog-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "build": "yarn check && rollup -c"
+
+    "archive:delete": "rm -f blog.tar.gz",
+    "archive:create": "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf",
+
+    "fix:permissions": "chown -R $USER public/blog public/page && chmod -R 744 public/blog public/page",
+    "generate:mdlist": "node ./scripts/inspectMdFiles.js",
+    "generate:rss": "node ./scripts/generateRssFeed.js",
+
+    "build": "yarn fix:permissions && yarn generate:mdlist && yarn generate:rss && yarn check && rollup -c",
+    "build:prod": "yarn archive:delete && yarn build && yarn archive:create",
+
+    "start": "yarn build && docker-compose up",
+    "start:recreate": "yarn start --build --force-recreate"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.6",
