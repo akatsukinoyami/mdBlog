@@ -10,7 +10,7 @@
     "fix:permissions": "chown -R $USER public/blog public/page && chmod -R 744 public/blog public/page",
     "generate:mdlist": "node ./scripts/inspectMdFiles.js",
     "generate:rss": "node ./scripts/generateRssFeed.js",
-    "build": "yarn fix:permissions && yarn generate:mdlist && yarn generate:rss && yarn check && rollup -c",
+    "build": "yarn fix:permissions && yarn generate:mdlist && yarn check && rollup -c",
     "build:prod": "yarn archive:delete && yarn build && yarn archive:create",
     "start": "yarn build && docker-compose up",
     "start:recreate": "yarn start --build --force-recreate"
@@ -24,6 +24,7 @@
     "@tsconfig/svelte": "^2.0.0",
     "@types/highlightjs": "^9.12.2",
     "@types/showdown": "^2.0.0",
+    "chota": "^0.9.2",
     "directory-tree": "^3.3.1",
     "highlight": "^0.2.4",
     "rollup": "^2.3.4",
