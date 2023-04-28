@@ -3,7 +3,7 @@
   import ChangerTheme from "./Partials/ChangerTheme.svelte";
 </script>
 
-<footer>
+<footer class="text-right">
   <ChangerLang/>
   <ChangerTheme/>
 </footer>
@@ -14,6 +14,6 @@
     right: 0
     bottom: 0
     height: 40px
-    position: absolute
-    background-color: var(--color-light-grey)
+    position: fixed
+    background-color: var(--bg-color)
 </style>

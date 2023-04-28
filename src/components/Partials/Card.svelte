@@ -41,14 +41,15 @@
       cursor: pointer
 
     .card-title
-      background: rgba(256, 256, 256, 0.4)
+      background: var(--color-bhalf-transparent)
+      color: var(--bg-color)
       bottom: 10px
       left: 50%
       position: absolute
       width: 80%
       text-align: center
       /* смещение-x | смещение-y | радиус-размытия | цвет */
-      text-shadow: 0px 0px 4px white
+      text-shadow: 0px 0px 5px #d2d6dd
       transform: translate(-50%, 0)
 
 </style>

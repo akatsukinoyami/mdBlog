@@ -15,4 +15,4 @@
   }
 </script>
 
-<button on:click={toggleLang}>{langText}</button>
+<button class="button outline border-none" on:click={toggleLang}>{langText}</button>

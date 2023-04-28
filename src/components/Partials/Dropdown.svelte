@@ -10,7 +10,7 @@
 
 <div class="dropdown">
   <details>
-    <summary class="button outline">{translatedTitle}</summary>
+    <summary class="button outline border-none">{translatedTitle}</summary>
     <div class="dropdown-content" use:links>
       <slot></slot>
     </div>
@@ -25,7 +25,6 @@
     summary
       list-style: none
       cursor: pointer
-      border: none
 
       &::-webkit-details-marker
         display: none
@@ -33,12 +32,11 @@
     .dropdown-content
       position: absolute
       min-inline-size: max-content
-      background-color: white
-      border: 1px solid var(--color-grey)
+      background-color: var(--color-light-grey)
       border-radius: 5px
       z-index: 20
       right: 0
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+      box-shadow: 0px 0px 10px 2px var(--color-whalf-transparent)
 
     details[open] summary::before
       position: fixed

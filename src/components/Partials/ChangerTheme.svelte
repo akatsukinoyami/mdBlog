@@ -13,4 +13,4 @@
   }
 </script>
 
-<button on:click={toggleTheme}>{themeText}</button>
+<button class="button outline border-none" on:click={toggleTheme}>{themeText}</button>

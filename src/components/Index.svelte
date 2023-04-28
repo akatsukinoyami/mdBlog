@@ -4,18 +4,10 @@
   import Section from "./Main/Section.svelte";
 
 	import { Route } from "svelte-navigator";
-  import { title, theme } from "../stores";
-
-  let sectionTheme: string,textTheme: string;
-
-  $: {
-    sectionTheme = $theme;
-    textTheme = $theme == 'light' ? 'dark' : 'light'
-  }
+  import { title } from "../stores";
 </script>
 
-
-<h1 class="text-center fw-lighter mt-3">{$title}</h1>
+<h1 class="text-center">{$title}</h1>
 <section>
   <main>
 
@@ -39,15 +31,15 @@
 </section>
 
 <style lang="sass">
+  h1
+    text-shadow: 0px 0px 4px var(--bg-color)
+
   section
     max-width: 1000px
-    margin: 20px auto
+    margin: 20px auto 100px
     padding: 20px
     background-color: var(--color-light-grey)
     border-radius: 10px
-
-  h1
-    text-shadow: 0px 0px 4px white
 
   main
     padding-bottom: 20px

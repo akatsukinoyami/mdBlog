@@ -44,7 +44,7 @@
 
     &:hover, &:focus
       background-color: var(--color-grey)
-      color: white
+      color: var(--bg-color)
 
   .brand
     height: 40px

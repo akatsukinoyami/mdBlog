@@ -9,16 +9,21 @@
   import { title, theme, lang } from "./stores";
   import Footer from './components/Footer.svelte';
 
-  const storedTitle = i18n('mainTitle');
-  $: localStorage.lang = $lang;
+  let storedTitle: string, displayedTitle: string;
+  $: {
+    localStorage.lang = $lang;
+    storedTitle = i18n('mainTitle', $lang);
+    displayedTitle = $title == storedTitle ? storedTitle : `${storedTitle} | ${$title}`
+  }
   $: {
     localStorage.theme = $theme;
-    document.body.classList.add('dark-theme')
-  }
+    document.body.classList.remove('dark', 'light')
+    document.body.classList.add($theme)
+    }
 </script>
 
 <svelte:head>
-  <title>{ $title == storedTitle ? storedTitle : `${storedTitle} | ${$title}` }</title>
+  <title>{ displayedTitle }</title>
 </svelte:head>
 
 <svelte:body style="background-color: #821475;"></svelte:body>
@@ -33,8 +38,6 @@
 
 
 <style lang="sass">
-  @import '../node_modules/chota/dist/chota.min.css'
-
   :global(*)
     font-family: var(--font-family-sans)
     color: var(--font-color)
@@ -50,6 +53,7 @@
     padding-bottom: 40px
     box-sizing: border-box
 
+
   :global(a)
     text-decoration: none
 
@@ -57,15 +61,33 @@
     table-layout: fixed
     width: 100%
 
+  :global(.border-none)
+    border: none !important
+
+  :global(body.dark)
+    --bg-color: #000000
+    --abg-color: #ffffff
+    --bg-secondary-color: #131316
+    --font-color: #f5f5f5
+    --color-grey: #ccc
+    --color-light-grey: #3f4144
+    --color-dark-grey: #777
+    --color-whalf-transparent: rgba(256, 256, 256, 0.4)
+    --color-bhalf-transparent: rgba(0, 0, 0, 0.4)
+
+
   :root
     --bg-color: #ffffff
+    --abg-color: #000000
     --bg-secondary-color: #f3f3f6
     --color-primary: #14854F
-    --color-light-grey: #d2d6dd
     --color-grey: #747681
+    --color-light-grey: #d2d6dd
     --color-dark-grey: #3f4144
     --color-error: #d43939
     --color-success: #28bd14
+    --color-whalf-transparent: rgba(0, 0, 0, 0.4)
+    --color-bhalf-transparent: rgba(256, 256, 256, 0.4)
     --grid-max-width: 120rem
     --grid-gutter: 2rem
     --font-size: 1.6rem
