@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { links } from "svelte-navigator";
   import { nameHumanize } from "../../functions";
   import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
 
@@ -7,31 +8,27 @@
     card: DirectoryTreeFileInterface;
 
   const cardName = nameHumanize(card.name);
-
-  function comeToPage(): void{
-    location.href = `/blog/${link}`
-  }
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div class="col-12 col-sm-6 col-md-4 p-2">
-  <div
-    class="mycard text-dark rounded"
+<div class="col-4" use:links>
+  <a
+    href="/blog/{link}"
+    class="card my-card text-dark rounded"
     style='background-image: url("/blog/{link}/index.jpg")'
-    on:click={comeToPage}
   >
     <h5 class="card-title">{cardName}</h5>
-  </div>
+  </a>
 </div>
 
 <style lang="sass">
-
-  .mycard
+  .my-card
     background-position: center center
     background-repeat: no-repeat no-repeat
     background-size: cover
     border: none
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+    display: block
     height: 200px
     position: relative
     transition: 0.6s

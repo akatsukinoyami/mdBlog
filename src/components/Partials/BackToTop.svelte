@@ -41,7 +41,7 @@ function handleOnScroll() {
     opacity: 1
     transition: opacity 0.5s, visibility 0.5s
     position: fixed
-    z-index: 99
+    z-index: 10
     user-select: none
     color: rgba(var(--bs-dark-rgb))
     cursor: pointer

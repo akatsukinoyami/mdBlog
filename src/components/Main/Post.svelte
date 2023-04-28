@@ -1,5 +1,4 @@
 <script lang="ts">
-  import LinkPreviewHead from "../Partials/LinkPreviewHead.svelte";
   import parseMarkdown from "../../markdown.parser";
   import { updateTitle } from "../../functions";
   import i18n from '../../jsons/i18n.json';
@@ -38,8 +37,8 @@
     link = link.split("/").slice(0, -1).join('/'); // making link from '/blog/section/post/index' to '/blog/section/post'
 
     return content.replaceAll(/<img(.*?)src="(.*?)"(.*?)alt="(.*?)"(.*?)>/g, `
-      <figure class="figure w-100 m-0">
-        <img $1 src="${link}/$2" $3 alt="$4" $5 style="object-fit: contain;" id="$2" loading="lazy" decoding="async"/>
+      <figure>
+        <img $1 src="${link}/$2" class="modal-image" $3 alt="$4" $5 style="object-fit: contain;" id="$2" loading="lazy" decoding="async"/>
         <figcaption class="figure-caption modal_caption text-center mx-auto pt-2" style="max-width: 960px"> $4 </figcaption>
       </figure>
     `)
@@ -53,8 +52,26 @@
     <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
   </div>
 {:then { title, description, content }}
-  <LinkPreviewHead {title} {description} />
   <article class="p-3">{@html content}</article>
 {:catch error}
     <p style="color: red">{error.message}</p>
 {/await}
+
+<style lang="sass">
+  :global(figure)
+    margin: 0
+    width: 100%
+
+  :global(.big-image)
+    position: fixed
+    top: 50%
+    left: 50%
+    z-index: 16
+    max-width: 95vw !important
+    max-height: 95vh !important
+    transform: translate(-50%, -50%)
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7)
+
+  :global(.noscroll)
+    overflow: hidden !important
+</style>

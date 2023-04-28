@@ -1,7 +1,6 @@
 {
   "my": [
     { "link": "https://git.katsu.moe",        "icon": "git",       "title": "Gitea" },
-    { "link": "https://utube.katsu.moe",      "icon": "youtube",   "title": "Invidious" },
     { "link": "https://t.me/katsu_travel",    "icon": "telegram",  "title": "Travel Channel" },
     { "link": "https://t.me/katsu_diary",     "icon": "telegram",  "title": "Nikki" }
   ],

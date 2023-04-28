@@ -16,7 +16,6 @@
     "start:recreate": "yarn start --build --force-recreate"
   },
   "devDependencies": {
-    "@picocss/pico": "^1.5.10",
     "@popperjs/core": "^2.11.6",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-json": "^5.0.1",

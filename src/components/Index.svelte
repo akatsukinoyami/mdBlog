@@ -1,7 +1,6 @@
 <script lang="ts">
   import Index from './Main/Index.svelte';
   import Post from './Main/Post.svelte';
-  import Aside from './Aside/Index.svelte';
   import Section from "./Main/Section.svelte";
 
 	import { Route } from "svelte-navigator";
@@ -17,8 +16,8 @@
 
 
 <h1 class="text-center fw-lighter mt-3">{$title}</h1>
-<section class="shadow p-4 my-4 mx-auto rounded-5 bg-{sectionTheme} text-{textTheme}">
-  <main class="pb-4">
+<section>
+  <main>
 
       <Route path="blog/:section/:post" let:params>
         <Post link="/blog/{params.section}/{params.post}/index" />
@@ -37,16 +36,19 @@
       </Route>
 
   </main>
-  <Aside/>
 </section>
 
 <style lang="sass">
-  *
-    font-family: Montserrat, Georgia, Times, serif
-
   section
     max-width: 1000px
+    margin: 20px auto
+    padding: 20px
+    background-color: var(--color-lightGrey)
+    border-radius: 10px
 
   h1
     text-shadow: 0px 0px 4px white
+
+  main
+    padding-bottom: 20px
 </style>
