@@ -1,12 +1,16 @@
 <script lang="ts">
 	import { links } from "svelte-navigator";
+  import { i18n } from "../../functions";
+  import { lang } from "../../stores";
 
   export let title: string;
+
+  $: translatedTitle = i18n(title, $lang)
 </script>
 
 <div class="dropdown">
   <details>
-    <summary class="button outline">{title}</summary>
+    <summary class="button outline">{translatedTitle}</summary>
     <div class="dropdown-content" use:links>
       <slot></slot>
     </div>

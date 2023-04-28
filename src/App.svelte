@@ -3,46 +3,52 @@
   import Main from './components/Index.svelte';
   import ImageModal from './components/Partials/ImageModal.svelte';
   import BackToTop from "./components/Partials/BackToTop.svelte";
-  import i18n from "./jsons/i18n.json";
-  import { toggleTheme } from "./functions";
+  import { i18n } from "./functions";
 
 	import { Router } from "svelte-navigator";
-  import { title, theme } from "./stores";
-  let div: any;
+  import { title, theme, lang } from "./stores";
+  import Footer from './components/Footer.svelte';
 
+  const storedTitle = i18n('mainTitle');
+  $: localStorage.lang = $lang;
   $: {
-    div+=1;
     localStorage.theme = $theme;
-    $theme == 'light'
-      ? toggleTheme(document.body, 'bg-opacity-75', 'bg-opacity-10')
-      : toggleTheme(document.body, 'bg-opacity-10', 'bg-opacity-75');
-
-    document.body.setAttribute('data-bs-theme', $theme);
+    document.body.classList.add('dark-theme')
   }
 </script>
 
 <svelte:head>
-  <title>{ $title == i18n.mainTitle ? i18n.mainTitle : `${i18n.mainTitle} | ${$title}` }</title>
+  <title>{ $title == storedTitle ? storedTitle : `${storedTitle} | ${$title}` }</title>
 </svelte:head>
+
+<svelte:body style="background-color: #821475;"></svelte:body>
 
 <Router primary={false}>
   <ImageModal />
   <Navbar/>
   <Main />
+  <Footer/>
   <BackToTop />
 </Router>
 
 
 <style lang="sass">
+  @import '../node_modules/chota/dist/chota.min.css'
+
   :global(*)
-      font-family: Montserrat, Georgia, Times, serif
+    font-family: var(--font-family-sans)
+    color: var(--font-color)
+
+  :global(html)
+    height: 100%
 
   :global(body)
     margin: 0
     padding: 0
+    min-height: 100%
     position: relative
+    padding-bottom: 40px
     box-sizing: border-box
-    font-family: -apple-system, Montserrat, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
 
   :global(a)
     text-decoration: none
@@ -55,12 +61,12 @@
     --bg-color: #ffffff
     --bg-secondary-color: #f3f3f6
     --color-primary: #14854F
-    --color-lightGrey: #d2d6dd
+    --color-light-grey: #d2d6dd
     --color-grey: #747681
-    --color-darkGrey: #3f4144
+    --color-dark-grey: #3f4144
     --color-error: #d43939
     --color-success: #28bd14
-    --grid-maxWidth: 120rem
+    --grid-max-width: 120rem
     --grid-gutter: 2rem
     --font-size: 1.6rem
     --font-color: #333333

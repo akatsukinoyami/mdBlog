@@ -1,11 +1,11 @@
 <script lang="ts">
   import { links } from "svelte-navigator";
   import { nameHumanize } from "../../functions";
-  import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
+  import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
   export let
     link: string,
-    card: DirectoryTreeFileInterface;
+    card: DirectoryTreeFile;
 
   const cardName = nameHumanize(card.name);
 </script>

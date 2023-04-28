@@ -1,26 +1,23 @@
 <script lang="ts">
   import Card from "../Partials/Card.svelte";
 
-  import posts from "../../jsons/posts.json";
-  import i18n from "../../jsons/i18n.json";
-  import { nameHumanize, updateTitle } from "../../functions";
+  import { updateTitle } from "../../functions";
 
-  import type DirectoryTreeFileInterface from "../../interfaces/directory.tree.file.interface";
+  import type { DirectoryTreeFile } from "../../types/directory.tree.file";
+  import sections from "../../jsons/sections.json";
 
   export let sectionName: string;
   updateTitle(sectionName)
 
-  const section = posts.children.find(section => section.name === sectionName);
+  const section = sections.find((section: DirectoryTreeFile) => section.name === sectionName);
 
-  function getLink(post: DirectoryTreeFileInterface): string {
+  function getLink(post: DirectoryTreeFile): string {
     return `${section.name}/${post.name}`;
   }
 </script>
 
 <div class="row">
   {#each section.children.reverse() as post}
-    {#if post?.children}
-      <Card link={getLink(post)} card={post} />
-    {/if}
+    <Card link={getLink(post)} card={post} />
   {/each}
 </div>

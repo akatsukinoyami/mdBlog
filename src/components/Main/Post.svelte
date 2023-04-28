@@ -1,8 +1,7 @@
 <script lang="ts">
   import parseMarkdown from "../../markdown.parser";
-  import { updateTitle } from "../../functions";
-  import i18n from '../../jsons/i18n.json';
-  import type PostMetadataInterface from "../../interfaces/post.metadata.interface";
+  import { i18n, updateTitle } from "../../functions";
+  import type PostMetadataInterface from "../../types/post.metadata";
 
   export let link: string = "/page/index";
 
@@ -17,10 +16,10 @@
     const responseMetadata = await fetch(`${link}.json`);
     const metadata = await responseMetadata.json();
 
-    updateTitle(metadata.title);
-    const title = metadata.title || i18n.mainTitle
-    const description = metadata.description || i18n.fallbackDescription;
+    const title = metadata.title || i18n('mainTitle')
+    const description = metadata.description || i18n('fallbackDescription');
 
+    updateTitle(title);
     return { title, description };
   }
 

@@ -1,17 +1,9 @@
 <script lang="ts">
 
   import linksJson from '../jsons/links.json';
-  import i18n from '../jsons/i18n.json';
-  import { theme, title } from '../stores';
+  import { i18n } from '../functions';
 
   import Dropdown from "./Partials/Dropdown.svelte";
-
-  let iconClasses = localStorage.theme == 'light' ? 'brightness-high' : 'moon-stars';
-
-  function toggleTheme(){
-    $theme = localStorage.theme == 'light' ? 'dark' : 'light';
-    iconClasses = localStorage.theme == 'light' ? 'moon-stars' : 'brightness-high';
-  }
 
   const logoSize = 40;
 </script>
@@ -20,11 +12,11 @@
   <div class="nav-left">
     <a href="/" class="brand">
       <img src="/favicon.ico" alt="Red panda icon" width="{logoSize}" height="{logoSize}" style="display: inline;">
-      <span>{i18n.mainTitle}</span>
+      <span>{i18n('mainTitle')}</span>
     </a>
   </div>
   <div class="nav-right">
-    <Dropdown title={"Pages"}>
+    <Dropdown title="pages">
       {#each linksJson.md as page}
         <p><a href="/page/{page}" class="link">{ page.replaceAll('_', ' ') }</a></p>
       {/each}
@@ -33,7 +25,7 @@
         <p><a href={ link } class="link" target="_blank" rel="noreferrer">{ title }</a></p>
       {/each}
     </Dropdown>
-    <Dropdown title="My Resources">
+    <Dropdown title="myResources">
       {#each linksJson.my as { link, title }}
         <p><a href={ link } class="link" target="_blank" rel="noreferrer">{ title }</a></p>
       {/each}

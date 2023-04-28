@@ -43,7 +43,7 @@
     max-width: 1000px
     margin: 20px auto
     padding: 20px
-    background-color: var(--color-lightGrey)
+    background-color: var(--color-light-grey)
     border-radius: 10px
 
   h1

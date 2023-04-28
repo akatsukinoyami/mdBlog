@@ -1,5 +1,31 @@
 {
-  "domain": "www.katsu.moe",
-  "mainTitle": "Katsu's Nikki",
-  "fallbackDescription": "Small private blog of Katsu Dev."
+  "en": {
+    "domain": "www.katsu.moe",
+    "mainTitle": "Katsu's Nikki",
+    "fallbackDescription": "Small private blog of Katsu Dev.",
+    "pages": "Pages",
+    "myResources": "My Resources",
+    "lang": "Language",
+    "theme": "Theme"
+  },
+
+  "ru": {
+    "domain": "www.katsu.moe",
+    "mainTitle": "Katsu's Nikki",
+    "fallbackDescription": "Маленький блог разработчика Кацу.",
+    "pages": "Странички",
+    "myResources": "Мои Проекты",
+    "lang": "Язык",
+    "theme": "Тема"
+  },
+
+  "ua": {
+    "domain": "www.katsu.moe",
+    "mainTitle": "Katsu's Nikki",
+    "fallbackDescription": "Маленький блог розробника Кацу.",
+    "pages": "Сторінки",
+    "myResources": "Мої Проекти",
+    "lang": "Мова",
+    "theme": "Тема"
+  }
 }
