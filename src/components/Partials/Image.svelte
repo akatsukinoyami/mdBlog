@@ -30,7 +30,7 @@
 {#if bigImageOn}
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <div class="modal-background" on:click={toggleModal}>
-    <div class="modal-image rounded-3" style="background-image: url({src})"></div>
+    <div class="modal-image rounded-3" style='background-image: url("{src}"); '></div>
     {#if alt} <p class="modal-caption text-center rounded-3">{ alt }</p> {/if}
   
     {#each buttons as buttonProps}
