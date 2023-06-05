@@ -4,7 +4,7 @@
     { "link": "https://t.me/katsu_travel",    "icon": "telegram",  "title": "Travel Channel" },
     { "link": "https://t.me/katsu_diary",     "icon": "telegram",  "title": "Nikki" }
   ],
-  "outer": [
+  "external": [
     { "link": "https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax", "title": "Showdown's Markdown Cheatsheet" }
   ],
   "md": [
