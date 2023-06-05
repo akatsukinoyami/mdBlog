@@ -4,7 +4,6 @@
 
   import Navbar from './components/Navbar.svelte';
   import Main from './components/Index.svelte';
-  import ImageModal from './components/Partials/ImageModal.svelte';
   import { i18n } from "./functions";
   import { title, theme, lang } from "./stores";
 
@@ -20,7 +19,6 @@
 
 <div use:links>
   <Router primary={false}>
-    <ImageModal />
     <Navbar/>
     <Main />
   </Router>
