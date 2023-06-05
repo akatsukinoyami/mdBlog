@@ -1,54 +1,72 @@
 <script lang="ts">
+  import {
+    Header,
+    HeaderAction,
+    HeaderPanelDivider,
+    HeaderPanelLink,
+    HeaderPanelLinks,
+    HeaderUtilities,
+    OverflowMenu,
+    OverflowMenuItem,
+    SkipToContent,
+  } from "carbon-components-svelte";
+
+  import SettingsAdjust from "carbon-icons-svelte/lib/SettingsAdjust.svelte";
+  import Link from "carbon-icons-svelte/lib/Link.svelte";
 
   import linksJson from '../jsons/links.json';
-  import { i18n } from '../functions';
+  import { i18n } from "../functions";
+  import { lang, langs, theme, themes } from "../stores";
+  
+  let isSideNavOpen = false;
+  let isOpenPages = false;
+  let isOpenSettings = false;
 
-  import Dropdown from "./Partials/Dropdown.svelte";
-
-  const logoSize = 40;
+  $: t = i18n($lang);
 </script>
 
-<nav class="nav">
-  <div class="nav-left">
-    <a href="/" class="brand">
-      <img src="/favicon.ico" alt="Red panda icon" width="{logoSize}" height="{logoSize}" style="display: inline;">
-      <span>{i18n('mainTitle')}</span>
-    </a>
-  </div>
-  <div class="nav-right">
-    <Dropdown title="pages">
-      {#each linksJson.md as page}
-        <p><a href="/page/{page}" class="link">{ page.replaceAll('_', ' ') }</a></p>
+<Header company={ t.mainTitle } bind:isSideNavOpen>
+  <svelte:fragment slot="skip-to-content">
+    <SkipToContent />
+  </svelte:fragment>
+  <HeaderUtilities>
+    <OverflowMenu size="xl" flipped>
+
+      <OverflowMenuItem text={ t.theme.singular } disabled hasDivider />
+      {#each $themes as themeCode}
+        <OverflowMenuItem on:click={ () => theme.set(themeCode) }>
+          { t.theme[themeCode] }
+        </OverflowMenuItem>
       {/each}
-      <hr>
-      {#each linksJson.outer as { link, title }}
-        <p><a href={ link } class="link" target="_blank" rel="noreferrer">{ title }</a></p>
+
+      <OverflowMenuItem text={ t.lang.singular } disabled hasDivider />
+      {#each $langs as langCode}
+        <OverflowMenuItem on:click={ () => lang.set(langCode) }>
+          { t.lang[langCode] }
+        </OverflowMenuItem>
       {/each}
-    </Dropdown>
-    <Dropdown title="myResources">
-      {#each linksJson.my as { link, title }}
-        <p><a href={ link } class="link" target="_blank" rel="noreferrer">{ title }</a></p>
-      {/each}
-    </Dropdown>
-  </div>
-</nav>
+    </OverflowMenu>
+    
+    <HeaderAction bind:isOpen={ isOpenPages } text={ t.links } icon={ Link }>
+      <HeaderPanelLinks>
+        <HeaderPanelDivider>{ t.pages }</HeaderPanelDivider>
+        {#each linksJson.md as page}
+          <HeaderPanelLink href="/page/{page}">
+            <span class="text-capitalize">{ page.replaceAll('_', ' ') }</span>
+          </HeaderPanelLink>
+        {/each}
 
-<style lang="sass">
-  .link
-    display: block
-    color: var(--color-grey)
-    text-decoration: none
-    text-transform: capitalize
-    padding: 0.5em 1.5em
-    text-align: right
+        <HeaderPanelDivider>{ t.myResources }</HeaderPanelDivider>
+        {#each linksJson.my as { link, title }}
+          <HeaderPanelLink href={ link }>{ title }</HeaderPanelLink>
+        {/each}
 
-    &:hover, &:focus
-      background-color: var(--color-grey)
-      color: var(--bg-color)
-
-  .brand
-    height: 40px
-
-  .nav
-   padding: 5px 0
-</style>
+        <HeaderPanelDivider>{ t.external }</HeaderPanelDivider>
+        {#each linksJson.external as { link, title }}
+          <HeaderPanelLink href={ link }>{ title }</HeaderPanelLink>
+        {/each}
+        
+      </HeaderPanelLinks>
+    </HeaderAction>
+  </HeaderUtilities>
+</Header>
