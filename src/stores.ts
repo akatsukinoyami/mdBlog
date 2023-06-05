@@ -1,5 +1,12 @@
-import { Writable, writable } from 'svelte/store';
+import { Readable, Writable, get, readable, writable } from "svelte/store";
+import i18nObject from "./jsons/i18n.json";
 
-export const title: Writable<string> = writable("Katsu Nikki");
-export const lang: Writable<'en' | 'ru' | 'ua'> = writable(localStorage.lang || 'ru');
-export const theme: Writable<'light' | 'dark'> = writable(localStorage.theme || 'dark');
+type lang = "en" | "ru" | "ua";
+type theme = "white" | "g10" | "g80" | "g90" | "g100";
+
+export const langs:  Readable<lang[]>  = readable(["en", "ru", "ua"]);
+export const themes: Readable<theme[]> = readable(["white", "g10", "g80", "g90", "g100"]);
+
+export const lang:  Writable<lang>   = writable(localStorage.lang || "ru");
+export const theme: Writable<theme>  = writable(localStorage.theme || "white");
+export const title: Writable<string> = writable(i18nObject[get(lang)].mainTitle);
