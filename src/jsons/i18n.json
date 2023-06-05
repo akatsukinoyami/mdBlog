@@ -12,7 +12,7 @@
       "singular": "Theme",
       "plural": "Themes",
       "white": "White", 
-      "g10": "Light gray", 
+      "g10": "Light", 
       "g80": "Gray", 
       "g90": "Dark", 
       "g100": "Black"  
@@ -28,7 +28,7 @@
 
   "ru": {
     "domain": "www.katsu.moe",
-    "mainTitle": "Katsu's Nikki",
+    "mainTitle": "Дневники Кацу",
     "fallbackDescription": "Маленький блог разработчика Кацу.",
     "pages": "Странички",
     "myResources": "Мои Проекты",
@@ -39,7 +39,7 @@
       "singular": "Тема",
       "plural": "Темы",
       "white": "Белая", 
-      "g10": "Светло-серая", 
+      "g10": "Светлая", 
       "g80": "Cерая", 
       "g90": "Темная", 
       "g100": "Черная"  
@@ -55,7 +55,7 @@
 
   "ua": {
     "domain": "www.katsu.moe",
-    "mainTitle": "Katsu's Nikki",
+    "mainTitle": "Щоденник Кацу",
     "fallbackDescription": "Маленький блог розробника Кацу.",
     "pages": "Сторінки",
     "myResources": "Мої Проекти",
@@ -66,8 +66,8 @@
       "singular": "Тема",
       "plural": "Теми",
       "white": "Біла", 
-      "g10": "Сіра", 
-      "g80": "Темно-сіра", 
+      "g10": "Світла", 
+      "g80": "Сіра", 
       "g90": "Темна", 
       "g100": "Чорна"  
     },
