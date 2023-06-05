@@ -47,21 +47,3 @@
   <InlineLoading status="error" description={error.message} />
 {/await}
 
-<style lang="sass">
-  :global(figure)
-    margin: 0
-    width: 100%
-
-  :global(.big-image)
-    position: fixed
-    top: 50%
-    left: 50%
-    z-index: 10001
-    max-width: 95vw !important
-    max-height: 95vh !important
-    transform: translate(-50%, -50%)
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7)
-
-  :global(.noscroll)
-    overflow: hidden !important
-</style>
