@@ -23,5 +23,6 @@
     case 'tr':    return { component: StructuredListRow };
     case 'th':    return { component: StructuredListCell, props: { head: true }};
     case 'td':    return { component: StructuredListCell };
+    case 'a' :    node.attribs.target = "_blank";
   }
 }} />
