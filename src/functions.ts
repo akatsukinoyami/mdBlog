@@ -29,17 +29,6 @@ export function toggleTheme(elements: HTMLCollectionOf<HTMLElement> | HTMLElemen
   })
 }
 
-export function i18n(link: string, language = get(lang)): string {
-  try {
-    const words = i18nObject[language];
-    let result: any = words;
-
-    link.split('.').forEach(word => result = result[word])
-
-    return result;
-
-  } catch (error) {
-    console.error(error);
-    return `No translation for: ${link}`;
-  }
+export function i18n(language = get(lang)): Record<string, any> {
+  return i18nObject[language];
 }
