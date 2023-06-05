@@ -1,23 +1,16 @@
 <script lang="ts">
-  import Card from "../Partials/Card.svelte";
-
+  import CardCollection from "../Partials/CardCollection.svelte";
   import { updateTitle } from "../../functions";
-
-  import type { DirectoryTreeFile } from "../../types/directory.tree.file";
   import sections from "../../jsons/sections.json";
+  import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
   export let sectionName: string;
   updateTitle(sectionName)
 
   const section = sections.find((section: DirectoryTreeFile) => section.name === sectionName);
 
-  function getLink(post: DirectoryTreeFile): string {
-    return `${section.name}/${post.name}`;
-  }
+  const showedSections = section.children.reverse();
+  const linkPrepare = (card: DirectoryTreeFile) => `${section.name}/${card.name}`;
 </script>
 
-<div class="row">
-  {#each section.children.reverse() as post}
-    <Card link={getLink(post)} card={post} />
-  {/each}
-</div>
+<CardCollection cards={showedSections} linkPrepare={linkPrepare}/>

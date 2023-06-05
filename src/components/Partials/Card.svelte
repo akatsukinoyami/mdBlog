@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { links } from "svelte-navigator";
+  import { Column } from "carbon-components-svelte";
   import { nameHumanize } from "../../functions";
   import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
@@ -11,45 +11,26 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div class="col-4" use:links>
+<Column sm={10} md={4} max={4} aspectRatio="16x9">
   <a
     href="/blog/{link}"
-    class="card my-card text-dark rounded"
+    class="card plate-parent rounded-3"
     style='background-image: url("/blog/{link}/index.jpg")'
   >
-    <h5 class="card-title">{cardName}</h5>
+    <h4 class="plate-text rounded-3 fw-bold">{cardName}</h4>
   </a>
-</div>
+</Column>
 
 <style lang="sass">
-  .my-card
-    background-position: center center
-    background-repeat: no-repeat no-repeat
-    background-size: cover
-    border: none
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+  .card
     display: block
-    height: 200px
-    position: relative
     transition: 0.6s
     transition: all .3s ease-out 0s
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
 
     &:hover
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
       transform: scale(1.03)
       transition: all .15s ease-out 0s
       cursor: pointer
-
-    .card-title
-      background: var(--color-bhalf-transparent)
-      color: var(--bg-color)
-      bottom: 10px
-      left: 50%
-      position: absolute
-      width: 80%
-      text-align: center
-      /* смещение-x | смещение-y | радиус-размытия | цвет */
-      text-shadow: 0px 0px 5px #d2d6dd
-      transform: translate(-50%, 0)
-
 </style>
