@@ -1,57 +1,50 @@
 :root
-  --bg-color: #ffffff
-  --abg-color: #000000
-  --bg-secondary-color: #f3f3f6
-  --color-primary: #14854F
-  --color-grey: #747681
-  --color-light-grey: #d2d6dd
-  --color-dark-grey: #3f4144
-  --color-error: #d43939
-  --color-success: #28bd14
-  --color-whalf-transparent: rgba(0, 0, 0, 0.4)
-  --color-bhalf-transparent: rgba(256, 256, 256, 0.4)
-  --grid-max-width: 120rem
-  --grid-gutter: 2rem
-  --font-size: 1.6rem
-  --font-color: #333333
-  --font-family-sans: sans-serif
-  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace
-
-:global(*)
-  font-family: var(--font-family-sans)
-  color: var(--font-color)
-
-:global(html)
-  height: 100%
-
-:global(body)
-  margin: 0
-  padding: 0
-  min-height: 100%
-  position: relative
-  padding-bottom: 40px
-  box-sizing: border-box
-
-:global(body.dark)
-  --bg-color: #000000
-  --abg-color: #ffffff
-  --bg-secondary-color: #131316
-  --font-color: #f5f5f5
-  --color-grey: #ccc
-  --color-light-grey: #3f4144
-  --color-dark-grey: #777
-  --color-whalf-transparent: rgba(256, 256, 256, 0.4)
-  --color-bhalf-transparent: rgba(0, 0, 0, 0.4)
-
-:global(a)
-  text-decoration: none
-
-:global(table)
-  table-layout: fixed
-  width: 100%
-
+  --card-plate: rgba(255, 255, 255, 0.35)
+  --card-text: rgba(0, 0, 0, 0.75)
+  --content-width: 1200px
+  
 :global(.border-none)
   border: none !important
 
 :global(.text-capitalize)
   text-transform: capitalize !important
+
+:global(.text-center)
+  text-align: center !important
+
+:global(.rounded-3)
+  border-radius: 3px !important
+
+:global(.card)
+  display: block
+  height: 100%
+  transition: 0.6s
+  transition: all .3s ease-out 0s
+  background-position: center center
+  background-repeat: no-repeat no-repeat
+  background-size: cover
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+  position: relative
+
+:global(.fw-bold)
+  font-weight: 700 !important
+
+:global(.plate-parent)
+  display: block
+  height: 100%
+  position: relative    
+  background-position: center center
+  background-repeat: no-repeat no-repeat
+  background-size: cover
+
+:global(.plate-text)
+  width: 80%
+
+  bottom: 10px
+  left: 50%
+  position: absolute
+  transform: translate(-50%, 0)
+  text-align: center
+
+  color: var(--card-text)
+  background-color: var(--card-plate)
