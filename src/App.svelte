@@ -27,4 +27,4 @@
   <LocalStorage key="theme" bind:value={$theme} />
 </div>
 
-<style lang="sass">@use "app"</style>
+<style lang="sass">@use "styles/app"</style>

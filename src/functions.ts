@@ -5,7 +5,7 @@ import i18nObject from "./jsons/i18n.json";
 import type { DirectoryTreeFile } from "./types/directory.tree.file";
 
 export function updateTitle(titleValue: string): string {
-  title.update((_) => nameHumanize(titleValue));
+  title.update((_) => titleValue);
 
   return "";
 }
@@ -31,4 +31,20 @@ export function toggleTheme(elements: HTMLCollectionOf<HTMLElement> | HTMLElemen
 
 export function i18n(language = get(lang)): Record<string, any> {
   return i18nObject[language];
+}
+
+export function tTitle(post: DirectoryTreeFile, language=get(lang), func=(_: string) => {}){
+  let title = post[`title_${language}`];
+  if (!title) title = post.title;
+  
+  func(title);
+  return title;
+}
+
+export function tPost(post: DirectoryTreeFile, language=get(lang), func=(_: string) => {}){
+  let content = post[`content_${language}`];
+  if (!content) content = post.content;
+  
+  func(content);
+  return content;
 }

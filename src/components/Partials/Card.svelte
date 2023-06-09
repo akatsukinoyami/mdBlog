@@ -1,13 +1,14 @@
 <script lang="ts">
   import { Column } from "carbon-components-svelte";
-  import { nameHumanize } from "../../functions";
+  import { tTitle } from "../../functions";
+  import { lang } from "../../stores";
   import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
   export let
     link: string,
     card: DirectoryTreeFile;
 
-  const cardName = nameHumanize(card.name);
+  $: cardName = tTitle(card, $lang);
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
