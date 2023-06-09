@@ -4,6 +4,7 @@
 
   import Navbar from './components/Navbar.svelte';
   import Main from './components/Index.svelte';
+  import ImageModal from "./components/Partials/ImageModal.svelte";
   import { i18n } from "./functions";
   import { title, theme, lang } from "./stores";
 
@@ -23,6 +24,7 @@
     <Main />
   </Router>
   
+  <ImageModal/>
   <LocalStorage key="lang" bind:value={$lang} />
   <LocalStorage key="theme" bind:value={$theme} />
 </div>

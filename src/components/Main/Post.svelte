@@ -47,9 +47,14 @@
     const margin = "margin-bottom: 10px; ";
     node.attribs.style = style ? style + margin : margin;
   }
-  
   switch(node.name){
-    case 'img':   return { component: Image, props: { src: fixImage(node.attribs.src), alt: node.attribs.alt, style: node.attribs.style } };
+    case 'img':   return { 
+      component: Image, 
+      props: { 
+        src: fixImage(node.attribs.src), 
+        alt: node.attribs.alt, 
+        style: node.attribs.style,
+    }};
     case 'pre':   return { component: CodeSnippet, props: { type: "multi", wrapText: true, style: `${node.attribs.style}background-color: var(--cds-field-01); ` }};
     //case 'thead': return (new Text('i stay!'));
     //case 'tbody': return (new Text('i stay!'));

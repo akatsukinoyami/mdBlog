@@ -10,3 +10,6 @@ export const themes: Readable<theme[]> = readable(["white", "g10", "g80", "g90",
 export const lang:  Writable<lang>   = writable(localStorage.lang || "ru");
 export const theme: Writable<theme>  = writable(localStorage.theme || "white");
 export const title: Writable<string> = writable(i18nObject[get(lang)].mainTitle);
+
+export const modalImage: Writable<string> = writable("");
+export const modalAlt: Writable<string> = writable("");
