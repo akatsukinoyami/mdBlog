@@ -7,7 +7,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "archive:delete": "rm -f blog.tar.gz",
     "archive:create": "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf",
-    "fix:permissions": "chown -R $USER public/blog public/page && chmod -R 744 public/blog public/page",
+    "fix:permissions": "chown -R $USER public/blog && chmod -R 744 public/blog",
     "generate:mdlist": "node ./scripts/inspectMdFiles.js",
     "generate:rss": "node ./scripts/generateRssFeed.js",
     "build": "yarn fix:permissions && yarn generate:mdlist && yarn check && rollup -c",
