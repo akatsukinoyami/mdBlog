@@ -12,7 +12,8 @@ import sveltePreprocess from "svelte-preprocess";
 
 const
   production = !process.env.ROLLUP_WATCH,
-  unixTime = new Date().valueOf();
+  unixTime = new Date().valueOf(),
+	sourceMap = !production;
 
 function fingerprint(name) {
   return `${unixTime}.${name}`
@@ -43,7 +44,7 @@ function serve() {
 export default {
 	input: "src/main.ts",
 	output: {
-		sourcemap: !production,
+		sourcemap: sourceMap,
 		format: "iife",
 		name: "app",
     dir: "./public/build",
@@ -51,12 +52,12 @@ export default {
 	},
 	plugins: [
 		svelte({
-			preprocess: sveltePreprocess({ sourceMap: !production }),
+			preprocess: sveltePreprocess({ sourceMap }),
 			compilerOptions: { dev: !production } // enable run-time checks when not in production
 		}),
 
     // we"ll extract any component CSS out into a separate file - better for performance
-    css({ output: fingerprint("bundle.css"), sourceMap: !production }),
+    css({ output: fingerprint("bundle.css"), sourceMap }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
@@ -72,7 +73,7 @@ export default {
     del({ targets: "./public/build/*", force: true, verbose: true, }),
 
     resolve({ browser: true, dedupe: ["svelte"] }),
-		typescript({ sourceMap: !production, inlineSources: !production }),
+		typescript({ sourceMap, inlineSources: sourceMap }),
     json({ compact: production }),
 		!production && serve(),               // In dev mode, call `npm run start` once the bundle has been generated
 		!production && livereload("public"),  // Watch the `public` directory and refresh the browser on changes when not in production
