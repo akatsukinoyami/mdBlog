@@ -31,6 +31,21 @@
     }
   }
 
+  function handleKeydown(event) {
+    if (!$modalImage) return;
+    
+		switch(event.key) {
+      case "ArrowUp":
+      case "ArrowLeft":
+        changeModal(-1); 
+        break;
+      case "ArrowDown":
+      case "ArrowRight":
+        changeModal(1); 
+        break;
+    }
+	}
+
   $: document.body.classList[$modalImage ? 'add' : 'remove']('noscroll');
   let
     modalButton = "position: fixed; z-index: 10002;",
@@ -39,6 +54,8 @@
     modalButtonLeft  = "left: 0;",
     modalButtonRight = "right: 0;";
 </script>
+
+<svelte:window on:keydown={handleKeydown}/>
 
 {#if $modalImage}
   <!-- svelte-ignore a11y-click-events-have-key-events -->
