@@ -7,23 +7,21 @@
 
 	import { Route } from "svelte-navigator";
   import { title } from "../stores";
+
+  $: displayedTitle = $title
 </script>
 
 
 <section>
-  <h1 class="text-center">{$title}</h1>
+  <h1 class="text-center">{displayedTitle}</h1>
 
   <Tile>
     <Route path="blog/:section/:post" let:params>
-      <Post link="/blog/{params.section}/{params.post}/index" />
+      <Post link="/blog/{params.section}/{params.post}/index" sectionName={params.section} postName={params.post} />
     </Route>
   
     <Route path="blog/:section" let:params>
       <Section sectionName={params.section} />
-    </Route>
-  
-    <Route path="page/:page" let:params>
-      <Post link="/page/{params.page}" />
     </Route>
   
     <Route>

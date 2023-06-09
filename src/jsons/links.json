@@ -6,9 +6,5 @@
   ],
   "external": [
     { "link": "https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax", "title": "Showdown's Markdown Cheatsheet" }
-  ],
-  "md": [
-    "index",
-    "markdown_cheatsheet"
   ]
 }

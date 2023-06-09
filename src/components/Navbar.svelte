@@ -32,13 +32,6 @@
   <HeaderUtilities> 
     <HeaderAction bind:isOpen={ isOpenPages } text={ t.links } icon={ Link }>
       <HeaderPanelLinks>
-        <HeaderPanelDivider>{ t.pages }</HeaderPanelDivider>
-        {#each linksJson.md as page}
-          <HeaderPanelLink href="/page/{page}">
-            <span class="text-capitalize">{ page.replaceAll('_', ' ') }</span>
-          </HeaderPanelLink>
-        {/each}
-
         <HeaderPanelDivider>{ t.myResources }</HeaderPanelDivider>
         {#each linksJson.my as { link, title }}
           <HeaderPanelLink href={ link } target="_blank">{ title }</HeaderPanelLink>
@@ -48,7 +41,6 @@
         {#each linksJson.external as { link, title }}
           <HeaderPanelLink href={ link } target="_blank">{ title }</HeaderPanelLink>
         {/each}
-        
       </HeaderPanelLinks>
     </HeaderAction>
 
