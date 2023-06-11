@@ -8,29 +8,8 @@ import type { DirectoryTreeFile } from "./types/directory.tree.file";
 
 const langs = { en, ru, ua };
 
-export function updateTitle(titleValue: string): string {
+export function updateTitle(titleValue: string): void {
   title.update((_) => titleValue);
-
-  return "";
-}
-
-export function nameHumanize(name: string): string {
-  let nameArray = name.split('_')
-  nameArray = nameArray.map(word => { return word[0].toUpperCase() + word.slice(1) })
-  return nameArray.join(' ')
-}
-
-export function blogLink(
-  section: DirectoryTreeFile,
-  post: DirectoryTreeFile
-): string {
-  return `/blog/${section.name}/${post.name}`
-}
-
-export function toggleTheme(elements: HTMLCollectionOf<HTMLElement> | HTMLElement[], color: string): void {
-  Array.from(elements).forEach((element) => {
-    element.style.backgroundColor = color;
-  })
 }
 
 export function i18n(language = get(lang)): Record<string, any> {
