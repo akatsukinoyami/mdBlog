@@ -2,8 +2,8 @@
 	import { Router, links } from "svelte-navigator";
   import { LocalStorage } from 'carbon-components-svelte';
 
-  import Navbar from './components/Navbar.svelte';
-  import Main from './components/Index.svelte';
+  import Routes from './Routes.svelte';
+  import Navbar from './components/Partials/Navbar.svelte';
   import BackToTop from "./components/Partials/BackToTop.svelte";
   import ImageModal from "./components/Partials/ImageModal.svelte";
   import { theme, lang } from "./stores";
@@ -14,7 +14,7 @@
 <div use:links>
   <Router primary={false}>
     <Navbar/>
-    <Main />
+    <Routes />
   </Router>
   
   <ImageModal/>

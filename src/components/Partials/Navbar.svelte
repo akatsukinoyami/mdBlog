@@ -12,9 +12,9 @@
   import SettingsAdjust from "carbon-icons-svelte/lib/SettingsAdjust.svelte";
   import Link from "carbon-icons-svelte/lib/Link.svelte";
 
-  import linksJson from "../jsons/links.json";
-  import i18n from "../i18n";
-  import { lang, langs, theme, themes } from "../stores";
+  import linksJson from "../../jsons/links.json";
+  import i18n from "../../i18n";
+  import { lang, langs, theme, themes } from "../../stores";
   
   let isSideNavOpen = false;
   let isOpenPages = false;

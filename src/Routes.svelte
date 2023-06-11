@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { Tile } from "carbon-components-svelte";
-	import { Route } from "svelte-navigator";
+  import { Tile }   from "carbon-components-svelte";
+	import { Route }  from "svelte-navigator";
 
-  import Index from "./Main/Index.svelte";
-  import Post from "./Main/Post.svelte";
-  import Section from "./Main/Section.svelte";
-  import Title from "./Partials/Title.svelte";
+  import Title      from "./components/Partials/Title.svelte";
+  import Index      from "./components/Blog/Index.svelte";
+  import Section    from "./components/Blog/Section.svelte";
+  import Post       from "./components/Blog/Post.svelte";
 </script>
 
 <section>
