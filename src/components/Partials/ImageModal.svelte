@@ -11,12 +11,10 @@
   function getCurrentImageIndex(images: HTMLImageElement[]): number{
     return images.indexOf(images.find(({src}) => src.includes($modalImage)));
   }
-  function getNewImageIndex(images: HTMLImageElement[], currentImageIndex: number, direction: 1 | -1): number{
-    if (direction > 0) {
-      return currentImageIndex+1 < images.length ? currentImageIndex+1 : 0
-    } else if (direction < 0) {
-      return currentImageIndex-1 >= 0 ? currentImageIndex-1 : images.length-1
-    }
+  function getNewImageIndex(images: HTMLImageElement[], currentImageIndex: number, direction: 1 | -1): number{    
+    return direction > 0
+      ? (currentImageIndex + 1) % images.length
+      : (currentImageIndex - 1 + images.length) % images.length;
   }
 
   function changeModal(direction: 1 | -1): void {
@@ -24,35 +22,21 @@
     const currentImageIndex = getCurrentImageIndex(images);
     const newImageIndex = getNewImageIndex(images, currentImageIndex, direction);
     
-    if (newImageIndex){
+    if (newImageIndex || newImageIndex === 0){
       const { src, alt } = images[newImageIndex]
       modalImage.set(src)
       modalAlt.set(alt)
     }
   }
 
-  function handleKeydown(event) {
+  function handleKeydown({ key }) {
     if (!$modalImage) return;
-    
-		switch(event.key) {
-      case "ArrowUp":
-      case "ArrowLeft":
-        changeModal(-1); 
-        break;
-      case "ArrowDown":
-      case "ArrowRight":
-        changeModal(1); 
-        break;
-    }
+    ["ArrowDown", "ArrowRight"].includes(key) && changeModal(1);
+    ["ArrowUp", "ArrowLeft"].includes(key) && changeModal(-1);
+    ["Escape"].includes(key) && modalImage.set("");
 	}
 
   $: document.body.classList[$modalImage ? 'add' : 'remove']('noscroll');
-  let
-    modalButton = "position: fixed; z-index: 10002;",
-    modalButtonClose = "top: 0; right: 0;",
-    modalButtonArrow = "top: 50%; transform: translate(0, -50%);",
-    modalButtonLeft  = "left: 0;",
-    modalButtonRight = "right: 0;";
 </script>
 
 <svelte:window on:keydown={handleKeydown}/>
@@ -63,33 +47,36 @@
     <div class="modal-image rounded-3" style='background-image: url("{$modalImage}"); '></div>
     {#if $modalAlt} <p class="modal-caption text-center rounded-3">{@html $modalAlt}</p> {/if}
   </div>
-  <Button 
-    kind="ghost" 
-    size="xl" 
-    on:click={() => { modalImage.set("") }}    
-    iconDescription="Close Image"    
-    icon={Close}        
-    tooltipPosition="left"
-    style="{modalButton} {modalButtonClose}"
-  />
-  <Button 
-    kind="ghost" 
-    size="xl" 
-    on:click={() => { changeModal(-1) }} 
-    iconDescription="Previous Image"
-    icon={ChevronLeft}
-    tooltipPosition="right"
-    style="{modalButton} {modalButtonArrow} {modalButtonLeft}"
-  />
-  <Button 
-    kind="ghost" 
-    size="xl" 
-    on:click={() => { changeModal(1) }}     
-    iconDescription="Next Image"
-    icon={ChevronRight}
-    tooltipPosition="left"
-    style="{modalButton} {modalButtonArrow} {modalButtonRight}"
-  />
+  <div class="modal-button modal-button-close">
+    <Button 
+      kind="ghost" 
+      size="xl" 
+      on:click={() => { modalImage.set("") }}    
+      iconDescription="Close Image"    
+      icon={Close}        
+      tooltipPosition="left"
+    />
+  </div>
+  <div class="modal-button modal-button-arrow modal-button-left">
+    <Button 
+      kind="ghost" 
+      size="xl" 
+      on:click={() => { changeModal(-1) }} 
+      iconDescription="Previous Image"
+      icon={ChevronLeft}
+      tooltipPosition="right"
+    />
+  </div>
+  <div class="modal-button modal-button-arrow modal-button-right">
+    <Button 
+      kind="ghost" 
+      size="xl" 
+      on:click={() => { changeModal(1) }}     
+      iconDescription="Next Image"
+      icon={ChevronRight}
+      tooltipPosition="left"
+    />
+  </div>
 {/if}
 
 <style lang="sass">
@@ -127,4 +114,22 @@
       transform: translate(-50%, 0)
       padding: 20px
       z-index: 10002
+    
+    &button
+      position: fixed
+      z-index: 10002
+
+      &-close
+        top: 0
+        right: 0
+      
+      &-arrow
+        top: 50%
+        transform: translate(0, -50%)
+
+      &-left
+        left: 0
+
+      &-right
+        right: 0
 </style>

@@ -24,15 +24,10 @@
 
   export let 
     sectionName = $params.sectionName,
-    postName = $params.postName;
+    postName = $params.postName,
+    content = "";
   
   const link: string = `/blog/${sectionName}/${postName}`;
-
-  console.log({
-    sectionName, postName, link
-  });
-
-  let content = "";
   $: {
     const post = sections
       .find(({ name }) => name === sectionName)
