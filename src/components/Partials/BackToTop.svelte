@@ -6,7 +6,7 @@
   let hidden = true;
 
   function goTop() {
-    const h1 = document.getElementsByTagName('h1')[0];
+    const h1 = document.getElementsByTagName("h1")[0];
     h1.scrollIntoView({block: "center", behavior: "smooth"});
   }
   function scrollContainer() {

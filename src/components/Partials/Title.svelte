@@ -5,7 +5,6 @@
   $: t = i18n($lang);
   $: tabTitle = $title == t.mainTitle ? t.mainTitle : `${$title} | ${t.mainTitle}`;
   $: h1Title = $title
-
 </script>
 
 <svelte:head>

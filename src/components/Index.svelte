@@ -2,13 +2,11 @@
   import { Tile } from "carbon-components-svelte";
 	import { Route } from "svelte-navigator";
 
-  import Index from './Main/Index.svelte';
-  import Post from './Main/Post.svelte';
+  import Index from "./Main/Index.svelte";
+  import Post from "./Main/Post.svelte";
   import Section from "./Main/Section.svelte";
   import Title from "./Partials/Title.svelte";
-
 </script>
-
 
 <section>
   <Title />

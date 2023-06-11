@@ -11,7 +11,12 @@
   function getCurrentImageIndex(images: HTMLImageElement[]): number{
     return images.indexOf(images.find(({src}) => src.includes($modalImage)));
   }
-  function getNewImageIndex(images: HTMLImageElement[], currentImageIndex: number, direction: 1 | -1): number{    
+
+  function getNewImageIndex(
+    images: HTMLImageElement[], 
+    currentImageIndex: number, 
+    direction: 1 | -1
+  ): number{    
     return direction > 0
       ? (currentImageIndex + 1) % images.length
       : (currentImageIndex - 1 + images.length) % images.length;
@@ -36,7 +41,7 @@
     ["Escape"].includes(key) && modalImage.set("");
 	}
 
-  $: document.body.classList[$modalImage ? 'add' : 'remove']('noscroll');
+  $: document.body.classList[$modalImage ? "add" : "remove"]("noscroll");
 </script>
 
 <svelte:window on:keydown={handleKeydown}/>
