@@ -5,18 +5,10 @@
   import Navbar from './components/Navbar.svelte';
   import Main from './components/Index.svelte';
   import ImageModal from "./components/Partials/ImageModal.svelte";
-  import i18n from "./i18n";
-  import { title, theme, lang } from "./stores";
+  import { theme, lang } from "./stores";
 
-  $: t = i18n($lang);
-  $: displayedTitle = $title == t.mainTitle ? t.mainTitle : `${$title} | ${t.mainTitle}`;
   $: document.documentElement.setAttribute("theme", $theme);
-
 </script>
-
-<svelte:head>
-  <title>{ displayedTitle }</title>
-</svelte:head>
 
 <div use:links>
   <Router primary={false}>
@@ -29,4 +21,6 @@
   <LocalStorage key="theme" bind:value={$theme} />
 </div>
 
-<style lang="sass">@use "styles/app"</style>
+<style lang="sass">
+  @use "styles/app"
+</style>
