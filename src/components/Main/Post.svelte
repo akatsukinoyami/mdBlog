@@ -14,7 +14,8 @@
   import { lang } from "../../stores";
   import sectionsWithoutType from "../../jsons/sections.json";
   import parseMarkdown from "../../markdown.parser";
-  import { i18n, tPost, tTitle, updateTitle } from "../../functions";
+  import i18n from "../../i18n";
+  import { tPost, tTitle, updateTitle } from "../../functions";
   import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
   const sections: DirectoryTreeFile[] = sectionsWithoutType;
@@ -41,32 +42,32 @@
   }
 
   function processNode(node: any) {
-  if (!isTag(node)) return;
-  if (node.name !== 'a'){
-    const { style } = node.attribs;
-    const margin = "margin-bottom: 10px; ";
-    node.attribs.style = style ? style + margin : margin;
-  }
-  switch(node.name){
-    case 'img':   return { 
-      component: Image, 
-      props: { 
-        src: fixImage(node.attribs.src), 
-        alt: node.attribs.alt, 
-        style: node.attribs.style,
-    }};
-    case 'pre':   return { component: CodeSnippet, props: { type: "multi", wrapText: true, style: `${node.attribs.style}background-color: var(--cds-field-01); ` }};
-    //case 'thead': return (new Text('i stay!'));
-    //case 'tbody': return (new Text('i stay!'));
-    case 'ol':    return { component: OrderedList };
-    case 'ul':    return { component: UnorderedList };
-    case 'li':    return { component: ListItem };
-    case 'table': return { component: Grid, props: { style: node.attribs.style, fullWidth: true }};
-    case 'tr':    return { component: Row, props: { style: node.attribs.style }};
-    case 'th': 
-    case 'td':    
-      return { component: Column, props: { style: node.attribs.style } };
-    case 'a' :    node.attribs.target = "_blank";
+    if (!isTag(node)) return;
+    if (node.name !== 'a'){
+      const { style } = node.attribs;
+      const margin = "margin-bottom: 10px; ";
+      node.attribs.style = style ? style + margin : margin;
+    }
+    switch(node.name){
+      case 'img':   return { 
+        component: Image, 
+        props: { 
+          src: fixImage(node.attribs.src), 
+          alt: node.attribs.alt, 
+          style: node.attribs.style,
+      }};
+      case 'pre':   return { component: CodeSnippet, props: { type: "multi", wrapText: true, style: `${node.attribs.style}background-color: var(--cds-field-01); ` }};
+      //case 'thead': return (new Text('i stay!'));
+      //case 'tbody': return (new Text('i stay!'));
+      case 'ol':    return { component: OrderedList };
+      case 'ul':    return { component: UnorderedList };
+      case 'li':    return { component: ListItem };
+      case 'table': return { component: Grid, props: { style: node.attribs.style, fullWidth: true }};
+      case 'tr':    return { component: Row, props: { style: node.attribs.style }};
+      case 'th': 
+      case 'td':    
+        return { component: Column, props: { style: node.attribs.style } };
+      case 'a' :    node.attribs.target = "_blank";
   }
 }
 </script>

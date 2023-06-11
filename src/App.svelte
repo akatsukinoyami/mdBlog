@@ -5,7 +5,7 @@
   import Navbar from './components/Navbar.svelte';
   import Main from './components/Index.svelte';
   import ImageModal from "./components/Partials/ImageModal.svelte";
-  import { i18n } from "./functions";
+  import i18n from "./i18n";
   import { title, theme, lang } from "./stores";
 
   $: t = i18n($lang);

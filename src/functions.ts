@@ -1,19 +1,10 @@
 import { get } from "svelte/store";
 
 import { title, lang } from "./stores";
-import en from "./i18n/en.json";
-import ru from "./i18n/ru.json";
-import ua from "./i18n/ua.json";
 import type { DirectoryTreeFile } from "./types/directory.tree.file";
-
-const langs = { en, ru, ua };
 
 export function updateTitle(titleValue: string): void {
   title.update((_) => titleValue);
-}
-
-export function i18n(language = get(lang)): Record<string, any> {
-  return langs[language];
 }
 
 export function tTitle(post: DirectoryTreeFile, language=get(lang), func=(_: string) => {}){
