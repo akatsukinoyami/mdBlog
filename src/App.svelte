@@ -4,6 +4,7 @@
 
   import Navbar from './components/Navbar.svelte';
   import Main from './components/Index.svelte';
+  import BackToTop from "./components/Partials/BackToTop.svelte";
   import ImageModal from "./components/Partials/ImageModal.svelte";
   import { theme, lang } from "./stores";
 
@@ -17,6 +18,7 @@
   </Router>
   
   <ImageModal/>
+  <BackToTop/>
   <LocalStorage key="lang" bind:value={$lang} />
   <LocalStorage key="theme" bind:value={$theme} />
 </div>
