@@ -9,9 +9,9 @@
 </script>
 
 <Grid fullWidth padding>
-  <Row>
-  {#each cards as card}
-    <Card link={linkPrepare(card)} card={card} />
-  {/each}
+  <Row padding={true} style="justify-content: space-evenly;">
+    {#each cards as card}
+      <Card link={linkPrepare(card)} card={card} />
+    {/each}
   </Row>
 </Grid>

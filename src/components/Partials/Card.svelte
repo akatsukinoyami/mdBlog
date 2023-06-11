@@ -12,7 +12,7 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<Column sm={10} md={4} max={4} aspectRatio="16x9">
+<Column sm={10} md={4} max={5} aspectRatio="3x2">
   <a
     href="/blog/{link}"
     class="card plate-parent rounded-3"
