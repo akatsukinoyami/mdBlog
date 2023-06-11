@@ -1,0 +1,26 @@
+{
+  "domain": "www.katsu.moe",
+  "mainTitle": "Katsu's Nikki",
+  "fallbackDescription": "Small private blog of Katsu Dev.",
+  "pages": "Pages",
+  "myResources": "My Resources",
+  "external": "External",
+  "links": "Links",
+  "wait": "Please wait, post fetching...",
+  "theme": {
+    "singular": "Theme",
+    "plural": "Themes",
+    "white": "White", 
+    "g10": "Light", 
+    "g80": "Gray", 
+    "g90": "Dark", 
+    "g100": "Black"  
+  },
+  "lang": {
+    "singular": "Language",
+    "plural": "Languages",
+    "en": "🇺🇸 English", 
+    "ru": "🇷🇺 Russian", 
+    "ua": "🇺🇦 Ukrainian"
+  }
+}

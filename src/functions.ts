@@ -1,8 +1,12 @@
 import { get } from "svelte/store";
 
 import { title, lang } from "./stores";
-import i18nObject from "./jsons/i18n.json";
+import en from "./i18n/en.json";
+import ru from "./i18n/ru.json";
+import ua from "./i18n/ua.json";
 import type { DirectoryTreeFile } from "./types/directory.tree.file";
+
+const langs = { en, ru, ua };
 
 export function updateTitle(titleValue: string): string {
   title.update((_) => titleValue);
@@ -30,7 +34,7 @@ export function toggleTheme(elements: HTMLCollectionOf<HTMLElement> | HTMLElemen
 }
 
 export function i18n(language = get(lang)): Record<string, any> {
-  return i18nObject[language];
+  return langs[language];
 }
 
 export function tTitle(post: DirectoryTreeFile, language=get(lang), func=(_: string) => {}){
