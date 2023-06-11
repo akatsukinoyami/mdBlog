@@ -13,7 +13,8 @@
     "build": "yarn fix:permissions && yarn generate:mdlist && yarn check && rollup -c",
     "build:prod": "yarn archive:delete && yarn build && yarn archive:create",
     "start": "yarn build && docker-compose up",
-    "start:recreate": "yarn start --build --force-recreate"
+    "start:recreate": "yarn start --build --force-recreate",
+    "translate": "node ./scripts/translatePosts.js"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.6",
@@ -24,6 +25,7 @@
     "@tsconfig/svelte": "^2.0.0",
     "@types/highlightjs": "^9.12.2",
     "@types/showdown": "^2.0.0",
+    "@vitalets/google-translate-api": "^9.2.0",
     "carbon-components-svelte": "^0.75.1",
     "carbon-icons-svelte": "^11.4.0",
     "directory-tree": "^3.3.1",
