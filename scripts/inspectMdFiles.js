@@ -4,6 +4,7 @@ const dirTree = require("directory-tree");
 const fs = require('fs');
 
 const deletableFiles = /(\.DS_Store)|(images)|(index(_\w{2})?\.(jpe?g|png|webp|json|md))/mi;
+const langs = ["", "_en", "_ru", "_ua"];
 
 function sortByDate(a, b) {
   if (!a.date || !b.date) return 0;
@@ -20,8 +21,18 @@ function fetchContent(path, lang) {
   try {
     return fs.readFileSync(`./${path}/index${lang}.md`, "utf-8", (err) => { console.log(err) });
   } catch {
-
   }
+}
+
+function writeMetadataToJson(child) {
+  return { ...child,  ...require(`../${child.path}/index.json`) };
+}
+
+function writeContentToJson(child) {      
+  langs.forEach(lang => (
+    child[`content${lang}`] = fetchContent(child.path, lang)
+  ))
+  return child; 
 }
 
 function handlePosts(children) {
@@ -31,14 +42,9 @@ function handlePosts(children) {
       if (child.children) child.children = handlePosts(child.children);
       if (child.children?.length === 0) delete child.children;
       
-      child = { ...child,  ...require(`../${child.path}/index.json`) };
+      child = writeMetadataToJson(child);
+      child = writeContentToJson(child);
       
-      ["", "_en", "_ru", "_ua"].forEach(lang => (
-        child[`content${lang}`] = fetchContent(child.path, lang)
-      ))
-      try {
-        child.content = fs.readFileSync(`./${child.path}/index.md`, "utf-8", (err) => { console.log(err) });
-      } catch {}
       return child;
     })
     .filter(child => child !== undefined)
