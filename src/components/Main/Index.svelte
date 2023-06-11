@@ -8,5 +8,5 @@
   const linkPrepare = (card: DirectoryTreeFile) => card.name;
 </script>
 
-<Post link="/blog/other/index" sectionName="other" postName="index" />
+<Post sectionName="other" postName="index" />
 <CardCollection cards={showedSections} linkPrepare={linkPrepare}/>

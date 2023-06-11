@@ -9,6 +9,7 @@
     UnorderedList 
   } from "carbon-components-svelte";
 	import { Html, isTag } from 'html-svelte-parser';
+  import { useParams } from "svelte-navigator";
   
   import Image from "../Partials/Image.svelte";
   import { lang } from "../../stores";
@@ -18,16 +19,21 @@
   import { tPost, tTitle, updateTitle } from "../../functions";
   import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
+  const params = useParams();
   const sections: DirectoryTreeFile[] = sectionsWithoutType;
-  export let 
-    link: string = "/blog/other/index",
-    sectionName: string,
-    postName: string,
-    t = i18n($lang),
-    content = "";
 
+  export let 
+    sectionName = $params.sectionName,
+    postName = $params.postName;
+  
+  const link: string = `/blog/${sectionName}/${postName}`;
+
+  console.log({
+    sectionName, postName, link
+  });
+
+  let content = "";
   $: {
-    t = i18n($lang);
     const post = sections
       .find(({ name }) => name === sectionName)
       .children
