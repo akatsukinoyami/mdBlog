@@ -20,11 +20,12 @@
   const link: string = `/blog/${sectionName}/${postName}`;
 
   async function fetchPost(language=$lang) {
-    const version = language !== "en" ? `_${language}` : "";
-    const mdLink = `${link}/index${version}.md`;
-    const result = await fetch(mdLink);
-    const post = await result.text();
+    const version = language === "en" ? "" : `_${language}`;
+    let response = await fetch(`${link}/index${version}.md`);
+    if (!response.ok) response = await fetch(`${link}/index.md`);
     
+    const post = await response.text();
+
     return parseMarkdown(post);
   }
 
