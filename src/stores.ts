@@ -7,8 +7,8 @@ type theme = "white" | "g10" | "g80" | "g90" | "g100";
 export const langs:  Readable<lang[]>  = readable(["en", "ru", "ua"]);
 export const themes: Readable<theme[]> = readable(["white", "g10", "g80", "g90", "g100"]);
 
-export const lang:  Writable<lang>   = writable(localStorage.lang || "ru");
-export const theme: Writable<theme>  = writable(localStorage.theme || "white");
+export const lang:  Writable<lang>   = writable(localStorage.lang || "en");
+export const theme: Writable<theme>  = writable(localStorage.theme || "g80");
 
 const t = i18n(get(lang));
 export const title: Writable<string> = writable(t.mainTitle);
