@@ -7,8 +7,7 @@
   import { lang } from "../../stores";
 
   export let src: string, alt = "";
-
-  $: t = i18n($lang)
+  
   function openModal(){ 
     modalImage.set(src); 
     modalAlt.set(alt); 
@@ -19,15 +18,25 @@
   if (src.match(/\.png/i))   props.icon = Png;
   if (src.match(/\.gif/i))   props.icon = Gif;
   if (src.match(/\.svg/i))   props.icon = Svg;
+
+  $: t = i18n($lang);
+  $: mode = $imgMode
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <figure on:click={openModal} data-src={src}>
-  {#if $imgMode === "showImg"}
+  {#if mode === "showFulls"}
     <ImageLoader src={src} alt={alt} class="rounded-3 modalable" />
-  {:else if $imgMode === "showLink" }
+  {/if}
+
+  {#if mode === "showThumbs"}
+    <ImageLoader src={src.replace('images', 'thumbs')} alt={alt} class="rounded-3 modalable" />
+  {/if}
+
+  {#if mode === "showLink" }
     <Button kind="secondary" {...props}>{ t.image }</Button>
   {/if}
+
   {#if alt} 
     <figcaption class="text-center">{@html alt }</figcaption> 
   {/if}
