@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Column } from "carbon-components-svelte";
   import { tTitle } from "../../functions";
-  import { lang } from "../../stores";
+  import { imgMode, lang } from "../../stores";
   import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
   export let
@@ -9,6 +9,13 @@
     card: DirectoryTreeFile;
 
   $: cardName = tTitle(card, $lang);
+  
+  let style: string;
+  $: {
+    style = $imgMode !== "notShown"
+      ? `background-image: url("/blog/${link}/index.jpg")`
+      : "";
+  }
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -16,7 +23,7 @@
   <a
     href="/blog/{link}"
     class="card plate-parent rounded-3"
-    style='background-image: url("/blog/{link}/index.jpg")'
+    style={style}
   >
     <h4 class="plate-text rounded-3 fw-bold">{cardName}</h4>
   </a>
