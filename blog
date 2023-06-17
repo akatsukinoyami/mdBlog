@@ -1,0 +1,90 @@
+#! /bin/sh
+
+function run() { 
+  echo "RUN $*\n"
+  eval $*
+}
+function not_found() {
+  echo "Command not found, write `$0 help` to see avaliable commands"
+}
+function fix_permissions() { 
+  run chown -R $USER public/blog && chmod -R 744 public/blog
+}
+function generate_post_tree() { 
+  run node ./scripts/inspectMdFiles.js
+}
+function compress() {
+  run node ./scripts/compressor/index.js ./public/build
+}
+function build(){ 
+  run fix_permissions
+  run generate_post_tree
+  run yarn build
+  run compress
+}
+function replace_archive() {
+  run rm -f blog.tar.gz
+  run tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf
+}
+
+case $1 in
+  "b" | "build")
+    run build
+    case $2 in
+      "prod")
+        run replace_archive
+      ;;
+      "*")
+        not_found
+      ;;
+    esac
+  ;;
+  "fix")
+    case $2 in
+      "permissions")
+        run fix_permissions
+      ;;
+      "*")
+        not_found
+      ;;
+    esac
+  ;;
+  "g" | "generate")
+    case $2 in
+      "post_tree")
+        run generate_post_tree
+      ;;
+      "*")
+        not_found
+      ;;
+    esac
+  ;;
+  "r" | "run")
+    build
+    case $2 in
+      "")
+        run "docker-compose up"
+      ;;
+      "recreate")
+        run "docker-compose up --build --force-recreate"
+      ;;
+      "*")
+        not_found
+      ;;
+    esac
+  ;;
+  "help")
+    echo "
+Avaliable commands:
+
+  build              - build application
+  build prod         - build application in tar.gz for usage in caprover
+  fix permissions    - fix permissions on public folder
+  generate post_tree - start script for fetching data about posts
+  run / r            - start application in docker
+  run recreate       - start with --build --force-recreate"
+  ;;
+  "*")
+    not_found
+  ;;
+esac

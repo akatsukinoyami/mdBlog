@@ -5,16 +5,8 @@
   "scripts": {
     "dev": "rollup -c -w",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "archive:delete": "rm -f blog.tar.gz",
-    "archive:create": "tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf",
-    "fix:permissions": "chown -R $USER public/blog && chmod -R 744 public/blog",
-    "generate:mdlist": "node ./scripts/inspectMdFiles.js",
-    "generate:rss": "node ./scripts/generateRssFeed.js",
-    "build": "yarn fix:permissions && yarn generate:mdlist && yarn check && rollup -c",
-    "build:prod": "yarn archive:delete && yarn build && yarn archive:create",
-    "start": "yarn build && docker-compose up",
-    "start:recreate": "yarn start --build --force-recreate",
-    "translate": "node ./scripts/translatePosts.js"
+    "build": "yarn check && rollup -c",
+    "start": "yarn build && docker-compose up"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.6",
@@ -26,6 +18,7 @@
     "@types/highlightjs": "^9.12.2",
     "@types/showdown": "^2.0.0",
     "@vitalets/google-translate-api": "^9.2.0",
+    "brotli": "^1.3.3",
     "carbon-components-svelte": "^0.75.1",
     "carbon-icons-svelte": "^11.4.0",
     "directory-tree": "^3.3.1",
