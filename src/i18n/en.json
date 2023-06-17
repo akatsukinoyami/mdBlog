@@ -22,5 +22,13 @@
     "en": "🇺🇸 English", 
     "ru": "🇷🇺 Russian", 
     "ua": "🇺🇦 Ukrainian"
+  },
+  "image": "Image",
+  "imgMode": {
+    "singular": "Image Mode",
+    "plural": "Image Modes",
+    "notShown": "Images don't shown",
+    "showLink": "Show links for images",
+    "showImg": "Show images"
   }
 }

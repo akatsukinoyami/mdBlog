@@ -6,7 +6,7 @@
   import Navbar from './components/Partials/Navbar.svelte';
   import BackToTop from "./components/Partials/BackToTop.svelte";
   import ImageModal from "./components/Partials/ImageModal.svelte";
-  import { theme, lang } from "./stores";
+  import { theme, lang, imgMode } from "./stores";
 
   $: document.documentElement.setAttribute("theme", $theme);
 </script>
@@ -21,6 +21,7 @@
   <BackToTop/>
   <LocalStorage key="lang" bind:value={$lang} />
   <LocalStorage key="theme" bind:value={$theme} />
+  <LocalStorage key="imgMode" bind:value={$imgMode} />
 </div>
 
 <style lang="sass">

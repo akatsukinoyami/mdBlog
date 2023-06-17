@@ -9,12 +9,11 @@
     SkipToContent,
   } from "carbon-components-svelte";
 
-  import SettingsAdjust from "carbon-icons-svelte/lib/SettingsAdjust.svelte";
-  import Link from "carbon-icons-svelte/lib/Link.svelte";
-
+  import { SettingsAdjust, Link } from "carbon-icons-svelte";
   import linksJson from "../../jsons/links.json";
   import i18n from "../../i18n";
-  import { lang, langs, theme, themes } from "../../stores";
+  import { imgMode, imgModes, lang, langs, theme, themes } from "../../stores";
+    import NavbarSetting from "./NavbarSetting.svelte";
   
   let isSideNavOpen = false;
   let isOpenPages = false;
@@ -44,20 +43,26 @@
 
     <HeaderAction bind:isOpen={ isOpenSettings } icon={ SettingsAdjust }>
       <HeaderPanelLinks>
+        <NavbarSetting 
+          translation={t.theme}
+          collection={$themes}
+          current={$theme}
+          onclick={(themeCode) => theme.set(themeCode)}
+        />
 
-        <HeaderPanelDivider>{ t.theme.singular }</HeaderPanelDivider>
-        {#each $themes as themeCode}
-          <HeaderPanelLink on:click={ () => theme.set(themeCode) }>
-            { t.theme[themeCode] }
-          </HeaderPanelLink>
-        {/each}
-
-        <HeaderPanelDivider>{ t.lang.singular }</HeaderPanelDivider>
-        {#each $langs as langCode}
-          <HeaderPanelLink on:click={ () => lang.set(langCode) }>
-            { t.lang[langCode] }
-          </HeaderPanelLink>
-        {/each}
+        <NavbarSetting 
+          translation={t.lang}
+          collection={$langs}
+          current={$lang}
+          onclick={(langCode) => lang.set(langCode)}
+        />
+        
+        <NavbarSetting 
+          translation={t.imgMode}
+          collection={$imgModes}
+          current={$imgMode}
+          onclick={(imgModeCode) => imgMode.set(imgModeCode)}
+        />
       </HeaderPanelLinks>
     </HeaderAction>
   </HeaderUtilities>
