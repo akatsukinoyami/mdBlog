@@ -2,8 +2,6 @@
 
 Lightweight blog engine based on markdown files.
 
-Created using: [Svelte](https://github.com/sveltejs/svelte) and [Showdown](https://github.com/showdownjs/showdown).
-
 You can try example on [katsu.moe](https://www.katsu.moe).
 
 ## Getting started
@@ -12,43 +10,67 @@ You can try example on [katsu.moe](https://www.katsu.moe).
 
 Place your blog files in structure:
 
-```
-public
-  └─blog
-  | └─section_01
-  | |   └─post_01
-  | |   |   | index.md
-  | |   |   | image01.jpg
-  | |   |   | image02.jpg
-  | |   |   | image03.jpg
-  | |   |
-  | |   └─post_02
-  | |       | index.md
-  | |       | image01.jpg
-  | |       | image02.jpg
-  | |       | image03.jpg
-  | |
-  | └─section_02
-  |     └─post_03
-  |     |   | index.md
-  |     |   | image01.jpg
-  |     |   | image02.jpg
-  |     |   | image03.jpg
-  |     |
-  |     └─ post_04
-  |         | index.md
-  |         | image01.jpg
-  |         | image02.jpg
-  |         | image03.jpg
-  └─page
-    | index.md  <-- mandatory page
-    | some_intresting_page_01.md
-    | some_intresting_page_02.md
-    | some_intresting_page_03.md
+```yaml
+blog:
+  - category1:
+    - index.json         # mandatory
+    - index.jpg          # optional, image for card
+    - post1:
+      - index.json       # mandatory
+      - index.md         # mandatory, fallback, often it's english version
+      - index_ru.md      # optional
+      - index_ua.md      # optional
+      - index.jpg        # optional, image for card
+      - images:
+        - image_01.jpg
+        - image_02.jpg
+        - image_03.jpg
+    - post2:
+      - index.json       
+      - index.md         
+      - index_ru.md
+      - index_ua.md
+      - index.jpg
+      - images:
+        - image_01.jpg
+        - image_02.jpg
+        - image_03.jpg
+  - category2:
+    - index.json          
+    - index.jpg
+    - post3:
+      - index.json       
+      - index.md
+      - index_ru.md
+      - index_ua.md
+      - index.jpg
+      - images:
+        - image_01.jpg
+        - image_02.jpg
+        - image_03.jpg
+    - post4:
+      - index.json       
+      - index.md         
+      - index_ru.md
+      - index_ua.md
+      - index.jpg
+      - images:
+        - image_01.jpg
+        - image_02.jpg
+        - image_03.jpg
+
 ```
 
-You can have some markdown pages, that are not blog posts. Place them in **public/page**.
-Also, you must create **public/page/index.md**. (Will be fixed soon)
+##### index.json Schema
+
+```json
+  {
+    "title": "string, mandatory",
+    "title_ru": "string, optional",
+    "title_ua": "string, optional",
+    "date": "string, optional"
+  }
+```
 
 ### Building
 
@@ -56,11 +78,9 @@ Also, you must create **public/page/index.md**. (Will be fixed soon)
 
 ```sh
 npm install
-```
 
-or
+# OR
 
-```sh
 yarn install
 ```
 
@@ -70,13 +90,13 @@ Application configured to have best results with docker.
 Best way for starting up is:
 
 ```sh
-yarn start:docker
+./blog run
 ```
 
 Also, if you changed docker configuration, you can ran:
 
 ```sh
-yarn start:docker:recreate
+./blog run recreate
 ```
 
 #### Build application
@@ -84,11 +104,22 @@ yarn start:docker:recreate
 You can use normal build
 
 ```sh
-yarn build
+./blog build
 ```
 
 Or if you are using [caprover](https://github.com/caprover/caprover), you can generate tar-archive with
 
 ```sh
-yarn build:prod
+./blog build prod
 ```
+
+
+### Thanks
+
+[Svelte](https://github.com/sveltejs/svelte) - used for frontend.
+
+[Showdown](https://github.com/showdownjs/showdown) - library for translation markdown to html.
+
+[Habr link](https://habr.com/ru/companies/ruvds/articles/499278/) - article about assets compression.
+
+[Github link](https://github.com/IshIvan/shakal) - scripts for assets compression.
