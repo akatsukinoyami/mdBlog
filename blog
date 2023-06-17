@@ -20,10 +20,10 @@ function build(){
   run fix_permissions
   run generate_post_tree
   run yarn build
-  run compress
 }
 function replace_archive() {
   run rm -f blog.tar.gz
+  run compress
   run tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf
 }
 
