@@ -1,8 +1,7 @@
 /node_modules/
 /public/build/*
-/public/blog/*
-/public/page/*
-src/jsons/sections.json
+blog
+sections.json
 
 blog.tar.gz
 .DS_Store
