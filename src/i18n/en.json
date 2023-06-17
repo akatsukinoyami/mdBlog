@@ -29,6 +29,7 @@
     "plural": "Image Modes",
     "notShown": "Images don't shown",
     "showLink": "Show links for images",
-    "showImg": "Show images"
+    "showThumbs": "Show expandable thumbnails",
+    "showFulls": "Show full images"
   }
 }
