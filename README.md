@@ -116,10 +116,12 @@ Or if you are using [caprover](https://github.com/caprover/caprover), you can ge
 
 ### Thanks
 
-[Svelte](https://github.com/sveltejs/svelte) - used for frontend.
+[Svelte](https://svelte.dev) [GitHub](https://github.com/sveltejs/svelte) - used for frontend.
+
+[Carbon Components Svelte](https://carbon-components-svelte.onrender.com) [GitHub](https://github.com/carbon-design-system/carbon-components-svelte) - styling framework.
+
+[Sharp](https://sharp.pixelplumbing.com) [GitHub](https://github.com/lovell/sharp) - awesome tool for image processing.
 
 [Showdown](https://github.com/showdownjs/showdown) - library for translation markdown to html.
 
-[Habr link](https://habr.com/ru/companies/ruvds/articles/499278/) - article about assets compression.
-
-[Github link](https://github.com/IshIvan/shakal) - scripts for assets compression.
+[Habr article](https://habr.com/ru/companies/ruvds/articles/499278/) [Github](https://github.com/IshIvan/shakal) - scripts for assets compression.
