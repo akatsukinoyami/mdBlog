@@ -4,27 +4,13 @@ function run() {
   echo "RUN $*\n"
   eval $*
 }
-function not_found() {
-  echo "Command not found, write `$0 help` to see avaliable commands"
-}
-function fix_permissions() { 
-  run chown -R $USER public/blog && chmod -R 744 public/blog
-}
-function generate_post_tree() { 
-  run node ./scripts/inspectMdFiles.js
-}
-function compress() {
-  run node ./scripts/compressor/index.js ./public/build
-}
 function build(){ 
-  run fix_permissions
-  run generate_post_tree
+  # fix permission of blog
+  run chown -R $USER public/blog && chmod -R 744 public/blog
+  # prepare posts 
+  run node ./scripts/preparePosts/index.js
+  # build app
   run yarn build
-}
-function replace_archive() {
-  run rm -f blog.tar.gz
-  run compress
-  run tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf
 }
 
 case $1 in
@@ -32,30 +18,39 @@ case $1 in
     run build
     case $2 in
       "prod")
-        run replace_archive
+        # delete old archive
+        run rm -f blog.tar.gz
+        
+        # compress assets
+        run node ./scripts/compressor/index.js ./public/build
+
+        # create new archive
+        run tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf
       ;;
       "*")
         not_found
       ;;
     esac
   ;;
-  "fix")
+  "f" | "fix")
     case $2 in
       "permissions")
-        run fix_permissions
+        # fix permission of blog
+        run chown -R $USER public/blog && chmod -R 744 public/blog
       ;;
       "*")
-        not_found
+        echo "Command not found, write `$0 help` to see avaliable commands"
       ;;
     esac
   ;;
   "g" | "generate")
     case $2 in
       "post_tree")
-        run generate_post_tree
+        # prepare posts 
+        run node ./scripts/preparePosts/index.js
       ;;
       "*")
-        not_found
+        echo "Command not found, write `$0 help` to see avaliable commands"
       ;;
     esac
   ;;
@@ -69,7 +64,7 @@ case $1 in
         run "docker-compose up --build --force-recreate"
       ;;
       "*")
-        not_found
+        echo "Command not found, write `$0 help` to see avaliable commands"
       ;;
     esac
   ;;
@@ -85,6 +80,6 @@ Avaliable commands:
   run recreate       - start with --build --force-recreate"
   ;;
   "*")
-    not_found
+    echo "Command not found, write `$0 help` to see avaliable commands"
   ;;
 esac
