@@ -50,6 +50,7 @@
 
   function auth(){
     post(url, { username, email, password })
+      .then((response) => response.json())
       .then(({ username, token }) => {
         $backend.setCredentials(username, token);
         navigate("/")

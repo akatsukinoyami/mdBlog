@@ -6,19 +6,19 @@ async function request(url: string, params={}, method="GET"): Promise<any> {
     const text = await response.text();
     throw new Error(text);
    };
-  return response.json();
+  return response;
 }
 
 export function get(
   url: string, 
-  params: Record<string, any>
+  params = {}
 ): Promise<any> {
   return request(url, params, "GET");
 }
 
 export function post( 
   url: string, 
-  params: Record<string, any> 
+  params = {}
 ): Promise<any> {
   return request(url, params, "POST");
 }
