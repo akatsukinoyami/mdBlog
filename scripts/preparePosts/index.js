@@ -8,7 +8,7 @@ const treePath = "./public/blog";
 const filePath = "./src/jsons/sections.json";
 
 fs.rmSync(treePath, {recursive: true})
-fs.cpSync("./blog", treePath, {recursive: true});
+fs.cpSync("../blog", treePath, {recursive: true});
 
 const tree = dirTree(treePath);
 const sections = handlePosts(tree.children);
