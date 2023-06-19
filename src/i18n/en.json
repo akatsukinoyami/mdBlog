@@ -7,9 +7,21 @@
   "links": "Links",
   "wait": "Please wait, post fetching...",
   "auth": {
-    "sign_up": "Sign Up",
-    "sign_in": "Sign In",
-    "sign_out": "Sign Out"
+    "noun": {
+      "sign_up": "Sign Up",
+      "sign_in": "Sign In",
+      "sign_out": "Sign Out"
+    },
+    "action": {
+      "sign_up": "Sign Up",
+      "sign_in": "Sign In",
+      "sign_out": "Sign Out"
+    },
+    "field": {
+      "username": "Username",
+      "email": "Email",
+      "password": "Password"
+    }
   },
   "theme": {
     "singular": "Theme",
