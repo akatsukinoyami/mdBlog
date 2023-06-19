@@ -1,93 +1,56 @@
 #! /bin/sh
 
-function run() { 
-  echo "RUN $*\n"
-  eval $*
-}
+function run() {                        echo "RUN $*\n"; eval $*; }
+function not_found() {                  echo "Command not found, write '$0 help' to see avaliable commands"; }
+function preparing_posts_to_be_shown(){ run node ./scripts/preparePosts/index.js; }
+function fixing_permissions_of_posts(){ run chown -R $USER public/blog && chmod -R 744 public/blog; }
+function building_app() {               run yarn build; }
+function deleting_old_archive() {       run rm -f blog.tar.gz; }
+function compressing_assets() {         run node ./scripts/compressor/index.js ./public/build; }
+function creating_new_archive() {       run tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf; }
 function build_with_post_chages(){ 
-  # fix permission of blog
-  run chown -R $USER public/blog && chmod -R 744 public/blog
-  # prepare posts 
-  run node ./scripts/preparePosts/index.js
-  # build app
-  run yarn build
+  run preparing_posts_to_be_shown
+  run fixing_permissions_of_posts
+  run building_app
+}
+function build_prod() {
+  run build_with_post_chages
+  run deleting_old_archive
+  run compressing_assets
+  run creating_new_archive
 }
 
 case $1 in
-  "b" | "build")
-    case $2 in
-      "")
-        # build app
-        run yarn build
-      ;;
-      "prod")
-        run build_with_post_chages
-
-        # delete old archive
-        run rm -f blog.tar.gz
-        
-        # compress assets
-        run node ./scripts/compressor/index.js ./public/build
-
-        # create new archive
-        run tar czf blog.tar.gz public captain-definition Dockerfile nginx.conf
-      ;;
-      "with_posts")
-        run build_with_post_chages
-      ;;
-      "*")
-        not_found
-      ;;
-    esac
-  ;;
-  "f" | "fix")
-    case $2 in
-      "permissions")
-        # fix permission of blog
-        run chown -R $USER public/blog && chmod -R 744 public/blog
-      ;;
-      "*")
-        echo "Command not found, write `$0 help` to see avaliable commands"
-      ;;
-    esac
-  ;;
-  "g" | "generate")
-    case $2 in
-      "post_tree")
-        # prepare posts 
-        run node ./scripts/preparePosts/index.js
-      ;;
-      "*")
-        echo "Command not found, write `$0 help` to see avaliable commands"
-      ;;
-    esac
-  ;;
-  "r" | "run")
-    build
-    case $2 in
-      "")
-        run "docker-compose up"
-      ;;
-      "recreate")
-        run "docker-compose up --build --force-recreate"
-      ;;
-      "*")
-        echo "Command not found, write `$0 help` to see avaliable commands"
-      ;;
-    esac
-  ;;
-  "help")
-    echo "
-Avaliable commands:
+  "b" | "build") case $2 in
+    "")             run building_app;;
+    "prod")         run build_prod;;
+    "with_posts")   run build_with_post_chages;;      
+    *)              not_found;;
+  esac ;;
+  "f" | "fix") case $2 in
+    "permissions")  run fixing_permissions_of_posts;;
+    *)              not_found;;
+  esac ;;
+  "g" | "generate") case $2 in
+    "post_tree")    run preparing_posts_to_be_shown;;
+    *)              not_found;;
+  esac ;;
+  "r" | "run") case $2 in
+    "")             build_with_post_chages; run "docker-compose up";;
+    "recreate")     build_with_post_chages; run "docker-compose up --build --force-recreate";;
+    *)              not_found;;
+  esac ;;
+  "h" | "help")
+    echo "Avaliable commands:
 
   b, build              - build application
   b, build prod         - build application in tar.gz for usage in caprover
+  b, build with_posts   - build application and update posts from blog folder
   f, fix permissions    - fix permissions on public folder
-  g, generate post_tree - start script for fetching data about posts
+  g, generate post_tree - run script that prepare posts to be shown
   r, run                - start application in docker
-  r, run recreate       - start with --build --force-recreate"
+  r, run recreate       - start with --build --force-recreate
+  h, help               - show this help"
   ;;
-  "*")
-    echo "Command not found, write `$0 help` to see avaliable commands"
-  ;;
+  *) not_found;;
 esac
