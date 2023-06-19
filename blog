@@ -72,12 +72,12 @@ case $1 in
     echo "
 Avaliable commands:
 
-  build              - build application
-  build prod         - build application in tar.gz for usage in caprover
-  fix permissions    - fix permissions on public folder
-  generate post_tree - start script for fetching data about posts
-  run / r            - start application in docker
-  run recreate       - start with --build --force-recreate"
+  b, build              - build application
+  b, build prod         - build application in tar.gz for usage in caprover
+  f, fix permissions    - fix permissions on public folder
+  g, generate post_tree - start script for fetching data about posts
+  r, run                - start application in docker
+  r, run recreate       - start with --build --force-recreate"
   ;;
   "*")
     echo "Command not found, write `$0 help` to see avaliable commands"
