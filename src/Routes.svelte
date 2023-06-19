@@ -1,22 +1,16 @@
 <script lang="ts">
   import { Tile }   from "carbon-components-svelte";
-	import { Route }  from "svelte-navigator";
 
   import Title      from "./components/Partials/Title.svelte";
-  import Index      from "./components/Blog/Index.svelte";
-  import Section    from "./components/Blog/Section.svelte";
-  import Post       from "./components/Blog/Post.svelte";
+  import Auth       from "./components/Auth/Index.svelte";
+  import Blog       from "./components/Blog/Index.svelte";
 </script>
 
 <section>
   <Title />
   <Tile>
-    <Route path="blog/*">
-      <Route path=":sectionName/:postName" component={Post} />
-      <Route path=":sectionName/" component={Section} />
-    </Route>
-
-    <Route component={Index} />
+    <Auth/>
+    <Blog/>
   </Tile>
 </section>
 

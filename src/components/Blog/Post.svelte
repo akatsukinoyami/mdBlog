@@ -4,7 +4,7 @@
   
   import HtmlParser from "../Partials/HtmlParser.svelte";
   import i18n from "../../i18n";
-  import { lang } from "../../stores";
+  import { lang } from "../../stores/index";
   import parseMarkdown from "../../markdown.parser";
   import sectionsWithoutType from "../../jsons/sections.json";
   import { tTitle, updateTitle } from "../../functions";
