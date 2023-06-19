@@ -1,5 +1,4 @@
 {
-  "domain": "www.katsu.moe",
   "mainTitle": "Katsu's Nikki",
   "fallbackDescription": "Small private blog of Katsu Dev.",
   "pages": "Pages",
@@ -7,6 +6,11 @@
   "external": "External",
   "links": "Links",
   "wait": "Please wait, post fetching...",
+  "auth": {
+    "sign_up": "Sign Up",
+    "sign_in": "Sign In",
+    "sign_out": "Sign Out"
+  },
   "theme": {
     "singular": "Theme",
     "plural": "Themes",
