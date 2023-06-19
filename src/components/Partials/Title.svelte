@@ -1,6 +1,6 @@
 <script lang="ts">
   import i18n from "../../i18n";
-  import { title, lang } from "../../stores";
+  import { title, lang } from "../../stores/index";
 
   $: t = i18n($lang);
   $: tabTitle = $title == t.mainTitle ? t.mainTitle : `${$title} | ${t.mainTitle}`;
