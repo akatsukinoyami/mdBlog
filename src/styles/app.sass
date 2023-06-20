@@ -3,8 +3,26 @@
   --card-plate: rgba(0, 0, 0, 0.6)
   --content-width: 1200px
 
+:global(table)
+  width: 100%
+:global(th),
+:global(td)
+  padding: 10px !important
+
+:global(img)
+  max-width: 800px !important
+
 :global(.border-none)
   border: none !important
+
+:global(.mb-1)
+  margin-bottom: 10px
+
+:global(.mt-1)
+  margin-top: 10px
+
+:global(.w-100)
+  width: 100%
 
 :global(.text-capitalize)
   text-transform: capitalize !important
@@ -15,42 +33,11 @@
 :global(.rounded-3)
   border-radius: 3px !important
 
-:global(.card)
-  display: block
-  height: 100%
-  transition: 0.6s
-  transition: all .3s ease-out 0s
-  background-position: center center
-  background-repeat: no-repeat no-repeat
-  background-size: cover
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
-  position: relative
-
 :global(.fw-bold)
   font-weight: 700 !important
-
-:global(.plate-parent)
-  display: block
-  height: 100%
-  position: relative    
-  background-position: center center
-  background-repeat: no-repeat no-repeat
-  background-size: cover
-
-:global(.plate-text)
-  width: 80%
-
-  bottom: 10px
-  left: 50%
-  position: absolute
-  transform: translate(-50%, 0)
-  text-align: center
-
-  color: var(--card-text)
-  background-color: var(--card-plate)
 
 :global(.noscroll)
   overflow: hidden !important
 
-:global(a)
+:global(.body_link)
   color: #1e90ff
