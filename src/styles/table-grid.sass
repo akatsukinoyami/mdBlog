@@ -1,0 +1,19 @@
+@import "./breakpoints"
+	
+:global(table),
+:global(thead),
+:global(tbody)
+	width: 100%
+
+:global(tr)
+	display: grid !important
+	@media (max-width: $sm)
+		grid-template-columns: 1fr
+
+	@media (min-width: $sm)
+		grid-template-columns: repeat(auto-fill, 33.3%)
+
+:global(th),
+:global(td)
+	display: block !important
+	padding: 10px !important

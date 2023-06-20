@@ -31,4 +31,5 @@
 
 <style lang="sass">
   @use "styles/app"
+  @use "styles/table-grid"
 </style>
