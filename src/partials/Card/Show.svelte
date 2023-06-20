@@ -19,15 +19,13 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<Column sm={10} md={4} max={5} aspectRatio={"16x9"}>
-  <a
-    href="/blog/{link}"
-    class="card plate-parent rounded-3"
-    style={style}
-  >
-    <h4 class="plate-text rounded-3 fw-bold">{cardName}</h4>
-  </a>
-</Column>
+<a
+  href="/blog/{link}"
+  class="card plate-parent rounded-3"
+  style={style}
+>
+  <h4 class="plate-text rounded-3 fw-bold">{cardName}</h4>
+</a>
 
 <style lang="sass">
   .card
@@ -41,4 +39,25 @@
       transform: scale(1.03)
       transition: all .15s ease-out 0s
       cursor: pointer
+  
+.plate-
+  &parent
+    display: block
+    height: 100%
+    position: relative    
+    background-position: center center
+    background-repeat: no-repeat no-repeat
+    background-size: cover
+
+  &text
+    width: 80%
+
+    bottom: 10px
+    left: 50%
+    position: absolute
+    transform: translate(-50%, 0)
+    text-align: center
+
+    color: var(--card-text)
+    background-color: var(--card-plate)
 </style>
