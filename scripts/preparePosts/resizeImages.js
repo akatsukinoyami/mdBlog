@@ -11,7 +11,7 @@ function resizeImages(images) {
   images.forEach((image) => {
     if (image.name.match(/\.(jpe?g|png|webp)/i)) {
       sharp(image.path)
-        .resize(600)
+        .resize(480, 480)
         .toFile(image.path.replace('images', 'thumbs'))
     }
   });
