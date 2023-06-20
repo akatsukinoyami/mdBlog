@@ -1,8 +1,8 @@
 <script lang="ts">
   import { Column } from "carbon-components-svelte";
-  import { setTitle } from "../functions";
-  import { imgMode, lang } from "../stores/settings";
-  import type { DirectoryTreeFile } from "../types/directory.tree.file";
+  import { setTitle } from "../../functions";
+  import { imgMode, lang } from "../../stores/settings";
+  import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
   export let
     link: string,

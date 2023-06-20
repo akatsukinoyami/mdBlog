@@ -1,7 +1,8 @@
 <script lang="ts">
   import { useParams } from "svelte-navigator";
+
+  import CardIndex from "../../partials/Card/Index.svelte";
   
-  import CardCollection from "../../partials/CardCollection.svelte";
   import { setTitle, updateTitle } from "../../functions";
   import sections from "../../jsons/sections.json";
   import { lang } from "../../stores/settings";
@@ -14,7 +15,7 @@
   $: setTitle(section, $lang, updateTitle)
 </script>
 
-<CardCollection 
+<CardIndex 
   cards={ section.children } 
   linkPrepare={ (card) => `${section.name}/${card.name}` }
 />
