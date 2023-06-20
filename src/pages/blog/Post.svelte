@@ -3,6 +3,7 @@
   import { ProgressBar } from "carbon-components-svelte";
   
   import HtmlParser from "../../partials/HtmlParser.svelte";
+  import Comments from "../../partials/Comment/Index.svelte";
   
   import i18n from "../../i18n";
   import { lang } from "../../stores/settings";
@@ -16,7 +17,8 @@
 
   export let 
     sectionName = $params.sectionName,
-    postName = $params.postName;
+    postName = $params.postName,
+    showComments = true;
   
   const link: string = `/blog/${sectionName}/${postName}`;
 
@@ -50,3 +52,7 @@
 {:catch exc}
   <ProgressBar value={0} status="error" labelText="Error" helperText={exc} />
 {/await}
+
+{#if showComments}
+  <Comments />
+{/if}
