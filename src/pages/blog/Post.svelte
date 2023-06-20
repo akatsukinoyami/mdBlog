@@ -2,12 +2,13 @@
   import { useParams } from "svelte-navigator";
   import { ProgressBar } from "carbon-components-svelte";
   
-  import HtmlParser from "../Partials/HtmlParser.svelte";
+  import HtmlParser from "../../partials/HtmlParser.svelte";
+  
   import i18n from "../../i18n";
-  import { lang } from "../../stores/index";
-  import parseMarkdown from "../../markdown.parser";
+  import { lang } from "../../stores/settings";
+  import { setTitle, updateTitle } from "../../functions";
+  import parseMarkdown from "../../functions/markdown.parser";
   import sectionsWithoutType from "../../jsons/sections.json";
-  import { tTitle, updateTitle } from "../../functions";
   import type { DirectoryTreeFile } from "../../types/directory.tree.file";
 
   const params = useParams();
@@ -37,7 +38,7 @@
       .children
       .find(({ name }) => name === postName);
 
-    tTitle(post, $lang, updateTitle);
+    setTitle(post, $lang, updateTitle);
   }
 
 </script>

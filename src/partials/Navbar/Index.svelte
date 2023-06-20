@@ -8,8 +8,8 @@
   import Auth from "./Auth.svelte";
   import Links from "./Links.svelte";
   import Settings from "./Settings.svelte";
-  import i18n from "../../../i18n";
-  import { lang } from "../../../stores/index";
+  import i18n from "../../i18n";
+  import { lang } from "../../stores/settings";
   
   let isSideNavOpen = false;
 

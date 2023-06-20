@@ -1,10 +1,15 @@
 <script lang="ts">
-  import { HeaderAction, HeaderPanelDivider, HeaderPanelLink, HeaderPanelLinks } from "carbon-components-svelte";
+  import { 
+    HeaderAction, 
+    HeaderPanelDivider, 
+    HeaderPanelLink, 
+    HeaderPanelLinks 
+  } from "carbon-components-svelte";
   import { Close, Link } from "carbon-icons-svelte";
 
-  import linksJson from "../../../jsons/links.json";
-  import i18n from "../../../i18n";
-  import { lang } from "../../../stores/index";
+  import linksJson from "../../jsons/links.json";
+  import i18n from "../../i18n";
+  import { lang } from "../../stores/settings";
 
   let isOpen = false;
 

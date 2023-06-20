@@ -3,9 +3,9 @@
   import { HeaderGlobalAction } from "carbon-components-svelte";
   import { navigate } from "svelte-navigator";
 
-  import i18n from "../../../i18n";
-  import { lang } from "../../../stores/index";
-  import { backend } from "../../../stores/backend";
+  import i18n from "../../i18n";
+  import { lang } from "../../stores/settings";
+  import { backend } from "../../stores/backend";
 
   $: t = i18n($lang);
   $: authable = $backend.avaliable

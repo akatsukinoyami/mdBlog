@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Grid, Row } from "carbon-components-svelte";
   import Card from "./Card.svelte";
-  import type { DirectoryTreeFile } from "../../types/directory.tree.file";
+  import type { DirectoryTreeFile } from "../types/directory.tree.file";
 
   export let 
     cards: DirectoryTreeFile[],

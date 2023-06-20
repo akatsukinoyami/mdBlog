@@ -3,8 +3,8 @@
   import { HeaderAction, HeaderPanelLinks } from "carbon-components-svelte";
 
   import NavbarSetting from "./Setting.svelte";
-  import i18n from "../../../i18n";
-  import { imgMode, imgModes, lang, langs, theme, themes } from "../../../stores/index";
+  import i18n from "../../i18n";
+  import { imgMode, imgModes, lang, langs, theme, themes } from "../../stores/settings";
 
   let isOpen = false;
   $: t = i18n($lang);

@@ -2,12 +2,12 @@
 	import { Router, links } from "svelte-navigator";
   import { LocalStorage } from 'carbon-components-svelte';
 
-  import Routes from './Routes.svelte';
-  import Navbar from './components/Partials/Navbar/Index.svelte';
-  import BackToTop from "./components/Partials/BackToTop.svelte";
-  import ImageModal from "./components/Partials/Modal/Image.svelte";
+  import Routes from './pages/Index.svelte';
+  import Navbar from './partials/Navbar/Index.svelte';
+  import BackToTop from "./partials/BackToTop.svelte";
+  import ImageModal from "./partials/Modal/Image.svelte";
   import { backend } from "./stores/backend";
-  import { theme, lang, imgMode } from "./stores/index";
+  import { theme, lang, imgMode } from "./stores/settings";
 
   $: document.documentElement.setAttribute("theme", $theme);
   

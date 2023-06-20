@@ -2,7 +2,7 @@
   import { Button, PasswordInput, TextInput, Tile } from "carbon-components-svelte";
   import { updateTitle } from "../../functions";
   import i18n from "../../i18n";
-  import { lang } from "../../stores/index";
+  import { lang } from "../../stores/settings";
   import { backend } from "../../stores/backend";
   import { post } from "../../functions/requests";
   import { navigate } from "svelte-navigator";
@@ -25,28 +25,18 @@
     updateTitle(t.auth.noun[action])
     url = $backend.path(`/auth/${action}`)
   }
-
-  $: props = {
-    username: {
-      labelText: t.auth.field.username,
-      placeholder: t.auth.field.username,
-      invalid: !!errors?.username,
-      invalidText: errors?.username?.join(". ")
-    },
-    email: {
-      type: "email", 
-      labelText: t.auth.field.email,
-      placeholder: t.auth.field.email,
-      invalid: !!errors?.email,
-      invalidText: errors?.email?.join(". ")
-    },
-    password: { 
-      labelText: t.auth.field.password,
-      placeholder: t.auth.field.password,
-      invalid: !!errors?.password,
-      invalidText: errors?.password?.join(". ")
-    }
-  }
+  
+  type prop = Record<string, string | boolean>;
+  type props = Record<string,prop>;
+  const props: props = {};
+  $: ['username', 'email', 'password'].forEach(field => {
+    props[field] = {
+      labelText: t.auth.field[field],
+      placeholder: t.auth.field[field],
+      invalid: !!errors?.[field],
+      invalidText: errors?.[field]?.join(". ")
+    };
+  });
 
   function auth(){
     post(url, { username, email, password })

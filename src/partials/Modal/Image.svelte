@@ -1,9 +1,9 @@
 <script lang="ts">
   import { Button } from "carbon-components-svelte";
   import { ChevronLeft, ChevronRight } from "carbon-icons-svelte";
-  import Modal from "./Index.svelte";
 
-  import { modalAlt, modalImage } from "../../../stores/index";
+  import Modal from "./Index.svelte";
+  import { modalAlt, modalImage } from "../../stores/index";
 
   const ops = {
     images: [],

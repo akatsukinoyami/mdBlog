@@ -2,8 +2,10 @@
   import { Button, ImageLoader } from "carbon-components-svelte";
   import { Jpg, Gif, Png, Svg } from "carbon-icons-svelte";
 
-  import { lang, modalImage, modalAlt, imgMode } from "../../stores/index";
-  import i18n from "../../i18n";
+  import { lang, imgMode } from "../stores/settings";
+  import { modalImage, modalAlt } from "../stores/index";
+
+  import i18n from "../i18n";
 
   export let src: string, alt = "";
   
