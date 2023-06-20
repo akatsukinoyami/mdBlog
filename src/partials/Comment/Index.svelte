@@ -1,6 +1,6 @@
 <script lang="ts">
   import { ExpandableTile } from "carbon-components-svelte";
-import Comment from "./Show.svelte";
+  import Comment from "./Show.svelte";
 
   const comments = [
     { user: { username: "username1" }, created_at: "created_at", content: "content1" },
