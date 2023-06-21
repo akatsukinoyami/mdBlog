@@ -7,6 +7,7 @@
   
   import i18n from "../../i18n";
   import { lang } from "../../stores/settings";
+  import { backend } from "../../stores/backend";
   import { setTitle, updateTitle } from "../../functions";
   import parseMarkdown from "../../functions/markdown.parser";
   import sectionsWithoutType from "../../jsons/sections.json";
@@ -34,6 +35,7 @@
 
   $: t = i18n($lang);
   $: postPromise = fetchPost($lang);
+  $: authable = $backend.avaliable
   $: {
     const post = sections
       .find(({ name }) => name === sectionName)
@@ -53,6 +55,6 @@
   <ProgressBar value={0} status="error" labelText="Error" helperText={exc} />
 {/await}
 
-{#if showComments}
+{#if authable && showComments}
   <Comments />
 {/if}

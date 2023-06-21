@@ -25,7 +25,7 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<figure class="text-center" on:click={openModal} data-src={src}>
+<figure class="text-center w-100 mb-1" on:click={openModal}>
   {#if mode === "showFulls"}
     <ImageLoader src={src} alt={alt} class="rounded-3 modalable" />
   {/if}
