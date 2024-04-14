@@ -6,23 +6,6 @@
   "external": "External",
   "links": "Links",
   "wait": "Please wait, post fetching...",
-  "auth": {
-    "noun": {
-      "sign_up": "Sign Up",
-      "sign_in": "Sign In",
-      "sign_out": "Sign Out"
-    },
-    "action": {
-      "sign_up": "Sign Up",
-      "sign_in": "Sign In",
-      "sign_out": "Sign Out"
-    },
-    "field": {
-      "username": "Username",
-      "email": "Email",
-      "password": "Password"
-    }
-  },
   "theme": {
     "singular": "Theme",
     "plural": "Themes",
@@ -47,5 +30,18 @@
     "showLink": "Show links for images",
     "showThumbs": "Show expandable thumbnails",
     "showFulls": "Show full images"
+  },
+  "project": {
+    "singular": "Project",
+    "plural": "Projects",
+    "map": "Travel Map",
+    "telegram": "Telegram Channels",
+    "nikki": "Katsu Diary",
+    "travel": "Katsu Travel"
+  },
+  "game": {
+    "singular": "Game",
+    "plural": "Games",
+    "tictactoe": "Tic-Tac-Toe"
   }
 }

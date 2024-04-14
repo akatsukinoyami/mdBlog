@@ -11,64 +11,73 @@ You can try example on [katsu.moe](https://www.katsu.moe).
 Place your blog files in structure:
 
 ```yaml
+
+# index.json mandatory file for every entity
 blog:
-  - category1:
-    - index.json         # mandatory
-    - index.jpg          # optional, image for card
+  - index.json   
+
+   # root page in different languages       
+  - index_en.md         
+  - index_ru.md      
+  - index_ua.md       
+
+  # Section with children posts
+  - category1:          
+    - index.json         
+    - index.jpg          
     - post1:
-      - index.json       # mandatory
-      - index.md         # mandatory, fallback, often it's english version
-      - index_ru.md      # optional
-      - index_ua.md      # optional
-      - index.jpg        # optional, image for card
-      - images:
-        - image_01.jpg
-        - image_02.jpg
-        - image_03.jpg
-    - post2:
       - index.json       
-      - index.md         
-      - index_ru.md
-      - index_ua.md
-      - index.jpg
-      - images:
-        - image_01.jpg
-        - image_02.jpg
-        - image_03.jpg
-  - category2:
-    - index.json          
-    - index.jpg
-    - post3:
-      - index.json       
-      - index.md
-      - index_ru.md
-      - index_ua.md
-      - index.jpg
-      - images:
-        - image_01.jpg
-        - image_02.jpg
-        - image_03.jpg
-    - post4:
-      - index.json       
-      - index.md         
-      - index_ru.md
-      - index_ua.md
-      - index.jpg
+      - index_en.md      
+      - index_ru.md      
+      - index_ua.md      
+      - index.jpg        
       - images:
         - image_01.jpg
         - image_02.jpg
         - image_03.jpg
 
+  # Section that have post in itself and children posts
+  - category2:          
+    - index.json         
+    - index.jpg          
+    - index_en.md      
+    - index_ru.md      
+    - index_ua.md 
+    - post2:
+      - index.json       
+      - index_en.md      
+      - index_ru.md      
+      - index_ua.md      
+      - index.jpg        
+      - images:
+        - image_01.jpg
+        - image_02.jpg
+        - image_03.jpg
+
+  # Post in the root of blog
+  - post3:
+    - index.json       
+    - index_en.md      
+    - index_ru.md      
+    - index_ua.md      
+    - index.jpg        
+    - images:
+      - image_01.jpg
+      - image_02.jpg
+      - image_03.jpg
 ```
 
 ##### index.json Schema
 
 ```json
   {
-    "title": "string, mandatory",
-    "title_ru": "string, optional",
-    "title_ua": "string, optional",
-    "date": "string, optional"
+    "title": {
+      "en": "string",
+      "ru": "string",
+      "ua": "string"
+    },
+    "post": "boolean", // true if have "index_{en, ru, ua}.md"
+    "date": "string"
   }
 ```
 
@@ -77,26 +86,15 @@ blog:
 #### Install dependencies
 
 ```sh
-npm install
-
-# OR
-
-yarn install
+yarn
 ```
 
 #### Starting up
 
-Application configured to have best results with docker.
-Best way for starting up is:
+For local startup use:
 
 ```sh
-./blog run
-```
-
-Also, if you changed docker configuration, you can ran:
-
-```sh
-./blog run recreate
+yarn dev 
 ```
 
 #### Build application
@@ -104,15 +102,14 @@ Also, if you changed docker configuration, you can ran:
 You can use normal build
 
 ```sh
-./blog build
+yarn build
 ```
 
 Or if you are using [caprover](https://github.com/caprover/caprover), you can generate tar-archive with
 
 ```sh
-./blog build prod
+yarn caprover:build
 ```
-
 
 ### Thanks
 
@@ -123,5 +120,3 @@ Or if you are using [caprover](https://github.com/caprover/caprover), you can ge
 [Sharp](https://sharp.pixelplumbing.com) [GitHub](https://github.com/lovell/sharp) - awesome tool for image processing.
 
 [Showdown](https://github.com/showdownjs/showdown) - library for translation markdown to html.
-
-[Habr article](https://habr.com/ru/companies/ruvds/articles/499278/) [Github](https://github.com/IshIvan/shakal) - scripts for assets compression.
