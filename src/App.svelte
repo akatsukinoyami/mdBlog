@@ -2,10 +2,11 @@
 	import { Route, Router, links } from "svelte-navigator";
   import { LocalStorage, Tile } from 'carbon-components-svelte';
 
+  import "./app.css";
   import BlogPage from "./pages/BlogPage.svelte";
   import TicTacToe from "./pages/game/tictactoe/Index.svelte";
 
-  import Navbar from './components/Navbar/Index.svelte';
+  import Navbar from './lib/navbar.svelte';
   import BackToTop from "./components/BackToTop.svelte";
   import ImageModal from "./components/Modal/Image.svelte";
 
