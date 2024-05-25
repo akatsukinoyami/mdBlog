@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import YAML from "yaml";
 import sharp from "sharp";
 
 const image = /images\/.+?\.(jpe?g|gif|png|webp)/
@@ -17,7 +18,7 @@ async function handleJson(filepath) {
   } catch(error) { 
     console.error(error)
   } finally {
-    await fs.promises.writeFile(dist(filepath), JSON.stringify(data));
+    await fs.promises.writeFile(dist(filepath).replace('.json', '.yaml'), YAML.stringify(data));
   }
 }
 async function handlePost(filepath, json) {
