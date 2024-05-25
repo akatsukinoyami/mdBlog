@@ -16,7 +16,7 @@
     },
 
     getCurrentImageIndex(): void {
-      const condition = ({ src }) => src.includes($modalImage);
+      const condition = ({ src }: HTMLImageElement) => src.includes($modalImage);
       const currentImage = this.images.find(condition);
       this.currentImageIndex = this.images.indexOf(currentImage);
     },
@@ -40,7 +40,7 @@
     }
   }
 
-  function handleKeydown({ key }) {
+  function handleKeydown({ key }: KeyboardEvent) {
     if (!$modalImage) return;
     ["ArrowDown", "ArrowRight"].includes(key) && ops.changeImage(1);
     ["ArrowUp", "ArrowLeft"].includes(key) && ops.changeImage(-1);

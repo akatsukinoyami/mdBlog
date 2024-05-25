@@ -20,12 +20,6 @@
   
   $: html = parseMarkdown(post.text[$lang]);
 
-  $: console.log({ 
-    title: post.title[$lang],
-    md: post.text[$lang],
-    html,
-  })
-
   function fixImage(src: string): string {
     return `${path}/${src}`.replace("index/", "");
   }

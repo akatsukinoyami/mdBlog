@@ -7,7 +7,7 @@
     closeModalCallback: () => void;
 
 
-  function handleKeydown({ key }) {
+  function handleKeydown({ key }: KeyboardEvent) {
     if (!show) return;
     if (["Escape"].includes(key)) closeModalCallback;
 	}
@@ -21,6 +21,7 @@
   <slot name="before"/>
 
   <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div class="modal-background" on:click={ closeModalCallback }>
     <slot name="modal"/>
   </div>
