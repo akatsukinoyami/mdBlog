@@ -2,8 +2,8 @@
   import { Close, SettingsAdjust } from "carbon-icons-svelte";
   import { HeaderAction, HeaderPanelLinks } from "carbon-components-svelte";
 
-  import NavbarSetting from "./Setting.svelte";
   import { i18n, imgMode, imgModes, lang, langs, theme, themes } from "../../stores";
+  import NavbarSetting from "./Setting.svelte";
 
   let isOpen = false;
 </script>

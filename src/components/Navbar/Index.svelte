@@ -5,9 +5,9 @@
     SkipToContent,
   } from "carbon-components-svelte";
 
+  import { i18n } from "../../stores";
   import Links from "./Links.svelte";
   import Settings from "./Settings.svelte";
-  import { i18n } from "../../stores";
   
   let isSideNavOpen = false;
 </script>

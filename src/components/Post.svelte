@@ -11,8 +11,9 @@
   } from "carbon-components-svelte";
   import { lang } from "../stores";
   import parseMarkdown from "../utils/markdown.parser";
-  import type { Entity } from "../types";
   import Image from "./Image.svelte";
+  
+  import type { Entity } from "../types";
 
   export let 
     post: Entity, 

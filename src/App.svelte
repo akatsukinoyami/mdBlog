@@ -4,6 +4,7 @@
 
   import BlogPage from "./pages/BlogPage.svelte";
   import TicTacToe from "./pages/game/tictactoe/Index.svelte";
+  import GameOfAnts from "./pages/game/GameOfAnts.svelte";
 
   import Navbar from './components/Navbar/Index.svelte';
   import BackToTop from "./components/BackToTop.svelte";
@@ -20,7 +21,10 @@
 
     <section>
       <Tile>
-        <Route path="game/tictactoe" component={TicTacToe} />
+        <Route path="game/*">
+          <Route path="tictactoe" component={TicTacToe} />
+          <Route path="game-of-ants" component={GameOfAnts} />
+        </Route>
         <Route component={BlogPage} />
       </Tile>
     </section>
