@@ -1,0 +1,4 @@
+{
+  "game": ["tictactoe", "gameofants", "gameoflife"],
+  "tool": ["pdftools"]
+}

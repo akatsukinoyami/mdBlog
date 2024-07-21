@@ -4,6 +4,7 @@
   "pages": "Странички",
   "myResources": "Мои Проекты",
   "external": "Внешние",
+  "error": "Ошибка",
   "links": "Ссылки",
   "wait": "Пожалуйста, подождите, пост загружается...",
   "theme": {
@@ -42,6 +43,26 @@
   "game": {
     "singular": "Игра",
     "plural": "Игры",
-    "tictactoe": "Крестики-Нолики"
+    "tictactoe": "Крестики-Нолики",
+    "gameofants": "Жизнь муравьев",
+    "gameoflife": "Игра в Жизнь"
+  },
+  "tool": {
+    "singular": "Инструмент",
+    "plural": "Инструменты",
+    "pdftools": "PDFTools",
+    "zip_to_pdf": "ZIP в PDF",
+    "pics_to_pdf": "Картинки в PDF",
+    "urls_to_pdf": "Ссылки в PDF"
+  },
+  "button": {
+    "add_zip": "Добавить ZIP архив",
+    "add_pic": "Добавить изображения",
+    "add_url": "Добавить ссылку",
+    "filename": "Имя файла",
+    "start_conversion": "Начать конвертацию",
+    "up": "Вверх",
+    "down": "Вниз",
+    "delete": "Удалить"
   }
 }

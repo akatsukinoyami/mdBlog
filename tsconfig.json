@@ -15,6 +15,6 @@
     "checkJs": true,
     "isolatedModules": true
   },
-  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "public/blob-stream.js", "public/pdfkit.standalone.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

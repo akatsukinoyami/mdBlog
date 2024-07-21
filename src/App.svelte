@@ -2,14 +2,8 @@
 	import { Route, Router, links } from "svelte-navigator";
   import { LocalStorage, Tile } from 'carbon-components-svelte';
 
-  import BlogPage from "./pages/BlogPage.svelte";
-  import TicTacToe from "./pages/game/tictactoe/Index.svelte";
-  import GameOfAnts from "./pages/game/GameOfAnts.svelte";
-
-  import Navbar from './components/Navbar/Index.svelte';
-  import BackToTop from "./components/BackToTop.svelte";
-  import ImageModal from "./components/Modal/Image.svelte";
-
+  import { BlogPage, TicTacToe, GameOfAnts, GameOfLife, PDFTools } from "./pages";
+  import { Navbar, BackToTop, ImageModal } from './components';
   import { theme, lang, imgMode } from "./stores";
 
   $: document.documentElement.setAttribute("theme", $theme);
@@ -23,7 +17,11 @@
       <Tile>
         <Route path="game/*">
           <Route path="tictactoe" component={TicTacToe} />
-          <Route path="game-of-ants" component={GameOfAnts} />
+          <Route path="gameofants" component={GameOfAnts} />
+          <Route path="gameoflife" component={GameOfLife} />
+        </Route>
+        <Route path="tool/*">
+          <Route path="pdftools" component={PDFTools} />
         </Route>
         <Route component={BlogPage} />
       </Tile>

@@ -4,6 +4,7 @@
   "pages": "Pages",
   "myResources": "My Resources",
   "external": "External",
+  "error": "Error",
   "links": "Links",
   "wait": "Please wait, post fetching...",
   "theme": {
@@ -42,6 +43,26 @@
   "game": {
     "singular": "Game",
     "plural": "Games",
-    "tictactoe": "Tic-Tac-Toe"
+    "tictactoe": "Tic-Tac-Toe",
+    "gameofants": "Life of Ants",
+    "gameoflife": "Life of Life"
+  },
+  "tool": {
+    "singular": "Tool",
+    "plural": "Tools",
+    "pdftools": "PDFTools",
+    "zip_to_pdf": "ZIP to PDF",
+    "pics_to_pdf": "Pics to PDF",
+    "urls_to_pdf": "Pic URLs to PDF"
+  },
+  "button": {
+    "add_zip": "Add ZIP files",
+    "add_pic": "Add images",
+    "add_url": "Add url",
+    "filename": "Filename",
+    "start_conversion": "Start conversion",
+    "up": "Up",
+    "down": "Down",
+    "delete": "Delete"
   }
 }

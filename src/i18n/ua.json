@@ -4,6 +4,7 @@
   "pages": "Сторінки",
   "myResources": "Мої Проекти",
   "external": "Зовнішні",
+  "error": "Помилка",
   "links": "Посилання",
   "wait": "Будь ласка, зачекайте, пост завантажується...",
   "theme": {
@@ -42,7 +43,27 @@
   "game": {
     "singular": "Гра",
     "plural": "Ігри",
-    "tictactoe": "Хрестики-нолики"
+    "tictactoe": "Хрестики-нолики",
+    "gameofants": "Життя мурах",
+    "gameoflife": "Гра в життя"
+  },
+  "tool": {
+    "singular": "Інструмент",
+    "plural": "Інструменти",
+    "pdftools": "PDFTools",
+    "zip_to_pdf": "ZIP в PDF",
+    "pics_to_pdf": "Зображення в PDF",
+    "urls_to_pdf": "Посилання в PDF"
+  },
+  "button": {
+    "add_zip": "Додати ZIP архів",
+    "add_pic": "Додати зображення",
+    "add_url": "Додати посилання",
+    "filename": "І'мя файлу",
+    "start_conversion": "Почати Конверсію",
+    "up": "Догори",
+    "down": "Донизу",
+    "delete": "Видалити"
   }
 }
 

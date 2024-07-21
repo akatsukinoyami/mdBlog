@@ -1,6 +1,6 @@
 <script lang="ts">
   import Cell from "./Cell.svelte";
-  import Title from "../../../components/Title.svelte";
+  import { Title } from "../../../components";
   import { i18n } from "../../../stores";
 
   function clear() {

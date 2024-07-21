@@ -197,8 +197,8 @@
         style:background-repeat="no-repeat"
         style={cell !== 'empty' ? `background-image: url(${icon[cell]});` : 0}
         row-index={rowIndex} cell-index={cellIndex}
-        on:click|preventDefault={e => handleClick(rowIndex, cellIndex, 'ant_empty')}
-        on:contextmenu|preventDefault={e => handleClick(rowIndex, cellIndex, 'food')}
+        on:click|preventDefault={() => handleClick(rowIndex, cellIndex, 'ant_empty')}
+        on:contextmenu|preventDefault={() => handleClick(rowIndex, cellIndex, 'food')}
         on:keyup role="button" tabindex=-1
       />
     {/each}
