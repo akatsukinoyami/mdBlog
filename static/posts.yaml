@@ -1,0 +1,525 @@
+title:
+  en: Katsu's Nikki
+  ru: Дневники Кацу
+  ua: Щоденник Кацу
+post:
+  - en
+  - ru
+  - ua
+date: 2017.09.03
+children:
+  anime:
+    title:
+      en: Anime Reviews
+      ru: Аниме обзоры
+      ua: Аніме огляди
+    post: []
+    description: Various posts without exact theme.
+    children:
+      23.02.28_hyouka:
+        title:
+          en: Hyouka
+          ru: Хёука
+          ua: Хьока
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.02.28
+      23.03.01_oreimo:
+        title:
+          en: Ore no Imouto wa Konna ni Kawaii wake ga nai
+          ru: Ну не может моя сестрёнка быть такой милой
+          ua: Ну не може моя сестричка бути такою милою
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.03.01
+      23.03.03_horimiya:
+        title:
+          en: Horimiya
+          ru: Хоримия
+          ua: Хорімія
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.03.03
+      23.04.10_kakkou_no_iinazuke:
+        title:
+          en: Kakkou no Iinazuke
+          ru: Сведенные кукушкой
+          ua: Зведені зозулею
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.04.10
+      23.05.08_fullmetal_panic:
+        title:
+          en: Fullmetal Panic
+          ru: Стальная тревога
+          ua: Сталева тривога
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.05.08
+      23.05.15_urusei_yatsura:
+        title:
+          en: Urusei Yatsura 2022
+          ru: Несносные Пришельцы 2022
+          ua: Нестерпні прибульці 2022
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.05.15
+      23.07.29_oshi_no_ko:
+        title:
+          en: Oshi no Ko
+          ru: Звёздное Дитя
+          ua: Зоряне Дитя
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.07.29
+  marine_stories:
+    title:
+      en: Marine Stories
+      ru: Морские байки
+      ua: Морські байки
+    post: []
+    description: Pack of Katsu's life stories, as a seaman, from Deck Cadet to 2nd Officer.
+    children:
+      2016_first_voyage:
+        title:
+          en: The First Voyage
+          ru: Первый рейс
+          ua: Перший рейс
+        post:
+          - en
+          - ru
+          - ua
+        date: 2016.11.24
+        children:
+          part_1:
+            title:
+              en: Part 1
+              ru: Часть 1
+              ua: Частина 1
+            post:
+              - en
+              - ru
+              - ua
+            date: 2016.07.25
+          part_2:
+            title:
+              en: Part 2
+              ru: Часть 2
+              ua: Частина 2
+            post:
+              - en
+              - ru
+              - ua
+            date: 2016.11.24
+      2017_first_contract_as_officer:
+        title:
+          en: First Contract as Officer
+          ru: Первый офицерский контракт
+          ua: Перший офіцерський контракт
+        post:
+          - en
+          - ru
+          - ua
+        date: 2018.04.09
+        children:
+          part_1:
+            title:
+              en: Part 1
+              ru: Часть 1
+              ua: Частина 1
+            post:
+              - en
+              - ru
+              - ua
+            date: 2017.10.31
+          part_2:
+            title:
+              en: Part 2
+              ru: Часть 2
+              ua: Частина 2
+            post:
+              - en
+              - ru
+              - ua
+            date: 2017.12.31
+          part_3:
+            title:
+              en: Part 3
+              ru: Часть 3
+              ua: Частина 3
+            post:
+              - en
+              - ru
+              - ua
+            date: 2018.02.28
+          part_4:
+            title:
+              en: Part 4
+              ru: Часть 4
+              ua: Частина 4
+            post:
+              - en
+              - ru
+              - ua
+            date: 2018.04.09
+      2020_secondOfficer_katsu:
+        title:
+          en: SecondOfficer;Katsu
+          ru: Второй Помощник;Кацу
+          ua: Другий помічник;Кацу
+        post:
+          - en
+          - ru
+          - ua
+        date: 2020.02.16
+        children:
+          part_1:
+            title:
+              en: Part 1
+              ru: Часть 1
+              ua: Частина 1
+            post:
+              - en
+              - ru
+              - ua
+            date: 2020.09.08
+          part_2:
+            title:
+              en: Part 2
+              ru: Часть 2
+              ua: Частина 2
+            post:
+              - en
+              - ru
+              - ua
+            date: 2020.09.30
+          part_3:
+            title:
+              en: Part 3
+              ru: Часть 3
+              ua: Частина 3
+            post:
+              - en
+              - ru
+              - ua
+            date: 2020.11.01
+          part_4:
+            title:
+              en: Part 4
+              ru: Часть 4
+              ua: Частина 4
+            post:
+              - en
+              - ru
+              - ua
+            date: 2020.12.01
+          part_5:
+            title:
+              en: Part 5
+              ru: Часть 5
+              ua: Частина 5
+            post:
+              - en
+              - ru
+              - ua
+            date: 2020.12.31
+          part_6:
+            title:
+              en: Part 6
+              ru: Часть 6
+              ua: Частина 6
+            post:
+              - en
+              - ru
+              - ua
+            date: 2020.02.16
+      2021_africa_hell:
+        title:
+          en: Africa;Hell
+          ru: Африканский ад
+          ua: Африканське пекло
+        post:
+          - en
+          - ru
+          - ua
+        date: 2021.07.03
+        children:
+          bridge:
+            title:
+              en: Navigational bridge M/V CRUX
+              ru: Ходовой мостик M/V CRUX
+              ua: Навігаційний місток M/V CRUX
+            post:
+              - ru
+              - en
+              - ua
+            date: 2021.07.03
+          part_1:
+            title:
+              en: Part 1
+              ru: Часть 1
+              ua: Частина 1
+            post:
+              - en
+              - ru
+              - ua
+            date: 2021.07.03
+          part_2:
+            title:
+              en: Part 2
+              ru: Часть 2
+              ua: Частина 2
+            post:
+              - en
+              - ru
+              - ua
+            date: 2021.07.03
+  other:
+    title:
+      en: Other
+      ru: Остальное
+      ua: Інше
+    post: []
+    description: Various posts without exact theme.
+    children:
+      19.11_odessa_rept_cafe:
+        title:
+          en: Odessa Rept Cafe
+          ru: Кафе рептилий в Одессе
+          ua: Кафе рептилій в Одесі
+        post:
+          - en
+          - ru
+          - ua
+        date: 2019.11.22
+      21.03_odessa_rept_cafe_2:
+        title:
+          en: Odessa Rept Cafe 2
+          ru: Кафе рептилий в Одессе 2
+          ua: Кафе рептилій в Одесі 2
+        post:
+          - en
+          - ru
+          - ua
+        date: 2021.03.12
+  tech:
+    title:
+      en: Tech Reviews
+      ru: Техобзоры
+      ua: Техогляди
+    post: []
+    description: Reviews of gadgets owned by Katsu, or made by him.
+    children:
+      22.10.24_xiaomi_mi_gaming_laptop:
+        title:
+          en: Xiaomi Mi Gaming Laptop
+          ru: Xiaomi Mi Gaming Laptop
+          ua: Xiaomi Mi Gaming Laptop
+        post:
+          - en
+          - ru
+          - ua
+        date: 2022.10.24
+      23.01.03_steam_deck:
+        title:
+          en: Steam Deck
+          ru: Паровая палуба
+          ua: Парова палуба
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.01.03
+      23.05.20_steam_deck_performance:
+        title:
+          en: Steam Deck Performance
+          ru: Производительность паровой палубы
+          ua: Продуктивність парової палуби
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.05.20
+      23.12.29_synology_ds916:
+        title:
+          en: Synology DiskStation 916+
+          ru: Synology DiskStation 916+
+          ua: Synology DiskStation 916+
+        post:
+          - en
+          - ru
+          - ua
+        date: 2023.12.29
+      24.02.11_steam_deck_oled:
+        title:
+          en: Steam Deck OLED
+          ru: Паровая палуба OLED
+          ua: Парова палуба OLED
+        post:
+          - en
+          - ru
+          - ua
+        date: 2024.02.11
+      24.04.07_macbook_upgrade:
+        title:
+          en: MacBook Comparison
+          ru: Сравнение MacBook
+          ua: Порівняння MacBook
+        post:
+          - en
+          - ru
+          - ua
+        date: 2024.04.07
+        children:
+          ai:
+            title:
+              en: Artificial Intelligence
+              ru: Искуственный интеллект
+              ua: Штучний інтелект
+            post:
+              - en
+              - ru
+              - ua
+            date: 2024.04.07
+          benchmarks:
+            title:
+              en: Benchmarks
+              ru: Бенчмарки
+              ua: Бенчмарки
+            post:
+              - en
+              - ru
+              - ua
+            date: 2024.04.07
+          games:
+            title:
+              en: Gaming Tests
+              ru: Игровые тесты
+              ua: Ігрові тести
+            post:
+              - en
+              - ru
+              - ua
+            date: 2024.04.07
+  travel_map:
+    title:
+      en: Katsu's Travel Map
+      ru: Карта Путешествий Кацу
+      ua: Мапа Подорожей Кацу
+    post:
+      - en
+      - ru
+      - ua
+    date: 2022.02.24
+  travels:
+    title:
+      en: Travels
+      ru: Путешествия
+      ua: Подорожі
+    post: []
+    description: Travel blogers seems to be very popular now?
+    children:
+      18.07.11_eurotour_(Lviv):
+        title:
+          en: Eurotour (Part 1 - Lviv)
+          ru: Евротур (Часть 1 - Львов)
+          ua: Євротур (Частина 1 - Львів)
+        post:
+          - en
+          - ru
+          - ua
+        date: 2018.07.11
+      18.07.12_eurotour_(Drezden):
+        title:
+          en: Eurotour (Part 2 - Drezden)
+          ru: Евротур (Часть 2 - Дрезден)
+          ua: Євротур (Частина 2 - Дрезден)
+        post:
+          - en
+          - ru
+          - ua
+        date: 2018.07.13
+      18.07.14_eurotour_(Salzburg):
+        title:
+          en: Eurotour (Part 3 - Salzburg)
+          ru: Евротур (Часть 3 - Зальцбург)
+          ua: Євротур (Частина 3 - Зальцбург)
+        post:
+          - en
+          - ru
+          - ua
+        date: 2018.07.14
+      18.07.15_eurotour_(Munich):
+        title:
+          en: Eurotour (Part 4 - Munich)
+          ru: Евротур (Часть 4 - Мюнхен)
+          ua: Євротур (Частина 4 - Мюнхен)
+        post:
+          - en
+          - ru
+          - ua
+        date: 2018.07.15
+      18.07.18_eurotour_(Prague):
+        title:
+          en: Eurotour (Part 5 - Prague)
+          ru: Евротур (Часть 5 - Прага)
+          ua: Євротур (Частина 5 - Прага)
+        post:
+          - en
+          - ru
+          - ua
+        date: 2018.07.18
+      18.11_little_trip_to_bolgrad:
+        title:
+          en: Little trip to Bolgrad
+          ru: Маленький трип в Болград
+          ua: Маленький тріп у Болград
+        post:
+          - en
+          - ru
+          - ua
+        date: 2018.11.10
+      19.03_brave_new_trip_to_lviv:
+        title:
+          en: Brave New trip to Lviv
+          ru: Отважное путешествие во Львов
+          ua: Відважна подорож до Львова
+        post:
+          - en
+          - ru
+          - ua
+        date: 2019.03.17
+      19.05_lviv,_again:
+        title:
+          en: Lviv, again
+          ru: Львов, снова
+          ua: Львів, знову
+        post:
+          - en
+          - ru
+          - ua
+        date: 2019.05.19
+      21.04_uzhgorod_sakuraTrip:
+        title:
+          en: Uzhgorod;SakuraTrip
+          ru: Ужгород; Вслед за Сакурой
+          ua: Ужгород; Вслід за Сакурою
+        post:
+          - en
+          - ru
+          - ua
+        date: 2021.04.25

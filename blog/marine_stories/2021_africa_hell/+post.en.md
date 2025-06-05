@@ -1,0 +1,1 @@
+As it turned out later, here it is - the most difficult and difficult contract of all that I had. I was not figuratively on the verge of death, while intrigues were being plotted behind my back. This contract lasted only two months, so there will be no more than two posts)

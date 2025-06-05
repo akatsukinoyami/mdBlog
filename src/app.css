@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@import '@fontsource/montserrat/500.css';
+@import '@fontsource/montserrat/600.css';
+@import '@fontsource/montserrat/700.css';
+@import '@fontsource/montserrat/800.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  h1 {
+    @apply text-3xl my-6 text-center;
+  }
+  h2 {
+    @apply text-2xl my-5 text-center;
+  }
+  h3 {
+    @apply text-xl my-4 text-center;
+  }
+  h4 {
+    @apply text-lg my-3;
+  }
+  h5 {
+    @apply text-base my-2 text-end;
+  }
+  h6 {
+    @apply text-sm my-1 text-end;
+  }
+}
+
+ul {
+  @apply list-inside list-disc;
+}
+
+ol {
+  @apply list-inside list-decimal;
+}
+
+p {
+  @apply my-1;
+}
+
+.text-justify-or-center {
+  text-align: justify;
+  text-align-last: center;
+}
+
+.gradient-mask {
+    mask-image: linear-gradient(180deg, transparent 0%, black 60%);
+}

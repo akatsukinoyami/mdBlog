@@ -1,7 +1,4 @@
-/node_modules/
-/public/build/*
-/public/blog/*
-sections.json
-
 blog.tar.gz
 .DS_Store
+build
+node_modules
