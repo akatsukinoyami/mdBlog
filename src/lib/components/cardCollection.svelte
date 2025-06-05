@@ -3,11 +3,16 @@
 	import type { Entity } from '$lib/types';
 
 	let { entity }: { entity: Entity } = $props();
+	
+	let children = $derived(!entity?.children ? [] : Object
+		.entries(entity?.children)
+		.sort(([a], [b]) => a > b ? 1 : a < b ? -1 : 0)
+	)
 </script>
 
-{#if entity?.children}
+{#if children}
 	<section class="grid grid-cols-3 gap-4">
-		{#each Object.entries(entity?.children) as [folderName, child] (folderName)}
+		{#each children as [folderName, child] (folderName)}
 			<Card {folderName} entity={child} />
 		{/each}
 	</section>

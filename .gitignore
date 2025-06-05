@@ -5,6 +5,7 @@ node_modules
 .svelte-kit
 blog
 
+static/posts.yaml
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
