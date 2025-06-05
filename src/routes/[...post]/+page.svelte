@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getEntityByPath } from '$lib/utils';
 	import { CardCollection, Post } from '$lib/components';
-	import { lang, title, defaultTitle, theme } from '$lib/stores';
+	import { lang, title, defaultTitle } from '$lib/stores';
 	import type { Entity } from '$lib/types';
 
 	let { data }: { data: { entity: Entity; path: string } } = $props();
