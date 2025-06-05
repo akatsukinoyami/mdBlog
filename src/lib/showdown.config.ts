@@ -1,7 +1,6 @@
 import type { Lang, ShowdownExtension, Theme } from "./types";
 
-const 
-  figure = (q?: "col" | "row") =>
+const figure = (q?: "col" | "row") =>
     `figure class="${q}-span-$1 flex flex-col relative items-center gap-2 my-2 max-h-120 group"`,
   iframe = 'iframe class="w-full h-200 rounded-lg shadow-2xl"',
   img =

@@ -36,7 +36,7 @@ export function togglable<T extends string>(
   key: string,
   defaultValue: T,
   toggleObject: Record<T, T>,
-  onupdate: (value: T) => void = () => {}
+  onupdate: (value: T) => void = () => {},
 ): Togglable<T> {
   return {
     ...writable<T>(browser ? (localStorage.getItem(key) as T) : defaultValue),
