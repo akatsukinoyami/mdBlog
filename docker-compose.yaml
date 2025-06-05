@@ -1,0 +1,7 @@
+services:
+  app:
+    hostname: mdBlog
+    container_name: mdBlog
+    build: .
+    ports:
+      - 5173:80
