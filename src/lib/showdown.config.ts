@@ -1,13 +1,14 @@
 import type { ShowdownExtension } from "./types";
 
-const spanSize = (q?: "col" | "row") => (q ? `md:${q}-span-$1 ${q}-span-1` : "");
+const spanSize = (q?: "col" | "row") =>
+  q ? `md:${q}-span-$1 ${q}-span-1` : "";
 const figure = (q?: "col" | "row") =>
-    `figure class="flex flex-col relative items-center gap-2 my-2 max-h-120 group ${spanSize(q)}"`;
+  `figure class="flex flex-col relative items-center gap-2 my-2 max-h-120 group ${spanSize(q)}"`;
 
 const iframe = 'iframe class="w-full h-200 rounded-lg shadow-2xl"';
 
 const img =
-    'img class="rounded-lg w-full h-full object-cover" loading="lazy" decoding="async"';
+  'img class="rounded-lg w-full h-full object-cover" loading="lazy" decoding="async"';
 
 const figcaption = `figcaption class="opacity-40 group-hover:opacity-100
 		w-full text-justify-or-center absolute bottom-0 text-sm pt-10 pb-2 px-4
