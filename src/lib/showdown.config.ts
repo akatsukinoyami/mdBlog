@@ -1,7 +1,8 @@
 import type { ShowdownExtension } from "./types";
 
+const spanSize = (q?: "col" | "row") => (q ? q + "-span-$1" : "");
 const figure = (q?: "col" | "row") =>
-    `figure class="${q}-span-$1 flex flex-col relative items-center gap-2 my-2 max-h-120 group"`,
+    `figure class="flex flex-col relative items-center gap-2 my-2 max-h-120 group ${spanSize(q)}"`,
   iframe = 'iframe class="w-full h-200 rounded-lg shadow-2xl"',
   img =
     'img class="rounded-lg w-full h-full object-cover" loading="lazy" decoding="async"',
