@@ -30,9 +30,9 @@ export default ts.config(
       "svelte/require-each-key": hideErrorsBy,
       "svelte/no-reactive-reassign": hideErrorsBy,
       "@typescript-eslint/no-explicit-any": hideErrorsBy,
-      "a11y_click_events_have_key_events": hideErrorsBy,
-      "a11y_no_static_element_interactions": hideErrorsBy,
-      "a11y_no_noninteractive_element_interactions": hideErrorsBy,
+      a11y_click_events_have_key_events: hideErrorsBy,
+      a11y_no_static_element_interactions: hideErrorsBy,
+      a11y_no_noninteractive_element_interactions: hideErrorsBy,
       "@typescript-eslint/no-unused-vars": [
         "error",
         {
