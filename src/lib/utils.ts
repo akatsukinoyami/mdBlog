@@ -36,11 +36,15 @@ export function togglable<T extends string>(
   key: string,
   defaultValue: T,
   toggleObject: Record<T, T>,
+  onupdate: (value: T) => void = () => {}
 ): Togglable<T> {
   return {
     ...writable<T>(browser ? (localStorage.getItem(key) as T) : defaultValue),
     toggle() {
-      this.set(toggleObject[get(this)]);
+      const newValue = toggleObject[get(this)] ?? defaultValue;
+      this.set(newValue);
+      onupdate(newValue);
+      localStorage.setItem(key, newValue);
     },
   };
 }

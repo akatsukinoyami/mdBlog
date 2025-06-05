@@ -2,9 +2,7 @@
 	import '../app.css';
 	import { Toaster } from 'svelte-sonner';
 	import { Navbar } from '$lib/components';
-	import { title, theme, lang } from '$lib/stores';
-	import LocalStorage from '$lib/components/localStorage.svelte';
-	import type { Lang } from '$lib/types';
+	import { title } from '$lib/stores';
 
 	let { children } = $props();
 </script>
@@ -24,17 +22,3 @@
 </container>
 
 <Toaster position="top-right" richColors expand />
-<LocalStorage
-	key="lang"
-	bind:value={$lang}
-	onupdate={({ value }) => {
-		document.documentElement.lang = value as Lang;
-	}}
-/>
-<LocalStorage
-	key="theme"
-	bind:value={$theme}
-	onupdate={({ value }) => {
-		document.documentElement.classList.toggle('dark', value === 'dark');
-	}}
-/>

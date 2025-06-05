@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { getEntityByPath } from '$lib/utils';
-	import { defaultTitle } from '$lib/constants';
 	import { CardCollection, Post } from '$lib/components';
-	import { lang, title } from '$lib/stores';
+	import { lang, title, defaultTitle, theme } from '$lib/stores';
 	import type { Entity } from '$lib/types';
 
 	let { data }: { data: { entity: Entity; path: string } } = $props();
@@ -11,6 +10,7 @@
 	$effect(() => {
 		$title = entity?.title?.[$lang] || defaultTitle;
 	});
+
 </script>
 
 {#if entity}

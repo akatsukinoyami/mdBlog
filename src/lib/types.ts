@@ -5,7 +5,7 @@ export type Class = string | string[] | ClassRecord;
 
 export type Lang = "ru" | "en" | "ua";
 
-export type Theme = "" | "dark";
+export type Theme = "light" | "dark";
 
 export interface Entity {
   title: {

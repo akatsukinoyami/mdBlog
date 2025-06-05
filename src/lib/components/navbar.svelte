@@ -6,8 +6,12 @@
 	// let { links = [{ href: '/', label: 'Home' }] } = $props();
 
 	const flex = 'flex items-center';
-	const shadows =
-		'hover:drop-shadow-xl/50 hover:drop-shadow-amber-900 dark:hover:drop-shadow-gray-50';
+	const shadows = 'hover:drop-shadow-xl/50 hover:drop-shadow-amber-900 dark:hover:drop-shadow-gray-50';
+	const flags = {
+		ru: 'bg-[url(/flags/ru.svg)]',
+		en: 'bg-[url(/flags/en.svg)]',
+		ua: 'bg-[url(/flags/ua.svg)]'
+	}
 </script>
 
 <div
@@ -20,8 +24,7 @@
 	]}
 >
 	<a href="/" class={[shadows, flex, 'blockmr-auto gap-2 font-semibold']}>
-		<img src="/icon-64.png" width="32" alt="icon" />
-		Katsu Nikki
+		<img src="/icon-64.png" width="32" alt="icon" /> Katsu Nikki
 	</a>
 	<!--
 	<middle class="absolute left-1/2 hidden -translate-x-1/2 transform sm:block">
@@ -39,11 +42,9 @@
 		</button>
 
 		<button
-			class={['cursor-pointer opacity-60 hover:opacity-100', shadows]}
+			class={['cursor-pointer opacity-60 hover:opacity-100 w-6 h-6 bg-center bg-no-repeat bg-contain', flags[$lang], shadows]}
 			onclick={() => lang.toggle()}
 			aria-label="button"
-		>
-			<img src="/flags/{$lang}.svg" width="24" alt="{$lang} flag" />
-		</button>
+		></button>
 	</end>
 </div>

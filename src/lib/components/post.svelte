@@ -4,7 +4,7 @@
 	import { Jellyfish } from 'svelte-loading-spinners';
 	import { url } from '$lib/utils';
 	import { lang } from '$lib/stores';
-	import { showdownExtensions } from '$lib/constants';
+	import { showdownExtensions } from '$lib/showdown.config';
 	import type { Entity } from '$lib/types';
 
 	let { entity, path }: { entity: Entity; path: string } = $props();
