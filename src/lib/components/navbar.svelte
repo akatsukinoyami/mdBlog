@@ -3,7 +3,7 @@
 	import { theme, lang } from '$lib/stores';
 	import Icon from './icon.svelte';
 
-	let { links = [{ href: '/', label: 'Home' }] } = $props();
+	// let { links = [{ href: '/', label: 'Home' }] } = $props();
 
 	const flex = 'flex items-center';
 	const shadows =

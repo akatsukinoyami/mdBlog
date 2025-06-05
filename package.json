@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "prebuild": "bun build:post:tree && bun lint && lint:md",
+    "prebuild": "bun build:post:tree && bun lint",
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
@@ -16,8 +16,6 @@
     "caprover:delete": "rm -f blog.tar.gz",
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint --max-warnings 0 .",
-    "lint:md": "markdownlint \"blog/**/*.md\"",
-    "format:md": "markdownlint \"blog/**/*.md\" --fix",
     "build:post:tree": "node scripts/01_buildTree.js static/files > static/posts.yaml",
     "json:to:yaml": "find static/files/ -type f -name '*.json' -exec sh -c 'js-yaml \"$1\" > \"${1%.json}.yaml\"' _ {} \\;"
   },

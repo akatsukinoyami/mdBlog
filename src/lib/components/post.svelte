@@ -46,7 +46,7 @@
 
 {#if loading}
 	<article class="flex justify-center py-10">
-		<Jellyfish color={''} size=200 />
+		<Jellyfish color='' size=200 />
 	</article>
 {:else if text}
 	<article class="text-justify text-pretty">

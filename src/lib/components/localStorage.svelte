@@ -13,10 +13,8 @@
 	let {
 		key = 'local-storage-key',
 		value = $bindable(''),
-		clearItem = () => localStorage.removeItem(key),
-		clearAll = () => localStorage.clear(),
 		onsave = () => {},
-		onupdate = ({ prevValue, value }) => {}
+		onupdate = () => {}
 	}: Props = $props();
 
 	let prevValue = value;
@@ -31,7 +29,7 @@
 		if (item != null) {
 			try {
 				value = JSON.parse(item);
-			} catch (e) {
+			} catch {
 				value = item;
 			}
 		} else {
