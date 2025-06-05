@@ -1,5 +1,7 @@
 import type { ShowdownExtension } from "./types";
 
+const grid = "grid md:grid-cols-$1 grid-cols-1";
+
 const spanSize = (q?: "col" | "row") =>
   q ? `md:${q}-span-$1 ${q}-span-1` : "";
 const figure = (q?: "col" | "row") =>
@@ -21,13 +23,10 @@ const figcaption = `figcaption class="opacity-40 group-hover:opacity-100
 
 export const showdownExtensions: ShowdownExtension[] = (
   [
-    [
-      /%%%(\d)([\s\S]*?)%%%/g,
-      `<div class="grid md:grid-cols-$1 grid-cols-1 gap-x-4 my-5">$2</div>`,
-    ],
+    [/%%%(\d)([\s\S]*?)%%%/g, `<div class="${grid} gap-x-4 my-5">$2</div>`],
     [
       /%&(\d)(\d)([\s\S]*?)&%/g,
-      `<div class="grid md:grid-cols-$1 grid-cols-1 grid-rows-subgrid md:col-span-$2 col-span-1 m-0! gap-x-4">$3</div>`,
+      `<div class="${grid} grid-rows-subgrid md:col-span-$2 col-span-1 m-0! gap-x-4">$3</div>`,
     ],
     [/@\[(.+?)\]\((.+?)\)/g, `<${iframe} src="$2" title="$1"></iframe>`],
     [/!\[\]\((.+?)\)/g, `<${figure()}><${img} src="$1" alt="$1" /></figure>`],
