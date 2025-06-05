@@ -2,13 +2,13 @@
 	import '../app.css';
 	import { Toaster } from 'svelte-sonner';
 	import { Navbar } from '$lib/components';
-	import { title } from '$lib/stores';
+	import { defaultTitle, title } from '$lib/stores';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<title>{$title}</title>
+	<title>{defaultTitle} {$title}</title>
 </svelte:head>
 
 <container class="relative mx-auto block max-w-7xl">
