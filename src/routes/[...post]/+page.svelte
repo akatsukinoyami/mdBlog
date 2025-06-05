@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { getEntityByPath } from '$lib/utils';
-	import { CardCollection, Post } from '$lib/components';
+	import Post from '$lib/components/post.svelte';
+	import CardCollection from '$lib/components/cardCollection.svelte';
 	import { lang, title, defaultTitle } from '$lib/stores';
 	import type { Entity } from '$lib/types';
 

@@ -7,10 +7,9 @@ const spanSize = (q?: "col" | "row") =>
 const figure = (q?: "col" | "row") =>
   `figure class="flex flex-col relative items-center gap-2 my-2 max-h-120 group ${spanSize(q)}"`;
 
-const iframe = 'iframe class="w-full h-200 rounded-lg shadow-2xl"';
+const iframe = 'iframe class="w-full rounded-lg shadow-2xl my-2 $1"';
 
-const img =
-  'img class="rounded-lg w-full h-full object-cover" loading="lazy" decoding="async"';
+const img = `img class="rounded-lg w-full h-full object-cover" loading="lazy" decoding="async"`;
 
 const figcaption = `figcaption class="opacity-40 group-hover:opacity-100
 		w-full text-justify-or-center absolute bottom-0 text-sm pt-10 pb-2 px-4
@@ -28,7 +27,10 @@ export const showdownExtensions: ShowdownExtension[] = (
       /%&(\d)(\d)([\s\S]*?)&%/g,
       `<div class="${grid} grid-rows-subgrid md:col-span-$2 col-span-1 m-0! gap-x-4">$3</div>`,
     ],
-    [/@\[(.+?)\]\((.+?)\)/g, `<${iframe} src="$2" title="$1"></iframe>`],
+    [
+      /@\{?(.*?)\}?\[(.*?)\]\((.+?)\)/g,
+      `<${iframe} src="$3" title="$2"></iframe>`,
+    ],
     [/!\[\]\((.+?)\)/g, `<${figure()}><${img} src="$1" alt="$1" /></figure>`],
     [
       /!r(\d)\[\]\((.+?)\)/g,

@@ -10,26 +10,20 @@
 ![OP1 Aiue - Minami, SAKURAmoti](+images/op1.jpg)
 ![ED1 Tokyo Shandy Rendezvous - Hanafu, Tsumiki](+images/ed1.jpg)
 
-  <div class="flex justify-evenly">
-    <a href="http://youtu.be/gpXy3_NdVEc" target="_blank">Anime Video</a>
-    <a href="https://youtu.be/NFMmSOWPj_k" target="_blank">MAISONdes Video</a>
-  </div>
+@{h-70}[](https://www.youtube.com/embed/gpXy3_NdVEc)
+@{h-70}[](https://www.youtube.com/embed/pEVhv4eB8Q8)
 
-  <div class="flex justify-evenly">
-    <a href="http://youtu.be/pEVhv4eB8Q8" target="_blank">Anime Video</a><br>
-    <a href="https://youtu.be/fwzRR6Bsro4" target="_blank">MAISONdes Video</a>
-  </div>
+@{h-70}[](https://www.youtube.com/embed/NFMmSOWPj_k)
+@{h-70}[](https://www.youtube.com/embed/fwzRR6Bsro4)
+%%%
 
+%%%2
 ![OP2 Iwanamuchu - asmi, Surie](+images/op2.jpg)
 ![ED1 Not enough - yama, Nito](+images/ed2.jpg)
 
-  <div class="flex justify-evenly">
-    <a href="http://youtu.be/stb-BpPpJ7U" target="_blank">Anime Video</a>
-    <a href="https://youtu.be/AROi9sNCVKs" target="_blank">MAISONdes Video</a>
-  </div>
-  <div class="flex justify-evenly">
-    <a href="http://youtu.be/DBCIuVopaGA" target="_blank">Anime Video</a>
-    <a href="https://youtu.be/gOagc0RUFlg" target="_blank">MAISONdes Video</a>
-  </div>
+@{h-70}[](https://www.youtube.com/embed/stb-BpPpJ7U)
+@{h-70}[](https://www.youtube.com/embed/DBCIuVopaGA)
 
+@{h-70}[](https://www.youtube.com/embed/AROi9sNCVKs)
+@{h-70}[](https://www.youtube.com/embed/gOagc0RUFlg)
 %%%

@@ -5,10 +5,13 @@
 	import { url } from '$lib/utils';
 	import { lang } from '$lib/stores';
 	import { showdownExtensions } from '$lib/showdown.config';
+	import ImageModal from './imageModal.svelte';
 	import type { Entity } from '$lib/types';
 
 	let { entity, path }: { entity: Entity; path: string } = $props();
 	let text = $state('');
+	let modalSrc = $state<string | null>(null);
+	let modalAlt = $state<string | null>(null);
 	let loading = $state(false);
 
 	async function load(file: string): Promise<string | number> {
@@ -42,6 +45,14 @@
 			text = '';
 		}
 	});
+
+	function handleClick(event: Event) {
+    const target = event.target;
+    if (!(target instanceof HTMLImageElement)) return;
+		
+    modalSrc = target.src
+    modalAlt = target.alt || ""
+  }
 </script>
 
 {#if loading}
@@ -49,7 +60,9 @@
 		<Jellyfish color='' size=200 />
 	</article>
 {:else if text}
-	<article class="text-justify text-pretty">
+	<article class="text-justify text-pretty" onclick={handleClick}>
 		{@html text}
 	</article>
+
+	<ImageModal bind:src={modalSrc} bind:alt={modalAlt} />
 {/if}

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { Toaster } from 'svelte-sonner';
-	import { Navbar } from '$lib/components';
+	import Navbar from '$lib/components/navbar.svelte';
 	import { defaultTitle, title } from '$lib/stores';
 
 	let { children } = $props();
