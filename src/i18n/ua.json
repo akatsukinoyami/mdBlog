@@ -45,7 +45,8 @@
     "plural": "Ігри",
     "tictactoe": "Хрестики-нолики",
     "gameofants": "Життя мурах",
-    "gameoflife": "Гра в життя"
+    "gameoflife": "Гра в життя",
+    "shmup": "Shoot'em up!"
   },
   "tool": {
     "singular": "Інструмент",

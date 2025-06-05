@@ -16,8 +16,8 @@
 </script>
 
 <svelte:head>
-  <script src="/pdfkit.standalone.js" />
-  <script src="/blob-stream.js" />
+  <script src="/lib/pdfkit.standalone.js" />
+  <script src="/lib/blob-stream.js" />
 </svelte:head>
 
 <Title title="PDFTools" />

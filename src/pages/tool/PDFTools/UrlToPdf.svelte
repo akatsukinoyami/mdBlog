@@ -48,6 +48,12 @@
       inProgress = false;
     }
   }
+
+  function addRow() {
+    urls = [...urls, ''];
+  }
+
+  $: console.log(urls);
 </script>
 
 {#if inProgress}
@@ -64,7 +70,7 @@
     <Button 
       icon={ Add } 
       iconDescription={$i18n.button.add_url}
-      on:click={() => urls = [...urls, '']} 
+      on:click={addRow} 
       size="field"
     />
     <Button 
@@ -82,7 +88,6 @@
     <div>
       {#each urls as url, i}
         <div
-        
           style:display="flex"
           style:gap="2px"
           style:padding="4px"
@@ -117,9 +122,14 @@
       style:gap="2px"
       style:padding="4px"
     >
-      {#each urls as url, i}
+      {#each urls as url}
         {#if url}
-          <img src={url} alt={`${i+1}`}/>
+          <div
+            style:background-image="url({url})"
+            style:background-size="cover"
+            style:width="160px"
+            style:height="200px"
+          />
         {/if}
       {/each}
     </div>

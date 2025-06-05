@@ -45,7 +45,8 @@
     "plural": "Games",
     "tictactoe": "Tic-Tac-Toe",
     "gameofants": "Life of Ants",
-    "gameoflife": "Life of Life"
+    "gameoflife": "Life of Life",
+    "shmup": "Shoot'em up!"
   },
   "tool": {
     "singular": "Tool",

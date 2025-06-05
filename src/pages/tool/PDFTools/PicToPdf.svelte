@@ -62,7 +62,7 @@
     <FileUploaderButton 
       bind:files 
       name="files[]" 
-      accept={['.jpg', '.jpeg', '.png']} 
+      accept={['.jpg', '.jpeg', '.png', '.webp']} 
       required 
       multiple 
       labelText={$i18n.button.add_pic}
