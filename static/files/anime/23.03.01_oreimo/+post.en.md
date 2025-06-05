@@ -1,5 +1,5 @@
 %%%1
-  ![](+images/header.jpg)
+![](+images/header.jpg)
 %%%
 
 I will continue my series of short anime reviews.
@@ -18,6 +18,5 @@ Only by the end of the second season do we begin to understand why there was a r
 The anime is quite cute, but it's more suitable for nostalgia for titles from the beginning of the 2010s than for watching from scratch.
 
 %%%1
-  ![](+images/footer.jpg)
+![](+images/footer.jpg)
 %%%
-

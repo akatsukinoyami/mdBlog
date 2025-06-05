@@ -7,11 +7,11 @@
 Оскільки нові речі оподатковуються набагато більше, мій друг наддав консолі трохи поюзаний вигляд, аби уникнути державних зборів)
 
 %%%3
-  ![](+images/box_photo.jpeg)
-  ![](+images/with_charger.jpeg)
-  ![](+images/with_blanket.jpeg)
-  ![](+images/screen_on.jpeg)
-  ![](+images/backside.jpeg)
+![](+images/box_photo.jpeg)
+![](+images/with_charger.jpeg)
+![](+images/with_blanket.jpeg)
+![](+images/screen_on.jpeg)
+![](+images/backside.jpeg)
 %%%
 
 ## Характеристики
@@ -59,8 +59,8 @@ Steam Deck базується на оригінальному процесорі
 AAA-проєкти в середньому йдуть приблизно на 30 FPS на середньо-низьких налаштуваннях, а щось простіше може дотягувати й до 60 FPS.
 
 %%%2
-  ![Cyberpunk 2077](+images/cyberpunk.jpg)
-  ![Hatsune Miku Project Diva Mega Mix+](+images/hmpdmm+.jpg)
+![Cyberpunk 2077](+images/cyberpunk.jpg)
+![Hatsune Miku Project Diva Mega Mix+](+images/hmpdmm+.jpg)
 %%%
 
 #### Стаціонарний режим
@@ -74,7 +74,7 @@ AAA-проєкти в середньому йдуть приблизно на 30
 У меню вимкнення можна знайти пункт “Перейти в режим робочого столу”, після натискання на який вас зустріне… KDE!
 
 %%%1
-  ![Інтерфейс KDE на екрані консолі](+images/kde.png)
+![Інтерфейс KDE на екрані консолі](+images/kde.png)
 %%%
 
 Так, SteamOS базується на дистрибутиві Arch Linux з оболонкою KDE. Це відкрита операційна система, яка абсолютно не забороняє вам робити що завгодно.
@@ -102,7 +102,7 @@ Epic Games Store і GOG через Heroic Launcher? Легко.
 У Windows/Linux чи macOS ми звикаємо до використання “гарячих” поєднань клавіш, щоб пришвидшити роботу. Консоль також має багато таких “шорткатів”, які значно спрощують роботу з пристроєм і роблять її приємнішою.
 
 %%%1
-  ![](+images/shortcuts.webp)
+![](+images/shortcuts.webp)
 %%%
 
 ## Підсумки

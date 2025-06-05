@@ -23,15 +23,15 @@ Right now we’re heading toward Alexandria, but the exact discharge port is sti
 Here's the new bridge being built in the Dardanelles Strait at Çanakkale. According to the pilot, it will be completed in about a year and a couple of months.
 
 %%%3
-  ![](+images/photo_1125@05-12-2020_00-47-00-1024x767.jpg)
-  ![](+images/photo_1126@05-12-2020_00-47-00-1024x767.jpg)
-  ![Wow, ridiculous!](+images/photo_1127@05-12-2020_00-47-37-1-1024x767.jpg)
-  %&23
-    ![](+images/photo_1124@05-12-2020_00-47-00-767x1024.jpg)
-    ![](+images/photo_1129@07-12-2020_00-10-48-767x1024.jpg)
-    ![](+images/photo_1128@05-12-2020_14-30-29-767x1024.jpg)
-    ![](+images/photo_1130@07-12-2020_00-20-11-767x1024.jpg)
-  &%
+![](+images/photo_1125@05-12-2020_00-47-00-1024x767.jpg)
+![](+images/photo_1126@05-12-2020_00-47-00-1024x767.jpg)
+![Wow, ridiculous!](+images/photo_1127@05-12-2020_00-47-37-1-1024x767.jpg)
+%&23
+![](+images/photo_1124@05-12-2020_00-47-00-767x1024.jpg)
+![](+images/photo_1129@07-12-2020_00-10-48-767x1024.jpg)
+![](+images/photo_1128@05-12-2020_14-30-29-767x1024.jpg)
+![](+images/photo_1130@07-12-2020_00-20-11-767x1024.jpg)
+&%
 %%%
 
 ##### 2020.12.07 01:05
@@ -57,8 +57,8 @@ And now for the funniest part: they crammed us, a 225-meter, 75k-ton vessel… j
 After that, they’ll put us back on anchor for about 5 days, and then there will be another hellish mooring just a few meters from another ship, this time for unloading.
 
 %%%2
-  ![Presenting to your attention, a Yank ship](+images/photo_1131@08-12-2020_14-34-13-1-398x1024.jpg)
-  ![](+images/photo_1132@10-12-2020_13-50-24-768x1024.jpg)
+![Presenting to your attention, a Yank ship](+images/photo_1131@08-12-2020_14-34-13-1-398x1024.jpg)
+![](+images/photo_1132@10-12-2020_13-50-24-768x1024.jpg)
 %%%
 
 ##### 2020.12.10 13:50
@@ -89,8 +89,8 @@ The Chief Officer is now monitoring the cook’s condition.
 FORTUNE TRADER—no day without an adventure!
 
 %%%2
-  ![](+images/photo_1133@12-12-2020_17-11-58-1024x768.jpg)
-  ![](+images/photo_1134@15-12-2020_13-17-48-1024x639.jpg)
+![](+images/photo_1133@12-12-2020_17-11-58-1024x768.jpg)
+![](+images/photo_1134@15-12-2020_13-17-48-1024x639.jpg)
 %%%
 
 ##### 2020.12.15 13:20
@@ -102,11 +102,11 @@ On my old ship of 9 000 t, the engine was 5 000 kW; this 75 000 t monster has an
 But now we’re back at anchor; the wind has calmed to about 30 knots, but with this ship you can never be sure of anything.
 
 %%%2
-  !c2[](+images/photo_1135@15-12-2020_15-28-36-768x1024.jpg)
-  ![](+images/photo_1137@15-12-2020_15-28-37-1024x768.jpg)
-  ![](+images/photo_1136@15-12-2020_15-28-36-1024x768.jpg)
-  ![Loaders on diesel generators are loading into trucks. At least during a blackout they’ll keep running.](+images/photo_1139@17-12-2020_06-03-54-1024x768.jpg)
-  ![Oh, a Lada](+images/photo_1140@17-12-2020_15-53-37-1024x768.jpg)
+!c2[](+images/photo_1135@15-12-2020_15-28-36-768x1024.jpg)
+![](+images/photo_1137@15-12-2020_15-28-37-1024x768.jpg)
+![](+images/photo_1136@15-12-2020_15-28-36-1024x768.jpg)
+![Loaders on diesel generators are loading into trucks. At least during a blackout they’ll keep running.](+images/photo_1139@17-12-2020_06-03-54-1024x768.jpg)
+![Oh, a Lada](+images/photo_1140@17-12-2020_15-53-37-1024x768.jpg)
 %%%
 
 ##### 2020.12.17 14:40
@@ -116,7 +116,7 @@ Last night I was again on a night watch, then we moored, then authorities and pa
 **Upd.** As it turned out later, all the services (pilot, mooring crews, etc.) receive double pay for nighttime operations as overtime, so they basically never move the ship during the day.
 
 %%%1
-  ![](+images/photo_1141@18-12-2020_00-31-09.jpg)
+![](+images/photo_1141@18-12-2020_00-31-09.jpg)
 %%%
 
 ##### 2020.12.18 00:35
@@ -163,12 +163,12 @@ What can I say? Don’t go, kids, to work for the Greeks. The fleet in general i
 All I can do is pray to the Great Goddess that I have enough strength to endure these trials.
 
 %%%3
-  ![](+images/photo_1152@31-12-2020_03-54-53-767x1024.jpg)
-  ![Calm Black Sea](+images/photo_1153@31-12-2020_03-54-53-1024x767.jpg)
-  ![](+images/photo_1151@31-12-2020_03-54-52-767x1024.jpg)
-  ![](+images/photo_1154@31-12-2020_03-54-53-767x1024.jpg)
-  ![](+images/photo_1155@31-12-2020_03-54-53-767x1024.jpg)
-  ![](+images/photo_1156@31-12-2020_03-54-53-767x1024.jpg)
+![](+images/photo_1152@31-12-2020_03-54-53-767x1024.jpg)
+![Calm Black Sea](+images/photo_1153@31-12-2020_03-54-53-1024x767.jpg)
+![](+images/photo_1151@31-12-2020_03-54-52-767x1024.jpg)
+![](+images/photo_1154@31-12-2020_03-54-53-767x1024.jpg)
+![](+images/photo_1155@31-12-2020_03-54-53-767x1024.jpg)
+![](+images/photo_1156@31-12-2020_03-54-53-767x1024.jpg)
 %%%
 
 ##### 2020.12.30 03:45
@@ -179,21 +179,21 @@ This is slave-driven work, after all. Everyone thinks about profits, but nobody 
 All we can do is endure this burden.
 
 %%%3
-  ![](+images/photo_1143@31-12-2020_03-47-30-1024x768.jpg)
-  ![](+images/photo_1144@31-12-2020_03-47-30-1024x768.jpg)
-  ![](+images/photo_1145@31-12-2020_03-47-30-1024x768.jpg)
-  ![](+images/photo_1146@31-12-2020_03-47-30-1024x768.jpg)
-  ![](+images/photo_1147@31-12-2020_03-47-30-1024x768.jpg)
-  ![](+images/photo_1148@31-12-2020_03-47-30-1024x768.jpg)
-  !c2[Port of Novorossiysk](+images/photo_1149@31-12-2020_03-47-30-1024x767.jpg)
-  ![](+images/photo_1150@31-12-2020_03-47-30-1024x767.jpg)
+![](+images/photo_1143@31-12-2020_03-47-30-1024x768.jpg)
+![](+images/photo_1144@31-12-2020_03-47-30-1024x768.jpg)
+![](+images/photo_1145@31-12-2020_03-47-30-1024x768.jpg)
+![](+images/photo_1146@31-12-2020_03-47-30-1024x768.jpg)
+![](+images/photo_1147@31-12-2020_03-47-30-1024x768.jpg)
+![](+images/photo_1148@31-12-2020_03-47-30-1024x768.jpg)
+!c2[Port of Novorossiysk](+images/photo_1149@31-12-2020_03-47-30-1024x767.jpg)
+![](+images/photo_1150@31-12-2020_03-47-30-1024x767.jpg)
 %%%
 
 Somewhere not far from here in 1986, on August 31, the passenger ship Admiral Nakhimov sank, and my parents worked on it.  
 They are safe, but many people could not be rescued.
 
 %%%1
-  ![](+images/photo_1157@31-12-2020_10-26-46-767x1024.jpg)
+![](+images/photo_1157@31-12-2020_10-26-46-767x1024.jpg)
 %%%
 
 ##### 2020.12.31 10:30
@@ -207,7 +207,7 @@ Now we have to quickly discharge that ballast in port even though our pump capac
 ##### 2020.12.31 15:10
 
 %%%1
-  ![1 375 pages for 55 bills of lading. <br> 3 originals for each bill of lading and a ton of copies. <br>I stamped them, and the Captain signed them. <br> Russia—thinking about ecology!](+images/photo_1158@31-12-2020_15-09-42-1024x768.jpg)
+![1 375 pages for 55 bills of lading. <br> 3 originals for each bill of lading and a ton of copies. <br>I stamped them, and the Captain signed them. <br> Russia—thinking about ecology!](+images/photo_1158@31-12-2020_15-09-42-1024x768.jpg)
 %%%
 
 ##### 2020.12.31 20:00
@@ -217,7 +217,7 @@ Thank you for your support in this difficult year.
 The year 2020 was marked by many unfortunate events, but even in all the bad things, one must always look for something good.  
 In the coming year, I wish you the most important thing—health, so that none of us have to hide at home and wear masks on the street for fear of fines; so that everyone has the opportunity to work at a job they enjoy and rest where they would like; simply to be happy people.
 
-Happy upcoming 2021!  
+Happy upcoming 2021!
 
 On this joyful note, I conclude today’s post.  
 In the next and final one, I will describe how we celebrated New Year’s (not included in the original channel content), and there will again be stories about Egypt and Russia.

@@ -1,39 +1,39 @@
-import prettier from 'eslint-config-prettier';
-import js from '@eslint/js';
-import { includeIgnoreFile } from '@eslint/compat';
-import svelte from 'eslint-plugin-svelte';
-import globals from 'globals';
-import ts from 'typescript-eslint';
-import svelteConfig from './svelte.config.js';
+import prettier from "eslint-config-prettier";
+import js from "@eslint/js";
+import { includeIgnoreFile } from "@eslint/compat";
+import svelte from "eslint-plugin-svelte";
+import globals from "globals";
+import ts from "typescript-eslint";
+import svelteConfig from "./svelte.config.js";
 
 export default ts.config(
-	includeIgnoreFile(`
+  includeIgnoreFile(`
 		package-lock.json
 		pnpm-lock.yaml
 		yarn.lock
 		bun.lock
 		bun.lockb
 	`),
-	js.configs.recommended,
-	...ts.configs.recommended,
-	...svelte.configs.recommended,
-	prettier,
-	...svelte.configs.prettier,
-	{
-		languageOptions: {
-			globals: { ...globals.browser, ...globals.node }
-		},
-		rules: { 'no-undef': 'off' }
-	},
-	{
-		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
-		languageOptions: {
-			parserOptions: {
-				projectService: true,
-				extraFileExtensions: ['.svelte'],
-				parser: ts.parser,
-				svelteConfig
-			}
-		}
-	}
+  js.configs.recommended,
+  ...ts.configs.recommended,
+  ...svelte.configs.recommended,
+  prettier,
+  ...svelte.configs.prettier,
+  {
+    languageOptions: {
+      globals: { ...globals.browser, ...globals.node },
+    },
+    rules: { "no-undef": "off" },
+  },
+  {
+    files: ["**/*.svelte", "**/*.svelte.ts", "**/*.svelte.js"],
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+        extraFileExtensions: [".svelte"],
+        parser: ts.parser,
+        svelteConfig,
+      },
+    },
+  },
 );

@@ -5,17 +5,18 @@ But now, we have the Steam Deck OLED!
 ## A Little Unboxing
 
 %%%3
-  ![](+images/20240207_161444.jpg)
-  ![](+images/20240207_161633.jpg)
-  ![](+images/20240207_161834.jpg)
-  ![](+images/2147483648_218244.jpg)
-  ![](+images/2147483648_218246.jpg)
-  ![](+images/2147483648_218248.jpg)
+![](+images/20240207_161444.jpg)
+![](+images/20240207_161633.jpg)
+![](+images/20240207_161834.jpg)
+![](+images/2147483648_218244.jpg)
+![](+images/2147483648_218246.jpg)
+![](+images/2147483648_218248.jpg)
 %%%
 
 Below are the console specifications as described on Valve’s website:
 
 %%%3
+
   <p></p>
   <p>Steam Deck</p>
   <p>Steam Deck OLED</p>
@@ -126,8 +127,8 @@ They also discounted the remaining older models:
 In other words, they didn’t raise the price for the new version; instead, they lowered the price of the old one! Valve seems to treat customers like people. There is also a special limited edition 1 TB model with a dark-transparent shell, but I’m not sure of its price.
 
 %%%2
-  ![](+images/sm.STEAM-DECK-OLED-LE-1.800.jpg)
-  ![](+images/STEAM-DECK-OLED-LE-2.jpg)
+![](+images/sm.STEAM-DECK-OLED-LE-1.800.jpg)
+![](+images/STEAM-DECK-OLED-LE-2.jpg)
 %%%
 
 ### Conclusion

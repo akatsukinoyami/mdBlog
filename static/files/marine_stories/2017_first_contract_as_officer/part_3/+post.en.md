@@ -3,12 +3,12 @@
 Hello to you in the New Year! Some of you have headaches, some are sleeping, and some are trudging to watch, and as I step onto the bridge I see a scene like this:
 
 %%%3
-  %&13
-    ![A very heavy snowfall: huge flakes slam into the front porthole with all their force. When you first enter, you can lose your sense of orientation as if you’re in a 4D movie theater)](+images/photo_110@01-01-2018_06-53-52-1024x768.jpg)
-  &%
-  ![](+images/photo_113@01-01-2018_11-13-45-767x1024.jpg)
-  ![](+images/photo_115@01-01-2018_11-17-19-1024x768.jpg)
-  ![](+images/photo_116@01-01-2018_11-17-23-768x1024.jpg)
+%&13
+![A very heavy snowfall: huge flakes slam into the front porthole with all their force. When you first enter, you can lose your sense of orientation as if you’re in a 4D movie theater)](+images/photo_110@01-01-2018_06-53-52-1024x768.jpg)
+&%
+![](+images/photo_113@01-01-2018_11-13-45-767x1024.jpg)
+![](+images/photo_115@01-01-2018_11-17-19-1024x768.jpg)
+![](+images/photo_116@01-01-2018_11-17-23-768x1024.jpg)
 %%%
 
 ##### 2018.01.03 17:45
@@ -38,8 +38,8 @@ The route seems to have changed again: now it’s St. Pete → Iraq → Iraq →
 The only hope is a crew change in the Suez Canal, whether for better or worse.
 
 %%%2
-  ![](+images/photo_117@06-01-2018_16-14-58-768x1024.jpg)
-  ![St. Pete covered in ice](+images/photo_118@06-01-2018_16-14-58-1024x768.jpg)
+![](+images/photo_117@06-01-2018_16-14-58-768x1024.jpg)
+![St. Pete covered in ice](+images/photo_118@06-01-2018_16-14-58-1024x768.jpg)
 %%%
 
 ##### 2018.01.07 16:00
@@ -68,10 +68,10 @@ Yesterday, for the first time in three months, we had a proper meal (the cook wa
 That’s all for now—report over.
 
 %%%2
-  ![](+images/photo_124@15-01-2018_20-00-05-1024x768.jpg)
-  ![](+images/photo_126@15-01-2018_20-00-05-768x1024.jpg)
-  ![](+images/photo_128@15-01-2018_20-00-05-1024x768.jpg)
-  ![](+images/photo_133@16-01-2018_17-29-45-1024x768.jpg)
+![](+images/photo_124@15-01-2018_20-00-05-1024x768.jpg)
+![](+images/photo_126@15-01-2018_20-00-05-768x1024.jpg)
+![](+images/photo_128@15-01-2018_20-00-05-1024x768.jpg)
+![](+images/photo_133@16-01-2018_17-29-45-1024x768.jpg)
 %%%
 
 ##### 2018.01.16 19:00
@@ -80,8 +80,8 @@ Because of extremely strong winds reaching 40–50 knots, last night we “dragg
 Other than that, everything’s fine. :)
 
 %%%2
-  ![](+images/photo_134@18-01-2018_10-15-46-1024x768.jpg)
-  ![](+images/photo_140@18-01-2018_10-27-48-1024x768.jpg)
+![](+images/photo_134@18-01-2018_10-15-46-1024x768.jpg)
+![](+images/photo_140@18-01-2018_10-27-48-1024x768.jpg)
 %%%
 
 This is how we “cruised” while dragging two anchors and resetting them.

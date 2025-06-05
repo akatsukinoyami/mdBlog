@@ -22,7 +22,7 @@ The last day before departure, and again they make Katsu go to the other side of
 ##### 2017.09.13
 
 Katsu has departed for distant lands, leaving his homeland behind—only a few hours of internet left; it’s time to say goodbye, friends. To be at home!  
-**Upd.** Back then, I was traveling by bus to the port of Ust-Luga, not far from Saint Petersburg, to board the vessel *Ocean Energy*.
+**Upd.** Back then, I was traveling by bus to the port of Ust-Luga, not far from Saint Petersburg, to board the vessel _Ocean Energy_.
 
 ##### 2017.09.20
 
@@ -57,6 +57,7 @@ Sweet dreams to all cuties, Katsu is leaving the internet space.
 %%%3
 ![Ocean Energy](+images/photo_16@11-10-2017_20-12-23-1024x768.jpg)
 ![Ship’s Forecastle](+images/photo_17@11-10-2017_20-25-16-1024x768.jpg)
+
 <div class="row-span-2">  
   ![View toward the stern](+images/photo_18@11-10-2017_20-25-16-768x1024.jpg)
 </div>
@@ -75,6 +76,7 @@ Watch is over, but here comes the superintendent of the company... And in 3 hour
 %%%3
 ![Ocean Energy](+images/photo_16@11-10-2017_20-12-23-1024x768.jpg)
 ![Ship’s Forecastle](+images/photo_17@11-10-2017_20-25-16-1024x768.jpg)
+
 <div class="row-span-2">  
   ![View toward the stern](+images/photo_18@11-10-2017_20-25-16-768x1024.jpg)
 </div>
@@ -105,8 +107,8 @@ So, we weathered a Force 10 storm in the North Sea and now are hiding from an ev
 ![Photo 25](+images/photo_25@19-10-2017_16-34-27-768x1024.jpg)
 ![Photo 26](+images/photo_26@19-10-2017_16-34-29-768x1024.jpg)
 %&23
-  ![Image 5](+images/image-5-1024x768.png)
-  ![Image 6](+images/image-6-1024x831.png)
+![Image 5](+images/image-5-1024x768.png)
+![Image 6](+images/image-6-1024x831.png)
 &%
 %%%
 

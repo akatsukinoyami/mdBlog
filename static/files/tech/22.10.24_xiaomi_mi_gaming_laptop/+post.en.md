@@ -1,7 +1,7 @@
 I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018).
 
 %%%2
-  ![](+images/photo_windows.png)
+![](+images/photo_windows.png)
 
   <div class="p-2">
     <p>Purchased in February 2019 and has served faithfully. Condition is about 4 out of 5, as you can see in the photos. It easily runs past hits on ultra settings, whether it’s The Witcher 3, Nier: Automata, or Nier: Replicant. Capable of VR; it runs Half-Life: Alyx and Skyrim VR at medium–low settings.</p>
@@ -19,6 +19,7 @@ I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018
 ## Specifications
 
 %%%2
+
   <dt>CPU</dt>
   <dd>Intel Core i7-8750H 2.2–4 GHz (6 cores / 12 threads)</dd>
   <dt>iGPU</dt>
@@ -48,50 +49,50 @@ I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018
 ## Photos
 
 %%%2
-  ![Laptop lid from above (anodized aluminum)](+images/photo_top.png)
-  ![Right side (SD card reader and USB 3)](+images/photo_right.png)
-  ![Back side (RJ45, USB 3, HDMI, USB-C, charging port)](+images/photo_back.png)
-  ![Left side (2×USB 3, headphone and microphone jacks)](+images/photo_left.png)
+![Laptop lid from above (anodized aluminum)](+images/photo_top.png)
+![Right side (SD card reader and USB 3)](+images/photo_right.png)
+![Back side (RJ45, USB 3, HDMI, USB-C, charging port)](+images/photo_back.png)
+![Left side (2×USB 3, headphone and microphone jacks)](+images/photo_left.png)
 %%%
 
 ## Software and Tests
 
 %%%2
-  ![Device Manager](+images/Device_Manager.png)
-  ![AIDA64 Summary Report](+images/AIDA64_Summary.png)
-  ![Disk Management](+images/Disk_Management.png)
-  ![AIDA64 Battery Information](+images/AIDA64_Battery.png)
-  ![SSD Info in CrystalDiskInfo](+images/SSD_CrystalDiskInfo.png)
-  ![HDD Info in CrystalDiskInfo](+images/HDD_CrystalDiskInfo.png)
-  ![SSD Speed Test in CrystalDiskMark](+images/SSD_CrystalDiskMark.png)
-  ![HDD Speed Test in CrystalDiskMark](+images/HDD_CrystalDiskMark.png)
-  ![MiGamingBox – software for managing extra features](+images/MiGamingBox.png)
-  ![Configuring the five macro keys on the left side](+images/MiGamingBox_Macro.png)
-  ![Configuring keyboard backlight (4 RGB zones)](+images/MiGamingBox_RGB_Keyboard.png)
-  ![Configuring side RGB lighting](+images/MiGamingBox_RGB_SideBars.png)
+![Device Manager](+images/Device_Manager.png)
+![AIDA64 Summary Report](+images/AIDA64_Summary.png)
+![Disk Management](+images/Disk_Management.png)
+![AIDA64 Battery Information](+images/AIDA64_Battery.png)
+![SSD Info in CrystalDiskInfo](+images/SSD_CrystalDiskInfo.png)
+![HDD Info in CrystalDiskInfo](+images/HDD_CrystalDiskInfo.png)
+![SSD Speed Test in CrystalDiskMark](+images/SSD_CrystalDiskMark.png)
+![HDD Speed Test in CrystalDiskMark](+images/HDD_CrystalDiskMark.png)
+![MiGamingBox – software for managing extra features](+images/MiGamingBox.png)
+![Configuring the five macro keys on the left side](+images/MiGamingBox_Macro.png)
+![Configuring keyboard backlight (4 RGB zones)](+images/MiGamingBox_RGB_Keyboard.png)
+![Configuring side RGB lighting](+images/MiGamingBox_RGB_SideBars.png)
 %%%
 
 ## FPS in Games
 
 %%%2
-  ![Call of Duty: Warzone](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.28.47.39.jpeg)
-  ![1080p Low](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.29.25.41.jpeg)
-  ![Dead or Alive 5](+images/Game_DOA_2022-11-06_02-30-38-76_Large.jpeg)
-  ![1080p Ultra](+images/Game_DOA_2022-11-06_02-30-46-78_Large.jpeg)
-  ![Euro Truck Simulator 2](+images/Game_eurotrucks2_2022-11-06_01-18-01-16_Large.jpeg)
-  ![1080p Ultra](+images/Game_eurotrucks2_2022-11-06_01-18-12-41_Large.jpeg)
-  ![Fallout 4](+images/Game_Fallout_4_Screenshot_2022.11.07_-_12.40.41.82_Large.jpeg)
-  ![1080p Ultra](+images/Game_Fallout_4_Screenshot_2022.11.07_-_12.41.05.90_Large.jpeg)
-  ![Nier: Automata](+images/Game_NieRAutomata_2022-11-06_02-23-45-85_Large.jpeg)
-  ![1080p Ultra](+images/Game_NieRAutomata_2022-11-06_02-24-44-95_Large.jpeg)
-  ![](+images/Game_NieRAutomata_2022-11-06_02-25-09-93_Large.jpeg)
-  ![](+images/Game_NieRAutomata_2022-11-06_02-25-16-83_Large.jpeg)
-  ![The Elder Scrolls V: Skyrim Special Edition](+images/Game_The_Elder_Scrolls_V__Skyrim_Special_Edition_Screenshot_2022.11.07_-_12.36.18.06_Large.jpeg)
-  ![1080p Ultra](+images/Game_The_Elder_Scrolls_V__Skyrim_Special_Edition_Screenshot_2022.11.07_-_12.36.49.25_Large.jpeg)
-  ![The Witcher 3](+images/Game_witcher3_2022-11-06_02-14-11-16_Large.jpeg)
-  ![1080p High](+images/Game_witcher3_2022-11-06_02-14-27-60_Large.jpeg)
-  ![Warhammer: Vermintide 2](+images/Game_vermintide2_2022-11-06_00-33-40-77_Large.jpeg)
-  ![1080p Ultra](+images/Game_vermintide2_2022-11-06_00-34-38-00_Large.jpeg)
-  ![](+images/Game_vermintide2_2022-11-06_00-34-45-31_Large.jpeg)
-  ![](+images/Game_vermintide2_2022-11-06_00-35-00-40_Large.jpeg)
+![Call of Duty: Warzone](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.28.47.39.jpeg)
+![1080p Low](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.29.25.41.jpeg)
+![Dead or Alive 5](+images/Game_DOA_2022-11-06_02-30-38-76_Large.jpeg)
+![1080p Ultra](+images/Game_DOA_2022-11-06_02-30-46-78_Large.jpeg)
+![Euro Truck Simulator 2](+images/Game_eurotrucks2_2022-11-06_01-18-01-16_Large.jpeg)
+![1080p Ultra](+images/Game_eurotrucks2_2022-11-06_01-18-12-41_Large.jpeg)
+![Fallout 4](+images/Game_Fallout_4_Screenshot_2022.11.07_-_12.40.41.82_Large.jpeg)
+![1080p Ultra](+images/Game_Fallout_4_Screenshot_2022.11.07_-_12.41.05.90_Large.jpeg)
+![Nier: Automata](+images/Game_NieRAutomata_2022-11-06_02-23-45-85_Large.jpeg)
+![1080p Ultra](+images/Game_NieRAutomata_2022-11-06_02-24-44-95_Large.jpeg)
+![](+images/Game_NieRAutomata_2022-11-06_02-25-09-93_Large.jpeg)
+![](+images/Game_NieRAutomata_2022-11-06_02-25-16-83_Large.jpeg)
+![The Elder Scrolls V: Skyrim Special Edition](+images/Game_The_Elder_Scrolls_V__Skyrim_Special_Edition_Screenshot_2022.11.07_-_12.36.18.06_Large.jpeg)
+![1080p Ultra](+images/Game_The_Elder_Scrolls_V__Skyrim_Special_Edition_Screenshot_2022.11.07_-_12.36.49.25_Large.jpeg)
+![The Witcher 3](+images/Game_witcher3_2022-11-06_02-14-11-16_Large.jpeg)
+![1080p High](+images/Game_witcher3_2022-11-06_02-14-27-60_Large.jpeg)
+![Warhammer: Vermintide 2](+images/Game_vermintide2_2022-11-06_00-33-40-77_Large.jpeg)
+![1080p Ultra](+images/Game_vermintide2_2022-11-06_00-34-38-00_Large.jpeg)
+![](+images/Game_vermintide2_2022-11-06_00-34-45-31_Large.jpeg)
+![](+images/Game_vermintide2_2022-11-06_00-35-00-40_Large.jpeg)
 %%%

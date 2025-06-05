@@ -8,7 +8,7 @@ Upd 2. They called again, now from another company, urgent assignment on the 20t
 Upd 3. But rumors are that it might be a scam.
 
 %%%1
-  ![](+images/photo_1399@22-05-2021_15-27-11.jpg)
+![](+images/photo_1399@22-05-2021_15-27-11.jpg)
 %%%
 
 ##### 2021.05.22
@@ -41,9 +41,9 @@ In the meantime, we’re on the plane; in half an hour it should take off.
 Upd. Switching to airplane mode, takeoff in 10 minutes.
 
 %%%3
-  ![](+images/photo_1432@19-06-2021_19-33-57-768x1024.jpg)
-  ![A smooth landing in Dubai is always pleasing)](+images/photo_1433@19-06-2021_19-33-57-768x1024.jpg)
-  ![](+images/photo_1434@19-06-2021_19-33-57-768x1024.jpg)
+![](+images/photo_1432@19-06-2021_19-33-57-768x1024.jpg)
+![A smooth landing in Dubai is always pleasing)](+images/photo_1433@19-06-2021_19-33-57-768x1024.jpg)
+![](+images/photo_1434@19-06-2021_19-33-57-768x1024.jpg)
 %%%
 
 ###### 19:33
@@ -72,15 +72,15 @@ We were fed three times, given a hygiene kit, a pillow, and a blanket, but the s
 Okay, forget impressions of Senegal…  
 Let’s talk about the ship right away:
 
-- Shared toilet/shower facilities, not private. Even on a 7k DWT “small” ship there were private ones! What can you say—Japanese build…  
-- Cabins are small, but corridors are large and spacious.  
+- Shared toilet/shower facilities, not private. Even on a 7k DWT “small” ship there were private ones! What can you say—Japanese build…
+- Cabins are small, but corridors are large and spacious.
 - Everything looks decrepit.  
-As for the crew:  
-- The Bosun is the same one who was there at the start of the last voyage.  
+  As for the crew:
+- The Bosun is the same one who was there at the start of the last voyage.
 - The Chief Officer came with us, and the one who was on the ship is being groomed into a captain.  
-None of this makes me any happier…  
-For now, I feel like I’ve landed, if not in deep shit, then in the butt anyway.  
-One thing cheers me: I’ll have a whole day for handover, not half an hour like on the last ship.
+  None of this makes me any happier…  
+  For now, I feel like I’ve landed, if not in deep shit, then in the butt anyway.  
+  One thing cheers me: I’ll have a whole day for handover, not half an hour like on the last ship.
 
 ###### 16:57
 
@@ -92,20 +92,20 @@ My impressions are far from the best…
 Well, we’ll somehow try to survive these six months.
 
 %%%3
-  ![](+images/photo_1441@21-06-2021_20-05-54-1024x767.jpg)
-  ![](+images/photo_1442@21-06-2021_20-05-55-1024x767.jpg)
-  ![](+images/photo_1440@21-06-2021_20-05-54-1-1024x768.jpg)
+![](+images/photo_1441@21-06-2021_20-05-54-1024x767.jpg)
+![](+images/photo_1442@21-06-2021_20-05-55-1024x767.jpg)
+![](+images/photo_1440@21-06-2021_20-05-54-1-1024x768.jpg)
 %%%
 
 ###### 20:05
 
-A few shots of Senegal on the way to the ship.  
+A few shots of Senegal on the way to the ship.
 
-We really stood out, since absolutely everyone around is Black. But so far I haven’t met any bad ones; here they’re even better than Arabs.  
+We really stood out, since absolutely everyone around is Black. But so far I haven’t met any bad ones; here they’re even better than Arabs.
 
-Cars are all battered—some total wrecks, some newer but all scratched and dented.  
+Cars are all battered—some total wrecks, some newer but all scratched and dented.
 
-Traffic is insane. They squeak past each other with less than a meter of space at 120 km/h. Constant cutting around.  
+Traffic is insane. They squeak past each other with less than a meter of space at 120 km/h. Constant cutting around.
 
 Almost all buildings are either unfinished or half-ruined, only in the very center is it somewhat normal.
 
@@ -118,7 +118,7 @@ _Even during the day I feel a bit like I’m in a fog, can’t think clearly. As
 Thinking back to the last ship, that captain buried me under paperwork, which I’m good at, but I was free from messing with ballast, cargo operations, and mooring operations, which I’m much worse at. I don’t know how it will be here, but my treatment could worsen if I make mistakes in what I don’t understand.  
 Also, the Third Radio Mechanic already worked with this Chief Officer (when he was still Chief Officer and just became Captain today) and is on good terms with him. It’s a bit scary—feels like this could be karma for the last contract where I got lucky with almost everything.  
 The Senior Officer seems to be a nice, pleasant person; we flew together and so far he’s treating me fine at work. However, he’s also still quite overwhelmed; let’s see what happens once he figures everything out.  
-I had a similar “walking a tightrope” feeling at the start of the last contract, but the captain’s support gave me confidence, which I absolutely lack right now. Meh._  
+I had a similar “walking a tightrope” feeling at the start of the last contract, but the captain’s support gave me confidence, which I absolutely lack right now. Meh._
 
 ###### 08:30
 
@@ -143,8 +143,8 @@ The old captain has left, and everyone says only good things about the new one, 
 Maybe karma decided that at the start of the contract I need a little shit to make everything seem good psychologically later.
 
 %%%2
-  ![2021.06.24 04:04 A local native gave me this bracelet with Senegal’s flags for being someone’s first time in Africa)](+images/photo_1445@24-06-2021_04-04-31-768x1024.jpg)
-  ![](+images/photo_1446@24-06-2021_04-06-05-768x1024.jpg)
+![2021.06.24 04:04 A local native gave me this bracelet with Senegal’s flags for being someone’s first time in Africa)](+images/photo_1445@24-06-2021_04-04-31-768x1024.jpg)
+![](+images/photo_1446@24-06-2021_04-06-05-768x1024.jpg)
 %%%
 
 ##### 2021.06.24
@@ -155,9 +155,9 @@ Right now we’re unloading rice in sacks; about 2–3 thousand tons remain.
 After that, we’ll head to Buchanan/Douala/Kribi for timber, which we’ll take to China.
 
 %%%3
-  ![](+images/photo_1447@24-06-2021_04-22-32-1024x768.jpg)
-  ![](+images/photo_1448@24-06-2021_04-22-32-1024x768.jpg)
-  ![](+images/photo_1449@24-06-2021_04-22-33-1024x768.jpg)
+![](+images/photo_1447@24-06-2021_04-22-32-1024x768.jpg)
+![](+images/photo_1448@24-06-2021_04-22-32-1024x768.jpg)
+![](+images/photo_1449@24-06-2021_04-22-33-1024x768.jpg)
 %%%
 
 ###### 04:22
@@ -166,7 +166,7 @@ They unload 50 kg sacks from the hold onto platforms, and then powerful Black gu
 How much strength they have in their arms and how they withstand such work is astounding.
 
 %%%1
-  ![](+images/photo_1450@24-06-2021_16-24-13-1024x768.jpg)
+![](+images/photo_1450@24-06-2021_16-24-13-1024x768.jpg)
 %%%
 
 ###### 16:24
@@ -200,7 +200,7 @@ Today during the inspection, the Bosun found a stowaway, so the captain announce
 We just arrived on the ship, yet not a day goes by without an adventure.
 
 %%%1
-  ![](+images/photo_1456@02-07-2021_08-32-17-1024x767.jpg)
+![](+images/photo_1456@02-07-2021_08-32-17-1024x767.jpg)
 %%%
 
 ##### 2021.06.29
@@ -225,7 +225,7 @@ Also, I realize the Second Officer’s job is a bit easier than I thought, since
 It’ll be two weeks soon, and I’m already counting the days until departure. 😅
 
 %%%1
-  ![](+images/photo_1451@01-07-2021_20-31-18-1024x767.jpg)
+![](+images/photo_1451@01-07-2021_20-31-18-1024x767.jpg)
 %%%
 
 ###### 17:20 Buchanan Port
@@ -235,10 +235,10 @@ All bribes are taken in diesel fuel—20 cans here, 30 cans there.
 They say we might have to stay up to three weeks here because of the rainy season.
 
 %%%2
-  ![](+images/photo_1452@01-07-2021_20-31-18-1024x767.jpg)
-  ![](+images/photo_1453@01-07-2021_20-31-19-1024x767.jpg)
-  ![](+images/photo_1455@02-07-2021_07-46-50-1024x767.jpg)
-  ![](+images/photo_1459@02-07-2021_17-01-10-1024x767.jpg)
+![](+images/photo_1452@01-07-2021_20-31-18-1024x767.jpg)
+![](+images/photo_1453@01-07-2021_20-31-19-1024x767.jpg)
+![](+images/photo_1455@02-07-2021_07-46-50-1024x767.jpg)
+![](+images/photo_1459@02-07-2021_17-01-10-1024x767.jpg)
 %%%
 
 ##### 2021.07.02
@@ -252,9 +252,9 @@ So, first they load logs into the holds, and then on top of the hatch covers. Th
 Our logs, heh. However, the rainy season doesn’t even let us open the hatch covers. So far about 20 logs have been loaded, but we need to load 13,000 tons.
 
 %%%2
-  !c2[17:01 I’ve carried huge generators and tractors, I’ve carried grain, containers, and crates, but I never thought I’d spend my seagoing practice carrying timber, heh](+images/photo_1458@02-07-2021_14-21-59-1024x697.jpg)
-  ![17:33 I’ve never docked at a pier like this either😅😅](+images/photo_1460@02-07-2021_17-33-26-767x1024.jpg)
-  ![](+images/photo_1454@01-07-2021_20-31-19-767x1024.jpg)
+!c2[17:01 I’ve carried huge generators and tractors, I’ve carried grain, containers, and crates, but I never thought I’d spend my seagoing practice carrying timber, heh](+images/photo_1458@02-07-2021_14-21-59-1024x697.jpg)
+![17:33 I’ve never docked at a pier like this either😅😅](+images/photo_1460@02-07-2021_17-33-26-767x1024.jpg)
+![](+images/photo_1454@01-07-2021_20-31-19-767x1024.jpg)
 %%%
 
 ###### 20:49
@@ -267,7 +267,7 @@ And only after Singapore will we reach China, where we’ll deliver the logs to 
 ##### 2021.07.03
 
 %%%1
-  ![03:50 The holds are slowly filling up with logs; let’s see how long it takes](+images/2024-04-14_14.26.56.jpg)
+![03:50 The holds are slowly filling up with logs; let’s see how long it takes](+images/2024-04-14_14.26.56.jpg)
 %%%
 
 ###### 14:42
@@ -276,9 +276,9 @@ I wake up in the morning, come to prepare the daily report for the company, and 
 How I love good news first thing in the morning.
 
 %%%3
-  ![](+images/2024-04-14_14.43.02.jpg)
-  ![](+images/2024-04-14_14.43.11.jpg)
-  ![](+images/2024-04-14_14.43.07.jpg)
+![](+images/2024-04-14_14.43.02.jpg)
+![](+images/2024-04-14_14.43.11.jpg)
+![](+images/2024-04-14_14.43.07.jpg)
 %%%
 
 ###### 19:21
@@ -289,18 +289,19 @@ This angry thing, resembling a pufferfish, was caught by our Black friends right
 
 ###### 03:36
 
-Every day I get more tired. The 6-on/6-off watch schedule really isn’t meant for long port stays.  
+Every day I get more tired. The 6-on/6-off watch schedule really isn’t meant for long port stays.
 
-When you work like that for 2–3 days, you can manage it, but when it hits the 4th, 5th day, a week, you burn out for real. You simply have no strength to get out of bed.  
+When you work like that for 2–3 days, you can manage it, but when it hits the 4th, 5th day, a week, you burn out for real. You simply have no strength to get out of bed.
 
-Considering the 6 hours on watch and 6 hours “off,” in your off time you have to shower and eat. And as Second Officer I still have to prepare and send daily reports.  
+Considering the 6 hours on watch and 6 hours “off,” in your off time you have to shower and eat. And as Second Officer I still have to prepare and send daily reports.
 
 Somehow, by willpower and “need,” you keep going, but each day the desire grows more...
 
 ###### 04:45
 
 %%%2
-  ![](+images/2024-04-14_14.47.59.jpg)
+![](+images/2024-04-14_14.47.59.jpg)
+
   <div class="">
     <b>IT</b>: *therapist compensation*<br>
     <b>Sea</b>: did a 100 kg piece of iron hit you in the sternum? Nah, just a mild concussion—rest in your cabin for a day and get back to work  
@@ -309,17 +310,17 @@ Somehow, by willpower and “need,” you keep going, but each day the desire gr
 
 ###### 08:18
 
-I’ve noticed a big difference between Muslim countries and non-Muslim ones.  
+I’ve noticed a big difference between Muslim countries and non-Muslim ones.
 
 In the former, which includes Senegal, whether you’re Arab, Black, or whoever, you listen to incomprehensible wailing to me.  
-Yet in Liberia the same Black people, not connected to Islam, listen to Pink Floyd, Queen, Muse, and other decent music.  
+Yet in Liberia the same Black people, not connected to Islam, listen to Pink Floyd, Queen, Muse, and other decent music.
 
 Obviously it’s a matter of taste, and I’m by no means calling anyone to change, but I couldn’t help sharing my observation.
 
 ###### 21.12
 
 %%%1
-  ![And this is what it looks like from the outside, heh](+images/2024-04-14_14.57.12.jpg)
+![And this is what it looks like from the outside, heh](+images/2024-04-14_14.57.12.jpg)
 %%%
 
 ##### 2021.07.05
@@ -329,33 +330,33 @@ Obviously it’s a matter of taste, and I’m by no means calling anyone to chan
 A strange, interesting plant on the beach. Its leaves are thick and fleshy. If anyone can tell me what it is, I owe you a beer!)
 
 %%%2
-  ![](+images/2024-04-14_14.58.32.jpg)
-  ![](+images/2024-04-14_14.58.47.jpg)
-  ![](+images/2024-04-14_14.58.40.jpg)
-  ![How did he know?](+images/2024-04-14_14.59.08.png)
+![](+images/2024-04-14_14.58.32.jpg)
+![](+images/2024-04-14_14.58.47.jpg)
+![](+images/2024-04-14_14.58.40.jpg)
+![How did he know?](+images/2024-04-14_14.59.08.png)
 %%%
 
 ###### 02:58
 
-An evening excursion to the beach on the border of Buchanan Port.  
+An evening excursion to the beach on the border of Buchanan Port.
 
-An incredibly beautiful and picturesque place, as if created specifically for photo shoots.  
+An incredibly beautiful and picturesque place, as if created specifically for photo shoots.
 
 The beach is less than a hundred meters outside the port boundary, though, and at first they didn’t want to let us in, but a kind guard gave us an escort, so we could go out and take some great shots.  
 Upd. It turned out the escort was given not to watch over us but for our protection, since people get kidnapped there.
 
 %%%3
-  ![](+images/2024-04-14_15.11.17.jpg)
-  ![](+images/2024-04-14_15.10.23.jpg)
-  ![](+images/2024-04-14_15.09.40.jpg)
-  ![](+images/2024-04-14_15.10.15.jpg)
-  ![](+images/2024-04-14_15.09.59.jpg)
-  ![](+images/2024-04-14_15.10.30.jpg)
-  %&23
-    ![06:57 Another coal ship departs from the port.](+images/2024-04-14_15.14.41.jpg)
-    ![07:46 But the only coal berth in the port won’t stay idle for long)](+images/2024-04-14_15.14.48.jpg)
-  &%
-  !c3[14:26 Fewer logs remain; we’ve even finished loading hold 5, so soon we’ll head to top up at Pointe-Noire.](+images/2024-04-14_15.54.22.jpg)
+![](+images/2024-04-14_15.11.17.jpg)
+![](+images/2024-04-14_15.10.23.jpg)
+![](+images/2024-04-14_15.09.40.jpg)
+![](+images/2024-04-14_15.10.15.jpg)
+![](+images/2024-04-14_15.09.59.jpg)
+![](+images/2024-04-14_15.10.30.jpg)
+%&23
+![06:57 Another coal ship departs from the port.](+images/2024-04-14_15.14.41.jpg)
+![07:46 But the only coal berth in the port won’t stay idle for long)](+images/2024-04-14_15.14.48.jpg)
+&%
+!c3[14:26 Fewer logs remain; we’ve even finished loading hold 5, so soon we’ll head to top up at Pointe-Noire.](+images/2024-04-14_15.54.22.jpg)
 %%%
 
 ###### 14:46
@@ -370,32 +371,32 @@ So my already worn-out brain now doesn’t function at all because of illness. B
 I hope it’s not COVID. _(Upd. I wish it were COVID...)_
 
 %%%1
-  ![20:40 It turns out that’s not all—new logs arrive as we work. Only the Great Goddess knows how long we’ll be here](+images/2024-04-14_15.54.22.jpg)
+![20:40 It turns out that’s not all—new logs arrive as we work. Only the Great Goddess knows how long we’ll be here](+images/2024-04-14_15.54.22.jpg)
 %%%
 
 ###### 22:40
 
 > The Mykolaiv Shipbuilding Plant has officially ceased to exist  
 > Employees have been laid off, assets sold, the seal destroyed: the shipyard in Mykolaiv has officially ceased operations. Over its 126-year history, more than 1,000 military and civilian vessels were built there, including aircraft carriers, cruisers, and large research ships. But Ukraine didn’t need the plant.  
-> [Timer Odessa](https://telegra.ph/Legendarnyj-nikolaevskij-zavod-oficialno-prekratil-svoyo-sushchestvovanie-04-14)  
+> [Timer Odessa](https://telegra.ph/Legendarnyj-nikolaevskij-zavod-oficialno-prekratil-svoyo-sushchestvovanie-04-14)
 
 An era is over; Mykolaiv has lost its title as a “Shipbuilding City.” Do they have anything left to be proud of?
 
 ###### 22:49
 
-On our first day, PSC inspectors came aboard and took 1.5 tons of diesel in exchange for a “clean report.”  
+On our first day, PSC inspectors came aboard and took 1.5 tons of diesel in exchange for a “clean report.”
 
-It turns out, according to the Flag State Control inspector, only he has the right to inspect ships registered in Liberia, and PSC can only inspect foreign-flagged vessels.  
+It turns out, according to the Flag State Control inspector, only he has the right to inspect ships registered in Liberia, and PSC can only inspect foreign-flagged vessels.
 
 So we were swindled. The agent should have explained this to us, but he was part of the scheme, helping the scammers.
 
 ##### 2021.07.06
 
-I don’t yet know how to upload the video of the tropical downpour here, so here’s [a link to the post](https://t.me/katsu_travel/2043))  
+I don’t yet know how to upload the video of the tropical downpour here, so here’s [a link to the post](https://t.me/katsu_travel/2043))
 
 %%%2
-  ![05:35 Once upon a time in Africa 🦁 (Nat Geo Wild)](+images/2024-04-14_16.12.18.jpg)
-  ![20:46 They keep delivering new logs, so the work tempo has slowed down a lot, since unloaders are working on two fronts.](+images/2024-04-14_16.16.07.jpg)
+![05:35 Once upon a time in Africa 🦁 (Nat Geo Wild)](+images/2024-04-14_16.12.18.jpg)
+![20:46 They keep delivering new logs, so the work tempo has slowed down a lot, since unloaders are working on two fronts.](+images/2024-04-14_16.16.07.jpg)
 %%%
 
 ##### 2021.07.08
@@ -406,8 +407,8 @@ The [video itself](https://www.youtube.com/watch?v=mRsgiYEtwJs) I haven’t watc
 Upd. It seems Captain Timur restricted access to some of his videos, so I can only enjoy the screenshot. That’s one reason I prefer to keep important things locally.
 
 %%%2
-  ![](+images/2024-04-14_16.19.43.png)
-  ![17:00 A true traveler. Well, thanks, Google)](+images/2024-04-14_16.22.25.jpg)
+![](+images/2024-04-14_16.19.43.png)
+![17:00 A true traveler. Well, thanks, Google)](+images/2024-04-14_16.22.25.jpg)
 %%%
 
 ###### 19:45
@@ -415,14 +416,14 @@ Upd. It seems Captain Timur restricted access to some of his videos, so I can on
 All that’s left for us. Meanwhile, locals claim that loading will finish today, and tomorrow we might be forced out of the port.
 
 %%%1
-  ![](+images/2024-04-14_16.28.17.jpg)
+![](+images/2024-04-14_16.28.17.jpg)
 %%%
 
 ###### 21:40
 
-According to the latest information, tomorrow at 11:00 the departure formalities will be completed, and the ship will cast off.  
+According to the latest information, tomorrow at 11:00 the departure formalities will be completed, and the ship will cast off.
 
-Next, we’ll head to Pointe-Noire in the Congo, where on top of the existing 12.5 k tons of logs, we’ll load another 20 k tons on deck. Some will go into the holds, and some will be lashed on the hatch covers. There we’ll also bunker fuel, presumably while underway.  
+Next, we’ll head to Pointe-Noire in the Congo, where on top of the existing 12.5 k tons of logs, we’ll load another 20 k tons on deck. Some will go into the holds, and some will be lashed on the hatch covers. There we’ll also bunker fuel, presumably while underway.
 
 Then Port Elizabeth in South Africa, where we’ll take on supplies, provisions, and have a crew change. Some people have already been on board over 7 months, but they weren’t changed in Dakar.
 

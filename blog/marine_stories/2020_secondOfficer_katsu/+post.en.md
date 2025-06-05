@@ -1,1 +1,0 @@
-Traveling and entertainment is just fine, but sometimes there is a price to pay. Yes, welcome to another series of posts about my maritime misadventures) However, despite all the difficulties that were on that voyage, it was and remains the best voyage that I had.

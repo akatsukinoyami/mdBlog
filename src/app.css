@@ -1,10 +1,10 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin '@tailwindcss/typography';
 
-@import '@fontsource/montserrat/500.css';
-@import '@fontsource/montserrat/600.css';
-@import '@fontsource/montserrat/700.css';
-@import '@fontsource/montserrat/800.css';
+@import "@fontsource/montserrat/500.css";
+@import "@fontsource/montserrat/600.css";
+@import "@fontsource/montserrat/700.css";
+@import "@fontsource/montserrat/800.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -47,5 +47,5 @@ p {
 }
 
 .gradient-mask {
-    mask-image: linear-gradient(180deg, transparent 0%, black 60%);
+  mask-image: linear-gradient(180deg, transparent 0%, black 60%);
 }

@@ -10,9 +10,9 @@ On January 1st the worst happened. We had 5 bottles of “Iceberg,” two bottle
 During the morning watch, the Captain looked at me sympathetically but said I had done the right thing by informing the Third Radio Mechanic that I couldn’t come.
 
 %%%2
-  !c2[](+images/photo_1159@04-01-2021_04-15-22-1-1024x767.jpg)
-  ![](+images/photo_1160@05-01-2021_15-03-19-1024x768.jpg)
-  ![](+images/photo_1161@05-01-2021_16-52-28-1024x768.jpg)
+!c2[](+images/photo_1159@04-01-2021_04-15-22-1-1024x767.jpg)
+![](+images/photo_1160@05-01-2021_15-03-19-1024x768.jpg)
+![](+images/photo_1161@05-01-2021_16-52-28-1024x768.jpg)
 %%%
 
 ##### 2021.01.07 02:00
@@ -20,12 +20,12 @@ During the morning watch, the Captain looked at me sympathetically but said I ha
 We are already approaching the port of Damietta in Egypt. For the last couple of days I’ve been feeling a terrible lack of strength—barely able to work, and I have nothing left for anything else. I’m trying to sleep as much as possible, taking vitamins and so on, but I don’t know how I’ll manage once we’re in port; I’m already dragging my feet. We have to enter the port’s inner anchorage, where they will take samples of our cargo, after which in a couple of days we’ll be berthed alongside and start unloading.
 
 %%%3
-  ![](+images/photo_1163@07-01-2021_18-38-06-767x1024.jpg)
-  ![](+images/photo_1164@07-01-2021_18-38-07-767x1024.jpg)
-  ![](+images/photo_1165@07-01-2021_18-38-07-1024x767.jpg)
-  ![And then someone will eat this](+images/photo_1162@07-01-2021_14-54-31-768x1024.jpg)
-  ![](+images/photo_1166@07-01-2021_18-38-07-767x1024.jpg)
-  ![](+images/photo_1167@07-01-2021_18-38-07-767x1024.jpg)
+![](+images/photo_1163@07-01-2021_18-38-06-767x1024.jpg)
+![](+images/photo_1164@07-01-2021_18-38-07-767x1024.jpg)
+![](+images/photo_1165@07-01-2021_18-38-07-1024x767.jpg)
+![And then someone will eat this](+images/photo_1162@07-01-2021_14-54-31-768x1024.jpg)
+![](+images/photo_1166@07-01-2021_18-38-07-767x1024.jpg)
+![](+images/photo_1167@07-01-2021_18-38-07-767x1024.jpg)
 %%%
 
 ##### 2021.01.07 18:40
@@ -45,8 +45,8 @@ Entering and mooring in Damietta, Egypt, wasn’t easy, but everything afterward
 Experiment: buying Egyptian shawarma. On one hand, it doesn’t compare to European shawarma—ours is better. But still, it’s better than what our cook makes.
 
 %%%2
-  ![](+images/photo_1169@09-01-2021_17-23-43-1024x768.jpg)
-  ![](+images/photo_1170@09-01-2021_17-23-43-768x1024.jpg)
+![](+images/photo_1169@09-01-2021_17-23-43-1024x768.jpg)
+![](+images/photo_1170@09-01-2021_17-23-43-768x1024.jpg)
 %%%
 
 ##### 2021.01.10 16:51
@@ -90,9 +90,9 @@ Someone gave me an interesting remedy: using seawater to rinse your throat. It h
 I just called the Chief Officer and asked him to calculate our route according to the voyage order received literally 15 minutes ago. Now we’re heading to Piraeus and will anchor there for 3–7 days. The Greeks will come and stress-test everything with pseudo-repairs. The drydock is still busy, so they’ll simply extend our documents until April. Then the ship will go to Taman, Russia. We’ve been there before; it’s an open berth in the middle of the sea, and as soon as the wind picks up, the ship tries to break free from its moorings and tear all the mooring lines. I think it will be terrible, especially since the weather is even worse now than in November when we were there. And we’ll be loading coal this time, which is surprising since the whole year the ship carried only grain. After Taman, the ship will carry cargo to Guangzhou, China. Approximate route: Taman → Istanbul → Suez → Singapore → Guangzhou. It will take about 1.5–2 months to get there, so the entire voyage will last at least 4 months, considering loading, port stays before straits, unloading, and the return trip. Because of this, the company plans to change every crew member who’s been on board 6 months or more, likely in Istanbul—though it’s not yet clear whether right after Piraeus or after Taman. Based on past experience, I’d rather avoid Taman. Oh, and I still need to recover before the crew change—otherwise I'll end up in quarantine somewhere in Turkey. 😅 Thank the Great Goddess for her mercy and assistance!
 
 %%%3
-  ![](+images/photo_1175@15-01-2021_14-42-29-1-1024x767.jpg)
-  ![](+images/photo_1176@15-01-2021_17-20-01-1024x767.jpg)
-  ![](+images/photo_1173@15-01-2021_14-24-38-1-1024x768.jpg)
+![](+images/photo_1175@15-01-2021_14-42-29-1-1024x767.jpg)
+![](+images/photo_1176@15-01-2021_17-20-01-1024x767.jpg)
+![](+images/photo_1173@15-01-2021_14-24-38-1-1024x768.jpg)
 %%%
 
 ##### 2021.01.15 13:10
@@ -112,8 +112,8 @@ A crazy wind has picked up, but I can’t even check its strength because on the
 Today they brought us a proper espresso machine instead of that crappy American drip coffee maker. Now, even though the coffee itself is crap, with milk frothed in a steam wand and some cane sugar it tastes quite good. **Upd.** I lied—our coffee was actually excellent.
 
 %%%2
-  ![](+images/photo_1178@18-01-2021_01-10-49-767x1024.jpg)
-  ![](+images/photo_1179@18-01-2021_01-10-49-767x1024.jpg)
+![](+images/photo_1178@18-01-2021_01-10-49-767x1024.jpg)
+![](+images/photo_1179@18-01-2021_01-10-49-767x1024.jpg)
 %%%
 
 > **New details of the shipwreck off the coast of Turkey:** 13 crew members of the dry cargo ship were Ukrainians, and the vessel is operated by Tesoro Marine of Odessa.
@@ -141,9 +141,9 @@ Our ship, having received permission from VTS, is heading toward the Dardanelles
 The Captain sent the Chief Officer to photograph the finished ladder and sent me to fetch champagne, which the seamen at the helm and I shared among the four of us, to our departure!
 
 %%%3
-  ![](+images/photo_1180@21-01-2021_01-19-36-1024x768.jpg)
-  ![](+images/photo_1181@21-01-2021_01-19-36-1024x768.jpg)
-  ![](+images/photo_1182@21-01-2021_01-19-36-1024x768.jpg)
+![](+images/photo_1180@21-01-2021_01-19-36-1024x768.jpg)
+![](+images/photo_1181@21-01-2021_01-19-36-1024x768.jpg)
+![](+images/photo_1182@21-01-2021_01-19-36-1024x768.jpg)
 %%%
 
 ##### 2021.01.21 02:20
@@ -155,14 +155,14 @@ Here we have exited the Bosphorus and are heading toward the Caucasus. In the ph
 We have arrived in Russian territorial waters and at 13:00 dropped anchor outside them, since there was no information about entering port and a storm warning was announced. By 20:00 we dropped anchor again inside. Here the waves are smaller, but the wind is still 20–30 knots. We’re waiting for authorities to arrive and loading to begin. Everyone who boarded the ship before autumn 2020 has been notified of replacement, and new crew passports have been sent, even those who wanted to stay. We should be replaced in the Bosphorus on the way to Iskenderun.
 
 %%%2
-  ![Enjoying lattes from the new coffee machine)](+images/photo_1184@23-01-2021_00-21-52-767x1024.jpg)
-  ![Time to go home!](+images/photo_1185@23-01-2021_02-53-36-768x1024.jpg)
+![Enjoying lattes from the new coffee machine)](+images/photo_1184@23-01-2021_00-21-52-767x1024.jpg)
+![Time to go home!](+images/photo_1185@23-01-2021_02-53-36-768x1024.jpg)
 %%%
 
 There was absolutely nothing to do on the navigation bridge, so I hung a bedsheet and brought out the projector, and the seamen and I held movie nights, glancing occasionally to make sure the ship wasn’t dragging anchor.
 
 %%%1
-  ![](+images/photo_1187@28-01-2021_11-57-19-1024x768.jpg)
+![](+images/photo_1187@28-01-2021_11-57-19-1024x768.jpg)
 %%%
 
 ##### 2021.01.28 11:57
@@ -174,7 +174,7 @@ A bunch of barges for transshipment and ships—including ours—are waiting for
 We’re being tossed so much that the ship can’t point into the wind. Wind speed is around 30 knots, gusting to 35.
 
 %%%1
-  ![](+images/photo_1188@28-01-2021_12-19-48-767x1024.jpg)
+![](+images/photo_1188@28-01-2021_12-19-48-767x1024.jpg)
 %%%
 
 ##### 2021.01.29 19:07
@@ -182,7 +182,7 @@ We’re being tossed so much that the ship can’t point into the wind. Wind spe
 Today one ship put on quite a show. In the photo—it’s the red one on the right. It was at the neighboring anchorage and suddenly at 14:00 started complaining to Caucasus Traffic (the coastal authority deciding who goes where) that we were 3 cables (1 cable = 185.2 m) from it and that we were drifting toward it. Traffic called us; we were peacefully at anchor, not drifting, and moreover, the distance was not 3 but 3.5 cables (3 cables is the safe anchoring distance at port Caucasus). That idiot had chosen his own anchor position away from us, and now he’s standing… 3.6 cables from us. A genius who wasted a ton of nerves and fuel to achieve nothing.
 
 %%%1
-  ![Sometimes comments to the post are better than the post itself! 😂](+images/image-11-1024x704.png)
+![Sometimes comments to the post are better than the post itself! 😂](+images/image-11-1024x704.png)
 %%%
 
 ##### 2021.01.30 23:37
@@ -194,8 +194,8 @@ I feel like I’m sleeping a lot, but lately I’m terribly sleep-deprived. We�
 Nice weather—port Caucasus has come to life. Tugs and authorities come aboard ships, transshipment vessels load grain, bunkering vessels supply fuel and water. We too should have authorities aboard in a couple of hours.
 
 %%%2
-  ![](+images/photo_1190@02-02-2021_14-50-51-1024x768.jpg)
-  ![](+images/photo_1191@03-02-2021_00-20-03-1024x767.jpg)
+![](+images/photo_1190@02-02-2021_14-50-51-1024x768.jpg)
+![](+images/photo_1191@03-02-2021_00-20-03-1024x767.jpg)
 %%%
 
 ##### 2021.02.03 00:20
@@ -203,7 +203,7 @@ Nice weather—port Caucasus has come to life. Tugs and authorities come aboard 
 The transshipment vessel Kavkaz II has come alongside and berthed. A bunch of people have come aboard—hold inspectors, draft surveyors, fumigators. They all do their work and have the brains to talk to the Chief Officer. And I’m on the bridge, since we’re still at anchor and need to monitor the ship’s position.
 
 %%%1
-  ![](+images/photo_1192@03-02-2021_13-41-28-1024x767.jpg)
+![](+images/photo_1192@03-02-2021_13-41-28-1024x767.jpg)
 %%%
 
 ##### 2021.02.03 20:17
@@ -218,15 +218,15 @@ Speaking of why loading didn’t start sooner: In Russia and Ukraine, unlike nor
 - They call the entire crew for facial ID control, simply matching faces to photos in each sailor’s Seaman’s Identification Book.
 - They scan those passports using their scanner attached to an Asus EeePC touchscreen netbook—the same model I have at home.
 - They stamp each passport for both arrival and departure from either Russia or Ukraine! I don’t recall this nonsense anywhere except Russia and Ukraine. That’s the entire job of the border guards. Because of this, a ship may sit for weeks waiting for the commission to arrive, since they need calm weather to board. A ship next to us finished loading two weeks ago but couldn’t leave because the commission hadn’t come. The same happened to us—despite 10–15 m/s winds the transshipment vessel couldn’t come alongside, but without the commission they had no right to do so. And no one knows what the weather will do during or after loading. It’s been raining a lot, and we keep opening and closing cargo hatch covers, only for wind and waves to blow in again.
-Returning to the topic of stamps and passports: Besides the fact that maritime document prices have skyrocketed, a Seaman’s Identification Book (SIB) itself unofficially costs up to $500. Officially you can’t make one anymore, because they always have excuses—no blank forms, or something else.
+  Returning to the topic of stamps and passports: Besides the fact that maritime document prices have skyrocketed, a Seaman’s Identification Book (SIB) itself unofficially costs up to $500. Officially you can’t make one anymore, because they always have excuses—no blank forms, or something else.
 
 %%%2
-  ![2021.02.04 11:15 The ship continues loading, and we are also bunkering fuel.](+images/photo_1194@04-02-2021_11-15-47-1-1024x768.jpg)
-  ![2021.02.04 11:51 This little fellow is transshipping grain to us. Almost like the one that broke recently.](+images/photo_1195@04-02-2021_11-51-44-1024x768.jpg)
-  ![2021.02.04 14:35 Holds 2, 3, 5, 6 are nearly loaded. Holds 4 and 7 are being loaded.](+images/photo_1196@04-02-2021_14-35-59-1024x767.jpg)
-  ![2021.02.05 10:45 Holds 2/3/5/6 loaded. Holds 4/7 in progress.](+images/photo_1197@05-02-2021_10-45-21-1024x767.jpg)
-  ![2021.02.05 12:25 The waves picked up and wind reached 50 knots. Cargo operations suspended.](+images/photo_1198@05-02-2021_12-25-18-1024x767.jpg)
-  ![2021.02.06 11:52 We have a blizzard; cargo operations stopped. Will we ever get out of here?](+images/photo_1199@06-02-2021_11-52-51-1024x767.jpg)
+![2021.02.04 11:15 The ship continues loading, and we are also bunkering fuel.](+images/photo_1194@04-02-2021_11-15-47-1-1024x768.jpg)
+![2021.02.04 11:51 This little fellow is transshipping grain to us. Almost like the one that broke recently.](+images/photo_1195@04-02-2021_11-51-44-1024x768.jpg)
+![2021.02.04 14:35 Holds 2, 3, 5, 6 are nearly loaded. Holds 4 and 7 are being loaded.](+images/photo_1196@04-02-2021_14-35-59-1024x767.jpg)
+![2021.02.05 10:45 Holds 2/3/5/6 loaded. Holds 4/7 in progress.](+images/photo_1197@05-02-2021_10-45-21-1024x767.jpg)
+![2021.02.05 12:25 The waves picked up and wind reached 50 knots. Cargo operations suspended.](+images/photo_1198@05-02-2021_12-25-18-1024x767.jpg)
+![2021.02.06 11:52 We have a blizzard; cargo operations stopped. Will we ever get out of here?](+images/photo_1199@06-02-2021_11-52-51-1024x767.jpg)
 %%%
 
 ##### 2021.02.06 23:01
@@ -234,7 +234,7 @@ Returning to the topic of stamps and passports: Besides the fact that maritime d
 When you’ve been at sea for more than half a year, a strange mental state sets in: it feels as if you’ve always been on this ship and all memories before are artificial, not real, and the outside world doesn’t exist—there is only the ship and the ports. On the other hand, the opposite effect happens when the contract is over or you’ve just arrived home: it feels like the entire voyage was just a terrible dream.
 
 %%%1
-  ![](+images/photo_1200@06-02-2021_23-01-31-1024x768.jpg)
+![](+images/photo_1200@06-02-2021_23-01-31-1024x768.jpg)
 %%%
 
 ##### 2021.02.06 23:01
@@ -250,8 +250,8 @@ Meanwhile the deck has iced over and snow is already falling. We’ve listed, an
 At noon today provisions were supposed to arrive, but the boat still hasn’t left—its trip takes 3–4 hours.
 
 %%%2
-  ![](+images/photo_1201@07-02-2021_03-03-39-1024x767.jpg)
-  ![](+images/photo_1203@08-02-2021_00-30-05-1024x767.jpg)
+![](+images/photo_1201@07-02-2021_03-03-39-1024x767.jpg)
+![](+images/photo_1203@08-02-2021_00-30-05-1024x767.jpg)
 %%%
 
 ##### 2021.02.08 00:30
@@ -267,8 +267,8 @@ At 01:00 we finished loading hold 7 and began moving the transshipment vessel fo
 They finally finished the reposition, but a fog rolled in. However, Kavkaz IV says it won’t affect loading.
 
 %%%2
-  ![](+images/photo_1204@08-02-2021_03-47-07-1024x767.jpg)
-  ![](+images/photo_1205@08-02-2021_10-57-22-1024x767.jpg)
+![](+images/photo_1204@08-02-2021_03-47-07-1024x767.jpg)
+![](+images/photo_1205@08-02-2021_10-57-22-1024x767.jpg)
 %%%
 
 ##### 2021.02.08 10:57
@@ -276,9 +276,9 @@ They finally finished the reposition, but a fog rolled in. However, Kavkaz IV sa
 Loading is suspended—storm warning in effect, fog, slight icing, intermittent snow. Roster is delayed again.
 
 %%%3
-  ![2021.02.08 13:41 Here’s how some icicles formed.](+images/photo_1208@08-02-2021_13-41-34-767x1024.jpg)
-  ![](+images/photo_1209@08-02-2021_13-41-34-1024x768.jpg)
-  ![](+images/photo_1210@09-02-2021_11-24-11-1024x768.jpg)
+![2021.02.08 13:41 Here’s how some icicles formed.](+images/photo_1208@08-02-2021_13-41-34-767x1024.jpg)
+![](+images/photo_1209@08-02-2021_13-41-34-1024x768.jpg)
+![](+images/photo_1210@09-02-2021_11-24-11-1024x768.jpg)
 %%%
 
 ##### 2021.02.09 11:24
@@ -286,7 +286,7 @@ Loading is suspended—storm warning in effect, fog, slight icing, intermittent 
 Lovely weather: no rain, no precipitation. Only 2.5 k t of cargo left to load. The transshipment vessel is empty, and in this wave they can’t load from the barge. We wait.
 
 %%%1
-  ![](+images/photo_1211@09-02-2021_13-31-26-1024x767.jpg)
+![](+images/photo_1211@09-02-2021_13-31-26-1024x767.jpg)
 %%%
 
 ##### 2021.02.09 13:31
@@ -298,7 +298,7 @@ Because the foolish transshipment vessel used its winch for repositioning, we we
 Sunset soon in stormy Caucasus. Wind isn’t that strong, but with high waves even the loader-boat keeps 20–30 m away to avoid banging against us.
 
 %%%1
-  ![](+images/photo_1212@09-02-2021_16-31-47-767x1024.jpg)
+![](+images/photo_1212@09-02-2021_16-31-47-767x1024.jpg)
 %%%
 
 ##### 2021.02.10 01:10
@@ -333,11 +333,11 @@ And now we’re back at port Caucasus, where PSC paid us another visit from the 
 I hope soon to post my Istanbul–Odessa tickets here.
 
 %%%2
-  ![](+images/photo_1213@10-02-2021_12-53-19-1024x614.jpg)
-  ![The names of tugs in Kerch are mind-blowing)](+images/photo_1214@10-02-2021_12-53-19-1024x570.jpg)
-  %&12
-    ![](+images/photo_1215@11-02-2021_00-32-39-1024x767.jpg)
-  &%
+![](+images/photo_1213@10-02-2021_12-53-19-1024x614.jpg)
+![The names of tugs in Kerch are mind-blowing)](+images/photo_1214@10-02-2021_12-53-19-1024x570.jpg)
+%&12
+![](+images/photo_1215@11-02-2021_00-32-39-1024x767.jpg)
+&%
 %%%
 
 ##### 2021.02.11 00:32
@@ -371,9 +371,9 @@ Meanwhile we’re drifting near Turkey, waiting for good weather. Fifteen minute
 YES, KATSU IS ASHORE! FAREWELL, FORTUNE TRADER! But there’s a storm, snow, zero visibility—so I have no idea about the flight to Ukraine.
 
 %%%3
-  ![](+images/photo_1221@15-02-2021_05-53-27-767x1024.jpg)
-  ![](+images/photo_1222@15-02-2021_05-53-27-1024x767.jpg)
-  ![](+images/photo_1223@15-02-2021_05-53-27-1024x767.jpg)
+![](+images/photo_1221@15-02-2021_05-53-27-767x1024.jpg)
+![](+images/photo_1222@15-02-2021_05-53-27-1024x767.jpg)
+![](+images/photo_1223@15-02-2021_05-53-27-1024x767.jpg)
 %%%
 
 ##### 2021.02.15 06:06
@@ -385,20 +385,20 @@ They settled us in the Panorama Hotel again—only this time it was eight of us 
 It’s now 22:00. At 01:00 the agent will come and take us to the airport. I don’t understand why, since the next flight to Odessa is at 08:00. And no one’s even told us which tickets we have. **Upd.** Of course Katsu forgot about COVID and the requirement to test.
 
 %%%3
-  %&13
-    ![](+images/photo_1224@16-02-2021_01-50-52-edited.jpg)
-  &%
-  %&23
-    ![Istanbul Airport, the PCR testing area.](+images/photo_1225@16-02-2021_02-42-21-767x1024.jpg)
-    ![By the way, one side of the half-lira coin features the Bosphorus strait.](+images/photo_1226@16-02-2021_03-01-35-768x1024.jpg)
-    ![](+images/photo_1227@16-02-2021_03-48-35-1024x767.jpg)
-    ![](+images/photo_1228@16-02-2021_07-11-32-768x1024.jpg)
-    ![](+images/photo_1229@16-02-2021_08-53-46-1024x485.jpg)
-    ![](+images/photo_1230@16-02-2021_08-53-46-1024x768.jpg)
-  &%
-  ![](+images/photo_1231@16-02-2021_08-53-46-768x1024.jpg)
-  ![](+images/photo_1232@16-02-2021_08-53-46-768x1024.jpg)
-  ![](+images/photo_1233@16-02-2021_08-53-46-768x1024.jpg)
+%&13
+![](+images/photo_1224@16-02-2021_01-50-52-edited.jpg)
+&%
+%&23
+![Istanbul Airport, the PCR testing area.](+images/photo_1225@16-02-2021_02-42-21-767x1024.jpg)
+![By the way, one side of the half-lira coin features the Bosphorus strait.](+images/photo_1226@16-02-2021_03-01-35-768x1024.jpg)
+![](+images/photo_1227@16-02-2021_03-48-35-1024x767.jpg)
+![](+images/photo_1228@16-02-2021_07-11-32-768x1024.jpg)
+![](+images/photo_1229@16-02-2021_08-53-46-1024x485.jpg)
+![](+images/photo_1230@16-02-2021_08-53-46-1024x768.jpg)
+&%
+![](+images/photo_1231@16-02-2021_08-53-46-768x1024.jpg)
+![](+images/photo_1232@16-02-2021_08-53-46-768x1024.jpg)
+![](+images/photo_1233@16-02-2021_08-53-46-768x1024.jpg)
 %%%
 
 Thus I found myself home after what seemed to be a grueling voyage that I remember with special fondness. Despite all the hardships, with a united and tight-knit crew you can move mountains!

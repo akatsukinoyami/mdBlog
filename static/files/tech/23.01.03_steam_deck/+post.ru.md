@@ -7,11 +7,11 @@
 Так как новые вещи облагаются куда большим налогом и сборами, друг придал консоли немного поюзанный вид, чтобы избежать государственных поборов)
 
 %%%3
-  ![](+images/box_photo.jpeg)
-  ![](+images/with_charger.jpeg)
-  ![](+images/with_blanket.jpeg)
-  ![](+images/screen_on.jpeg)
-  ![](+images/backside.jpeg)
+![](+images/box_photo.jpeg)
+![](+images/with_charger.jpeg)
+![](+images/with_blanket.jpeg)
+![](+images/screen_on.jpeg)
+![](+images/backside.jpeg)
 %%%
 
 ## Характеристики
@@ -59,8 +59,8 @@ Steam Deck основан на оригинальном процессоре AMD
 ААА проекты в среднем идут на 30 фпс на средне-низких, а что-то попроще может доходить и до 60 фпс.
 
 %%%2
-  ![Cyberpunk 2077](+images/cyberpunk.jpg)
-  ![Hatsune Miku Project Diva MegaMix+](+images/hmpdmm+.jpg)
+![Cyberpunk 2077](+images/cyberpunk.jpg)
+![Hatsune Miku Project Diva MegaMix+](+images/hmpdmm+.jpg)
 %%%
 
 #### Стационарный режим
@@ -74,7 +74,7 @@ Steam Deck основан на оригинальном процессоре AMD
 В меню выключения можно найти пункт "Перейти в режим рабочего стола", после нажатия на который нас встретит... KDE!
 
 %%%1
-  ![Интерфейс KDE на экране консоли](+images/kde.png)
+![Интерфейс KDE на экране консоли](+images/kde.png)
 %%%
 
 Да, ведь Steam OS основана на дистрибьютиве Arch Linux c окружением рабочего стола KDE. Это открытая операционная система, которая совершенно не запрещает вам делать что заблагорассудится.
@@ -102,7 +102,7 @@ Epic Games Store и GOG через Heroic Launcher? Легко.
 В системах Windows/Linux или MacOS мы привыкаем к использованию "горячих" сочетаний клавиш, чтобы ускорить свою работу. Консоль так же обладает большим количеством таких "шорткатов", которые очень упрощают работу с устройством и делают ее приятнее.
 
 %%%1
-  ![](+images/shortcuts.webp)
+![](+images/shortcuts.webp)
 %%%
 
 ## Итоги

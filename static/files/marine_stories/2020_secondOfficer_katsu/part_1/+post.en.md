@@ -23,8 +23,8 @@ I dropped off my relatives and headed for check-in)
 Passed security at the entrance to the boarding area.
 
 %%%2
-  ![](+images/photo_910@07-08-2020_19-19-19-1-768x1024.jpg)
-  ![In the departure lounge) I passed all the checks)](+images/photo_911@07-08-2020_20-06-41-1-1024x768.jpg)
+![](+images/photo_910@07-08-2020_19-19-19-1-768x1024.jpg)
+![In the departure lounge) I passed all the checks)](+images/photo_911@07-08-2020_20-06-41-1-1024x768.jpg)
 %%%
 
 And then I realized that nobody even thought to check the weight of carry-on luggage—they didn’t even look at it.  
@@ -34,9 +34,9 @@ Okay, the captain, the second mechanic, and I boarded the plane)
 Next contact from Istanbul.
 
 %%%3
-  ![](+images/photo_912@08-08-2020_02-27-17-1024x768.jpg)
-  ![](+images/photo_914@08-08-2020_02-27-17-1024x768.jpg)
-  ![](+images/photo_915@08-08-2020_02-27-17-1024x768.jpg)
+![](+images/photo_912@08-08-2020_02-27-17-1024x768.jpg)
+![](+images/photo_914@08-08-2020_02-27-17-1024x768.jpg)
+![](+images/photo_915@08-08-2020_02-27-17-1024x768.jpg)
 %%%
 
 ##### 2020.08.08
@@ -44,7 +44,7 @@ Next contact from Istanbul.
 Hello everyone, we’re at the hotel and finally on Wi-Fi; everything is good, we’ll wait for further news about boarding the ship) Sweet dreams to you)
 
 %%%1  
-  ![This is where we’re staying)](+images/photo_917@08-08-2020_02-27-24-1-1024x768.jpg)
+ ![This is where we’re staying)](+images/photo_917@08-08-2020_02-27-24-1-1024x768.jpg)
 %%%
 
 This will be our vessel - [Fortune Trader](https://www.marinetraffic.com/ru/ais/details/ships/shipid:210311/mmsi:636018524/imo:9235232/vessel:FORTUNE_TRADER)
@@ -58,7 +58,7 @@ Okay, rolling out of the hotel.
 ##### 2020.08.09 04:33
 
 Returned from watch, we picked up the pilot and are going through the strait.  
-In short, it’s a f***ing disaster)  
+In short, it’s a f\*\*\*ing disaster)  
 The ECDIS systems are not integrated with the radars or even with each other. They also don’t display CPA; you can see it only on the AIS screen.  
 The radars… older than me. They’re CRT-based, and on one of them even the “trail” function doesn’t work, and on the second, the protective glass is cracked.  
 The crew change took a bit less than an hour, and I was barely brought up to speed.  
@@ -79,14 +79,14 @@ Now I know that my complaints about the old ship I used to sail on were meaningl
 
 Hello everyone, Katsu here.  
 We’re at anchor near Port Kavkaz and caught a Russian Beeline signal)  
-As I wrote earlier, there’s absolutely no good news—together with the 3rd Officer and the bosun, we’re sorting out this sh*t left behind by the previous crew.
+As I wrote earlier, there’s absolutely no good news—together with the 3rd Officer and the bosun, we’re sorting out this sh\*t left behind by the previous crew.
 
 %%%3  
-  ![ECDIS display](+images/photo_919@11-08-2020_12-44-15-1024x767.jpg)
-  ![Radar screen](+images/photo_920@11-08-2020_12-44-15-1024x767.jpg)
-  !r2[Steering wheel](+images/photo_918@11-08-2020_12-44-15-767x1024.jpg)
-  ![Engine control panel](+images/photo_921@11-08-2020_12-44-16-1024x767.jpg)
-  ![GPS, AIS, GPS](+images/photo_922@11-08-2020_12-44-16-1024x768.jpg)
+ ![ECDIS display](+images/photo_919@11-08-2020_12-44-15-1024x767.jpg)
+![Radar screen](+images/photo_920@11-08-2020_12-44-15-1024x767.jpg)
+!r2[Steering wheel](+images/photo_918@11-08-2020_12-44-15-767x1024.jpg)
+![Engine control panel](+images/photo_921@11-08-2020_12-44-16-1024x767.jpg)
+![GPS, AIS, GPS](+images/photo_922@11-08-2020_12-44-16-1024x768.jpg)
 %%%
 
 Navigation equipment on the bridge.
@@ -96,7 +96,7 @@ Navigation equipment on the bridge.
 Hello everyone, we shifted closer to the Crimean Bridge, there the signal is better and the ship will load right at the anchorage.
 
 %%%1
-  ![The Crimean Bridge has shifted a bit😂](+images/photo_923@13-08-2020_02-28-17-767x1024.jpg)
+![The Crimean Bridge has shifted a bit😂](+images/photo_923@13-08-2020_02-28-17-767x1024.jpg)
 %%%
 
 ##### 2020.08.13 02:30
@@ -104,12 +104,12 @@ Hello everyone, we shifted closer to the Crimean Bridge, there the signal is bet
 Surprisingly, at the face control by border guards there were not even any FSB agents, as usual.
 
 %%%3  
-  ![](+images/photo_925@13-08-2020_02-30-47-1024x768.jpg)
-  ![](+images/photo_926@13-08-2020_02-30-47-1024x768.jpg)
-  ![](+images/photo_927@15-08-2020_05-02-37-1024x1024.jpg)
-  ![](+images/photo_924@13-08-2020_02-30-46-1-768x1024.jpg)
-  ![](+images/photo_929@15-08-2020_05-02-37-1024x767.jpg)
-  ![](+images/photo_930@15-08-2020_05-02-37-1024x768.jpg)
+ ![](+images/photo_925@13-08-2020_02-30-47-1024x768.jpg)
+![](+images/photo_926@13-08-2020_02-30-47-1024x768.jpg)
+![](+images/photo_927@15-08-2020_05-02-37-1024x1024.jpg)
+![](+images/photo_924@13-08-2020_02-30-46-1-768x1024.jpg)
+![](+images/photo_929@15-08-2020_05-02-37-1024x767.jpg)
+![](+images/photo_930@15-08-2020_05-02-37-1024x768.jpg)
 %%%
 
 ##### 2020.08.15 05:00
@@ -122,12 +122,12 @@ On the bright side, because of the watches, the days fly by insanely fast. If I 
 On the other hand, by the level of annoyance, it feels like I’ve been here for more than a month already.
 
 %%%1  
-  ![Engine room and Main Engine](+images/photo_928@15-08-2020_05-02-37-1-767x1024.jpg)
+ ![Engine room and Main Engine](+images/photo_928@15-08-2020_05-02-37-1-767x1024.jpg)
 %%%
 
 ##### 2020.08.18 12:45
 
-Well, sh*t… PSC came and tore us apart, meh.  
+Well, sh\*t… PSC came and tore us apart, meh.  
 And me too. Obviously, because of the previous second officer, meh.  
 Well, if something can be solved with money, that’s not a problem.  
 PSC stands for Port State Control “Paris Memorandum of Understanding”; in our case, it’s one of the strict European inspections.
@@ -168,9 +168,9 @@ And a bunch of other requests too… Meh.
 Alright, let’s not dwell on the negative.
 
 %%%3  
-  ![](+images/photo_931@26-08-2020_03-55-33-768x1024.jpg)
-  ![Chinese container ship](+images/photo_932@26-08-2020_03-55-33-1024x768.jpg)
-  ![Warship](+images/photo_933@26-08-2020_03-55-33-1024x768.jpg)
+ ![](+images/photo_931@26-08-2020_03-55-33-768x1024.jpg)
+![Chinese container ship](+images/photo_932@26-08-2020_03-55-33-1024x768.jpg)
+![Warship](+images/photo_933@26-08-2020_03-55-33-1024x768.jpg)
 %%%
 
 ##### 2020.08.26 18:30

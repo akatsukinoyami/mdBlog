@@ -1,5 +1,5 @@
 %%%1
-  ![](+images/poster.jpg)
+![](+images/poster.jpg)
 %%%
 
 This work is about the vicissitudes of life in modern Japanese show business. I can't carelessly call it just "anime" or "tittle". And it stands out from modern anime for many factors.
@@ -34,10 +34,10 @@ The first season of the anime ends logically enough with the first concert and s
 I don't know what else to write, but given that the emotions have made me write so much already - shows how worth it it is to watch this work.
 
 %%%3
-  ![](+images/0001.jpg)
-  ![](+images/0002.jpg)
-  ![](+images/0003.webp)
-  ![](+images/0004.jpg)
-  ![](+images/0005.jpg)
-  ![](+images/0006.webp)
+![](+images/0001.jpg)
+![](+images/0002.jpg)
+![](+images/0003.webp)
+![](+images/0004.jpg)
+![](+images/0005.jpg)
+![](+images/0006.webp)
 %%%

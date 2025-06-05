@@ -4,13 +4,13 @@ Last time we finished on September 8, a month after boarding the ship.
 I sent photos with very reduced quality so as not to exhaust the little internet traffic available to me.
 
 %%%3
-  ![](+images/photo_937@09-09-2020_02-16-26-768x1024.jpg)
-  ![](+images/photo_939@09-09-2020_02-16-26-767x1024.jpg)
-  ![](+images/photo_941@11-09-2020_23-43-35-767x1024.jpg)
-  %&23
-    ![](+images/photo_940@09-09-2020_04-44-09-1024x768.jpg)
-    ![](+images/photo_938@09-09-2020_02-16-26-1024x767.jpg)
-  &%
+![](+images/photo_937@09-09-2020_02-16-26-768x1024.jpg)
+![](+images/photo_939@09-09-2020_02-16-26-767x1024.jpg)
+![](+images/photo_941@11-09-2020_23-43-35-767x1024.jpg)
+%&23
+![](+images/photo_940@09-09-2020_04-44-09-1024x768.jpg)
+![](+images/photo_938@09-09-2020_02-16-26-1024x767.jpg)
+&%
 %%%
 
 ##### 2020.09.09 06:00
@@ -23,7 +23,7 @@ Well, I had to force them to wake grandpa up, although they were very reluctant,
 
 As a result, we’re leaving the port of Jebel Ali without the main air conditioner and we’ll spend another two weeks in the Persian Gulf without air conditioning!
 Only after exiting Shuwaikh (Kuwait) and leaving the Persian Gulf, at Fujairah anchorage they will install those evaporators.
-(Katsu from the future: they won’t install them. Katsu from an even more distant future: *laughs*)
+(Katsu from the future: they won’t install them. Katsu from an even more distant future: _laughs_)
 Well, bastards is all I can say.
 We have to cram ourselves onto the little couch in turns with the third officer on the bridge. In the only place on the ship where there is air conditioning.
 Right now the chief engineer has bought ordinary home split systems and they will be installed in the large mess halls, so people can at least sleep in the cool. Worse than barracks.
@@ -39,7 +39,7 @@ I barely managed to wake up for my watch, I slept only a few hours in the last d
 We’re sailing in the Persian Gulf; around the ship on the waves, bioluminescent phytoplankton is glowing, it looks incredibly beautiful, but a smartphone camera cannot capture it.
 
 %%%1
-  ![Combination Ladder](+images/image-8-582x1024.png)
+![Combination Ladder](+images/image-8-582x1024.png)
 %%%
 
 ##### 2020.09.10 12:41 (UTC+4)
@@ -77,14 +77,14 @@ An Arab official came, checked all temperatures, declared free pratique, and lef
 Here there should have been timelapse videos of leaving Jebel Ali and entering Shuwaikh, but WordPress won’t let me upload them.
 
 %%%3
-  ![](+images/photo_950@12-09-2020_15-00-17-1024x768.jpg)
-  ![Vessels in Persian Gulf](+images/photo_952@12-09-2020_15-00-17-1024x768.jpg)
-  ![](+images/photo_948@12-09-2020_15-00-17-1024x768.jpg)
-  ![](+images/photo_943@11-09-2020_23-43-35-1024x768.jpg)
-  ![](+images/photo_951@12-09-2020_15-00-17-1024x768.jpg)
-  !r2[](+images/photo_946@12-09-2020_14-58-07-768x1024.jpg)
-  ![Shuwaikh Port](+images/photo_944@12-09-2020_14-58-07-1024x768.jpg)
-  ![](+images/photo_945@12-09-2020_14-58-07-1024x768.jpg)
+![](+images/photo_950@12-09-2020_15-00-17-1024x768.jpg)
+![Vessels in Persian Gulf](+images/photo_952@12-09-2020_15-00-17-1024x768.jpg)
+![](+images/photo_948@12-09-2020_15-00-17-1024x768.jpg)
+![](+images/photo_943@11-09-2020_23-43-35-1024x768.jpg)
+![](+images/photo_951@12-09-2020_15-00-17-1024x768.jpg)
+!r2[](+images/photo_946@12-09-2020_14-58-07-768x1024.jpg)
+![Shuwaikh Port](+images/photo_944@12-09-2020_14-58-07-1024x768.jpg)
+![](+images/photo_945@12-09-2020_14-58-07-1024x768.jpg)
 %%%
 
 ##### 2020.09.13 06:30
@@ -96,17 +96,17 @@ Let’s hope that in Fujairah at least they actually install the air conditioner
 **Upd.** Holy naivety!
 
 %%%3  
-  ![](+images/photo_954@13-09-2020_16-29-44-1024x768.jpg)
-  ![](+images/photo_955@13-09-2020_16-29-44-1024x768.jpg)
-  ![This is the Fortune Trader—rusty and ugly…](+images/photo_957@13-09-2020_16-29-44-1024x768.jpg)
-  %&13  
-    ![](+images/photo_959@14-09-2020_17-47-26-767x1024.jpg)
-  &%
+ ![](+images/photo_954@13-09-2020_16-29-44-1024x768.jpg)
+![](+images/photo_955@13-09-2020_16-29-44-1024x768.jpg)
+![This is the Fortune Trader—rusty and ugly…](+images/photo_957@13-09-2020_16-29-44-1024x768.jpg)
+%&13  
+ ![](+images/photo_959@14-09-2020_17-47-26-767x1024.jpg)
+&%
 %%%
 
 ##### 2020.09.17 12:00
 
-Well, the discharge is finished and we’re preparing to depart from this f***ing hot Kuwait.
+Well, the discharge is finished and we’re preparing to depart from this f\*\*\*ing hot Kuwait.
 Yes, they charged us with a shortage of 350 tons according to the shore scale. (How they calculate cargo on the dock)
 Right now the Chief Officer is conducting a draft survey with the surveyor to figure out the situation.
 But since he’s a push-over, most likely the Arabs or Indians will let him off easy.
@@ -131,24 +131,24 @@ Last night we handed over the soldiers, and passing through the dangerous area w
 Now we’re proceeding further down the Red Sea toward Suez, where we’ll take on a Greek technician who flew in; after passing through the Suez Canal, we’ll head to Piraeus, Greece.
 At the moment we have:
 
-- Air conditioner not working  
-- No cold water for the showers  
-- Left-side combination ladder missing  
-- Right-side combination ladder not functioning  
-- S-Band radar antenna not working  
-- One radar not acquiring targets  
-- Hatch cover hydraulics leaking everywhere  
-- Ballast system dying  
-- Propeller bent and cracked  
-- The engine room condition is horrifying  
+- Air conditioner not working
+- No cold water for the showers
+- Left-side combination ladder missing
+- Right-side combination ladder not functioning
+- S-Band radar antenna not working
+- One radar not acquiring targets
+- Hatch cover hydraulics leaking everywhere
+- Ballast system dying
+- Propeller bent and cracked
+- The engine room condition is horrifying
 - And the cook is a real welder, who continues to turn food into trash and exacerbates deteriorating tensions among the crew
 
 BUT. It turned out we encountered a sister ship (built the same way) operating under the same company called TAILWINDS and there everything is even worse. In addition to many of the above issues, they have:
 
-- Gyrocompass not working  
-- Radars not acquiring targets at all  
-- Propeller falling off completely  
-- On top of that, a tyrant of a captain  
+- Gyrocompass not working
+- Radars not acquiring targets at all
+- Propeller falling off completely
+- On top of that, a tyrant of a captain
 
 And they want to send that vessel on a voyage from Novorossiysk to Thailand without repair.
 After that it became clear that ours is, in principle, the flagship of this company, not the worst as we thought…
@@ -180,7 +180,7 @@ Grandpa even had the nerve to try to lecture the captain. Dude, that grandpa is 
 God knows what’s happening here…
 
 %%%1  
-  ![](+images/photo_960@30-09-2020_05-00-22-1024x767.jpg)
+ ![](+images/photo_960@30-09-2020_05-00-22-1024x767.jpg)
 %%%
 
 They painted the hatch covers; at least now it looks somewhat decent.

@@ -1,5 +1,5 @@
 %%%1
-  ![](+images/poster.jpg)
+![](+images/poster.jpg)
 %%%
 
 Почав дивитися торішнє аніме - ремейк Нестерпних прибульців - класичного "етті" з 80-х, якщо можна так сказати. Це аніме – прабатько великої серії To Love Ru та жанру в принципі.
@@ -7,8 +7,8 @@
 Нове аніме досить цікаве, але що мене вразило - добірка музики. Вона тут прямо потрапила на мої смаки. Прикладаю посилання офіційні creditless версії та версії від виконавця опенінгів та ендінгів.
 
 %%%2
-  ![OP1 Aiue - Minami, SAKURAmoti](+images/op1.jpg)
-  ![ED1 Tokyo Shandy Rendezvous - Hanafu, Tsumiki](+images/ed1.jpg)
+![OP1 Aiue - Minami, SAKURAmoti](+images/op1.jpg)
+![ED1 Tokyo Shandy Rendezvous - Hanafu, Tsumiki](+images/ed1.jpg)
 
   <div class="flex justify-evenly">
     <a href="http://youtu.be/gpXy3_NdVEc" target="_blank">Anime Video</a>
@@ -20,8 +20,8 @@
     <a href="https://youtu.be/fwzRR6Bsro4" target="_blank">MAISONdes Video</a>
   </div>
 
-  ![OP2 Iwanamuchu - asmi, Surie](+images/op2.jpg)
-  ![ED1 Not enough - yama, Nito](+images/ed2.jpg)
+![OP2 Iwanamuchu - asmi, Surie](+images/op2.jpg)
+![ED1 Not enough - yama, Nito](+images/ed2.jpg)
 
   <div class="flex justify-evenly">
     <a href="http://youtu.be/stb-BpPpJ7U" target="_blank">Anime Video</a>

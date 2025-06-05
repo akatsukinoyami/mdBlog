@@ -7,6 +7,7 @@ I also wanted to test EA racing games, but their launcher refused to run under W
 ## Cyberpunk 2077
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_CP_2077_Ingame.jpeg)
@@ -24,6 +25,7 @@ I also wanted to test EA racing games, but their launcher refused to run under W
 ## The Witcher 3
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Witcher_3_Ingame_1.jpeg)
@@ -43,6 +45,7 @@ I also wanted to test EA racing games, but their launcher refused to run under W
 ## Hogwarts Legacy
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Hogwarts_Indoor.jpeg)
@@ -58,6 +61,7 @@ I also wanted to test EA racing games, but their launcher refused to run under W
 ## Scarlet Nexus
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Scarlet_Nexus_Ingame.jpeg)
@@ -69,6 +73,7 @@ I also wanted to test EA racing games, but their launcher refused to run under W
 ## The Elder Scrolls V: Skyrim
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Skyrim_Ingame.jpeg)
@@ -84,6 +89,7 @@ I also wanted to test EA racing games, but their launcher refused to run under W
 The game is available natively on macOS, but its Metal HUD does not function.
 
 %%%3
+
   <p>MacBook Pro 2021 Native</p>
   <p>MacBook Pro 2021 Whisky</p>
   <p>MacBook Pro 2023</p>
@@ -101,6 +107,7 @@ The game is available natively on macOS, but its Metal HUD does not function.
 ## Snowrunner
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Snowrunner_Ingame.jpeg)
@@ -112,6 +119,7 @@ The game is available natively on macOS, but its Metal HUD does not function.
 ## Hatsune Miku: Project DIVA MegaMix+
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_HMPD_Ingame.jpeg)
@@ -125,6 +133,7 @@ The game is available natively on macOS, but its Metal HUD does not function.
 ## Timberborn
 
 %%%3
+
   <p>MacBook Pro 2021 Native</p>
   <p>MacBook Pro 2021 Whisky</p>
   <p>MacBook Pro 2023</p>

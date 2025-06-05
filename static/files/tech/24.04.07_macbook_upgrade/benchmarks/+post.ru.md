@@ -1,6 +1,7 @@
 ## Geekbench 6
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Geekbench6_CPU.jpeg)
@@ -18,6 +19,7 @@
 ## Amorphous Disk Mark
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_AmorphousDiskMark.jpeg)
@@ -28,6 +30,7 @@
 ## Amorphous Memory Mark
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_AmorphousMemoryMark.jpeg)
@@ -38,6 +41,7 @@
 ## Browserbench Speedometer 3.0
 
 %%%2
+
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Browserbench_Speedometer3.jpeg)
@@ -48,6 +52,7 @@
 ## Mozilla Kraken
 
 %%%5
+
   <p>TEST</p>
   <p>M3Pro</p>
   <p>M1Pro</p>
