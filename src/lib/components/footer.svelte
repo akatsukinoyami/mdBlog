@@ -11,12 +11,10 @@
   
 </script>
 
-<footer class="flex justify-center fixed bottom-0 items-center justify-center w-full">
-  <nav class="inline-flex gap-10 px-10 pb-1 pt-2 shadow-2xl/30 bg-white/90 dark:bg-gray-900/90 backdrop-blur-xs rounded-t-xl opacity-50 hover:opacity-75">
-    {#each links as [link, icon, label]}
-      <a class={["flex gap-3 items-center text-xs", hoverShadows]} href="https://{link}" target="_blank">
-        <img class="h-3 w-3" src="/icons/{icon}.svg" alt="{label} icon" />{label}
-      </a>
-    {/each}
-  </nav>
+<footer class="fixed bottom-0 right-6">
+  {#each links as [link, icon, label]}
+    <a class={["flex gap-3 justify-end items-center text-xs mb-4 grayscale hover:grayscale-0 opacity-50  hover:opacity-80", hoverShadows]} href="https://{link}" target="_blank">
+      {label} <img class="h-3 w-3" src="/icons/{icon}.svg" alt="{label} icon" />
+    </a>
+  {/each}
 </footer>
