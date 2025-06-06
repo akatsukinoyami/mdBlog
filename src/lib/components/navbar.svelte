@@ -10,14 +10,14 @@
 
 <div
 	class={[
-		'sticky h-12 px-5 sm:mx-2 sm:mt-2 md:mx-5',
+		'sticky top-0 h-12 px-5 sm:mx-2 sm:mt-2 md:mx-5 z-40',
 		'sm:rounded-full sm:shadow-md',
 		'ring ring-1 ring-gray-100 dark:ring-gray-950',
-		'bg-white/90 dark:bg-gray-900/90',
+		'bg-white/90 dark:bg-gray-900/90 backdrop-blur-xs',
 		flex
 	]}
 >
-	<a href="/" class={[flex, hoverShadows, 'blockmr-auto gap-2 font-semibold']}>
+	<a href="/" class={[flex, hoverShadows, 'block mr-auto gap-2 font-semibold']}>
 		<img src="/icon-64.png" width="32" alt="icon" /> Katsu Nikki
 	</a>
 	<!--
@@ -37,7 +37,7 @@
 
 		<button
 			class={['cursor-pointer opacity-60 hover:opacity-100 w-6 h-6 bg-center bg-no-repeat bg-contain', hoverShadows]}
-			style:background-image={bgUrl('flags', `${$lang}.svg`)}
+			style:background-image={bgUrl('icons', `${$lang}.svg`)}
 			onclick={() => lang.toggle()}
 			aria-label="button"
 		></button>
