@@ -6,6 +6,10 @@ export function url(...params: string[]): string {
   return "/" + params.filter(Boolean).join("/");
 }
 
+export function bgUrl(...params: string[]): string {
+  return `url("${url(...params)}")`;
+}
+
 export function range(n: number): number[] {
   return [...Array(n).keys()];
 }

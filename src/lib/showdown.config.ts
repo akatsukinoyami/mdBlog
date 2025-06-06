@@ -1,24 +1,5 @@
+import { figcaption, figure, grid, iframe, img } from "./constants";
 import type { ShowdownExtension } from "./types";
-
-const grid = "grid md:grid-cols-$1 grid-cols-1";
-
-const spanSize = (q?: "col" | "row") =>
-  q ? `md:${q}-span-$1 ${q}-span-1` : "";
-const figure = (q?: "col" | "row") =>
-  `figure class="flex flex-col relative items-center gap-2 my-2 max-h-120 group ${spanSize(q)}"`;
-
-const iframe = 'iframe class="w-full rounded-lg shadow-2xl my-2 $1"';
-
-const img = `img class="rounded-lg w-full h-full object-cover" loading="lazy" decoding="async"`;
-
-const figcaption = `figcaption class="opacity-40 group-hover:opacity-100
-		w-full text-justify-or-center absolute bottom-0 text-sm pt-10 pb-2 px-4
-		backdrop-blur-xs gradient-mask
-		bg-linear-to-b rounded-b-md 
-		from-0% from-white/0 dark:from-gray-950/0 
-		via-40% via-white/40 dark:via-gray-950/40 
-		to-100% to-white/90  dark:to-gray-950/90
-	"`;
 
 export const showdownExtensions: ShowdownExtension[] = (
   [

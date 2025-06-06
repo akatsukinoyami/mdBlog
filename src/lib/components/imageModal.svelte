@@ -15,15 +15,23 @@
 
   function onkeyup(e: KeyboardEvent) {
     if (codes.has(e.code)) close();
+  }  
+  
+  function onclick(e: MouseEvent) {
+    if (e.target === e.currentTarget) close();
   }
+
+  $effect(() => {
+    document.body.classList.toggle('overflow-hidden', src)
+  })
 </script>
 
 <svelte:window {onkeyup} />
 
 {#if src}
-  <div class="fixed inset-0 bg-black/50 backdrop-blur-xs flex items-center justify-center z-50" onclick={close}>
-    <div class="relative max-h-[95vh] max-w-[95vh]">
-      <img class="rounded-lg object-contain max-h-[95vh] max-w-[95vh] mx-auto" {src} {alt} />
+  <div class="fixed inset-0 bg-black/70 backdrop-blur-xs flex items-center justify-center z-50" {onclick}>
+    <div class="relative max-h-[95vh] max-w-[95vw]">
+      <img class="rounded-lg object-contain max-h-[95vh] max-w-[95vw] mx-auto" {src} {alt} />
       <button
         class="absolute top-2 right-2 text-white bg-black/30 hover:bg-black/50 rounded-full p-2 focus:outline-none"
         onclick={close}

@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { lang } from '$lib/stores';
-	import { url } from '$lib/utils';
+	import { url, bgUrl } from '$lib/utils';
+	import { textStroke } from '$lib/constants';
 	import type { Entity } from '$lib/types';
 
 	interface Props extends Record<string, unknown> {
@@ -22,16 +23,10 @@
 		className
 	]}
 	href={url(page.data.path, folderName)}
-	style:background-image='url("{url('files', page.data.path, folderName, 'index.jpg')}")'
+	style:background-image={bgUrl('files', page.data.path, folderName, 'index.jpg')}
 	aria-label="card"
 >	
-	<span
-		class="
-      absolute bottom-3 w-full text-center
-      text-shadow-[-1px_-1px_1px_var(--color-amber-50),-1px_1px_1px_var(--color-amber-50),1px_-1px_1px_var(--color-amber-50),1px_1px_1px_var(--color-amber-50)]
-      dark:text-shadow-[-1px_-1px_1px_var(--color-gray-950),-1px_1px_1px_var(--color-gray-950),1px_-1px_1px_var(--color-gray-950),1px_1px_1px_var(--color-gray-950)]
-    "
-	>
+	<span class={["absolute bottom-3 w-full text-center px-1", textStroke]}>
 		{entity?.title?.[$lang]}
 	</span>
 </a>

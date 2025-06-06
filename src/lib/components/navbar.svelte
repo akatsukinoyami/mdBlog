@@ -1,17 +1,11 @@
 <script lang="ts">
 	import { mdiWeatherNight, mdiWhiteBalanceSunny } from '@mdi/js';
+	import { flex, hoverShadows } from '$lib/constants';
 	import { theme, lang } from '$lib/stores';
+	import { bgUrl } from '$lib/utils';
 	import Icon from './icon.svelte';
 
 	// let { links = [{ href: '/', label: 'Home' }] } = $props();
-
-	const flex = 'flex items-center';
-	const shadows = 'hover:drop-shadow-xl/50 hover:drop-shadow-amber-900 dark:hover:drop-shadow-gray-50';
-	const flags = {
-		ru: 'bg-[url(/flags/ru.svg)]',
-		en: 'bg-[url(/flags/en.svg)]',
-		ua: 'bg-[url(/flags/ua.svg)]'
-	}
 </script>
 
 <div
@@ -23,26 +17,27 @@
 		flex
 	]}
 >
-	<a href="/" class={[shadows, flex, 'blockmr-auto gap-2 font-semibold']}>
+	<a href="/" class={[flex, hoverShadows, 'blockmr-auto gap-2 font-semibold']}>
 		<img src="/icon-64.png" width="32" alt="icon" /> Katsu Nikki
 	</a>
 	<!--
-	<middle class="absolute left-1/2 hidden -translate-x-1/2 transform sm:block">
-		{#each links as { href, label } (href)}
-			<a class={shadows} {href}>{label}</a>
-		{/each}
-	</middle>
-		-->
+		<middle class="absolute left-1/2 hidden -translate-x-1/2 transform sm:block">
+			{#each links as { href, label } (href)}
+				<a class={shadows} {href}>{label}</a>
+			{/each}
+		</middle>
+	-->
 	<end class={[flex, 'ml-auto gap-4']}>
 		<button
-			class={['cursor-pointer opacity-60 hover:opacity-100', shadows]}
+			class={['cursor-pointer opacity-60 hover:opacity-100', hoverShadows]}
 			onclick={() => theme.toggle()}
 		>
 			<Icon path={$theme === 'dark' ? mdiWeatherNight : mdiWhiteBalanceSunny} />
 		</button>
 
 		<button
-			class={['cursor-pointer opacity-60 hover:opacity-100 w-6 h-6 bg-center bg-no-repeat bg-contain', flags[$lang], shadows]}
+			class={['cursor-pointer opacity-60 hover:opacity-100 w-6 h-6 bg-center bg-no-repeat bg-contain', hoverShadows]}
+			style:background-image={bgUrl('flags', `${$lang}.svg`)}
 			onclick={() => lang.toggle()}
 			aria-label="button"
 		></button>
