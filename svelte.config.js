@@ -1,10 +1,8 @@
 import adapter from "@sveltejs/adapter-static";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
-const config = {
+export default {
   preprocess: [vitePreprocess()],
   kit: { adapter: adapter({ fallback: "200.html" }) },
   extensions: [".svelte"],
 };
-
-export default config;
