@@ -44,7 +44,7 @@ function transformTables(content) {
       .map((cell) => cell.trim()).length;
 
     // Собираем массив всех ячеек, пропуская строку-сепаратор (index 1)
-    const cells = [];
+    const cells: string[] = [];
     for (let i = 0; i < lines.length; i++) {
       if (i === 1) continue; // пропускаем линию с --- | ---
       // Берём строку, чистим от начального и конечного "|", разбиваем по "|"
@@ -52,7 +52,7 @@ function transformTables(content) {
         .slice(1, -1) // удалили первый и последний символ "|"
         .split("|")
         .map((cell) => cell.trim());
-      parts.forEach((txt) => cells.push(txt));
+      parts.forEach((txt: string) => cells.push(txt));
     }
 
     // Генерируем HTML-вывод
