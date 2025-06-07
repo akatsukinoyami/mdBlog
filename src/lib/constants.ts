@@ -13,11 +13,11 @@ export const textStroke = `
 export const spanSize = (q?: "col" | "row") =>
   q ? `md:${q}-span-$1 ${q}-span-1` : "";
 export const figure = (q?: "col" | "row") =>
-  `figure class="flex flex-col relative items-center gap-2 my-2 max-h-120 group ${spanSize(q)}"`;
+  `figure class="flex flex-col relative items-center gap-2 my-2 max-h-140 group ${spanSize(q)}"`;
 
 export const iframe = 'iframe class="w-full rounded-lg shadow-2xl my-2 $1"';
 
-export const img = `img class="rounded-lg w-full h-full object-cover" loading="lazy" decoding="async"`;
+export const img = `img class="rounded-lg w-full h-full max-h-140 object-cover" loading="lazy" decoding="async"`;
 
 export const figcaption = `figcaption class="opacity-40 group-hover:opacity-100
   w-full text-justify-or-center absolute bottom-0 text-sm pt-10 pb-2 px-4

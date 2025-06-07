@@ -36,6 +36,10 @@ ol {
   @apply list-inside list-decimal;
 }
 
+details {
+  @apply my-3;
+}
+
 p {
   @apply my-1;
 }
