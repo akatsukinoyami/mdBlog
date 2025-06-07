@@ -22,7 +22,7 @@ export function togglable<T extends string>(
   const fromStorage = browser ? (localStorage.getItem(key) as T) : defaultValue;
   const value = fromStorage in toggleObject ? fromStorage : defaultValue;
   if (browser) onupdate(value);
-  
+
   return {
     ...writable<T>(value),
     toggle() {
