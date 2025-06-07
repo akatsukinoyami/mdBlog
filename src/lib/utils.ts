@@ -2,39 +2,14 @@ import { browser } from "$app/environment";
 import { get, writable } from "svelte/store";
 import type { Entity, Togglable } from "./types";
 
-export function url(...params: string[]): string {
-  return "/" + params.filter(Boolean).join("/");
-}
+export const url = (...params: string[]) => "/" + params.filter(Boolean).join("/");
+export const bgUrl = (...params: string[]) => `url("${url(...params)}")`;
+export const range = (n: number): number[] => [...Array(n).keys()];
+export const getEntityByPath = (root: Entity, path: string): Entity | undefined => path
+  .split("/")
+  .filter(Boolean)
+  .reduce((current: Entity | undefined, segment) => current?.children?.[segment], root);
 
-export function bgUrl(...params: string[]): string {
-  return `url("${url(...params)}")`;
-}
-
-export function range(n: number): number[] {
-  return [...Array(n).keys()];
-}
-
-export function getEntityByPath(
-  root: Entity,
-  path: string,
-): Entity | undefined {
-  const segments = path.split("/").filter(Boolean);
-  let current = root;
-
-  segments.forEach((segment) => {
-    if (
-      !current.children ||
-      typeof current.children !== "object" ||
-      !(segment in current.children)
-    ) {
-      return undefined;
-    }
-
-    current = current.children[segment];
-  });
-
-  return current;
-}
 
 export function togglable<T extends string>(
   key: string,
@@ -42,13 +17,16 @@ export function togglable<T extends string>(
   toggleObject: Record<T, T>,
   onupdate: (value: T) => void = () => {},
 ): Togglable<T> {
+  
+  const fromStorage = browser ? localStorage.getItem(key) as T : defaultValue;
+  const value = fromStorage in toggleObject ?  fromStorage : defaultValue;
   return {
-    ...writable<T>(browser ? (localStorage.getItem(key) as T) : defaultValue),
+    ...writable<T>(value),
     toggle() {
       const newValue = toggleObject[get(this)] ?? defaultValue;
       this.set(newValue);
       onupdate(newValue);
-      localStorage.setItem(key, newValue);
+      browser && localStorage.setItem(key, newValue);
     },
   };
 }

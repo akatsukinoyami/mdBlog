@@ -2,11 +2,8 @@ import type { Writable } from "svelte/store";
 
 export type ClassRecord = Record<string, boolean>;
 export type Class = string | string[] | ClassRecord;
-
 export type Lang = "ru" | "en" | "ua";
-
 export type Theme = "light" | "dark";
-
 export interface Entity {
   title: {
     en: string;
