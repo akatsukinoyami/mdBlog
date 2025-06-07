@@ -4,7 +4,7 @@ import type { Config } from "tailwindcss";
   Script for generating safelist
   [
     ...["w-", "h-"]
-      .map((type) => ["full", 250, 70].map((size) => type + size))
+      .map((type) => ["full", 250, 140, 70].map((size) => type + size))
       .flat(Infinity),
     ...[...Array(5).keys()]
       .map((i) =>
@@ -27,6 +27,7 @@ export default {
     "h-full",
     "h-250",
     "h-70",
+    "h-140",
     "grid-cols-1",
     "sm:grid-cols-1",
     "md:grid-cols-1",
