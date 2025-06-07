@@ -41,3 +41,11 @@
 ![](+images/0005.jpg)
 ![](+images/0006.webp)
 %%%
+
+%%%2
+@{h-70}[](https://www.youtube.com/embed/PgBvV9ofjmA)
+@{h-70}[](https://www.youtube.com/embed/ZRtdQ81jPUQ)
+
+<p class="text-center">Anime Opening</p>
+<p class="text-center">Official Music Video</p>
+%%%
