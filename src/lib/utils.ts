@@ -6,17 +6,12 @@ export const url = (...params: string[]) =>
   `/${params.filter(Boolean).join("/")}`;
 export const bgUrl = (...params: string[]) => `url("${url(...params)}")`;
 export const range = (n: number): number[] => [...Array(n).keys()];
+export const getChild = (current: Entity | undefined, segment: string) =>
+  current?.children?.[segment];
 export const getEntityByPath = (
   root: Entity,
   path: string,
-): Entity | undefined =>
-  path
-    .split("/")
-    .filter(Boolean)
-    .reduce(
-      (current: Entity | undefined, segment) => current?.children?.[segment],
-      root,
-    );
+): Entity | undefined => path.split("/").filter(Boolean).reduce(getChild, root);
 
 export function togglable<T extends string>(
   key: string,
@@ -32,7 +27,7 @@ export function togglable<T extends string>(
       const newValue = toggleObject[get(this)] ?? defaultValue;
       this.set(newValue);
       onupdate(newValue);
-      browser && localStorage.setItem(key, newValue);
+      if (browser) localStorage.setItem(key, newValue);
     },
   };
 }
