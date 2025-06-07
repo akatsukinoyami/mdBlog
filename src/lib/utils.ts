@@ -21,13 +21,17 @@ export function togglable<T extends string>(
 ): Togglable<T> {
   const fromStorage = browser ? (localStorage.getItem(key) as T) : defaultValue;
   const value = fromStorage in toggleObject ? fromStorage : defaultValue;
+  if (browser) onupdate(value);
+  
   return {
     ...writable<T>(value),
     toggle() {
       const newValue = toggleObject[get(this)] ?? defaultValue;
       this.set(newValue);
-      onupdate(newValue);
-      if (browser) localStorage.setItem(key, newValue);
+      if (browser) {
+        onupdate(newValue);
+        localStorage.setItem(key, newValue);
+      }
     },
   };
 }
