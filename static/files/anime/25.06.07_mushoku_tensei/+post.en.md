@@ -2,9 +2,7 @@
 ![](+images/header.jpg)
 %%%
 
-<details>
-<summary>[Post](https://t.me/katsu_diary/1440) from my channel</summary>
-
+<details><summary>[Post](https://t.me/katsu_diary/1440) from my channel</summary>
 Mushoku Tensei is one of three isekai that I fell in love with long before the anime came out. And unlike "That Time I Got Reincarnated as a Slime" or "So I'm a Spider, So What?", MT (Mushoku Tensei) feels more alive somehow? Yes, even though the hero is still an overpowered character, it's explained by his training rather than just luck.
 
 I reread these light novels several times, and then watched the anime adaptations, but the first two titles were just fun adventures in another world. Although even MT in book form didn't seem to tug at the heartstrings as much.
@@ -25,9 +23,7 @@ A new world, a warm family, and an adult mind that allows you to start developin
 
 On one hand, Rudeus's life seems carefree, but it's not at all. He worries a lot about his loved ones from a very young age, and with each year, more and more of this responsibility falls on his shoulders.
 
-<details>
-<summary>Spoiler alert</summary>
-
+<details><summary>Spoiler alert</summary>
 The relationship between Rudeus and the biological father of his body — Paul Greyrat — seems particularly complex and therefore interesting. Paul himself is quite an ambiguous character: sometimes he seems like an exemplary family man, sometimes he cheats on his wife in the family home with a maid when she's pregnant, but then immediately rushes to search for his family members when trouble strikes. He's probably the most alive character in the series. Yes, he's a pervert, an alcoholic, and quite a bastard. But he was ready to die for his family members.
 
 So, what I'm getting at... their relationship with Rudeus is also unusual for a father and son. First, he hits the hero for allegedly beating up a neighbor's child without understanding the situation, which shows his immaturity — after all, he was only 24-25 years old. But at the same time, he wanted to help Rudeus fulfill his dream and did everything he could for it, even pleading with nobles from a parallel branch of the aristocratic family.
