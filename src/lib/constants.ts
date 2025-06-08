@@ -1,3 +1,14 @@
+import type { Lang, Theme } from "./types";
+
+// Store values
+
+export const defaultTheme: Theme = "dark" as const;
+export const defaultLang: Lang = "en" as const;
+export const langs: Lang[] = ["en", "ru", "ua"] as const;
+export const themes: Theme[] = ["dark", "light"] as const;
+
+// HTML
+
 export const flex = "flex items-center";
 
 export const hoverShadows =

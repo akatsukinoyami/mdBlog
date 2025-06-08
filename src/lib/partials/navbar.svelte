@@ -1,11 +1,12 @@
 <script lang="ts">
-	import { mdiWeatherNight, mdiWhiteBalanceSunny } from '@mdi/js';
+	import { mdiCog } from '@mdi/js';
 	import { flex, hoverShadows } from '$lib/constants';
-	import { theme, lang } from '$lib/stores';
-	import { bgUrl } from '$lib/utils';
-	import Icon from './icon.svelte';
+	import { lang } from '$lib/stores';
+	import i18n from '$lib/i18n';
+	import Icon from '../components/icon.svelte';
 
 	// let { links = [{ href: '/', label: 'Home' }] } = $props();
+  let t = $derived(i18n($lang));
 </script>
 
 <div
@@ -18,7 +19,7 @@
 	]}
 >
 	<a href="/" class={[flex, hoverShadows, 'block mr-auto gap-2 font-semibold']}>
-		<img src="/icon-64.png" width="32" alt="icon" /> Katsu Nikki
+		<img src="/icon-64.png" width="32" alt="icon" /> {t('title.app')}
 	</a>
 	<!--
 		<middle class="absolute left-1/2 hidden -translate-x-1/2 transform sm:block">
@@ -28,18 +29,6 @@
 		</middle>
 	-->
 	<end class={[flex, 'ml-auto gap-4']}>
-		<button
-			class={['cursor-pointer opacity-60 hover:opacity-100', hoverShadows]}
-			onclick={() => theme.toggle()}
-		>
-			<Icon path={$theme === 'dark' ? mdiWeatherNight : mdiWhiteBalanceSunny} />
-		</button>
-
-		<button
-			class={['cursor-pointer opacity-60 hover:opacity-100 w-6 h-6 bg-center bg-no-repeat bg-contain', hoverShadows]}
-			style:background-image={bgUrl('icons', `${$lang}.svg`)}
-			onclick={() => lang.toggle()}
-			aria-label="button"
-		></button>
+		<a href="/settings"><Icon path={mdiCog} /></a>
 	</end>
 </div>

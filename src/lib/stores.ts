@@ -1,20 +1,10 @@
-import { writable } from "svelte/store";
-import { togglable } from "./utils";
+import { get, writable } from "svelte/store";
+import { browser } from "$app/environment";
+import i18n from "./i18n";
+import { defaultLang, defaultTheme } from "./constants";
 import type { Lang, Theme } from "./types";
 
-const defaultTheme: Theme = "dark",
-  defaultLang: Lang = "en",
-  themeToggle: Record<Theme, Theme> = { dark: "light", light: "dark" },
-  langToggle: Record<Lang, Lang> = { ru: "en", en: "ua", ua: "ru" };
-
-export const defaultTitle: string = "Katsu Nikki",
-  title = writable<string>(defaultTitle),
-  theme = togglable("theme", defaultTheme, themeToggle, (v) =>
-    document.documentElement.classList.toggle("dark", v === "dark"),
-  ),
-  lang = togglable(
-    "lang",
-    defaultLang,
-    langToggle,
-    (v) => (document.documentElement.lang = v),
-  );
+export const lang = writable<Lang>(browser ? localStorage?.lang : defaultLang);
+export const theme = writable<Theme>(browser ? localStorage?.theme : defaultTheme);
+export const codeTheme = writable<Theme>(browser ? localStorage?.codeTheme : defaultTheme);
+export const title = writable<string>(i18n(get(lang))("title.app"));

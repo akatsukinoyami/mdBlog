@@ -13,25 +13,20 @@ export const getEntityByPath = (
   path: string,
 ): Entity | undefined => path.split("/").filter(Boolean).reduce(getChild, root);
 
-export function togglable<T extends string>(
-  key: string,
-  defaultValue: T,
-  toggleObject: Record<T, T>,
-  onupdate: (value: T) => void = () => {},
-): Togglable<T> {
-  const fromStorage = browser ? (localStorage.getItem(key) as T) : defaultValue;
-  const value = fromStorage in toggleObject ? fromStorage : defaultValue;
-  if (browser) onupdate(value);
+export function clickOutside(node: Node) {
+  function handleClick(event: MouseEvent) {
+    const target = event.target as Node;
+    if (node && !node.contains(target) && !event.defaultPrevented) {
+      node.dispatchEvent(
+        new CustomEvent('click_outside', node as CustomEventInit<unknown>)
+      )
+    }
+  }
 
+	document.addEventListener('click', handleClick, true);
   return {
-    ...writable<T>(value),
-    toggle() {
-      const newValue = toggleObject[get(this)] ?? defaultValue;
-      this.set(newValue);
-      if (browser) {
-        onupdate(newValue);
-        localStorage.setItem(key, newValue);
-      }
-    },
-  };
+    destroy() {
+      document.removeEventListener('click', handleClick, true);
+    }
+	}
 }

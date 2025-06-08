@@ -1,23 +1,22 @@
 <script lang="ts">
+	import i18n from '$lib/i18n';
 	import { getEntityByPath } from '$lib/utils';
-	import Post from '$lib/components/post.svelte';
-	import CardCollection from '$lib/components/cardCollection.svelte';
-	import { lang, title, defaultTitle } from '$lib/stores';
+	import Post from '$lib/partials/post.svelte';
+	import CardCollection from '$lib/partials/cardCollection.svelte';
+	import { lang, title } from "$lib/stores";
 	import type { Entity } from '$lib/types';
 
 	let { data }: { data: { entity: Entity; path: string } } = $props();
 	let entity = $derived(getEntityByPath(data.entity, data.path));
+  let t = $derived(i18n($lang));
 
 	$effect(() => {
-		$title = entity?.title?.[$lang] || defaultTitle;
-	});
-
+    $title = entity?.title?.[$lang] || t("title.app");
+  })
 </script>
 
 {#if entity}
-	<section class="flex flex-col gap-10">
-		<Post {entity} path={data.path} />
-		<CardCollection {entity} />
-	</section>
+	<Post {entity} path={data.path} />
+	<CardCollection {entity} />
 {/if}
 

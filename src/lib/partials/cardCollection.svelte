@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Card from './card.svelte';
+	import Card from '../components/card.svelte';
 	import type { Entity } from '$lib/types';
 
 	let { entity }: { entity: Entity } = $props();

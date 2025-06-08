@@ -5,11 +5,7 @@ export type Class = string | string[] | ClassRecord;
 export type Lang = "ru" | "en" | "ua";
 export type Theme = "light" | "dark";
 export interface Entity {
-  title: {
-    en: string;
-    ru: string;
-    ua: string;
-  };
+  title: Record<Lang, string>;
   post: Array<Lang | "default" | "">;
   date: string;
   children: Record<string, Entity>;
@@ -22,6 +18,8 @@ export interface ShowdownExtension {
   filter?: (text: string) => string;
 }
 
-export interface Togglable<T> extends Writable<T> {
+export interface Togglable<T extends string | number | symbol>
+  extends Writable<T> {
+  getNext: (current: T) => T | undefined;
   toggle: () => void;
 }

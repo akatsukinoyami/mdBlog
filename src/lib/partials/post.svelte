@@ -6,7 +6,7 @@
 	import { lang } from '$lib/stores';
 	import { showdownExtensions } from '$lib/showdown.config';
 	import { highlight } from '../highlight';
-	import ImageModal from './imageModal.svelte';
+	import ImageModal from '$lib/components/imageModal.svelte';
 	import type { Entity } from '$lib/types';
 
 	let { entity, path }: { entity: Entity; path: string } = $props();

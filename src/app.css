@@ -4,6 +4,7 @@
 @import "@fontsource/montserrat/600.css";
 @import "@fontsource/montserrat/700.css";
 @import "@fontsource/montserrat/800.css";
+@import "highlight.js/styles/obsidian.min.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
