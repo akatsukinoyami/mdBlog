@@ -17,16 +17,15 @@ export default function i18n(l: Lang) {
     try {
       l = get(lang);
     } catch {
-      l = 'en';
-    } 
+      l = "en";
+    }
   }
 
   return function (path: string) {
-    const keys = path.split('.');
+    const keys = path.split(".");
     let result: any = dicts[l];
 
-    keys.forEach(key => result = result?.[key]);
-    
+    keys.forEach((key) => (result = result?.[key]));
     return result;
-  }
+  };
 }
