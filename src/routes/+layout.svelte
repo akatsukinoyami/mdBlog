@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import 'highlight.js/styles/obsidian.min.css';
 	import { Toaster } from 'svelte-sonner';
 	import Navbar from '$lib/components/navbar.svelte';
 	import Footer from '$lib/components/footer.svelte';

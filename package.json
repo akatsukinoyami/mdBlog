@@ -46,6 +46,7 @@
     "@mdi/js": "^7.4.47",
     "@sveltejs/adapter-static": "^3.0.8",
     "@types/showdown": "^2.0.6",
+    "highlight.js": "^11.11.1",
     "showdown": "^2.1.0",
     "svelte-loading-spinners": "^0.3.6",
     "svelte-sonner": "^1.0.4",

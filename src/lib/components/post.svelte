@@ -5,6 +5,7 @@
 	import { url } from '$lib/utils';
 	import { lang } from '$lib/stores';
 	import { showdownExtensions } from '$lib/showdown.config';
+	import { highlight } from '../highlight';
 	import ImageModal from './imageModal.svelte';
 	import type { Entity } from '$lib/types';
 
@@ -60,7 +61,7 @@
 		<Jellyfish color='' size=200 />
 	</article>
 {:else if text}
-	<article class="text-justify text-pretty" onclick={handleClick}>
+	<article class="text-justify text-pretty" onclick={handleClick} use:highlight>
 		{@html text}
 	</article>
 
