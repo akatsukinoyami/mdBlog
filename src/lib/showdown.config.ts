@@ -34,10 +34,8 @@ export const showdownExtensions: ShowdownExtension[] = (
       `<${figure("col")}><${img} src="$3" alt="$2" /><${figcaption}>$2</figcaption></figure>`,
     ],
     [
-      /––(.+?)––/g, 
-      '<span class="opacity-0 hover:opacity-100 transform transition-opacity duration-1000 ease-in-out hover:duration-200">$1</span>'
+      /––(.+?)––/g,
+      '<span class="opacity-0 hover:opacity-100 transform transition-opacity duration-1000 ease-in-out hover:duration-200">$1</span>',
     ],
   ] as [RegExp, string][]
 ).map(([regex, replace]) => ({ type: "lang", regex, replace }));
-
-

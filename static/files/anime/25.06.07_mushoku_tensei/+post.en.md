@@ -2,9 +2,9 @@
 ![](+images/header.jpg)
 %%%
 
->Mushoku Tensei is one of three isekai that I fell in love with long before the anime came out. And unlike "That Time I Got Reincarnated as a Slime" or "So I'm a Spider, So What?", MT (Mushoku Tensei) feels more alive somehow? Yes, even though the hero is still an overpowered character, it's explained by his training rather than just luck.
+> Mushoku Tensei is one of three isekai that I fell in love with long before the anime came out. And unlike "That Time I Got Reincarnated as a Slime" or "So I'm a Spider, So What?", MT (Mushoku Tensei) feels more alive somehow? Yes, even though the hero is still an overpowered character, it's explained by his training rather than just luck.
 >
->I reread these light novels several times, and then watched the anime adaptations, but the first two titles were just fun adventures in another world. Although even MT in book form didn't seem to tug at the heartstrings as much.
+> I reread these light novels several times, and then watched the anime adaptations, but the first two titles were just fun adventures in another world. Although even MT in book form didn't seem to tug at the heartstrings as much.
 >
 > ––The entire second season turned out quite heavy, after the cheerful and relatively carefree first one. The adventure and journey are over, Rudeus is abandoned and trying to survive and get out of deep depression alone. And just as everything starts to get better for him, he loses his father and his mother, saved from danger, turns out to be disabled.––
 >

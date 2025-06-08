@@ -29,7 +29,7 @@
 }
 
 a {
-  @apply hover:font-semibold
+  @apply hover:font-semibold;
 }
 
 ul {
