@@ -7,8 +7,7 @@ import ua from "./ua";
 import { lang } from "$lib/stores";
 import type { Lang } from "$lib/types";
 
-type Dict = typeof ru & typeof en & typeof ua;
-type Dicts = Record<Lang, Dict>;
+type Dicts = Record<Lang, typeof ru & typeof en & typeof ua>;
 
 export default function i18n(l: Lang) {
   const dicts: Dicts = { ru, en, ua } as const;

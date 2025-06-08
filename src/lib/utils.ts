@@ -1,5 +1,5 @@
 import { browser } from "$app/environment";
-import { get, writable, type Writable } from "svelte/store";
+import { writable, type Writable } from "svelte/store";
 import type { Entity } from "./types";
 
 export const url = (...params: string[]) =>
