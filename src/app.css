@@ -28,6 +28,10 @@
   }
 }
 
+a {
+  @apply hover:font-semibold
+}
+
 ul {
   @apply list-inside list-disc;
 }
@@ -37,7 +41,19 @@ ol {
 }
 
 details {
-  @apply my-3;
+  @apply py-2 my-2 border border-x-0;
+}
+
+summary {
+  @apply cursor-pointer;
+}
+
+blockquote {
+  @apply px-6 py-3 m-3 rounded-xl  bg-amber-900/5 dark:bg-black/5 ring ring-black/10 shadow-xl;
+}
+
+code {
+  @apply p-6 m-3 rounded-xl  bg-amber-900/5 dark:bg-black/5 ring ring-black/10 shadow-xl;
 }
 
 p {

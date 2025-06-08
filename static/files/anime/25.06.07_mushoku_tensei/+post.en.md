@@ -2,16 +2,15 @@
 ![](+images/header.jpg)
 %%%
 
-<details><summary>[Post](https://t.me/katsu_diary/1440) from my channel</summary>
-Mushoku Tensei is one of three isekai that I fell in love with long before the anime came out. And unlike "That Time I Got Reincarnated as a Slime" or "So I'm a Spider, So What?", MT (Mushoku Tensei) feels more alive somehow? Yes, even though the hero is still an overpowered character, it's explained by his training rather than just luck.
-
-I reread these light novels several times, and then watched the anime adaptations, but the first two titles were just fun adventures in another world. Although even MT in book form didn't seem to tug at the heartstrings as much.
-
-The entire second season turned out quite heavy, after the cheerful and relatively carefree first one. The adventure and journey are over, Rudeus is abandoned and trying to survive and get out of deep depression alone. And just as everything starts to get better for him, he loses his father and his mother, saved from danger, turns out to be disabled.
-
-For some reason, when I read the book, it wasn't perceived as painfully as in the anime. On the other hand, maybe it's not about the adaptation at all, but about me and how I've changed over the years since reading it.
-
-</details>
+>Mushoku Tensei is one of three isekai that I fell in love with long before the anime came out. And unlike "That Time I Got Reincarnated as a Slime" or "So I'm a Spider, So What?", MT (Mushoku Tensei) feels more alive somehow? Yes, even though the hero is still an overpowered character, it's explained by his training rather than just luck.
+>
+>I reread these light novels several times, and then watched the anime adaptations, but the first two titles were just fun adventures in another world. Although even MT in book form didn't seem to tug at the heartstrings as much.
+>
+> ––The entire second season turned out quite heavy, after the cheerful and relatively carefree first one. The adventure and journey are over, Rudeus is abandoned and trying to survive and get out of deep depression alone. And just as everything starts to get better for him, he loses his father and his mother, saved from danger, turns out to be disabled.––
+>
+> ––For some reason, when I read the book, it wasn't perceived as painfully as in the anime. On the other hand, maybe it's not about the adaptation at all, but about me and how I've changed over the years since reading it.––
+>
+> [Post](https://t.me/katsu_diary/1440) from my channel
 
 I have a very deep connection with the "Mushoku Tensei" franchise. I first encountered it during my first voyage as a cadet. Although we had a pretty friendly crew, sometimes I wanted to escape into my favorite books. 2016 — isekai weren't yet at the peak of their popularity and were quite high quality.
 
