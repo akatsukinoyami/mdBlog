@@ -16,18 +16,18 @@
   ] as [link, icon, label]}
     <a 
       href="https://{link}" 
+      target="_blank"
       class={classMerger(
         "hidden md:inline mb-1 xl:mb-4 text-right",
         "text-xs grayscale-90 hover:grayscale-0 opacity-50 hover:opacity-80",
         hoverShadows
-      )} 
-      target="_blank"
+      )}
     >
       {label} 
       <img 
         class={classMerger(
           "h-4 w-4 ml-2 inline", 
-          { 'invert dark:invert-0': inverted.has(icon)}
+          { 'invert dark:invert-0': inverted.has(icon) }
         )} 
         src="/icons/{icon}.svg" 
         alt="{label} icon" 
