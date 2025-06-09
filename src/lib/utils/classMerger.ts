@@ -5,7 +5,7 @@ function formatPhase(acc: ClassRecord, item: string): ClassRecord {
 }
 
 export function classFormatter(klass: Class): ClassRecord {
-  if (typeof klass === 'string') {
+  if (typeof klass === "string") {
     return { [klass]: true };
   } else if (Array.isArray(klass)) {
     return klass.reduce(formatPhase, {} as ClassRecord);

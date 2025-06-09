@@ -2,7 +2,7 @@ import { browser } from "$app/environment";
 import { writable, type Writable } from "svelte/store";
 import type { Entity } from "../types";
 
-export { classMerger } from './classMerger';
+export { classMerger } from "./classMerger";
 
 export const url = (...params: string[]) =>
   `/${params.filter(Boolean).join("/")}`;
