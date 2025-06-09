@@ -1,27 +1,31 @@
 <script>
   import { hoverShadows } from "$lib/constants";
-  import { theme } from "$lib/stores";
 
-  const links = $derived([
+  const linkClasses = [
+    "hidden md:inline mb-1 xl:mb-4 text-right",
+    "text-xs grayscale-90 hover:grayscale-0 opacity-50 hover:opacity-80",
+    hoverShadows
+  ];
+
+  const inverted = new Set(['github', 'caprover'])
+</script>
+
+<footer class="flex xl:flex-col w-full xl:w-max gap-4 xl:gap-0 justify-center fixed bottom-0 xl:right-6">
+  {#each [
     ["t.me/nyawoobot", `telegram`, "Telegram"],
-    ["github.com/akatsukinoyami/mdBlog", `github-${$theme}`, "Github"],
+    ["github.com/akatsukinoyami/mdBlog", `github`, "Github"],
     ["svelte.dev", `svelte`, "Svelte"],
     ["tailwindcss.com", `tailwind`, "TailwindCSS"],
     ["hetzner.com", `hetzner`, "Hetzner"],
     ["tailwindcss.com", `caprover`, "Caprover"],
-  ]);
-
-  const linkClasses = [
-    "hidden md:flex gap-3 justify-end items-center mb-1 xl:mb-4",
-    "text-xs grayscale hover:grayscale-0 opacity-50 hover:opacity-80",
-    hoverShadows
-  ];
-</script>
-
-<footer class="flex xl:block w-full xl:w-inherit gap-4 justify-center fixed bottom-0 xl:right-6">
-  {#each links as [link, icon, label]}
+  ] as [link, icon, label]}
     <a class={linkClasses} href="https://{link}" target="_blank">
-      {label} <img class="h-3 w-3" src="/icons/{icon}.svg" alt="{label} icon" />
+      {label} 
+      <img 
+        class={{"h-4 w-4 ml-2 inline": true, 'invert dark:invert-0': inverted.has(icon)}} 
+        src="/icons/{icon}.svg" 
+        alt="{label} icon" 
+      />
     </a>
   {/each}
 </footer>

@@ -1,6 +1,8 @@
 import { browser } from "$app/environment";
 import { writable, type Writable } from "svelte/store";
-import type { Entity } from "./types";
+import type { Entity } from "../types";
+
+export { classMerger } from './classMerger';
 
 export const url = (...params: string[]) =>
   `/${params.filter(Boolean).join("/")}`;
@@ -15,22 +17,4 @@ export const getEntityByPath = (
 
 export function fromStorage<T>(key: string, def: T): Writable<T> {
   return writable<T>(browser ? (localStorage.getItem(key) as T) : def);
-}
-
-export function clickOutside(node: Node) {
-  function handleClick(event: MouseEvent) {
-    const target = event.target as Node;
-    if (node && !node.contains(target) && !event.defaultPrevented) {
-      node.dispatchEvent(
-        new CustomEvent("click_outside", node as CustomEventInit<unknown>),
-      );
-    }
-  }
-
-  document.addEventListener("click", handleClick, true);
-  return {
-    destroy() {
-      document.removeEventListener("click", handleClick, true);
-    },
-  };
 }

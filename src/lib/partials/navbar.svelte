@@ -29,6 +29,6 @@
 		</middle>
 	-->
 	<end class={[flex, 'ml-auto gap-4']}>
-		<a href="/settings"><Icon path={mdiCog} /></a>
+		<a class="opacity-50 hover:opacity-80" href="/settings"><Icon path={mdiCog} /></a>
 	</end>
 </div>

@@ -1,13 +1,21 @@
 <script lang="ts">
-  import { clickOutside } from "$lib/utils";
+  import { self } from 'svelte/legacy';
+  import { mdiUnfoldMoreHorizontal } from "@mdi/js";
+  import { classMerger } from "$lib/utils";
   import Icon from "./icon.svelte";
+  import type { Snippet } from "svelte";
+  import type { Class } from "$lib/types";
 
   interface Props extends Record<string, unknown> {
     options: Record<string, any>;
     label?: string;
     selectedId?: string;
     open?: boolean;
+    class?: Class;
+    inline?: boolean;
+    compact?: boolean;
     onchange?: (id: string) => void;
+    peroption?: Snippet<[id: string, selected: boolean]>;
   };
 
   let {
@@ -15,22 +23,34 @@
     options = [],
     selectedId = $bindable(''),
     open = $bindable(false),
-    onchange = () => {}
+    class: className = '',
+    inline = false,
+    compact = false,
+    onchange = () => {},
+    peroption,
   }: Props = $props();
+
 </script>
 
-<div use:clickOutside onclick_outside={() => open = false}>
-  <label id="listbox-label" class="block text-sm/6 font-medium">
+<custom-select 
+  class={classMerger(className, { "flex gap-3 items-center": inline })}
+  onclick={self((e) => open = false)}
+>
+  <span id="listbox-{label}" class="block text-sm/6 font-medium text-nowrap">
     {label}
-  </label>
-  <div class="relative mt-2">
-    <button type="button" class="grid w-full cursor-default grid-cols-1 rounded-md bg-white dark:bg-gray-400 py-1.5 pr-2 pl-3 text-left text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label" onclick={() => open = !open}>
+  </span>
+  <div class="relative" class:w-full={!compact}>
+    <button
+      class="w-full cursor-default flex justify-between rounded-xl bg-white/90 dark:bg-gray-900/90 py-1.5 pr-2 pl-3 text-left outline-1 -outline-offset-1 outline-gray-300/50 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" 
+      class:w-full={!compact}
+      aria-haspopup="listbox" 
+      aria-expanded="true" 
+      aria-labelledby="listbox-label" 
+      onclick={() => open = !open}
+    >
       <span class="col-start-1 row-start-1 truncate pr-6">{options[selectedId]}</span>
-      <Icon
-        class="col-start-1 row-start-1 size-5 self-center justify-self-end sm:size-4"
-        size={16}
-        path="M5.22 10.22a.75.75 0 0 1 1.06 0L8 11.94l1.72-1.72a.75.75 0 1 1 1.06 1.06l-2.25 2.25a.75.75 0 0 1-1.06 0l-2.25-2.25a.75.75 0 0 1 0-1.06ZM10.78 5.78a.75.75 0 0 1-1.06 0L8 4.06 6.28 5.78a.75.75 0 0 1-1.06-1.06l2.25-2.25a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1 0 1.06Z"
-      />
+      <Icon path={mdiUnfoldMoreHorizontal} />
+      
     </button>
 
     <!--
@@ -45,7 +65,8 @@
     -->
     {#if open}
       <ul 
-        class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white dark:bg-gray-400 py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-hidden sm:text-sm" 
+        class="absolute z-10 mt-1 max-h-60 overflow-auto rounded-md bg-white dark:bg-gray-400 py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-hidden sm:text-sm" 
+        class:w-full={!compact}
         tabindex="-1" 
         role="listbox" 
         aria-labelledby="listbox-label" 
@@ -58,7 +79,7 @@
         {#each Object.entries(options) as [id, value]}
           {@const selected = id === selectedId}
           <li 
-            class="relative cursor-default py-2 pr-4 pl-8 text-gray-900 select-none" 
+            class="relative flex justify-between cursor-default py-2 pr-4 pl-8 select-none" 
             id="listbox-option-{id}" 
             role="option" 
             aria-selected={selected}
@@ -67,8 +88,6 @@
               selectedId = id;
             }}
           >
-            <span class={["block truncate", selected ? "font-semibold" : "font-normal"]}>{value}</span>
-
             {#if selected}
               <span class="absolute inset-y-0 left-0 flex items-center pl-1.5 text-indigo-600">
                 <svg class="size-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -76,9 +95,13 @@
                 </svg>
               </span>
             {/if}
+
+            <span class={["block truncate", selected ? "font-semibold" : "font-normal"]}>{value}</span>
+
+            {@render peroption?.(id, selected)}
           </li>
         {/each}
       </ul>
     {/if}
   </div>
-</div>
+</custom-select>
