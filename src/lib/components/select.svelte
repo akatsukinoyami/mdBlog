@@ -1,7 +1,6 @@
 <script lang="ts">
-  import { self } from 'svelte/legacy';
   import { mdiUnfoldMoreHorizontal } from "@mdi/js";
-  import { classMerger } from "$lib/utils";
+  import { classMerger, clickOutside } from "$lib/utils";
   import Icon from "./icon.svelte";
   import type { Snippet } from "svelte";
   import type { Class } from "$lib/types";
@@ -29,12 +28,11 @@
     onchange = () => {},
     peroption,
   }: Props = $props();
-
 </script>
 
 <custom-select 
   class={classMerger(className, { "flex gap-3 items-center": inline })}
-  onclick={self(() => open = false)}
+  use:clickOutside={() => open = false}
 >
   <span id="listbox-{label}" class="block text-sm/6 font-medium text-nowrap">
     {label}

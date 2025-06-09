@@ -3,6 +3,7 @@ import { writable, type Writable } from "svelte/store";
 import type { Entity } from "../types";
 
 export { classMerger } from "./classMerger";
+export { clickOutside } from "./clickOutside";
 
 export const url = (...params: string[]) =>
   `/${params.filter(Boolean).join("/")}`;
@@ -15,6 +16,14 @@ export const getEntityByPath = (
   path: string,
 ): Entity | undefined => path.split("/").filter(Boolean).reduce(getChild, root);
 
-export function fromStorage<T>(key: string, def: T): Writable<T> {
-  return writable<T>(browser ? (localStorage.getItem(key) as T) : def);
+export function fromStorage<T extends string>(
+  key: string,
+  def: T,
+): Writable<T> {
+  let val = def;
+  if (browser) {
+    val = localStorage.getItem(key) as T;
+    if (!val) localStorage.setItem(key, def);
+  }
+  return writable<T>(browser ? val : def);
 }

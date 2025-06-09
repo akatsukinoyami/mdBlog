@@ -26,5 +26,12 @@ export default {
         dark: "Dark",
       },
     },
+    trafficEconomy: {
+      label: "Traffic economy",
+      options: {
+        true: "ON",
+        false: "OFF",
+      },
+    },
   },
 };

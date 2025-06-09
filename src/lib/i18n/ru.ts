@@ -26,5 +26,12 @@ export default {
         dark: "Тёмная",
       },
     },
+    trafficEconomy: {
+      label: "Экономия трафика",
+      options: {
+        true: "Включена",
+        false: "Выключена",
+      },
+    },
   },
 };

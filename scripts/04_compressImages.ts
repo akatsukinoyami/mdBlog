@@ -16,7 +16,7 @@ try {
 
 // Найти все картинки в папках +images
 const imageGlob = new Glob(
-  `build/**/*+images/*.{${imageExtensions.join(",")}}`,
+  `static/**/*+images/*.{${imageExtensions.join(",")}}`,
 );
 const imageFiles = await Array.fromAsync(imageGlob.scan("."));
 
@@ -60,7 +60,7 @@ await Promise.all(
               fit: "inside",
               withoutEnlargement: true,
             })
-            .webp({ quality: 80 })
+            .webp({ quality: 75 })
             .toFile(outputPath);
 
           console.log(`Compressed: ${imagePath} → ${outputPath}`);

@@ -3,8 +3,8 @@
   import { mdiWeatherNight, mdiWhiteBalanceSunny } from "@mdi/js";
   import Select from "$lib/components/select.svelte";
   import i18n from "$lib/i18n";
-  import { codeTheme, lang, theme, title } from "$lib/stores";
-  import type { Lang, Theme } from "$lib/types";
+  import { codeTheme, lang, theme, title, trafficEconomy } from "$lib/stores";
+  import type { Lang, Theme, TrafficEconomy } from "$lib/types";
 
   const choice: Record<string, string> = { light: mdiWhiteBalanceSunny, dark: mdiWeatherNight };
   let t = $derived(i18n($lang));
@@ -46,3 +46,11 @@
     <Icon pathClass={{"opacity-50": !selected}} path={choice[id]} />
   {/snippet}
 </Select>
+
+
+<Select 
+  label={t('settings.trafficEconomy.label')}
+  options={t('settings.trafficEconomy.options')}
+  selectedId={$trafficEconomy}
+  onchange={(id) => $trafficEconomy = id as TrafficEconomy}
+/>

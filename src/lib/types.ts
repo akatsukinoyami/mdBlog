@@ -4,6 +4,7 @@ export type ClassRecord = Record<string, boolean>;
 export type Class = string | string[] | ClassRecord;
 export type Lang = "ru" | "en" | "ua";
 export type Theme = "light" | "dark";
+export type TrafficEconomy = "true" | "false";
 export interface Entity {
   title: Record<Lang, string>;
   post: Array<Lang | "default" | "">;

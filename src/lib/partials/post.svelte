@@ -1,11 +1,10 @@
 <script lang="ts">
-	import showdown from 'showdown';
 	import { toast } from 'svelte-sonner';
 	import { Jellyfish } from 'svelte-loading-spinners';
 	import { url } from '$lib/utils';
-	import { lang } from '$lib/stores';
-	import { showdownExtensions } from '$lib/showdown.config';
-	import { highlight } from '../highlight';
+	import { lang, trafficEconomy } from '$lib/stores';
+	import { highlight } from '$lib/highlight';
+	import { getConverter } from '$lib/showdown';
 	import ImageModal from '$lib/components/imageModal.svelte';
 	import type { Entity } from '$lib/types';
 
@@ -16,24 +15,9 @@
 	let loading = $state(false);
 
 	async function load(file: string): Promise<string | number> {
-		const converter = new showdown.Converter({
-			tables: true,
-			ghCodeBlocks: true,
-			simpleLineBreaks: true,
-			strikethrough: true,
-			extensions: [
-				...showdownExtensions,
-				{
-					type: 'output',
-					regex: /\+images\//g,
-					replace: url('files', path, `+images/`)
-				}
-			]
-		});
-
 		return fetch(url('files', path, file))
 			.then((res) => res.text())
-			.then((mdPost) => (text = converter.makeHtml(mdPost)))
+			.then((mdPost) => (text = getConverter(path).makeHtml(mdPost)))
 			.catch(error => toast.error(error.toString()));
 	}
 
@@ -51,7 +35,11 @@
     const target = event.target;
     if (!(target instanceof HTMLImageElement)) return;
 		
-    modalSrc = target.src
+    modalSrc = $trafficEconomy
+		? target.src
+				.replaceAll('+imagesCompressed', '+images')
+				.replace('.webp', '')
+		: target.src;
     modalAlt = target.alt || ""
   }
 </script>
