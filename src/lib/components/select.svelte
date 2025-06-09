@@ -34,7 +34,7 @@
 
 <custom-select 
   class={classMerger(className, { "flex gap-3 items-center": inline })}
-  onclick={self((e) => open = false)}
+  onclick={self(() => open = false)}
 >
   <span id="listbox-{label}" class="block text-sm/6 font-medium text-nowrap">
     {label}
