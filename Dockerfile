@@ -8,7 +8,7 @@ RUN bun install --frozen-lockfile
 COPY . .
 RUN bun bake
 
-FROM nginx:1-alpine AS serve
+FROM fholzer/nginx-brotli:v1.28.0 AS serve
 
 COPY --from=build /app/nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /app/build /app
