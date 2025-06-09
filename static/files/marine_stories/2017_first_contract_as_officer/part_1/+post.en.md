@@ -57,9 +57,7 @@ Sweet dreams to all cuties, Katsu is leaving the internet space.
 %%%3
 ![Ocean Energy](+images/photo_16@11-10-2017_20-12-23-1024x768.jpg)
 ![Ship’s Forecastle](+images/photo_17@11-10-2017_20-25-16-1024x768.jpg)
-%&23
-![View toward the stern](+images/photo_18@11-10-2017_20-25-16-768x1024.jpg)
-&%
+!r2[View toward the stern](+images/photo_18@11-10-2017_20-25-16-768x1024.jpg)
 ![Navigational Bridge](+images/photo_19@11-10-2017_21-29-41-1024x768.jpg)
 ![Communication Station](+images/photo_20@11-10-2017_21-29-41-1024x768.jpg)
 %%%

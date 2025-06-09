@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "prebake": "bun lint && bun check:18n && bun compress:text && bun compress:images && bun posts",
+    "prebake": "bun lint && bun check:18n && bun posts && bun compress:images",
     "bake": "vite build",
+    "postbake": "bun compress:text",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
