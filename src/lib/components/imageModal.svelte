@@ -21,7 +21,7 @@
 
 <div {onclick} class={[
   "fixed inset-0 bg-black/70 backdrop-blur-xs items-center justify-center z-50",
-  !!modal.src ? "flex" : "hidden"
+  modal.src ? "flex" : "hidden"
 ]}>
   <div class="relative max-h-[95vh] max-w-[95vw]">
     <img {...modal} class="rounded-lg object-contain max-h-[95vh] max-w-[95vw] mx-auto" />

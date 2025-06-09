@@ -1,7 +1,17 @@
 import { Glob, gzipSync } from "bun";
 import { brotliCompressSync } from "node:zlib";
 
-const extensions = ["cjs", "mjs", "js", "json", "yaml", "yml", "html", "css"];
+const extensions = [
+  "cjs",
+  "mjs",
+  "js",
+  "json",
+  "yaml",
+  "yml",
+  "md",
+  "html",
+  "css",
+];
 const compressors = [
   [gzipSync, ".gz"],
   [brotliCompressSync, ".br"],

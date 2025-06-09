@@ -5,7 +5,7 @@ interface Modal {
   src: string | null;
   alt: string | null;
 }
-export let modal = $state<Modal>({ src: null, alt: null });
+export const modal = $state<Modal>({ src: null, alt: null });
 
 export function openImgModal(event: Event) {
   const target = event.target;

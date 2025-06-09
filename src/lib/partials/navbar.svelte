@@ -18,7 +18,7 @@
 	]}
 >
 	<a href="/" class={[flex, hoverShadows, 'mr-auto gap-2 font-semibold']}>
-		<img src="/icon-64.png" width="32" alt="icon" /> {t('title.app')}
+		<img src="/tsunya/icon-64.png" width="32" alt="icon" /> {t('title.app')}
 	</a>
 
 	<end class={[flex, 'ml-auto gap-4']}>
