@@ -3,12 +3,12 @@
 	import { lang } from '$lib/stores';
 	import { url, bgUrl } from '$lib/utils';
 	import { textStroke } from '$lib/constants';
-	import type { Entity } from '$lib/types';
+	import type { Class, Entity } from '$lib/types';
 
 	interface Props extends Record<string, unknown> {
 		folderName: string;
 		entity: Entity;
-		class?: string;
+		class?: Class;
 	}
 
 	let { class: className, folderName, entity, ...props }: Props = $props();
@@ -18,7 +18,7 @@
 	{...props}
 	class={[
 		'relative block h-60 rounded-xl',
-		'bg-cover bg-center bg-no-repeat dark:brightness-60 dark:contrast-200',
+		'bg-cover bg-center bg-no-repeat',
 		'transform transition-transform duration-500 ease-in-out hover:scale-105 hover:duration-200',
 		className
 	]}

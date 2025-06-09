@@ -17,6 +17,6 @@
 
 {#if entity}
 	<Post {entity} path={data.path} />
-	<CardCollection {entity} />
+	<CardCollection cardClass={{ "dark:brightness-60": true, "dark:contrast-200": !data.path }} {entity} />
 {/if}
 
