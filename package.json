@@ -7,6 +7,7 @@
     "dev": "vite dev",
     "prebake": "bun posts && bun lint",
     "bake": "vite build",
+    "postbake": "bun compress:text && bun compress:images",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -17,6 +18,8 @@
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint --max-warnings 0 .",
     "posts": "bun scripts/01_buildTree.ts static/files > static/posts.yaml",
+    "compress:text": "bun scripts/03_compress.ts",
+    "compress:images": "bun scripts/04_compressImages.ts",
     "json:to:yaml": "find static/files/ -type f -name '*.json' -exec sh -c 'js-yaml \"$1\" > \"${1%.json}.yaml\"' _ {} \\;"
   },
   "devDependencies": {
@@ -26,6 +29,7 @@
     "@sveltejs/kit": "^2.16.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@tailwindcss/vite": "^4.0.0",
+    "@types/bun": "^1.2.15",
     "@types/node": "^22.15.30",
     "@types/showdown": "^2.0.6",
     "eslint": "^9.18.0",
@@ -47,6 +51,7 @@
     "@mdi/js": "^7.4.47",
     "@sveltejs/adapter-static": "^3.0.8",
     "highlight.js": "^11.11.1",
+    "sharp": "^0.34.2",
     "showdown": "^2.1.0",
     "svelte-loading-spinners": "^0.3.6",
     "svelte-sonner": "^1.0.4",

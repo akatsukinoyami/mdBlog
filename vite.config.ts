@@ -6,6 +6,7 @@ const svelteExtensions = [
   "svelte-sonner",
   "svelte-inspect-value",
   "svelte-loading-spinners",
+  "sharp",
 ];
 
 export default defineConfig({
