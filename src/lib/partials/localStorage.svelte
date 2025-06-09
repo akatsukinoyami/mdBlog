@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { codeTheme, lang, theme } from "$lib/stores";
+  import { codeTheme, lang, theme, trafficEconomy } from "$lib/stores";
 
 	$effect(() => {
 		localStorage.setItem('lang', $lang);
@@ -12,5 +12,9 @@
 
 	$effect(() => {
 		localStorage.setItem('codeTheme', $codeTheme);
+	});
+
+	$effect(() => {
+		localStorage.setItem('trafficEconomy', $trafficEconomy);
 	});
 </script>

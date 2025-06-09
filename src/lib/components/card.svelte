@@ -18,7 +18,7 @@
 	{...props}
 	class={[
 		'relative block h-60 rounded-xl',
-		'bg-cover bg-center bg-no-repeat',
+		'bg-cover bg-center bg-no-repeat dark:brightness-60 dark:contrast-200',
 		'transform transition-transform duration-500 ease-in-out hover:scale-105 hover:duration-200',
 		className
 	]}

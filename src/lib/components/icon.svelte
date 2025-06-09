@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { classMerger } from '$lib/utils';
 	import type { Snippet } from 'svelte';
 	import type { Class } from '$lib/types';
 
@@ -16,7 +17,7 @@
 
 	let {
 		path = '',
-		class: className = 'fill-current',
+		class: className = '',
 		pathClass = '',
 		size = 24,
 		height = size,
@@ -29,11 +30,8 @@
 </script>
 
 <svg
-	class={className}
-	{width}
-	{height}
-	{fill}
-	{viewBox}
+	class={classMerger('fill-current', className)}
+	{width} {height} {fill} {viewBox}
 	xmlns="http://www.w3.org/2000/svg"
 	style:min-width={width}
 	style:min-height={height}

@@ -1,8 +1,8 @@
 import { get } from "svelte/store";
 import showdown from "showdown";
-import { figcaption, figure, grid, iframe, img } from "./constants";
-import { trafficEconomy } from "./stores";
-import { url } from "./utils";
+import { figcaption, figure, grid, iframe, img } from "../constants";
+import { trafficEconomy } from "../stores";
+import { url } from ".";
 
 export function getConverter(path: string) {
   const economy = (yes: string, no: string) =>

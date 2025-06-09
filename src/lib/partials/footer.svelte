@@ -1,11 +1,6 @@
 <script>
   import { hoverShadows } from "$lib/constants";
-
-  const linkClasses = [
-    "hidden md:inline mb-1 xl:mb-4 text-right",
-    "text-xs grayscale-90 hover:grayscale-0 opacity-50 hover:opacity-80",
-    hoverShadows
-  ];
+  import { classMerger } from "$lib/utils";
 
   const inverted = new Set(['github', 'caprover'])
 </script>
@@ -19,10 +14,21 @@
     ["hetzner.com", `hetzner`, "Hetzner"],
     ["tailwindcss.com", `caprover`, "Caprover"],
   ] as [link, icon, label]}
-    <a class={linkClasses} href="https://{link}" target="_blank">
+    <a 
+      href="https://{link}" 
+      class={classMerger(
+        "hidden md:inline mb-1 xl:mb-4 text-right",
+        "text-xs grayscale-90 hover:grayscale-0 opacity-50 hover:opacity-80",
+        hoverShadows
+      )} 
+      target="_blank"
+    >
       {label} 
       <img 
-        class={{"h-4 w-4 ml-2 inline": true, 'invert dark:invert-0': inverted.has(icon)}} 
+        class={classMerger(
+          "h-4 w-4 ml-2 inline", 
+          { 'invert dark:invert-0': inverted.has(icon)}
+        )} 
         src="/icons/{icon}.svg" 
         alt="{label} icon" 
       />

@@ -2,6 +2,7 @@
   import { mdiUnfoldMoreHorizontal } from "@mdi/js";
   import { classMerger, clickOutside } from "$lib/utils";
   import Icon from "./icon.svelte";
+  import i from "$lib/icons";
   import type { Snippet } from "svelte";
   import type { Class } from "$lib/types";
 
@@ -48,58 +49,41 @@
     >
       <span class="col-start-1 row-start-1 truncate pr-6">{options[selectedId]}</span>
       <Icon path={mdiUnfoldMoreHorizontal} />
-      
     </button>
+    <ul 
+      class={classMerger("absolute z-10 mt-1 max-h-60 overflow-auto rounded-md bg-white dark:bg-gray-400 py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-hidden sm:text-sm", open ? 'block' : 'hidden', { 'w-full': !compact} )}
+      tabindex="-1" 
+      role="listbox" 
+      aria-labelledby="listbox-label" 
+      aria-activedescendant="listbox-option-3">
+      <!--
+        Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
 
-    <!--
-      Select popover, show/hide based on select state.
+        Highlighted: "bg-indigo-600 text-white outline-hidden", Not Highlighted: "text-gray-900"
+      -->
+      {#each Object.entries(options) as [id, value]}
+        {@const selected = id === selectedId}
+        <li 
+          class="relative flex justify-between cursor-default py-2 pr-4 pl-8 select-none" 
+          id="listbox-option-{id}" 
+          role="option" 
+          aria-selected={selected}
+          onclick={() => {
+            onchange(id);
+            selectedId = id;
+          }}
+        >
+          {#if selected}
+            <span class="absolute inset-y-0 left-0 flex items-center pl-1.5 text-indigo-600">
+              <Icon path={i.checkmark} fill="currentColor" />
+            </span>
+          {/if}
 
-      Entering: ""
-        From: ""
-        To: ""
-      Leaving: "transition ease-in duration-100"
-        From: "opacity-100"
-        To: "opacity-0"
-    -->
-    {#if open}
-      <ul 
-        class="absolute z-10 mt-1 max-h-60 overflow-auto rounded-md bg-white dark:bg-gray-400 py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-hidden sm:text-sm" 
-        class:w-full={!compact}
-        tabindex="-1" 
-        role="listbox" 
-        aria-labelledby="listbox-label" 
-        aria-activedescendant="listbox-option-3">
-        <!--
-          Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
+          <span class={["block truncate", selected ? "font-semibold" : "font-normal"]}>{value}</span>
 
-          Highlighted: "bg-indigo-600 text-white outline-hidden", Not Highlighted: "text-gray-900"
-        -->
-        {#each Object.entries(options) as [id, value]}
-          {@const selected = id === selectedId}
-          <li 
-            class="relative flex justify-between cursor-default py-2 pr-4 pl-8 select-none" 
-            id="listbox-option-{id}" 
-            role="option" 
-            aria-selected={selected}
-            onclick={() => {
-              onchange(id);
-              selectedId = id;
-            }}
-          >
-            {#if selected}
-              <span class="absolute inset-y-0 left-0 flex items-center pl-1.5 text-indigo-600">
-                <svg class="size-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                  <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-                </svg>
-              </span>
-            {/if}
-
-            <span class={["block truncate", selected ? "font-semibold" : "font-normal"]}>{value}</span>
-
-            {@render peroption?.(id, selected)}
-          </li>
-        {/each}
-      </ul>
-    {/if}
+          {@render peroption?.(id, selected)}
+        </li>
+      {/each}
+    </ul>
   </div>
 </custom-select>

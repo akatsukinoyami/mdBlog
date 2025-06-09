@@ -4,6 +4,10 @@ function formatPhase(acc: ClassRecord, item: string): ClassRecord {
   return { ...acc, [item]: true };
 }
 
+function mergePhase(acc: ClassRecord, klass: Class) {
+  return { ...acc, ...classFormatter(klass) };
+}
+
 export function classFormatter(klass: Class): ClassRecord {
   if (typeof klass === "string") {
     return { [klass]: true };
@@ -11,10 +15,6 @@ export function classFormatter(klass: Class): ClassRecord {
     return klass.reduce(formatPhase, {} as ClassRecord);
   }
   return klass;
-}
-
-function mergePhase(acc: ClassRecord, klass: Class) {
-  return { ...acc, ...classFormatter(klass) };
 }
 
 export function classMerger(...classes: Class[]) {

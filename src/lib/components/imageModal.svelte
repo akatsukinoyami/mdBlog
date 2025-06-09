@@ -1,45 +1,43 @@
 <script lang="ts">
+  import Icon from "./icon.svelte";
+  import { closeImgModal, modal } from "$lib/utils";
+
   const codes = new Set(['Escape', 'Return', 'Space']);
 
-  let {
-    src = $bindable<string | null>(),
-    alt = $bindable<string | null>(),
-    onclose = () => {}
-  } = $props();
-
-  function close() {
-    src = null;
-    alt = null;
-    onclose();
-  }
-
   function onkeyup(e: KeyboardEvent) {
-    if (codes.has(e.code)) close();
+    if (codes.has(e.code)) closeImgModal();
   }  
   
   function onclick(e: MouseEvent) {
-    if (e.target === e.currentTarget) close();
+    if (e.target === e.currentTarget) closeImgModal();
   }
 
   $effect(() => {
-    document.body.classList.toggle('overflow-hidden', src)
+    document.body.classList.toggle('overflow-hidden', !!modal.src)
   })
 </script>
 
 <svelte:window {onkeyup} />
 
-{#if src}
-  <div class="fixed inset-0 bg-black/70 backdrop-blur-xs flex items-center justify-center z-50" {onclick}>
-    <div class="relative max-h-[95vh] max-w-[95vw]">
-      <img class="rounded-lg object-contain max-h-[95vh] max-w-[95vw] mx-auto" {src} {alt} />
-      <button
-        class="absolute top-2 right-2 text-white bg-black/30 hover:bg-black/50 rounded-full p-2 focus:outline-none"
-        onclick={close}
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
-    </div>
+<div {onclick} class={[
+  "fixed inset-0 bg-black/70 backdrop-blur-xs items-center justify-center z-50",
+  !!modal.src ? "flex" : "hidden"
+]}>
+  <div class="relative max-h-[95vh] max-w-[95vw]">
+    <img {...modal} class="rounded-lg object-contain max-h-[95vh] max-w-[95vw] mx-auto" />
+    <button
+      class="absolute top-2 right-2 text-white bg-black/30 hover:bg-black/50 rounded-full p-2 focus:outline-none"
+      onclick={close}
+    >
+      <Icon 
+        class="h-6 w-6" 
+        stroke="currentColor"
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="2"
+        fill="none"
+        path="M6 18L18 6M6 6l12 12"
+      />
+    </button>
   </div>
-{/if}
+</div>
