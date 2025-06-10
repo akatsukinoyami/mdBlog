@@ -1,16 +1,19 @@
-FROM oven/bun:1-alpine AS build
+FROM oven/bun:1-alpine AS base
 
 WORKDIR /app 
-
 COPY package.json bun.lock ./
-RUN bun install --frozen-lockfile
+RUN bun install --production --frozen-lockfile
 
+
+FROM base AS build
+
+RUN bun install --frozen-lockfile
 COPY . .
 RUN bun bake
 
-FROM fholzer/nginx-brotli:v1.28.0 AS serve
 
-COPY --from=build /app/nginx.conf /etc/nginx/nginx.conf
-COPY --from=build /app/build /app
+FROM base AS serve
 
-EXPOSE 80
+COPY --from=build /app/build ./
+EXPOSE 3000
+CMD ["bun", "run", "index.js"]

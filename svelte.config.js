@@ -1,8 +1,8 @@
-import adapter from "@sveltejs/adapter-static";
+import adapter from "svelte-adapter-bun";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 export default {
   preprocess: [vitePreprocess()],
-  kit: { adapter: adapter({ fallback: "200.html" }) },
+  kit: { adapter: adapter() },
   extensions: [".svelte"],
 };

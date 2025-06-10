@@ -4,4 +4,4 @@ services:
     container_name: mdBlog
     build: .
     ports:
-      - 5173:80
+      - 5173:3000

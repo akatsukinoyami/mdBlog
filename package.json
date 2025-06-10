@@ -50,10 +50,13 @@
   "dependencies": {
     "@fontsource/montserrat": "^5.2.5",
     "@mdi/js": "^7.4.47",
-    "@sveltejs/adapter-static": "^3.0.8",
+    "cookie": "^1.0.2",
+    "devalue": "^5.1.1",
     "highlight.js": "^11.11.1",
+    "set-cookie-parser": "^2.7.1",
     "sharp": "^0.34.2",
     "showdown": "^2.1.0",
+    "svelte-adapter-bun": "^0.5.2",
     "svelte-loading-spinners": "^0.3.6",
     "svelte-sonner": "^1.0.4",
     "yaml": "^2.8.0"

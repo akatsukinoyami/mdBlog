@@ -25,9 +25,14 @@ export function fromStorage<T extends string>(
   def: T,
 ): Writable<T> {
   let val = def;
+
   if (browser) {
     val = localStorage.getItem(key) as T;
-    if (!val) localStorage.setItem(key, def);
+    if (!val) {
+      localStorage.setItem(key, def);
+      val = def;
+    }
   }
-  return writable<T>(browser ? val : def);
+
+  return writable<T>(val);
 }
