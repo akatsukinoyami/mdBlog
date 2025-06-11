@@ -4,7 +4,6 @@ import { defineConfig } from "vite";
 
 const svelteExtensions = [
   "svelte-sonner",
-  "svelte-inspect-value",
   "svelte-loading-spinners",
   "sharp",
 ];

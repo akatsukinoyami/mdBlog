@@ -1,0 +1,6 @@
+blog.tar.gz
+.DS_Store
+build
+node_modules
+.svelte-kit
+blog

@@ -6,12 +6,13 @@
     "checkJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "bundler",
-    "types": ["@modyfi/vite-plugin-yaml/modules"]
+    "types": ["bun-types", "@modyfi/vite-plugin-yaml/modules"]
   }
   // Path aliases are handled by https://svelte.dev/docs/kit/configuration#alias
   // except $lib which is handled by https://svelte.dev/docs/kit/configuration#files
