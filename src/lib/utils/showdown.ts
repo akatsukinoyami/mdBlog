@@ -68,7 +68,7 @@ export function getConverter(path: string) {
       {
         type: "output",
         regex: /\+images\//g,
-        replace: url("files", path, economy(`+imagesCompressed/`, `+images/`)),
+        replace: url(["files", path, economy(`+imagesCompressed/`, `+images/`)]),
       },
     ],
   });

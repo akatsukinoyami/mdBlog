@@ -61,6 +61,20 @@ p {
   @apply my-1;
 }
 
+@theme {
+  --animate-bar1: animloader 2s linear infinite;
+  @keyframes animloader {
+    0% {
+      left: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      left: 100%;
+      transform: translateX(0%);
+    }
+  }
+}
+
 .text-justify-or-center {
   text-align: justify;
   text-align-last: center;

@@ -22,8 +22,8 @@
 		'transform transition-transform duration-500 ease-in-out hover:scale-105 hover:duration-200',
 		className
 	]}
-	href={url(page.data.path, folderName)}
-	style:background-image={bgUrl('files', page.data.path, folderName, 'index.jpg')}
+	href={url([page.data.path, folderName])}
+	style:background-image={bgUrl(['files', page.data.path, folderName, 'index.jpg'])}
 	aria-label="card"
 >	
 	<span class={["absolute bottom-3 w-full text-center px-1", textStroke]}>

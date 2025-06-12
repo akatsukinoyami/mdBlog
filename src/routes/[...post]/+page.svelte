@@ -3,6 +3,7 @@
 	import { getEntityByPath } from '$lib/utils';
 	import Post from '$lib/partials/post.svelte';
 	import CardCollection from '$lib/partials/cardCollection.svelte';
+	import Metadata from '$lib/partials/metadata.svelte';
 	import { lang, title } from "$lib/stores";
 	import type { Entity } from '$lib/types';
 
@@ -17,6 +18,9 @@
 
 {#if entity}
 	<Post {entity} path={data.path} />
+
 	<CardCollection cardClass={{ "dark:brightness-60": true, "dark:contrast-200": !data.path }} {entity} />
+
+	<Metadata {entity} />
 {/if}
 
