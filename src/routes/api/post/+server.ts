@@ -14,12 +14,12 @@ function getFromParams(url: URL, key: string): UUID {
 }
 
 async function getPostData(post_id: UUID) {
-  const interactions =  await sql`
+  const interactions = (await sql`
     SELECT type, COUNT(*) as count 
       FROM interactions 
       WHERE post_id = ${post_id} 
       GROUP BY type
-  ;` as Count[];
+  ;`) as Count[];
   const result = Object.fromEntries(
     interactions.map(({ type, count }) => [type, count]),
   );
