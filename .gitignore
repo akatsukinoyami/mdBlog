@@ -1,16 +1,17 @@
-blog.tar.gz
 .DS_Store
+.svelte-kit
+*.local
 build
 node_modules
-.svelte-kit
+blog.tar.gz
 blog
 
-app.db*
 static/posts.yaml
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
 bun.lock
 bun.lockb
+postgres
 
 static/**/*+imagesCompressed

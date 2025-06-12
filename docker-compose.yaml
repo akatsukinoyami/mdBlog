@@ -3,5 +3,16 @@ services:
     hostname: mdBlog
     container_name: mdBlog
     build: .
+    env_file: .env.docker.local
     ports:
       - 5173:3000
+      
+  db:
+    image: postgres:17-alpine
+    hostname: mdBlog-db
+    container_name: mdBlog-db
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    env_file: .env.db.local
+    ports:
+      - 5432:5432
