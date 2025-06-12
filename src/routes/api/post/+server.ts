@@ -1,4 +1,4 @@
-import { error, json } from "@sveltejs/kit";
+import { error } from "@sveltejs/kit";
 import { db } from "$lib/db";
 import { getPostData } from "$lib/sql.calls";
 import { mutatePost } from "$lib/sql.queries";

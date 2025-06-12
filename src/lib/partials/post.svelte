@@ -18,11 +18,9 @@
 			.catch(error => toast.error(error.toString()));
 	}
 </script>
-	<article class="flex justify-center w-full py-10">
-		<Circle1 />
-	</article>
+
 {#await loadPost(entity?.post?.includes($lang) ? `+post.${$lang}.md` : entity?.post?.includes('default') ? `+post.default.md` : null)}
-	<article class="flex justify-center w-full py-10">
+	<article class="flex justify-center w-full py-20">
 		<Circle1 />
 	</article>
 {:then post}

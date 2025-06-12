@@ -2,7 +2,6 @@
   import { toast } from 'svelte-sonner';
   import { mdiEye, mdiHeart, mdiShare } from '@mdi/js';
   import Icon from '$lib/components/icon.svelte';
-  import { Bar1 } from '$lib/components/spinners';
   import i18n from '$lib/i18n';
   import { lang, title } from '$lib/stores';
   import { url } from '$lib/utils';
@@ -12,7 +11,6 @@
 
 	let { entity }: { entity: Entity } = $props();
   let metadata = $state<Counts | undefined>();
-  let loading = $state(false);
   let t = $derived(i18n($lang));
 
   async function action(postId: UUID | undefined, type: keyof Counts) {
@@ -23,12 +21,10 @@
 
     sessionStorage.setItem(`${postId}/${type}`, 'true');
 
-    loading = true;
 		fetch(url(['api', 'post'], variables))
 			.then(res => res.json())
       .then(json => metadata = json)
-      .catch(error => toast.error(error))
-      .finally(() => loading = false);
+      .catch(error => toast.error(error));
 	}
 
   async function share(postId: UUID | undefined) {
@@ -61,9 +57,7 @@
 </script>
 
 <div class="flex justify-end gap-8 w-full">
-  {#if loading}
-    <Bar1 />
-  {:else if metadata} 
+  {#if metadata} 
     {#each buttons as [props, path, count], i}
       <button class={["flex gap-2 opacity-50", i ? "hover:opacity-100 cursor-pointer" : '']} {...props}>
         <Icon {path} />{count ?? 0}
