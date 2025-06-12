@@ -2,11 +2,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import { defineConfig } from "vite";
 
-const svelteExtensions = [
-  "svelte-sonner",
-  "svelte-loading-spinners",
-  "sharp",
-];
+const svelteExtensions = ["svelte-sonner", "sharp"];
 
 export default defineConfig({
   plugins: [tailwindcss(), sveltekit()],

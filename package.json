@@ -4,7 +4,7 @@
   "version": "0.3.0",
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "bun posts && vite dev",
     "prebake": "bun lint && bun check:18n && bun posts && bun compress:images",
     "bake": "vite build",
     "postbake": "bun compress:text",
@@ -55,7 +55,6 @@
     "sharp": "^0.34.2",
     "showdown": "^2.1.0",
     "svelte-adapter-bun": "^0.5.2",
-    "svelte-loading-spinners": "^0.3.6",
     "svelte-sonner": "^1.0.4",
     "yaml": "^2.8.0"
   }
