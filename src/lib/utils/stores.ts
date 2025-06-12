@@ -1,7 +1,10 @@
 import { writable, type Writable } from "svelte/store";
 import { browser } from "$app/environment";
 
-export function fromStorage<T extends string>(key: string, def: T): Writable<T> {
+export function fromStorage<T extends string>(
+  key: string,
+  def: T,
+): Writable<T> {
   let val = def;
 
   if (browser) {

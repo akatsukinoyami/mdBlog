@@ -6,7 +6,7 @@ export function url(path: string[], searchParams?: Record<string, any>) {
     url += `?${params}`;
   }
   return encodeURI(url);
-};
+}
 
 export function bgUrl(path: string[], searchParams?: Record<string, any>) {
   return `url("${url(path, searchParams)}")`;
