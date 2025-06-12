@@ -23,7 +23,11 @@
 
 		fetch(url(['api', 'post'], variables))
 			.then(res => res.json())
-      .then(json => metadata = json)
+      .then(json => {
+        metadata = json?.message === 'Internal Error'
+          ? undefined
+          : json
+      })
       .catch(error => toast.error(error));
 	}
 
@@ -56,12 +60,12 @@
   ]);
 </script>
 
-<div class="flex justify-end gap-8 w-full">
-  {#if metadata} 
+{#if metadata} 
+  <div class="flex justify-end gap-8 w-full">
     {#each buttons as [props, path, count], i}
       <button class={["flex gap-2 opacity-50", i ? "hover:opacity-100 cursor-pointer" : '']} {...props}>
         <Icon {path} />{count ?? 0}
       </button>
     {/each}
-  {/if}
-</div>
+  </div>
+{/if}

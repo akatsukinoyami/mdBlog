@@ -1,5 +1,5 @@
 import { json, error } from "@sveltejs/kit";
-import { sql } from "$lib/db";
+import { connect } from "$lib/db";
 import type { UUID } from "crypto";
 import type { Count } from "$lib/types";
 
@@ -14,22 +14,30 @@ function getFromParams(url: URL, key: string): UUID {
 }
 
 async function getPostData(post_id: UUID) {
-  const interactions = (await sql`
-    SELECT type, COUNT(*) as count 
-      FROM interactions 
-      WHERE post_id = ${post_id} 
-      GROUP BY type
-  ;`) as Count[];
-  const result = Object.fromEntries(
-    interactions.map(({ type, count }) => [type, count]),
-  );
-  return json({ ...defaultCounts, ...result });
+  const sql = await connect();
+
+  if (sql) {
+    const interactions = (await sql`
+      SELECT type, COUNT(*) as count 
+        FROM interactions 
+        WHERE post_id = ${post_id} 
+        GROUP BY type
+    ;`) as Count[];
+    const result = Object.fromEntries(
+      interactions.map(({ type, count }) => [type, count]),
+    );
+    return json({ ...defaultCounts, ...result });
+  } else {
+    return json({ message: "no ara-ara((" });
+  }
 }
 
 export async function GET({ url, getClientAddress }) {
+  const sql = await connect();
   const post_id = getFromParams(url, "post_id");
   const type = url.searchParams.get("type") ?? "";
-  if (possibleTypes.has(type)) {
+
+  if (sql! && possibleTypes.has(type)) {
     await sql`
       INSERT 
         INTO interactions (type, post_id, ip_addr) 
