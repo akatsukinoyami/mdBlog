@@ -1,4 +1,4 @@
-FROM oven/bun:canary-distroless AS base
+FROM oven/bun:latest AS base
 
 WORKDIR /app 
 COPY package.json bun.lock ./
