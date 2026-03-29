@@ -1,4 +1,4 @@
-FROM oven/bun:1-alpine AS base
+FROM oven/bun:canary-distroless AS base
 
 WORKDIR /app 
 COPY package.json bun.lock ./
