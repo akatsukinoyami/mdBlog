@@ -16,7 +16,8 @@ export interface Entity {
 	children: Record<string, Entity>;
 }
 
-export interface Togglable<T extends string | number | symbol> extends Writable<T> {
+export interface Togglable<T extends string | number | symbol>
+	extends Writable<T> {
 	getNext: (current: T) => T | undefined;
 	toggle: () => void;
 }

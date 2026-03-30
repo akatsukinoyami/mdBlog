@@ -7,7 +7,11 @@ export function processImages(
 ): string {
 	return src.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, rawSrc) => {
 		const spanMatch = alt.match(/^([cr])(\d):(.*)$/);
-		const spanType = spanMatch ? (spanMatch[1] === 'c' ? 'col' : 'row') : undefined;
+		const spanType = spanMatch
+			? spanMatch[1] === 'c'
+				? 'col'
+				: 'row'
+			: undefined;
 		const n = spanMatch?.[2] ?? '1';
 		const caption = spanMatch ? spanMatch[3] : alt;
 

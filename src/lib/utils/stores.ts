@@ -2,7 +2,11 @@ import { type Writable, writable } from 'svelte/store';
 import { browser } from '$app/environment';
 import { type Togglable } from '$lib/types';
 
-export function fromStorage<T extends string>(key: string, def: T, values: T[]): Togglable<T> {
+export function fromStorage<T extends string>(
+	key: string,
+	def: T,
+	values: T[]
+): Togglable<T> {
 	let val = def;
 
 	if (browser) {

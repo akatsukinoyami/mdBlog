@@ -15,7 +15,10 @@
 	let t = $derived(i18n($lang));
 
 	let parentPath = $derived.by(() => {
-		const parts = $page.url.pathname.replace(/\/$/, '').split('/').filter(Boolean);
+		const parts = $page.url.pathname
+			.replace(/\/$/, '')
+			.split('/')
+			.filter(Boolean);
 		if (parts.length === 0) return null;
 		parts.pop();
 		return `/${parts.join('/')}` || '/';

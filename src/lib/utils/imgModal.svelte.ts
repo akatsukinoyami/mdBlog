@@ -10,7 +10,9 @@ export function openImgModal(event: Event) {
 	if (!(target instanceof HTMLImageElement)) return;
 
 	// Always show the original — if economy mode served a compressed webp, strip it back
-	modal.src = target.src.replaceAll('+imagesCompressed', '+images').replace('.webp', '');
+	modal.src = target.src
+		.replaceAll('+imagesCompressed', '+images')
+		.replace('.webp', '');
 	modal.alt = target.alt || '';
 }
 

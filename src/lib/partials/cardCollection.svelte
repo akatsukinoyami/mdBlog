@@ -7,7 +7,9 @@
 	let children = $derived(
 		!entity?.children
 			? []
-			: Object.entries(entity?.children).sort(([a], [b]) => (a > b ? 1 : a < b ? -1 : 0))
+			: Object.entries(entity?.children).sort(([a], [b]) =>
+					a > b ? 1 : a < b ? -1 : 0
+				)
 	);
 </script>
 

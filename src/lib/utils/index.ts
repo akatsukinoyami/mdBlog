@@ -13,6 +13,9 @@ export function getChild(current: Entity | undefined, segment: string) {
 	return current?.children?.[segment];
 }
 
-export function getEntityByPath(root: Entity, path: string): Entity | undefined {
+export function getEntityByPath(
+	root: Entity,
+	path: string
+): Entity | undefined {
 	return path.split('/').filter(Boolean).reduce(getChild, root);
 }

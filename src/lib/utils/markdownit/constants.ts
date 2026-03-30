@@ -10,7 +10,8 @@ export const textStroke = `
   dark:text-shadow-[-1px_-1px_1px_var(--color-gray-950),-1px_1px_1px_var(--color-gray-950),1px_-1px_1px_var(--color-gray-950),1px_1px_1px_var(--color-gray-950)]
 `;
 
-export const spanSize = (q?: 'col' | 'row') => (q ? `md:${q}-span-$1 ${q}-span-1` : '');
+export const spanSize = (q?: 'col' | 'row') =>
+	q ? `md:${q}-span-$1 ${q}-span-1` : '';
 export const figure = (q?: 'col' | 'row') =>
 	`figure class="flex flex-col relative items-center gap-2 my-2 max-h-140 group ${spanSize(q)}"`;
 

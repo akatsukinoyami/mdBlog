@@ -3,7 +3,7 @@
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab",
-		"lineWidth": 100
+		"lineWidth": 80
 	},
 	"javascript": {
 		"formatter": {
@@ -58,6 +58,12 @@
 		}
 	],
 	"files": {
-		"includes": ["src/**", "*.config.*", "biome.json", "package.json", "tsconfig.json"]
+		"includes": [
+			"src/**",
+			"*.config.*",
+			"biome.json",
+			"package.json",
+			"tsconfig.json"
+		]
 	}
 }
