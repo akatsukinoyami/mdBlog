@@ -129,8 +129,8 @@ We entered the lock in the dark, so sorry for the lack of photos. But now we’r
 :::3
 
 ![](+images/photo_164@30-03-2018_09-03-22-1024x768.jpg)
-!c2[](+images/photo_166@30-03-2018_09-03-22-1024x479.jpg)
-!r2[](+images/photo_171@30-03-2018_09-20-47-768x1024.jpg)
+![c2:](+images/photo_166@30-03-2018_09-03-22-1024x479.jpg)
+![r2:](+images/photo_171@30-03-2018_09-20-47-768x1024.jpg)
 ![](+images/photo_165@30-03-2018_09-03-22-1024x768.jpg)
 ![](+images/photo_167@30-03-2018_09-03-22-1024x768.jpg)
 ![](+images/photo_168@30-03-2018_09-03-22-1024x768.jpg)
@@ -160,7 +160,7 @@ And here we are approaching St. Petersburg. Could it be that we’ll be home soo
 ![](+images/photo_176@02-04-2018_12-38-33-1024x768.jpg)
 ![](+images/photo_177@02-04-2018_14-03-52-1024x768.jpg)
 ![](+images/photo_178@02-04-2018_14-03-52-1024x576.jpg)
-!c2[](+images/photo_179@02-04-2018_14-03-57-1024x768.jpg)
+![c2:](+images/photo_179@02-04-2018_14-03-57-1024x768.jpg)
 
 :::
 

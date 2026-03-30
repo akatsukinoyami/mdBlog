@@ -271,7 +271,7 @@ Our logs, heh. However, the rainy season doesn’t even let us open the hatch co
 
 :::2
 
-!c2[17:01 I’ve carried huge generators and tractors, I’ve carried grain, containers, and crates, but I never thought I’d spend my seagoing practice carrying timber, heh](+images/photo_1458@02-07-2021_14-21-59-1024x697.jpg)
+![c2:17:01 I’ve carried huge generators and tractors, I’ve carried grain, containers, and crates, but I never thought I’d spend my seagoing practice carrying timber, heh](+images/photo_1458@02-07-2021_14-21-59-1024x697.jpg)
 ![17:33 I’ve never docked at a pier like this either😅😅](+images/photo_1460@02-07-2021_17-33-26-767x1024.jpg)
 ![](+images/photo_1454@01-07-2021_20-31-19-767x1024.jpg)
 
@@ -391,7 +391,7 @@ Upd. It turned out the escort was given not to watch over us but for our protect
 
 :::
 
-!c3[14:26 Fewer logs remain; we’ve even finished loading hold 5, so soon we’ll head to top up at Pointe-Noire.](+images/2024-04-14_15.54.22.jpg)
+![c3:14:26 Fewer logs remain; we’ve even finished loading hold 5, so soon we’ll head to top up at Pointe-Noire.](+images/2024-04-14_15.54.22.jpg)
 
 :::
 

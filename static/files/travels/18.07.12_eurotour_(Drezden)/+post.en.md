@@ -64,7 +64,7 @@ Still, it’s hard to manage here without knowing the language, hehe.
 ![](+images/photo_312@13-07-2018_16-01-49-1024x768.jpg)
 ![](+images/photo_315@13-07-2018_16-01-55-1024x768.jpg)
 ![](+images/photo_316@13-07-2018_16-01-55-1024x768.jpg)
-!c3[That very diesel locomotive. We missed it and waited two hours, wandering around Děčín](+images/photo_317@13-07-2018_16-01-55-768x1024.jpg)
+![c3:That very diesel locomotive. We missed it and waited two hours, wandering around Děčín](+images/photo_317@13-07-2018_16-01-55-768x1024.jpg)
 ![](+images/photo_318@13-07-2018_19-23-46-768x1024.jpg)
 ![](+images/photo_321@13-07-2018_19-23-47-768x1024.jpg)
 ![](+images/photo_325@13-07-2018_19-23-47-768x1024.jpg)

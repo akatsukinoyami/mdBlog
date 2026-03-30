@@ -37,7 +37,7 @@
 ![](+images/20180716_175929.resized-767x1024.jpg)
 ![](+images/20180716_192004.resized-767x1024.jpg)
 ![](+images/20180716_192329.resized-767x1024.jpg)
-!c2[](+images/20180716_160821.resized-1024x767.jpg)
+![c2:](+images/20180716_160821.resized-1024x767.jpg)
 ![](+images/20180716_175059.resized-1024x767.jpg)
 ![](+images/20180716_183954.resized-1024x767.jpg)
 ![](+images/20180716_191948.resized-1024x767.jpg)

@@ -11,7 +11,7 @@ During the morning watch, the Captain looked at me sympathetically but said I ha
 
 :::2
 
-!c2[](+images/photo_1159@04-01-2021_04-15-22-1-1024x767.jpg)
+![c2:](+images/photo_1159@04-01-2021_04-15-22-1-1024x767.jpg)
 ![](+images/photo_1160@05-01-2021_15-03-19-1024x768.jpg)
 ![](+images/photo_1161@05-01-2021_16-52-28-1024x768.jpg)
 

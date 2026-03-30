@@ -3,7 +3,7 @@ Cold November Odessa. A good friend suggested we take a trip to a small town in 
 
 :::3
 
-!c3[We are trying to warm up on a cold Odessa morning while waiting for the bus)](+images/photo_731@10-11-2018_07-07-56-768x1024.jpg)
+![c3:We are trying to warm up on a cold Odessa morning while waiting for the bus)](+images/photo_731@10-11-2018_07-07-56-768x1024.jpg)
 ![](+images/photo_734@10-11-2018_12-30-06-767x1024.jpg)
 ![](+images/photo_739@10-11-2018_14-03-44-768x1024.jpg)
 ![](+images/photo_737@10-11-2018_12-30-06-767x1024.jpg)
@@ -13,7 +13,7 @@ Cold November Odessa. A good friend suggested we take a trip to a small town in 
 ![](+images/photo_738@10-11-2018_12-30-06-768x1024.jpg)
 ![](+images/photo_740@10-11-2018_14-03-44-768x1024.jpg)
 ![](+images/photo_741@10-11-2018_14-03-44-767x1024.jpg)
-!c3[The festival turned out to be not only a wine festival, but also a cheese festival)](+images/photo_746@10-11-2018_15-39-37-1-768x1024.jpg)
+![c3:The festival turned out to be not only a wine festival, but also a cheese festival)](+images/photo_746@10-11-2018_15-39-37-1-768x1024.jpg)
 
 :::c3
 
