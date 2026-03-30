@@ -8,27 +8,16 @@ COPY package.json bun.lock ./
 
 RUN bun install --frozen-lockfile
 
-COPY \
-  src \
-  static \
-  scripts \
-  svelte.config.js \
-  vite.config.ts \
-  tsconfig.json \
-  tailwind.config.ts \
-  biome.json \
-  bunfig.toml \
-  ./
+COPY src ./src
+COPY static ./static
+COPY scripts ./scripts
+COPY svelte.config.js vite.config.ts tsconfig.json tailwind.config.ts biome.json bunfig.toml ./
 
-RUN bun lint
-RUN bun posts
-RUN bun compress:images
-RUN vite build
-RUN bun compress:text
+RUN bun bake
 
 # Serve step
 
-FROM nginx:alpine AS serve-node
+FROM fholzer/nginx-brotli:latest AS serve-node
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
