@@ -52,7 +52,7 @@ Lviv’s weather welcomed Katsu with open arms: bright sun, a few clouds, and a 
 ![](+images/photo_813@18-05-2019_15-51-38-1024x576.jpg)
 ![](+images/photo_814@18-05-2019_15-51-38-1024x576.jpg)
 ![A small photo report from the Anicon Lviv stage](+images/photo_815@18-05-2019_15-51-38-1024x576.jpg)
-!c2[](+images/20190518_185729-2-767x1024.jpg)
+![c2:](+images/20190518_185729-2-767x1024.jpg)
 
 :::
 

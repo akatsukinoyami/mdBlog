@@ -414,7 +414,7 @@ Last night they told us we wouldn’t be fed in the morning. At 06:20 I got a ca
 
 :::3
 
-!r2[Salted caramel and hipster paper straws—the culture I now belong to)](+images/20210819_074553.jpg)
+![r2:Salted caramel and hipster paper straws—the culture I now belong to)](+images/20210819_074553.jpg)
 ![08:04 The condition of airplanes in South Africa is roughly like our Ukrainian Bohdanchik buses](+images/20210819_080321.jpg)
 ![](+images/20210819_093250.jpg)
 ![](+images/20210819_093720.jpg)

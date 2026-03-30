@@ -18,7 +18,7 @@ Bye-bye, Katsu is moving on to the next leg of the journey)
 
 ![](+images/photo_84@13-12-2017_11-39-43-1024x767.jpg)
 ![](+images/photo_86@13-12-2017_12-23-14-1024x767.jpg)
-!r2[](+images/photo_85@13-12-2017_11-40-29-1024x768.jpg)
+![r2:](+images/photo_85@13-12-2017_11-40-29-1024x768.jpg)
 ![](+images/photo_87@13-12-2017_12-23-40-1024x767.jpg)
 ![](+images/photo_88@13-12-2017_12-24-51-1024x767.jpg)
 
@@ -151,7 +151,7 @@ So at 22:00 Port Control in Zarzis hailed me and said we must weigh anchor at 06
 
 ![](+images/photo_84@13-12-2017_11-39-43-1024x767.jpg)
 ![](+images/photo_86@13-12-2017_12-23-14-1024x767.jpg)
-!r2[](+images/photo_85@13-12-2017_11-40-29-1024x768.jpg)
+![r2:](+images/photo_85@13-12-2017_11-40-29-1024x768.jpg)
 ![](+images/photo_87@13-12-2017_12-23-40-1024x767.jpg)
 ![](+images/photo_88@13-12-2017_12-24-51-1024x767.jpg)
 

@@ -20,34 +20,41 @@ I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018
 
 ## Specifications
 
-:::2
+CPU
+: Intel Core i7-8750HT 2.2-4GHz (6 cores / 12 threads)
 
-  <dt>CPU</dt>
-  <dd>Intel Core i7-8750H 2.2–4 GHz (6 cores / 12 threads)</dd>
-  <dt>iGPU</dt>
-  <dd>Intel UHD Graphics 630 (GT2)</dd>
-  <dt>dGPU</dt>
-  <dd>NVIDIA GeForce GTX 1060 6 GB GDDR5 (192 bit)</dd>
-  <dt>RAM</dt>
-  <dd>16 GB (2×8 GB) Samsung M471A1K DDR4-2666 SDRAM (20-19-19-43)</dd>
-  <dt>SSD</dt>
-  <dd>256 GB NVMe 4×PCI-E 3.0 SAMSUNG MZVLB256HAHQ</dd>
-  <dt>HDD</dt>
-  <dd>1 TB SATA 3 Seagate ST1000LM048-2E7172</dd>
-  <dt>Display</dt>
-  <dd>15.6" 16:9 IPS Full HD Panda LM156LF9L01 (matte)</dd>
-  <dt>Audio Chip</dt>
-  <dd>Realtek ALC1220</dd>
-  <dt>Ports</dt>
-  <dd>4×USB 3.0, USB Type-C, HDMI, 3.5 mm mini-jack (separate headphone & microphone), RJ-45 Ethernet, SD card reader</dd>
-  <dt>Battery</dt>
-  <dd>55 Wh SUNWODA G15B01W (8 % wear)</dd>
-  <dt>Dimensions & Weight</dt>
-  <dd>365×265×20.9 mm, 2.7 kg (without power adapter)</dd>
-  <dt>Power Adapter</dt>
-  <dd>180 W MA100000340388930CM4 (0.5 kg)</dd>
+iGPU
+: Intel UHD Graphics 630 (GT2)
 
-:::
+eGPU
+: nVidia GeForce GTX 1060 6GB GDDR5 (192bit)
+
+RAM
+: 16GB (2×8GB) Samsung M471A1K DDR4-2666 SDRAM (20-19-19-43)
+
+SSD
+: 256GB NVME 4×PCI-E 3.0 SAMSUNG MZVLB256HAHQ
+
+HDD
+: 1TB SATA 3.0 Seagate ST1000LM048-2E7172
+
+Screen
+: 15.6" 16:9 IPS FullHD Panda LM156LF9L01 (matte)
+
+Sound chip
+: Realtek ALC1220
+
+Ports
+: 4×USB 3.0, USB Type-C, HDMI, 3.5mm mini-Jack (separate jacks for headphones and microphone), RJ-45 Ethernet, SD Card reader
+
+Battery
+: 55 Wh SUNWODA G15B01W (8% wear)
+
+Dimensions and weight
+: 365×265×20.9 mm, 2.7 kg excluding power adapter
+
+Power adapter
+: 180W MA100000340388930CM4 (0.5kg)
 
 ## Photos
 

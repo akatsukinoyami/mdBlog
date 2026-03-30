@@ -1,51 +1,94 @@
-# Regexes used for migrating to new syntax
+# Markdown Syntax Reference
 
-```regex
+## Grids
 
-[ ]*<figure>\n[ ]*<img src="(.+?)" alt="" />[ ]*\n[ ]*</figure>
+Open a grid with `:::N` where N is the number of columns. Close with `:::`.
 
-  ![]($1)
-___________________________________
+```md
+:::2
+Content left column
 
-    <figcaption>(.+?)</figcaption>
+Content right column
+:::
+```
 
-___________________________________
+Nested grids: use `:::cN` for a cell spanning N columns, `:::rN` for N rows.
 
-[ ]*<figure>\n[ ]*<img src="(.+?)" alt="(.+?)" />[ ]*\n[ ]*</figure>
+```md
+:::3
+:::c2
+This cell spans 2 columns
+:::
 
-  ![$2]($1)
-___________________________________
+Single column cell
+:::
+```
 
-[ ]*<figure class="col-span-(\d)">\n[ ]*<img src="(.+?)" alt="(.+?)" />[ ]*\n[ ]*</figure>
+```md
+:::3
+:::r2
+This tall cell spans 2 rows
+:::
 
-  !c$1[$3]($2)
-___________________________________
+Top right
 
-[ ]*<figure class="col-span-(\d)">\n[ ]*<img src="(.+?)" alt="" />[ ]*\n[ ]*</figure>
+Bottom right
+:::
+```
 
-  !c$1[$2]($2)
+## Images
 
-___________________________________
+Standard image (no span, treated as c1 inside a grid):
 
-[ ]*<figure class="row-span-(\d)">\n[ ]*<img src="(.+?)" alt="" />[ ]*\n[ ]*</figure>
+```md
+![Caption text](+images/photo.jpg)
+```
 
-  !r$1[$2]($2)
-___________________________________
+Image spanning N columns:
 
-<div class="grid grid-cols-(\d)">
+```md
+![c2:Caption text](+images/wide-photo.jpg)
+```
 
-%%%$1
+Image spanning N rows:
 
-___________________________________
+```md
+![r2:Caption text](+images/tall-photo.jpg)
+```
 
-</div>
+Images inside `+images/` are served from the compressed WebP directory in economy mode.
+External URLs are used as-is.
 
-%%%
+## Embeds
 
-___________________________________
+```md
+@[Video title](https://www.youtube.com/embed/VIDEO_ID){aspect-video w-full}
+```
 
-^####(#*)
+Format: `@[Title](url){tailwind classes}`
 
-#####$1
+## Spoilers
 
+```md
+||hidden spoiler text||
+```
+
+## Definition Lists
+
+Rendered as a 2-column grid (term left, definition right):
+
+```md
+Term one
+: Definition one
+
+Term two
+: Definition two
+```
+
+Multiple definitions per term:
+
+```md
+Term
+: First definition
+: Second definition
 ```

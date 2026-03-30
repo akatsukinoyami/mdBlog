@@ -6,13 +6,13 @@ I’m attaching a photo report.
 
 :::3
 
-!r2[Public transportation in Europe is not cheap](+images/photo_363@14-07-2018_19-55-03-768x1024.jpg)
+![r2:Public transportation in Europe is not cheap](+images/photo_363@14-07-2018_19-55-03-768x1024.jpg)
 ![](+images/photo_396@14-07-2018_19-56-16-1024x768.jpg)
 ![](+images/photo_364@14-07-2018_19-55-03-1024x768.jpg)
 ![](+images/photo_374@14-07-2018_19-55-12-1024x768.jpg)
-!r2[The town at the foot of Salzburg Fortress](+images/photo_371@14-07-2018_19-55-12-864x1024.jpg)
+![r2:The town at the foot of Salzburg Fortress](+images/photo_371@14-07-2018_19-55-12-864x1024.jpg)
 ![](+images/photo_375@14-07-2018_19-55-12-1024x768.jpg)
-!r2[](+images/photo_377@14-07-2018_19-55-12-768x1024.jpg)
+![r2:](+images/photo_377@14-07-2018_19-55-12-768x1024.jpg)
 ![](+images/photo_387@14-07-2018_19-56-16-1024x768.jpg)
 ![](+images/photo_389@14-07-2018_19-56-16-1024x768.jpg)
 ![](+images/photo_390@14-07-2018_19-56-16-1024x768.jpg)
@@ -20,7 +20,7 @@ I’m attaching a photo report.
 ![](+images/photo_395@14-07-2018_19-56-16-1024x768.jpg)
 ![](+images/photo_402@14-07-2018_19-56-16-1024x768.jpg)
 ![](+images/photo_410@14-07-2018_19-56-16-1024x768.jpg)
-!c3[View of the town from the fortress](+images/photo_414@14-07-2018_19-56-19-1024x358.jpg)
+![c3:View of the town from the fortress](+images/photo_414@14-07-2018_19-56-19-1024x358.jpg)
 
 :::
 
@@ -30,7 +30,7 @@ We had an interesting night) Until midnight, we were at an Austrian equivalent o
 
 :::3
 
-!c3[Juicy burger from Burgerista for 10 euros](+images/photo_440@15-07-2018_18-59-03-1024x768.jpg)
+![c3:Juicy burger from Burgerista for 10 euros](+images/photo_440@15-07-2018_18-59-03-1024x768.jpg)
 
 :::c3
 
@@ -42,6 +42,6 @@ We had an interesting night) Until midnight, we were at an Austrian equivalent o
 ![](+images/photo_444@15-07-2018_18-59-49-1024x768.jpg)
 ![](+images/photo_446@15-07-2018_18-59-49-1024x768.jpg)
 ![](+images/photo_447@15-07-2018_18-59-49-1024x768.jpg)
-!c3[Nighttime Salzburg](+images/photo_448@15-07-2018_18-59-49-1024x386.jpg)
+![c3:Nighttime Salzburg](+images/photo_448@15-07-2018_18-59-49-1024x386.jpg)
 
 :::

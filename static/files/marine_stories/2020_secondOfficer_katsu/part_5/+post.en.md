@@ -112,7 +112,7 @@ But now we’re back at anchor; the wind has calmed to about 30 knots, but with 
 
 :::2
 
-!c2[](+images/photo_1135@15-12-2020_15-28-36-768x1024.jpg)
+![c2:](+images/photo_1135@15-12-2020_15-28-36-768x1024.jpg)
 ![](+images/photo_1137@15-12-2020_15-28-37-1024x768.jpg)
 ![](+images/photo_1136@15-12-2020_15-28-36-1024x768.jpg)
 ![Loaders on diesel generators are loading into trucks. At least during a blackout they’ll keep running.](+images/photo_1139@17-12-2020_06-03-54-1024x768.jpg)
@@ -201,7 +201,7 @@ All we can do is endure this burden.
 ![](+images/photo_1146@31-12-2020_03-47-30-1024x768.jpg)
 ![](+images/photo_1147@31-12-2020_03-47-30-1024x768.jpg)
 ![](+images/photo_1148@31-12-2020_03-47-30-1024x768.jpg)
-!c2[Port of Novorossiysk](+images/photo_1149@31-12-2020_03-47-30-1024x767.jpg)
+![c2:Port of Novorossiysk](+images/photo_1149@31-12-2020_03-47-30-1024x767.jpg)
 ![](+images/photo_1150@31-12-2020_03-47-30-1024x767.jpg)
 
 :::

@@ -91,7 +91,7 @@ As I wrote earlier, there’s absolutely no good news—together with the 3rd Of
 
  ![ECDIS display](+images/photo_919@11-08-2020_12-44-15-1024x767.jpg)
 ![Radar screen](+images/photo_920@11-08-2020_12-44-15-1024x767.jpg)
-!r2[Steering wheel](+images/photo_918@11-08-2020_12-44-15-767x1024.jpg)
+![r2:Steering wheel](+images/photo_918@11-08-2020_12-44-15-767x1024.jpg)
 ![Engine control panel](+images/photo_921@11-08-2020_12-44-16-1024x767.jpg)
 ![GPS, AIS, GPS](+images/photo_922@11-08-2020_12-44-16-1024x768.jpg)
 

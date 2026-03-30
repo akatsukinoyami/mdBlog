@@ -20,34 +20,41 @@
 
 ## Характеристки
 
-:::2
+CPU
+: Intel Core i7-8750HT 2.2-4GHz (6 ядер / 12 потоков)
 
-  <dt>CPU</dt>
-  <dd>Intel Core i7-8750HT 2.2-4GHz (6 ядер / 12 потоков)</dd>
-  <dt>iGPU</dt>
-  <dd>Intel UHD Graphics 630 (GT2)</dd>
-  <dt>eGPU</dt>
-  <dd>nVidia GeForce GTX 1060 6GB GDDR5 (192bit)</dd>
-  <dt>RAM</dt>
-  <dd>16GB (2×8GB) Samsung M471A1K DDR4-2666 SDRAM (20-19-19-43)</dd>
-  <dt>SSD</dt>
-  <dd>256GB NVME 4×PCI-E 3.0 SAMSUNG MZVLB256HAHQ</dd>
-  <dt>HDD</dt>
-  <dd>1TB SATA 3.0 Seagate ST1000LM048-2E7172</dd>
-  <dt>Экран</dt>
-  <dd>15,6" 16:9 IPS FullHD Panda LM156LF9L01 (матовый)</dd>
-  <dt>Звуковой чип</dt>
-  <dd>Realtek ALC1220</dd>
-  <dt>Порты</dt>
-  <dd>4×USB 3.0, USB Type-C, HDMI, 3,5 mini-Jack (отдельно наушники микрофон), RJ-45 Ethernet, SD Card reader</dd>
-  <dt>Батарея</dt>
-  <dd>55 Вт•ч SUNWODA G15B01W (износ 8%)</dd>
-  <dt>Габариты и вес</dt>
-  <dd>365×265×20.9 мм, 2.7кг без учета БП</dd>
-  <dt>Блок питания</dt>
-  <dd>180W MA100000340388930CM4 (0.5кг)</dd>
+iGPU
+: Intel UHD Graphics 630 (GT2)
 
-:::
+eGPU
+: nVidia GeForce GTX 1060 6GB GDDR5 (192bit)
+
+RAM
+: 16GB (2×8GB) Samsung M471A1K DDR4-2666 SDRAM (20-19-19-43)
+
+SSD
+: 256GB NVME 4×PCI-E 3.0 SAMSUNG MZVLB256HAHQ
+
+HDD
+: 1TB SATA 3.0 Seagate ST1000LM048-2E7172
+
+Экран
+: 15,6" 16:9 IPS FullHD Panda LM156LF9L01 (матовый)
+
+Звуковой чип
+: Realtek ALC1220
+
+Порты
+: 4×USB 3.0, USB Type-C, HDMI, 3,5 mini-Jack (отдельно наушники микрофон), RJ-45 Ethernet, SD Card reader
+
+Батарея
+: 55 Вт•ч SUNWODA G15B01W (износ 8%)
+
+Габариты и вес
+: 365×265×20.9 мм, 2.7кг без учета БП
+
+Блок питания
+: 180W MA100000340388930CM4 (0.5кг)
 
 ## Фото
 

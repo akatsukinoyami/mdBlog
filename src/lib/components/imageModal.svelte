@@ -26,8 +26,8 @@
   <div class="relative max-h-[95vh] max-w-[95vw]">
     <img {...modal} class="rounded-lg object-contain max-h-[95vh] max-w-[95vw] mx-auto" />
     <button
-      class="absolute top-2 right-2 text-white bg-black/30 hover:bg-black/50 rounded-full p-2 focus:outline-none"
-      onclick={close}
+      class="absolute top-2 right-2 text-white bg-black/30 hover:bg-black/50 rounded-full p-2 focus:outline-none cursor-pointer hover:scale-105 transition-all"
+      onclick={closeImgModal}
     >
       <Icon 
         class="h-6 w-6" 

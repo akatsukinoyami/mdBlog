@@ -44,6 +44,7 @@
 		"devalue": "^5.1.1",
 		"highlight.js": "^11.11.1",
 		"markdown-it": "^14.1.1",
+		"markdown-it-deflist": "^3.0.0",
 		"set-cookie-parser": "^2.7.1",
 		"sharp": "^0.34.2",
 		"svelte-sonner": "^1.0.4",
