@@ -5,5 +5,18 @@
     "a11y_no_static_element_interactions": "ignore",
     "a11y_no_noninteractive_element_interactions": "ignore"
   },
-  "css.customData": [".vscode/tailwind.json"]
+  "css.customData": [".vscode/tailwind.json"],
+
+  // Biome as default formatter and linter
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+
+  // Disable built-in TS/JS formatters in favour of Biome
+  "[javascript]": { "editor.defaultFormatter": "biomejs.biome" },
+  "[typescript]": { "editor.defaultFormatter": "biomejs.biome" },
+  "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" }
 }

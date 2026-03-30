@@ -6,11 +6,12 @@ export type Class = string | string[] | ClassRecord;
 export type Lang = 'ru' | 'en' | 'ua';
 export type Theme = 'light' | 'dark';
 export type TrafficEconomy = 'true' | 'false';
+export type Post = Lang | 'default' | '';
 export interface Entity {
 	id: UUID;
 	title: Record<Lang, string>;
 	description?: string;
-	post: Array<Lang | 'default' | ''>;
+	post: Post[];
 	date: string;
 	children: Record<string, Entity>;
 }
