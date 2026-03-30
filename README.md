@@ -125,33 +125,57 @@ The blog supports standard Markdown plus custom extensions:
 ### Grid Layouts
 
 ```markdown
-%%%3
-Content in 3-column grid
-%&23
-Content spanning 2 columns within 3-column parent
-&%
-%%%
+:::2
+Left column
+
+Right column
+:::
+```
+
+Nested spans — `:::cN` spans N columns, `:::rN` spans N rows:
+
+```markdown
+:::3
+:::c2
+Wide cell spanning 2 columns
+:::
+
+Single column cell
+
+:::r2
+Wide cell spanning 2 rows
+:::
+:::
 ```
 
 ### Images with Grid Support
 
 ```markdown
-![Caption](image.jpg) # Standard image with caption
-!c2[Caption](image.jpg) # Span 2 columns in grid
-!r3[Caption](image.jpg) # Span 3 rows in grid
+![Caption](+images/photo.jpg)       # standard
+![c2:Caption](+images/wide.jpg)     # span 2 columns
+![r2:Caption](+images/tall.jpg)     # span 2 rows
 ```
 
 ### Embedded Content
 
 ```markdown
-@{some-class}[Title](https://example.com)
-@{h-150}[Video](https://youtube.com/embed/id)
+@[Title](https://example.com){some-class}
+@[Video](https://youtube.com/embed/id){aspect-video w-full}
 ```
 
-### Special Effects
+### Spoilers
 
 ```markdown
-––{Hidden text}–– # Hover to reveal
+||hidden text||
+```
+
+### Definition Lists
+
+Rendered as a 2-column grid:
+
+```markdown
+Term
+: Definition
 ```
 
 ## 🎨 Theming & Customization
@@ -161,7 +185,6 @@ Content spanning 2 columns within 3-column parent
 The application supports multiple theme combinations:
 
 - **UI Theme**: Light/Dark mode for interface
-- **Code Theme**: Independent theme for code blocks
 - **Language**: English/Russian/Ukrainian interface
 
 ### Tailwind Configuration
@@ -217,8 +240,8 @@ After running `bun bake`, deploy the `build/` directory to any static hosting se
 - `bun dev` - Start development server
 - `bun check` - Type checking
 - `bun check:watch` - Watch mode type checking
-- `bun format` - Format code with Prettier
-- `bun lint` - Lint code with ESLint
+- `bun format` - Format code with Biome
+- `bun lint` - Lint code with Biome
 
 ### Build Scripts
 
@@ -249,7 +272,6 @@ User preferences are stored in localStorage:
 
 - `lang` - Interface language
 - `theme` - UI theme preference
-- `codeTheme` - Code block theme
 - `trafficEconomy` - Image optimization setting
 
 ## 🎯 Performance Features
@@ -311,14 +333,14 @@ DEBUG=vite:* bun dev
 - **SvelteKit 5** - Application framework
 - **Tailwind CSS 4** - Styling framework
 - **TypeScript** - Type safety
-- **Showdown** - Markdown processing
+- **markdown-it** - Markdown processing
+  - **markdown-it-deflist**
 - **Sharp** - Image optimization
 - **Highlight.js** - Syntax highlighting
 
 ### Development Tools
 
-- **ESLint** - Code linting
-- **Prettier** - Code formatting
+- **Biome** - Code linting and formatting
 - **Vite** - Build tool
 - **Bun** - Runtime and package manager
 
