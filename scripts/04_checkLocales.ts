@@ -3,25 +3,19 @@
 import { readdir } from "fs/promises";
 import { join, resolve } from "path";
 
-const getKeys = (obj: Record<string, any>, prefix = ""): string[] => {
-  return Object.entries(obj).flatMap(([key, value]) => {
+const getKeys = (obj: Record<string, any>, prefix = ""): string[] =>
+  Object.entries(obj).flatMap(([key, value]) => {
     const path = prefix ? `${prefix}.${key}` : key;
     return typeof value === "object" && !Array.isArray(value)
       ? [path, ...getKeys(value, path)]
       : [path];
   });
-};
 
-const loadLocale = async (file: string) => {
-  const mod = await import(resolve(file));
-  return mod.default;
-};
+const loadLocale = async (file: string) => (await import(resolve(file))).default;
 
 const localesDir = resolve(process.cwd(), "src/lib/i18n");
 const localeFiles = (await readdir(localesDir))
-  .filter(
-    (f) => (f.endsWith(".ts") || f.endsWith(".js")) && !f.includes("index"),
-  )
+  .filter((f) => (f.endsWith(".ts") || f.endsWith(".js")) && !f.includes("index"))
   .map((f) => join(localesDir, f));
 
 if (localeFiles.length < 2) {
@@ -31,10 +25,7 @@ if (localeFiles.length < 2) {
 
 const locales = await Promise.all(
   localeFiles.map(async (f) => ({
-    name: f
-      .split("/")
-      .pop()!
-      .replace(/\.(ts|js)$/, ""),
+    name: f.split("/").pop()!.replace(/\.(ts|js)$/, ""),
     keys: new Set(getKeys(await loadLocale(f))),
   })),
 );
@@ -62,4 +53,3 @@ if (errors.length) {
 }
 
 console.log("\n✅ Все файлы валидны");
-process.exit(0);

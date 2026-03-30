@@ -17,24 +17,21 @@ const compressors = [
   [brotliCompressSync, ".br"],
 ] as const;
 
+const glob = new Glob(`build/**/*.{${extensions.join(",")}}`);
+const files = await Array.fromAsync(glob.scan("."));
+
 await Promise.all(
-  compressors.map(async ([compressFunction, extension]) => {
-    console.log(`Compressing bundle with ${extension}`);
-
-    const glob = new Glob(`build/**/*.{${extensions.join(",")}}`);
-    const files = await Array.fromAsync(glob.scan("."));
-
-    await Promise.all(
-      files.map(async (filepath: string) => {
-        try {
-          const content = await Bun.file(filepath).arrayBuffer();
-          const compressed = compressFunction(new Uint8Array(content));
-          await Bun.write(filepath + extension, compressed);
-        } catch (err) {
-          console.error(`Error compressing ${filepath}:`, err);
-          process.exitCode = 1;
-        }
-      }),
-    );
+  files.map(async (filepath: string) => {
+    try {
+      const content = new Uint8Array(await Bun.file(filepath).arrayBuffer());
+      await Promise.all(
+        compressors.map(([compressFunction, extension]) =>
+          Bun.write(filepath + extension, compressFunction(content)),
+        ),
+      );
+    } catch (err) {
+      console.error(`Error compressing ${filepath}:`, err);
+      process.exitCode = 1;
+    }
   }),
 );

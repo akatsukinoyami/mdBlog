@@ -5,7 +5,6 @@ import { dirname, join, basename } from "node:path";
 const imageExtensions = ["jpg", "jpeg", "png", "webp", "avif"];
 const maxSize = 512;
 
-// Проверяем доступность Sharp
 let sharp: any;
 try {
   sharp = (await import("sharp")).default;
@@ -14,62 +13,60 @@ try {
   process.exit(1);
 }
 
-// Найти все картинки в папках +images
 const imageGlob = new Glob(
   `static/**/*+images/*.{${imageExtensions.join(",")}}`,
 );
 const imageFiles = await Array.fromAsync(imageGlob.scan("."));
 
-console.log(`Found ${imageFiles.length} images in +images folders`);
-
-// Группировать файлы по папкам для создания compressed папок
 const directoriesMap = new Map<string, string[]>();
-
-imageFiles.forEach((filePath) => {
+for (const filePath of imageFiles) {
   const dir = dirname(filePath);
-  if (!directoriesMap.has(dir)) {
-    directoriesMap.set(dir, []);
-  }
-  directoriesMap.get(dir)!.push(filePath);
-});
+  const existing = directoriesMap.get(dir);
+  if (existing) existing.push(filePath);
+  else directoriesMap.set(dir, [filePath]);
+}
 
-console.log(`Processing ${directoriesMap.size} directories`);
+let compressed = 0;
+let skipped = 0;
+let errors = 0;
 
 await Promise.all(
   Array.from(directoriesMap.entries()).map(async ([imagesDir, files]) => {
     const compressedDir = imagesDir.replace("+images", "+imagesCompressed");
-    console.log(`Processing directory: ${imagesDir} → ${compressedDir}`);
 
-    // Создать папку +imagesCompressed
     try {
       await mkdir(compressedDir, { recursive: true });
     } catch (err) {
       console.error(`Failed to create directory ${compressedDir}:`, err);
+      errors += files.length;
       return;
     }
 
     await Promise.all(
       files.map(async (imagePath) => {
         try {
-          const fileName = basename(imagePath);
-          const outputPath = join(compressedDir, `${fileName}.webp`);
-
-          // Обработать изображение с Sharp
+          const outputPath = join(compressedDir, `${basename(imagePath)}.webp`);
+          if (await Bun.file(outputPath).exists()) {
+            skipped++;
+            return;
+          }
           await sharp(imagePath)
-            .resize(maxSize, maxSize, {
-              fit: "inside",
-              withoutEnlargement: true,
-            })
+            .resize(maxSize, maxSize, { fit: "inside", withoutEnlargement: true })
             .webp({ quality: 75 })
             .toFile(outputPath);
-
-          console.log(`Compressed: ${imagePath} → ${outputPath}`);
+          compressed++;
         } catch (err) {
           console.error(`Error processing ${imagePath}:`, err);
+          errors++;
         }
       }),
     );
   }),
 );
 
-console.log("Image compression completed!");
+console.log(`Image compression done:
+  Compressed: ${compressed}
+  Skipped:    ${skipped}
+  Errors:     ${errors}
+  Total:      ${imageFiles.length}
+`);
