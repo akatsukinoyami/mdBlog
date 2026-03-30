@@ -1,6 +1,9 @@
 :::1
+
 ![](+images/header.jpg)
+
 :::
+
 > Mushoku Tensei is one of three isekai that I fell in love with long before the anime came out. And unlike "That Time I Got Reincarnated as a Slime" or "So I'm a Spider, So What?", MT (Mushoku Tensei) feels more alive somehow? Yes, even though the hero is still an overpowered character, it's explained by his training rather than just luck.
 >
 > I reread these light novels several times, and then watched the anime adaptations, but the first two titles were just fun adventures in another world. Although even MT in book form didn't seem to tug at the heartstrings as much.
@@ -37,11 +40,14 @@ Their relationship was very complex throughout the entire plot, but it was very 
 I think many would like to get such a second chance to change their life, but unfortunately, this only happens in anime. So we need to try to live this life that we have, because there's no certainty that a harem of elf girls or catgirls awaits us later.
 
 :::4
+
 ![](+images/rudy.png)
 ![](+images/silfie.jpg)
 ![](+images/roxy.webp)
 ![](+images/eris.webp)
+
 :::
+
 @[](https://www.youtube.com/embed/videoseries?si=_LVnN-ui59Tyf6L2&list=PLtdSPZNWT1AsaloUzNS9ESlZEcasvRHQ-){w-full h-140}
 
 <p class=text-center>Playlist with all official openings and endings</p>

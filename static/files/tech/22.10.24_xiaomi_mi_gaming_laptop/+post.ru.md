@@ -1,6 +1,7 @@
 Представляю вашему вниманию игровой ноутбук Xiaomi Mi Gaming Laptop (late 2018).
 
 :::2
+
 ![](+images/photo_windows.png)
 
   <div class="p-2">
@@ -14,10 +15,13 @@
     <p>Продавал в связи с желанием купить компьютер мощнее. В наличии коробка и блок питания. </p>
     <p>Удачно продал, спасибо за внимание)</p>
   </div>
+
 :::
+
 ## Характеристки
 
 :::2
+
   <dt>CPU</dt>
   <dd>Intel Core i7-8750HT 2.2-4GHz (6 ядер / 12 потоков)</dd>
   <dt>iGPU</dt>
@@ -42,18 +46,24 @@
   <dd>365×265×20.9 мм, 2.7кг без учета БП</dd>
   <dt>Блок питания</dt>
   <dd>180W MA100000340388930CM4 (0.5кг)</dd>
+
 :::
+
 ## Фото
 
 :::2
+
 ![Крышка ноутбука сверху (аноидированый алюминий)](+images/photo_top.png)
 ![Правая грань (SD Card reader и USB 3)](+images/photo_right.png)
 ![Задняя грань (RJ45, USB 3, HDMI, USB-C, порт зарядки)](+images/photo_back.png)
 ![Левая грань (2×USB 3, разьемы для наушников и микрофона)](+images/photo_left.png)
+
 :::
+
 ## Программы и тесты
 
 :::2
+
 ![Диспетчер устройств](+images/Device_Manager.png)
 ![AIDA64 Суммарный отчет](+images/AIDA64_Summary.png)
 ![Управление дисками](+images/Disk_Management.png)
@@ -66,10 +76,13 @@
 ![Настройка пяти макро-клавиш на левой грани](+images/MiGamingBox_Macro.png)
 ![Настройка подсветки клавиатуры (4 зоны RGB)](+images/MiGamingBox_RGB_Keyboard.png)
 ![Настройка подсветки боковых граней](+images/MiGamingBox_RGB_SideBars.png)
+
 :::
+
 ## FPS в играх
 
 :::2
+
 ![Call of Duty Warzone ](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.28.47.39.jpeg)
 ![1080р низкие](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.29.25.41.jpeg)
 ![Dead or Alive 5](+images/Game_DOA_2022-11-06_02-30-38-76_Large.jpeg)
@@ -90,4 +103,5 @@
 ![1080р ультра](+images/Game_vermintide2_2022-11-06_00-34-38-00_Large.jpeg)
 ![](+images/Game_vermintide2_2022-11-06_00-34-45-31_Large.jpeg)
 ![](+images/Game_vermintide2_2022-11-06_00-35-00-40_Large.jpeg)
+
 :::

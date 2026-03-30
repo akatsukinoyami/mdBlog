@@ -1,6 +1,7 @@
 I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018).
 
 :::2
+
 ![](+images/photo_windows.png)
 
   <div class="p-2">
@@ -14,10 +15,13 @@ I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018
     <p>Selling because I want to buy a more powerful computer. Comes with the original box and power adapter.</p>
     <p>Successfully sold, thanks for your attention)</p>
   </div>
+
 :::
+
 ## Specifications
 
 :::2
+
   <dt>CPU</dt>
   <dd>Intel Core i7-8750H 2.2–4 GHz (6 cores / 12 threads)</dd>
   <dt>iGPU</dt>
@@ -42,18 +46,24 @@ I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018
   <dd>365×265×20.9 mm, 2.7 kg (without power adapter)</dd>
   <dt>Power Adapter</dt>
   <dd>180 W MA100000340388930CM4 (0.5 kg)</dd>
+
 :::
+
 ## Photos
 
 :::2
+
 ![Laptop lid from above (anodized aluminum)](+images/photo_top.png)
 ![Right side (SD card reader and USB 3)](+images/photo_right.png)
 ![Back side (RJ45, USB 3, HDMI, USB-C, charging port)](+images/photo_back.png)
 ![Left side (2×USB 3, headphone and microphone jacks)](+images/photo_left.png)
+
 :::
+
 ## Software and Tests
 
 :::2
+
 ![Device Manager](+images/Device_Manager.png)
 ![AIDA64 Summary Report](+images/AIDA64_Summary.png)
 ![Disk Management](+images/Disk_Management.png)
@@ -66,10 +76,13 @@ I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018
 ![Configuring the five macro keys on the left side](+images/MiGamingBox_Macro.png)
 ![Configuring keyboard backlight (4 RGB zones)](+images/MiGamingBox_RGB_Keyboard.png)
 ![Configuring side RGB lighting](+images/MiGamingBox_RGB_SideBars.png)
+
 :::
+
 ## FPS in Games
 
 :::2
+
 ![Call of Duty: Warzone](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.28.47.39.jpeg)
 ![1080p Low](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.29.25.41.jpeg)
 ![Dead or Alive 5](+images/Game_DOA_2022-11-06_02-30-38-76_Large.jpeg)
@@ -90,4 +103,5 @@ I present to your attention the gaming laptop Xiaomi Mi Gaming Laptop (late 2018
 ![1080p Ultra](+images/Game_vermintide2_2022-11-06_00-34-38-00_Large.jpeg)
 ![](+images/Game_vermintide2_2022-11-06_00-34-45-31_Large.jpeg)
 ![](+images/Game_vermintide2_2022-11-06_00-35-00-40_Large.jpeg)
+
 :::

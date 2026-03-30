@@ -7,12 +7,15 @@ But now supply is fine, and people hardly wait in line.
 Since new items are taxed and charged more heavily, my friend gave the console a slightly used look to avoid government fees)
 
 :::3
+
 ![](+images/box_photo.jpeg)
 ![](+images/with_charger.jpeg)
 ![](+images/with_blanket.jpeg)
 ![](+images/screen_on.jpeg)
 ![](+images/backside.jpeg)
+
 :::
+
 ## Specifications
 
 Not that I haven’t written about these on every second site on the internet, but here’s a brief reminder.
@@ -58,9 +61,12 @@ At the time of writing, I’ve had the console for a month. I’m almost done pl
 AAA titles generally run at around 30 FPS on medium–low settings, while less demanding games can reach up to 60 FPS.
 
 :::2
+
 ![Cyberpunk 2077](+images/cyberpunk.jpg)
 ![Hatsune Miku Project Diva Mega Mix+](+images/hmpdmm+.jpg)
+
 :::
+
 #### Docked Mode
 
 You can easily connect the console to a TV and use any wireless controller (DualShock / DualSense / Xbox Controller), effectively giving you PS4-level power.
@@ -72,8 +78,11 @@ Some simpler games can run at 1080p, but higher resolutions are not recommended.
 In the shutdown menu you can find “Switch to Desktop Mode,” and when you select it, you’ll be greeted with… KDE!
 
 :::1
+
 ![KDE interface on the console screen](+images/kde.png)
+
 :::
+
 Yes, SteamOS is based on Arch Linux with the KDE desktop environment. This is an open operating system that does not forbid you from doing whatever you want.
 
 Epic Games Store and GOG through the Heroic Launcher? Easy.
@@ -99,8 +108,11 @@ PS4 and PSVita emulators are still in progress, but a PS3 emulator is available,
 In Windows/Linux or macOS, we get used to “hotkey” combinations to speed up work. The console also has many such shortcuts that greatly simplify working with the device and make it more enjoyable.
 
 :::1
+
 ![](+images/shortcuts.webp)
+
 :::
+
 ## Conclusion
 
 The console turned out to be quite good, and I really like it. Quality build, sufficient performance to replace a PS4, and form factor that lets you take it with you on trips. The battery is not outstanding, but if you play indie games on the road, you can stretch it to over 6 hours.

@@ -20,28 +20,37 @@ Today the seamen climbed into the ballast tanks with the engineers and discovere
 **Upd.** eventually, after a lot of effort, they managed to weld it)
 
 :::3
+
 ![](+images/photo_964@03-10-2020_11-47-09-1024x768.jpg)
 ![](+images/photo_965@03-10-2020_12-39-43-1024x768.jpg)
 ![](+images/photo_966@03-10-2020_17-33-51-1024x768.jpg)
+
 :::c3
+
 ![](+images/photo_967@04-10-2020_16-26-42-1024x767.jpg)
 ![](+images/photo_968@04-10-2020_16-26-42-767x1024.jpg)
 ![](+images/photo_973@04-10-2020_18-01-10-1024x767.jpg)
 ![](+images/photo_971@04-10-2020_16-43-27-1024x768.jpg)
+
 :::
+
 :::
+
 ##### 2020.10.05 12:00
 
 Well, here come the registrar, PSC, and technicians.
 The registrar and PSC barely glanced at the bridge and found a few minor issues, but the inspection was very cursory, and now the technicians are fixing some of the equipment on the bridge. Really, it would be better to just replace it—for example, the radars or the echo sounder and other devices.
 
 :::3
+
 ![](+images/photo_976@05-10-2020_21-16-10-1024x768.jpg)
 ![](+images/photo_977@05-10-2020_21-16-10-1024x768.jpg)
 !r2[](+images/photo_980@05-10-2020_21-16-10-1024x768.jpg)
 ![](+images/photo_978@05-10-2020_21-16-10-1024x768.jpg)
 ![](+images/photo_979@05-10-2020_21-16-10-1024x768.jpg)
+
 :::
+
 ##### 2020.10.05 22:50
 
 We’re headed to Ukraine now.
@@ -58,6 +67,7 @@ This is a real disaster. Just now the heavy fuel oil boiler exploded and struck 
 At 16:30 he was brought back aboard.
 
 :::3
+
 ![](+images/photo_984@07-10-2020_16-58-00-1024x928.jpg)
 ![](+images/photo_985@07-10-2020_16-58-00-1024x767.jpg)
 ![](+images/photo_986@07-10-2020_16-58-00-1024x767.jpg)
@@ -66,7 +76,9 @@ At 16:30 he was brought back aboard.
 !r2[](+images/photo_991@07-10-2020_18-29-49-584x1024.jpg)
 ![](+images/photo_989@07-10-2020_16-58-59-1024x577.jpg)
 ![](+images/photo_990@07-10-2020_17-12-20-1024x570.jpg)
+
 :::
+
 And to the left is another “rocket” and a local ferry. By the way, if you look closely, the ferry goes both ways without turning around.
 
 ##### 2020.10.07 20:00
@@ -81,16 +93,22 @@ He claims no one notified him…
 But he’s the one who should notify us, not the other way around. Greeks…
 
 :::3
+
 ![](+images/photo_1000@13-10-2020_02-14-49-1024x767.jpg)
 ![](+images/photo_1001@13-10-2020_02-14-49-1024x767.jpg)
 ![](+images/photo_1002@13-10-2020_02-14-49-1024x767.jpg)
+
 :::
+
 At sea, distances are quite large, so almost all my photos were taken through binoculars)
 Fortunately, my phone still produces somewhat acceptable image quality)
 
 :::1
+
 ![](+images/photo_999@13-10-2020_01-30-15-1024x660.jpg)
+
 :::
+
 ##### 2020.10.13 01:00
 
 Hello from Ukraine)
@@ -102,14 +120,18 @@ Despite all the difficulties, I’m trying to dedicate at least some time to pro
 I sketched out the game framework, but I was stuck because the enemies had no AI. A good friend sent me his favorite game development book, and although it’s rather old and written for C and assembly, it contains general theoretical chapters that I really need.
 
 :::1
+
 ![](+images/photo_1003@14-10-2020_12-46-41-1024x767.jpg)
+
 :::
+
 ##### 2020.10.16 00:30
 
 Delta Pilot has called us; we need to be by 05:30 in front of Yuzhny port, so in an hour we’ll prepare the engine for startup and in about 20 minutes begin weighing anchor.
 After that we’ll head to Yuzhny port, where the pilot will come aboard to navigate the vessel through the canal all the way to Mykolaiv, to the private NIBULON terminal.
 
 :::3
+
 ![](+images/photo_1005@16-10-2020_12-07-40-1024x767.jpg)
 ![](+images/photo_1006@16-10-2020_12-15-35-1024x767.jpg)
 !r2[Entering Mykolaiv port, NIBULON terminal](+images/photo_1009@16-10-2020_13-08-02-767x1024.jpg)
@@ -118,7 +140,9 @@ After that we’ll head to Yuzhny port, where the pilot will come aboard to navi
 ![](+images/photo_1010@16-10-2020_13-08-59-1024x767.jpg)
 ![](+images/photo_1012@17-10-2020_02-54-53-1024x767.jpg)
 ![](+images/photo_1011@17-10-2020_02-54-53-767x1024.jpg)
+
 :::
+
 ##### 2020.10.16 15:05
 
 Here we are, berthed at our destination!
@@ -132,13 +156,16 @@ As I approached the gangway to go ashore and see my family, they moved our berth
 Today I finally set foot on land, ate real food, and drank a beer. I strolled through the Mykolaiv Zoo with my relatives and “de-magnetized” myself, gaining a dose of positivity. After being on that ship, stepping ashore is pure joy)
 
 :::3
+
 ![](+images/photo_1014@18-10-2020_18-51-45-1024x768.jpg)
 ![](+images/photo_1018@18-10-2020_18-51-46-1024x768.jpg)
 ![](+images/photo_1020@18-10-2020_18-51-46-1024x767.jpg)
 ![](+images/photo_1028@18-10-2020_18-53-55-1024x768.jpg)
 ![](+images/photo_1031@18-10-2020_18-53-55-1024x768.jpg)
 ![Mykolaiv Zoo](+images/photo_1040@18-10-2020_18-55-09-1024x768.jpg)
+
 :::
+
 ##### 2020.10.21 01:30
 
 Hello everyone)
@@ -153,8 +180,11 @@ Now you can wrap yourself in a blanket, put on noise-cancelling headphones so yo
 Meanwhile we have a barbecue, but since I’m on watch, the third officer brought me some meat up on the bridge)
 
 :::1
+
 ![](+images/photo_1041@22-10-2020_12-33-26-1024x767.jpg)
+
 :::
+
 ##### 2020.10.23 13:50
 
 By the way, our automation power supply system in the engine room has failed, so now we cannot start the main engine.
@@ -169,8 +199,11 @@ Well, we’ll pray to the Great Goddess that anything beyond our control goes we
 The technicians left after fixing the ship’s automation, but they didn’t bother signing any paperwork—strange. And everyone got yelled at by the chief engineer.
 
 :::1
+
 ![](+images/photo_1042@24-10-2020_11-46-19-1024x768.jpg)
+
 :::
+
 ##### 2020.10.24 11:50
 
 Fishermen have come out from everywhere in their little boats. Is it the weekend?
@@ -183,17 +216,24 @@ And even those who aren’t directly involved still find it morally difficult to
 Where did we go wrong?
 
 :::2
+
 ![](+images/photo_1051@26-10-2020_00-08-46-2-1024x768.jpg)
 ![](+images/photo_1052@27-10-2020_05-02-28-1-1024x768.jpg)
+
 :::c2
+
 ![](+images/photo_1056@29-10-2020_11-51-42-1024x451.jpg)
+
 :::
+
 :::
+
 ##### 2020.10.29 09:00
 
 The time has come for us to say goodbye to Ukraine. We’re completing formalities and will soon weigh anchor and head back to the Arabs.
 
 :::3
+
 ![](+images/photo_1062@03-11-2020_14-55-16-767x1024.jpg)
 ![](+images/photo_1063@03-11-2020_14-55-16-767x1024.jpg)
 ![](+images/photo_1066@03-11-2020_14-55-16-767x1024.jpg)
@@ -208,7 +248,9 @@ The time has come for us to say goodbye to Ukraine. We’re completing formaliti
 ![Night shot, auto mode](+images/photo_1069@03-11-2020_14-55-37-768x1024.jpg)
 ![Night shot ISO50, 30" exposure](+images/photo_1070@03-11-2020_14-56-06-768x1024.jpg)
 ![Just a fish eye with no comment)](+images/photo_1071@03-11-2020_14-56-50-768x1024.jpg)
+
 :::
+
 Better things ahead—on to the next post)
 
 Love you all ❤️

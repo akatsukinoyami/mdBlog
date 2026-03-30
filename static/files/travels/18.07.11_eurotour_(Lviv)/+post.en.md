@@ -40,22 +40,31 @@ We visited the city hall and climbed all the way to its top.
 Next, we climbed two hills and took a short walk through the huge park located right in the city center. Now I’m resting and waiting for tomorrow; it promises to be no easier)
 
 :::2
+
 ![Kopalnia Kawy](+images/photo_198@07-07-2018_22-28-46-1024x768.jpg)
 ![The Umbrella Alley](+images/photo_203@07-07-2018_22-28-46-1024x768.jpg)
 ![Candy Store](+images/photo_200@07-07-2018_22-28-46-768x1024.jpg)
 ![](+images/photo_202@07-07-2018_22-28-46-786x1024.jpg)
+
 :::c2
+
 ![](+images/photo_201@07-07-2018_22-28-46-1024x417.jpg)
+
 :::
+
 :::
+
 ##### 2018.07.08 00:10
 
 Damn it, I believed in victory until the last minute. Respect to the national team, they did great)
 
 :::2
+
 ![You feel safe when guys like these guard you](+images/photo_206@08-07-2018_10-25-17-1024x768.jpg)
 ![Lviv Opera House—the one depicted on the 20 UAH bill)](+images/photo_207@08-07-2018_10-44-40-1024x768.jpg)
+
 :::
+
 ##### 2018.07.08 23:50
 
 And today has come to an end)  
@@ -65,19 +74,27 @@ After dinner, I went to the hostel where, unlike yesterday’s football atmosphe
 Well, oyasuminasai, nyashi)
 
 :::3
+
 :::c3
+
 ![Monument to the Military Glory of the Armed Forces (UPD: now dismantled)](+images/photo_213@09-07-2018_12-00-06-768x1024.jpg)
+
 :::
+
 ![](+images/photo_215@09-07-2018_12-09-39-1-768x1024.jpg)
 ![](+images/photo_218@09-07-2018_12-21-12-1-768x1024.jpg)
 ![](+images/photo_219@09-07-2018_12-38-17-1-768x1024.jpg)
 ![](+images/photo_216@09-07-2018_12-09-39-1-1024x768.jpg)
 ![](+images/photo_220@09-07-2018_12-56-00-1-1024x768.jpg)
 ![](+images/photo_221@09-07-2018_12-59-11-1-1024x768.jpg)
+
 :::c3
+
 ![](+images/photo_222@09-07-2018_12-59-11-1-1024x768.jpg)
 ![Stryiskyi Park](+images/photo_217@09-07-2018_12-21-12-1-1024x342.jpg)
+
 :::
+
 ![](+images/photo_228@09-07-2018_15-37-41-768x1024.jpg)
 ![](+images/photo_234@09-07-2018_15-37-41-768x1024.jpg)
 !r2[](+images/photo_233@09-07-2018_15-37-41-768x1024.jpg)
@@ -85,15 +102,20 @@ Well, oyasuminasai, nyashi)
 ![Kopalnia Kawy](+images/photo_225@09-07-2018_13-54-55-1024x768.jpg)
 
 :::c3
+
 ![Cat Café in Lviv](+images/photo_236@09-07-2018_16-36-56-945x1024.jpg)
+
 :::
+
 ![](+images/photo_238@09-07-2018_16-37-07-768x1024.jpg)
 ![](+images/photo_249@09-07-2018_19-37-32-768x1024.jpg)
 ![](+images/photo_237@09-07-2018_16-37-02-768x1024.jpg)
 ![](+images/photo_250@09-07-2018_19-37-32-1024x768.jpg)
 ![](+images/photo_254@09-07-2018_19-37-32-1024x768.jpg)
 ![](+images/photo_243@09-07-2018_19-37-31.jpg)
+
 :::
+
 ##### 2018.07.09 23:55
 
 Today was much calmer; I strolled through Stryiskyi Park, eating raspberries—it's really large, like Sofiivka, probably. Though not as big as Kaiserwald, which we explored over the past two days. After that, I visited a wonderful place called a cat café. Even though the staff and people there probably got tired of the cats, it was still awesome)

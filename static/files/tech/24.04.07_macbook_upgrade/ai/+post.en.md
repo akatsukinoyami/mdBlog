@@ -20,6 +20,7 @@ AMD Ryzen 5 5600 / 32GB DDR4 3600MHz / Nvidia RTX 3090
 On the PC, neural networks of size 8x7B were run in 23 layers on the GPU and the remaining layers on the CPU.
 
 :::4
+
   <p>Model</p>
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -148,4 +149,5 @@ On the PC, neural networks of size 8x7B were run in 23 layers on the GPU and the
     Pen: 10.61s|106.1ms/T|9.42T/s<br/>
     Ttl: 20.71s (4.83T/s)
   </p>
+
 :::
