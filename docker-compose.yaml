@@ -3,6 +3,5 @@ services:
     hostname: mdblog
     container_name: mdblog
     build: .
-    env_file: .env.docker.local
     ports:
       - 5173:3000
