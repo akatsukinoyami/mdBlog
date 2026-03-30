@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { flex, hoverShadows } from '$lib/constants';
+	import { flex, hoverShadows } from '$lib/utils/markdownit/constants';
 	import i18n from '$lib/i18n';
 	import { lang } from '$lib/stores';
 	import Controls from '../components/controls.svelte';

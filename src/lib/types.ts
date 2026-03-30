@@ -15,13 +15,6 @@ export interface Entity {
 	children: Record<string, Entity>;
 }
 
-export interface ShowdownExtension {
-	type: 'lang' | 'output';
-	regex?: RegExp;
-	replace?: string;
-	filter?: (text: string) => string;
-}
-
 export interface Togglable<T extends string | number | symbol> extends Writable<T> {
 	getNext: (current: T) => T | undefined;
 	toggle: () => void;

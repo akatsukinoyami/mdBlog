@@ -5,7 +5,7 @@
 	import { lang, trafficEconomy } from '$lib/stores';
 	import { type Entity } from '$lib/types';
 	import { url } from '$lib/utils';
-	import { getConverter } from '$lib/utils/showdown';
+	import { getConverter } from '$lib/utils/markdownit';
 	import { highlight } from '$lib/utils/highlight';
 	import { openImgModal } from '$lib/utils/imgModal.svelte';
 

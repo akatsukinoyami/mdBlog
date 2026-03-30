@@ -23,29 +23,65 @@ My favourite anime is ||Fullmetal Alchemist: Brotherhood||. The ending made me |
 ### 3-column grid
 
 :::3
+
 Item one
+
 Item two
+
 Item three
+
 :::
 
 ### 2-column grid with a spanning cell
 
-:::2
+:::3
+
 Normal cell
 
 :::c2
+
 This cell spans both columns
+
 :::
+
 :::
 
-### Images (standard)
+### Images
 
-![A caption for this image](+images/test.jpg)
+:::3
 
-### Image spanning 2 columns
+![A caption for this image](+images/index.jpg)
 
-![c2:Wide image spanning two columns](+images/test.jpg)
+row
 
-### Image spanning 2 rows
+row
 
-![r2:Tall image spanning two rows](+images/test.jpg)
+:::
+
+---
+
+:::3
+
+![c2:Wide image spanning two columns](+images/index.jpg)
+
+row
+
+row
+
+:::
+
+---
+
+:::3
+
+row
+
+![r2:Tall image spanning two rows](+images/index.jpg)
+
+row
+
+row
+
+row
+
+:::

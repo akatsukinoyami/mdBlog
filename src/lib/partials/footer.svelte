@@ -1,5 +1,5 @@
 <script>
-	import { hoverShadows } from '$lib/constants';
+	import { hoverShadows } from '$lib/utils/markdownit/constants';
 	import { classMerger } from '$lib/utils';
 
 	const inverted = new Set(['github', 'caprover']);
