@@ -5,13 +5,16 @@
 	import { lang, trafficEconomy } from '$lib/stores';
 	import { type Entity } from '$lib/types';
 	import { url } from '$lib/utils';
-	import { getConverter } from '$lib/utils/markdownit';
 	import { highlight } from '$lib/utils/highlight';
 	import { openImgModal } from '$lib/utils/imgModal.svelte';
+	import { getConverter } from '$lib/utils/markdownit';
 
 	let { entity, path }: { entity: Entity; path: string } = $props();
 
-	async function loadPost(file: string | null, economy = $trafficEconomy): Promise<string | number | undefined> {
+	async function loadPost(
+		file: string | null,
+		economy = $trafficEconomy
+	): Promise<string | number | undefined> {
 		if (!file) return;
 
 		return fetch(url(['files', path, file]))

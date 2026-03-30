@@ -12,8 +12,8 @@ export function processImages(
 		const caption = spanMatch ? spanMatch[3] : alt;
 
 		const imgSrc = rawSrc.startsWith('+images/')
-			? imageBase + rawSrc.slice('+images/'.length)
-			: rawSrc + economy('.webp', '');
+			? imageBase + rawSrc.slice('+images/'.length) + economy('.webp', '')
+			: rawSrc;
 
 		const figOpen = figure(spanType).replace('$1', n);
 		const imgTag = `<${img} src="${imgSrc}" alt="${caption}" />`;

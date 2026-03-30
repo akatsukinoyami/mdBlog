@@ -4,4 +4,7 @@ import { fromStorage } from './utils/stores';
 
 export const lang = fromStorage<Lang>('lang', defaultLang, langs);
 export const theme = fromStorage<Theme>('theme', defaultTheme, themes);
-export const trafficEconomy = fromStorage<TrafficEconomy>('trafficEconomy', defaultTrafficEconomy, ['true', 'false']);
+export const trafficEconomy = fromStorage<TrafficEconomy>('trafficEconomy', defaultTrafficEconomy, [
+	'true',
+	'false'
+]);

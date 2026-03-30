@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { flex, hoverShadows } from '$lib/utils/markdownit/constants';
 	import i18n from '$lib/i18n';
 	import { lang } from '$lib/stores';
+	import { flex, hoverShadows } from '$lib/utils/markdownit/constants';
 	import Controls from '../components/controls.svelte';
 
 	let t = $derived(i18n($lang));

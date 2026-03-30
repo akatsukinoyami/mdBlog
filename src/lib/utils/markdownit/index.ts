@@ -14,11 +14,7 @@ export function getConverter(path: string, economyMode: boolean) {
 
 	return {
 		makeHtml: (content: string) => {
-			const processed = processImages(
-				processEmbeds(processGrids(content)),
-				imageBase,
-				economy
-			);
+			const processed = processImages(processEmbeds(processGrids(content)), imageBase, economy);
 			return md.render(processed);
 		}
 	};
