@@ -8,13 +8,12 @@ Lately I’ve been feeling constant fatigue, and even though we left port (so we
 
 I only got more exhausted during my first contract as Third Officer, when I had to help the seamen secure cargo and we worked around the clock without sleep: sawing planks, positioning boards under the treads of tractors, etc. I remember that back then I got a nosebleed for the first time in my life.
 
-%%%2
+:::2
 ![](+images/2024-04-14_16.35.48.jpg)
 ![](+images/2024-04-14_16.35.54.jpg)
 ![00:16 Naval patrol boats stand guard over the water boundaries of the Republic of the Congo.](+images/2024-04-14_16.38.48.jpg)
 ![](+images/2024-04-14_16.40.55.jpg)
-%%%
-
+:::
 ###### 00:19
 
 However, the container terminal looks quite modern. Lately China has made a big push into the African market, building its own factories and infrastructure, and quietly exporting everything valuable.
@@ -25,11 +24,10 @@ Still, for the local residents it’s better than starving or fighting over coco
 
 Right in front of us, less than half a mile away, the container ship **Baltimore Star** slips by.
 
-%%%2
+:::2
 ![](+images/2024-04-14_16.43.35.jpg)
 ![](+images/2024-04-14_16.43.42.jpg)
-%%%
-
+:::
 ##### 2021.07.15 🌍 Port Pointe Noire, Congo
 
 ###### 01:30
@@ -72,13 +70,12 @@ The cutting of vine I snapped off on the Liberian beach dropped its old leaves a
 
 In a few days I will take some soil from the Third Officer, who collected a whole bucket of it in Liberia, and plant my little seedling. 😅
 
-%%%2
+:::2
 ![](+images/2024-04-14_16.35.48.jpg)
 ![](+images/2024-04-14_16.35.54.jpg)
 ![00:16 Naval patrol boats stand guard over the water boundaries of the Republic of the Congo.](+images/2024-04-14_16.38.48.jpg)
 ![](+images/2024-04-14_16.40.55.jpg)
-%%%
-
+:::
 ###### 00:19
 
 However, the container terminal looks quite modern. These days China has made a big push into the African market, building factories and infrastructure and quietly exporting all the valuable resources.
@@ -89,16 +86,15 @@ Still, for local people it’s better than starving or fighting over coconuts—
 
 Right under our noses, less than half a mile away, the container ship **Baltimore Star** glides by.
 
-%%%2
+:::2
 ![](+images/2024-04-14_16.43.35.jpg)
 ![](+images/2024-04-14_16.43.42.jpg)
-%%%
-
+:::
 ##### 2021.07.17
 
 ###### 14:12
 
-%%%3
+:::3
 ![](+images/2024-04-14_16.45.47.jpg)
 
   <div class="col-span-2 p-5 text-justify flex flex-col justify-center">
@@ -106,8 +102,7 @@ Right under our noses, less than half a mile away, the container ship **Baltimor
     <p>The vessel <b>THORN1</b> was heading to India for scrapping. Eleven crew members were on board, ten of whom were Ukrainian citizens. While passing through the Gulf of Aden, the ship ran out of fuel and its life-support system failed in 38°C (in the shade) heat.</p>
     <p>Due to the extreme heat, one of the seafarers suffered a stroke. The man died. He was from Ochakiv.</p>
   </div>
-%%%
-
+:::
 ###### 14:20
 
 As practice shows, most often sailors die because of neglect.
@@ -174,10 +169,9 @@ I finally got some sleep and my temperature hasn’t gone up. Weakness still rem
 At last I emerged from my lair these days. They started loading logs onto the deck.  
 However, tomorrow at 06:00 they’ll likely push us back out to anchor again.
 
-%%%1
+:::1
 ![](+images/2024-04-14_17.01.02.jpg)
-%%%
-
+:::
 ##### 2021.08.01 12:36
 
 Last night at midnight they pushed us back to anchor. Presumably until Thursday. Again because of some priority vessel.
@@ -200,7 +194,7 @@ This wasn’t even a pirate attack, but a military drone.
 > **Gunmen leave tanker believed to have been hijacked by Iran in Gulf of Oman**  
 > [The Times](https://www.thetimes.co.uk/article/fingers-pointed-at-iran-as-oil-tanker-is-seized-in-gulf-of-oman-mgmhsg2k0)
 
-%%%3
+:::3
 ![](+images/E74WjZxWQAAGU4t.png)
 
   <div class="col-span-2 p-5 text-justify flex flex-col justify-center">
@@ -213,8 +207,7 @@ This wasn’t even a pirate attack, but a military drone.
     </p>
     <p>&mdash; United Kingdom Maritime Trade Operations (UKMTO)</p>
   </div>
-%%%
-
+:::
 Another tanker has been seized. It’s said this is not pirate activity.
 
 What’s happening in the world is hard to understand. The only clear thing is that working at sea is extremely dangerous.
@@ -235,10 +228,9 @@ Another fact of callous treatment of the crew and another sailor lost. Another s
 
 ##### 17:42
 
-%%%1
+:::1
 ![Safe loading? Never heard of it](+images/2024-04-14_17.20.48.jpg)
-%%%
-
+:::
 ##### 2021.08.06 17:08
 
 Our guys are shoring the logs to keep them from shifting during the crossing.
@@ -259,10 +251,9 @@ In the end, at 01:35 we finished cargo operations. However, we still need to sec
 
 The Senior Officer is performing the draft survey (determining the amount of cargo). After that, the seamen will secure the cranes “for passage.” And indeed, at 03:30 our pilot will come aboard and the vessel will depart the port.
 
-%%%1
+:::1
 ![](+images/2024-04-14_17.24.01.jpg)
-%%%
-
+:::
 ###### 06:12
 
 We left the port and at 05:10 local time dropped anchor. At anchor, the seamen will complete securing the cargo, after which we’ll head to the rendezvous point with the bunker vessel about 150 miles offshore, where we’ll take on fuel while underway (around 700 tonnes).
@@ -273,10 +264,9 @@ Meanwhile, I was left on watch until 08:00 so the Senior Officer could sleep for
 
 We’re at anchor, and the seamen are finishing securing the cargo. Right now, 3 out of 5 holds are secured.
 
-%%%1
+:::1
 ![](+images/2024-04-14_17.25.37.jpg)
-%%%
-
+:::
 ###### 15:40
 
 Securing is complete. Now we’re waiting for the engine to be prepared, and in 20 minutes we’ll weigh anchor and leave Congo 🇨🇬 for offshore bunkering.
@@ -392,7 +382,7 @@ For a domestic flight, an express test is enough; for international flights you 
 
 Last night they told us we wouldn’t be fed in the morning. At 06:20 I got a call saying the agent would pick us up at 07:00. I left my cabin at 06:40; the agent was already there. The guys are saying there’s an omelet with sausages waiting. I had to eat really fast, washing it down with milk. I hadn’t seen proper, tasty sausages in two months, while the guys wolfed down 5–7 each.
 
-%%%3
+:::3
 !r2[Salted caramel and hipster paper straws—the culture I now belong to)](+images/20210819_074553.jpg)
 ![08:04 The condition of airplanes in South Africa is roughly like our Ukrainian Bohdanchik buses](+images/20210819_080321.jpg)
 ![](+images/20210819_093250.jpg)
@@ -403,8 +393,7 @@ Last night they told us we wouldn’t be fed in the morning. At 06:20 I got a ca
 ![13:02 Our plane is preparing for departure from Johannesburg to Doha, Qatar](+images/20210819_125506.jpg)
 ![On approach to Doha](+images/20210819_223952.jpg)
 ![](+images/20210819_224827.jpg)
-%%%
-
+:::
 ###### 20:10 UTC+2
 
 There are 1.5 hours left until boarding in Doha, Qatar 🇶🇦. We’ll spend about 3 hours there before the next flight to Kyiv. We’ll land in Kyiv at 08:00, and eight of us will be picked up by a Sprinter van that a friend arranged.
@@ -423,12 +412,11 @@ In 10 minutes boarding for the economy flight to Kyiv begins. In 6 hours I’ll 
 
 Well, we’ve landed at Boryspil Airport, passed passport and customs control, and are on our way to Odesa)
 
-%%%3
+:::3
 ![](+images/20210820_084757.jpg)
 ![](+images/20210820_090120.jpg)
 ![](+images/20210820_135355.jpg)
-%%%
-
+:::
 ###### 23:14
 
 Thank you to everyone who followed my posts.

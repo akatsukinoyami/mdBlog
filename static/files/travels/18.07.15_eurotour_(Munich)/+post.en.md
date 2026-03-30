@@ -3,7 +3,7 @@
 At 05:30, we boarded a bus and were in Munich just two hours later. We had breakfast—pancakes—and then went to visit several beautiful churches, listened to an organ rehearsal with a choir, and toured the Museum of Antiquities. After that, we headed to the English Garden. There, it turned out, was JapanFest! So I took many photos of cosplayers and local stalls. After this, my impression of FanExpoOdessa somewhat faded( The scale is nowhere near as large. (UPD: may it rest in peace)  
 There was also an artificial river with a very strong current, and I decided to swim in it. The water was quite cold—under 18 °C—and the current was so strong that it was impossible to swim against it. When I floated to the end of the river, I was blind (no glasses), without my phone or documents, wearing only my swim trunks, and spent at least an hour looking for my friend. But it was worth it! Afterward, we had Bavarian sausages with beer and then took the bus back to Prague.
 
-%%%3
+:::3
 ![](+images/photo_451@15-07-2018_19-01-14-768x1024.jpg)
 ![](+images/photo_452@15-07-2018_19-01-14-768x1024.jpg)
 ![](+images/photo_453@15-07-2018_19-01-14-768x1024.jpg)
@@ -32,4 +32,4 @@ There was also an artificial river with a very strong current, and I decided to 
 ![](+images/photo_592@15-07-2018_19-08-33-1024x768.jpg)
 ![](+images/photo_593@15-07-2018_19-08-33-1024x768.jpg)
 ![That very underground river where I got lost](+images/photo_640@15-07-2018_19-08-33-1024x768.jpg)
-%%%
+:::

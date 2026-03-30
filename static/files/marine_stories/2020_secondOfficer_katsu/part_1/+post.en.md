@@ -22,31 +22,28 @@ We’ll head either to Port Kavkaz or Port Kerch; it’s not yet clear which.
 I dropped off my relatives and headed for check-in)  
 Passed security at the entrance to the boarding area.
 
-%%%2
+:::2
 ![](+images/photo_910@07-08-2020_19-19-19-1-768x1024.jpg)
 ![In the departure lounge) I passed all the checks)](+images/photo_911@07-08-2020_20-06-41-1-1024x768.jpg)
-%%%
-
+:::
 And then I realized that nobody even thought to check the weight of carry-on luggage—they didn’t even look at it.  
 That feeling when you arrive at the airport 3 hours early and watch people sprinting to a closing gate😅  
 Boarding began, but immediately a bunch of Turks rushed in😅  
 Okay, the captain, the second mechanic, and I boarded the plane)  
 Next contact from Istanbul.
 
-%%%3
+:::3
 ![](+images/photo_912@08-08-2020_02-27-17-1024x768.jpg)
 ![](+images/photo_914@08-08-2020_02-27-17-1024x768.jpg)
 ![](+images/photo_915@08-08-2020_02-27-17-1024x768.jpg)
-%%%
-
+:::
 ##### 2020.08.08
 
 Hello everyone, we’re at the hotel and finally on Wi-Fi; everything is good, we’ll wait for further news about boarding the ship) Sweet dreams to you)
 
-%%%1  
+:::1
  ![This is where we’re staying)](+images/photo_917@08-08-2020_02-27-24-1-1024x768.jpg)
-%%%
-
+:::
 This will be our vessel - [Fortune Trader](https://www.marinetraffic.com/ru/ais/details/ships/shipid:210311/mmsi:636018524/imo:9235232/vessel:FORTUNE_TRADER)
 
 The hotel reception called and said that a taxi will pick us up at 22:00, although the ship is still in the center of the Marmara Sea and is unlikely to make it here that early—why so soon?
@@ -81,37 +78,34 @@ Hello everyone, Katsu here.
 We’re at anchor near Port Kavkaz and caught a Russian Beeline signal)  
 As I wrote earlier, there’s absolutely no good news—together with the 3rd Officer and the bosun, we’re sorting out this sh\*t left behind by the previous crew.
 
-%%%3  
+:::3
  ![ECDIS display](+images/photo_919@11-08-2020_12-44-15-1024x767.jpg)
 ![Radar screen](+images/photo_920@11-08-2020_12-44-15-1024x767.jpg)
 !r2[Steering wheel](+images/photo_918@11-08-2020_12-44-15-767x1024.jpg)
 ![Engine control panel](+images/photo_921@11-08-2020_12-44-16-1024x767.jpg)
 ![GPS, AIS, GPS](+images/photo_922@11-08-2020_12-44-16-1024x768.jpg)
-%%%
-
+:::
 Navigation equipment on the bridge.
 
 ##### 2020.08.12 02:40
 
 Hello everyone, we shifted closer to the Crimean Bridge, there the signal is better and the ship will load right at the anchorage.
 
-%%%1
+:::1
 ![The Crimean Bridge has shifted a bit😂](+images/photo_923@13-08-2020_02-28-17-767x1024.jpg)
-%%%
-
+:::
 ##### 2020.08.13 02:30
 
 Surprisingly, at the face control by border guards there were not even any FSB agents, as usual.
 
-%%%3  
+:::3
  ![](+images/photo_925@13-08-2020_02-30-47-1024x768.jpg)
 ![](+images/photo_926@13-08-2020_02-30-47-1024x768.jpg)
 ![](+images/photo_927@15-08-2020_05-02-37-1024x1024.jpg)
 ![](+images/photo_924@13-08-2020_02-30-46-1-768x1024.jpg)
 ![](+images/photo_929@15-08-2020_05-02-37-1024x767.jpg)
 ![](+images/photo_930@15-08-2020_05-02-37-1024x768.jpg)
-%%%
-
+:::
 ##### 2020.08.15 05:00
 
 Hello from the anchorage at Port Kavkaz.  
@@ -121,10 +115,9 @@ Through the pirate zone, by the way.
 On the bright side, because of the watches, the days fly by insanely fast. If I didn’t write constant reports with the date indicated, I’d lose track of time.  
 On the other hand, by the level of annoyance, it feels like I’ve been here for more than a month already.
 
-%%%1  
+:::1
  ![Engine room and Main Engine](+images/photo_928@15-08-2020_05-02-37-1-767x1024.jpg)
-%%%
-
+:::
 ##### 2020.08.18 12:45
 
 Well, sh\*t… PSC came and tore us apart, meh.  
@@ -167,12 +160,11 @@ Though the cooking is so-so, and there are almost no vegetables, and our request
 And a bunch of other requests too… Meh.  
 Alright, let’s not dwell on the negative.
 
-%%%3  
+:::3
  ![](+images/photo_931@26-08-2020_03-55-33-768x1024.jpg)
 ![Chinese container ship](+images/photo_932@26-08-2020_03-55-33-1024x768.jpg)
 ![Warship](+images/photo_933@26-08-2020_03-55-33-1024x768.jpg)
-%%%
-
+:::
 ##### 2020.08.26 18:30
 
 Our ship broke down, meh.  

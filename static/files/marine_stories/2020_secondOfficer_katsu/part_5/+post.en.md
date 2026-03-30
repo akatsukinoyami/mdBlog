@@ -22,18 +22,17 @@ Right now we’re heading toward Alexandria, but the exact discharge port is sti
 
 Here's the new bridge being built in the Dardanelles Strait at Çanakkale. According to the pilot, it will be completed in about a year and a couple of months.
 
-%%%3
+:::3
 ![](+images/photo_1125@05-12-2020_00-47-00-1024x767.jpg)
 ![](+images/photo_1126@05-12-2020_00-47-00-1024x767.jpg)
 ![Wow, ridiculous!](+images/photo_1127@05-12-2020_00-47-37-1-1024x767.jpg)
-%&23
+:::c3
 ![](+images/photo_1124@05-12-2020_00-47-00-767x1024.jpg)
 ![](+images/photo_1129@07-12-2020_00-10-48-767x1024.jpg)
 ![](+images/photo_1128@05-12-2020_14-30-29-767x1024.jpg)
 ![](+images/photo_1130@07-12-2020_00-20-11-767x1024.jpg)
-&%
-%%%
-
+:::
+:::
 ##### 2020.12.07 01:05
 
 Today marks 4 months since I boarded FORTUNE TRADER.  
@@ -56,11 +55,10 @@ Today I relieved watch at 11:00, started sending various reports, stood watch fr
 And now for the funniest part: they crammed us, a 225-meter, 75k-ton vessel… just to take a few sacks of grain for analysis.  
 After that, they’ll put us back on anchor for about 5 days, and then there will be another hellish mooring just a few meters from another ship, this time for unloading.
 
-%%%2
+:::2
 ![Presenting to your attention, a Yank ship](+images/photo_1131@08-12-2020_14-34-13-1-398x1024.jpg)
 ![](+images/photo_1132@10-12-2020_13-50-24-768x1024.jpg)
-%%%
-
+:::
 ##### 2020.12.10 13:50
 
 Here’s the giant behind us: 300 m long, 45 m wide, with 9 holds.  
@@ -88,11 +86,10 @@ Honestly, the food turned out quite tasty.
 The Chief Officer is now monitoring the cook’s condition.  
 FORTUNE TRADER—no day without an adventure!
 
-%%%2
+:::2
 ![](+images/photo_1133@12-12-2020_17-11-58-1024x768.jpg)
 ![](+images/photo_1134@15-12-2020_13-17-48-1024x639.jpg)
-%%%
-
+:::
 ##### 2020.12.15 13:20
 
 Last night we dragged anchor, and even running out two extra 27.5 m chain stoppers didn’t help, so we had to heave anchor and go adrift. The wind was 35–40 knots with gusts up to 45, and a 3–4 m sea. You’d think that wouldn’t be a problem for a loaded 75 000-ton ship—but the Chinese engine didn’t think so.  
@@ -101,24 +98,22 @@ What kind of ocean passages are even possible on this ship?
 On my old ship of 9 000 t, the engine was 5 000 kW; this 75 000 t monster has an 8 000 kW engine!  
 But now we’re back at anchor; the wind has calmed to about 30 knots, but with this ship you can never be sure of anything.
 
-%%%2
+:::2
 !c2[](+images/photo_1135@15-12-2020_15-28-36-768x1024.jpg)
 ![](+images/photo_1137@15-12-2020_15-28-37-1024x768.jpg)
 ![](+images/photo_1136@15-12-2020_15-28-36-1024x768.jpg)
 ![Loaders on diesel generators are loading into trucks. At least during a blackout they’ll keep running.](+images/photo_1139@17-12-2020_06-03-54-1024x768.jpg)
 ![Oh, a Lada](+images/photo_1140@17-12-2020_15-53-37-1024x768.jpg)
-%%%
-
+:::
 ##### 2020.12.17 14:40
 
 They want to do a class inspection right here in Alexandria, so there’s a very good chance we won’t go to dry dock at all but will make one more voyage of “Black Sea → some Arab country.” But there’s no point in making predictions—everything is “subject to change.”  
 Last night I was again on a night watch, then we moored, then authorities and paperwork, and then watch again. The Arabs really love this—they call us at exactly 16:10 again and again.  
 **Upd.** As it turned out later, all the services (pilot, mooring crews, etc.) receive double pay for nighttime operations as overtime, so they basically never move the ship during the day.
 
-%%%1
+:::1
 ![](+images/photo_1141@18-12-2020_00-31-09.jpg)
-%%%
-
+:::
 ##### 2020.12.18 00:35
 
 Here’s the probable itinerary for our next voyage.  
@@ -162,15 +157,14 @@ Spare-parts and provisions suppliers—Greeks—instead of flour they delivered 
 What can I say? Don’t go, kids, to work for the Greeks. The fleet in general is getting worse year by year. With the Greeks it’s downright a nightmare. And by the way, I’m far from the worst case; it often gets even worse.  
 All I can do is pray to the Great Goddess that I have enough strength to endure these trials.
 
-%%%3
+:::3
 ![](+images/photo_1152@31-12-2020_03-54-53-767x1024.jpg)
 ![Calm Black Sea](+images/photo_1153@31-12-2020_03-54-53-1024x767.jpg)
 ![](+images/photo_1151@31-12-2020_03-54-52-767x1024.jpg)
 ![](+images/photo_1154@31-12-2020_03-54-53-767x1024.jpg)
 ![](+images/photo_1155@31-12-2020_03-54-53-767x1024.jpg)
 ![](+images/photo_1156@31-12-2020_03-54-53-767x1024.jpg)
-%%%
-
+:::
 ##### 2020.12.30 03:45
 
 We have anchored in the Port of Novorossiysk. The Russians lost their minds—tomorrow is New Year’s, and they want to load us today and get 50 000 t of grain in two days. Again to Egypt. And they’re loading decent grain, unlike the fodder they feed people. Typical for CIS countries.  
@@ -178,7 +172,7 @@ We hoped at least to sit until the 2nd, but New Year is cancelled.
 This is slave-driven work, after all. Everyone thinks about profits, but nobody thinks about the people. Although more accurately, the times are simply cruel.  
 All we can do is endure this burden.
 
-%%%3
+:::3
 ![](+images/photo_1143@31-12-2020_03-47-30-1024x768.jpg)
 ![](+images/photo_1144@31-12-2020_03-47-30-1024x768.jpg)
 ![](+images/photo_1145@31-12-2020_03-47-30-1024x768.jpg)
@@ -187,15 +181,13 @@ All we can do is endure this burden.
 ![](+images/photo_1148@31-12-2020_03-47-30-1024x768.jpg)
 !c2[Port of Novorossiysk](+images/photo_1149@31-12-2020_03-47-30-1024x767.jpg)
 ![](+images/photo_1150@31-12-2020_03-47-30-1024x767.jpg)
-%%%
-
+:::
 Somewhere not far from here in 1986, on August 31, the passenger ship Admiral Nakhimov sank, and my parents worked on it.  
 They are safe, but many people could not be rescued.
 
-%%%1
+:::1
 ![](+images/photo_1157@31-12-2020_10-26-46-767x1024.jpg)
-%%%
-
+:::
 ##### 2020.12.31 10:30
 
 Meanwhile, the loading is nearing completion.  
@@ -206,10 +198,9 @@ Now we have to quickly discharge that ballast in port even though our pump capac
 
 ##### 2020.12.31 15:10
 
-%%%1
+:::1
 ![1 375 pages for 55 bills of lading. <br> 3 originals for each bill of lading and a ton of copies. <br>I stamped them, and the Captain signed them. <br> Russia—thinking about ecology!](+images/photo_1158@31-12-2020_15-09-42-1024x768.jpg)
-%%%
-
+:::
 ##### 2020.12.31 20:00
 
 Dear subscribers, among you are my relatives, close friends, and very good acquaintances.  

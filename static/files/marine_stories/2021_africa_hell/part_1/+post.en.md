@@ -7,10 +7,9 @@ Upd. For now it’s canceled, maybe I’ll get lucky, mх.
 Upd 2. They called again, now from another company, urgent assignment on the 20th.  
 Upd 3. But rumors are that it might be a scam.
 
-%%%1
+:::1
 ![](+images/photo_1399@22-05-2021_15-27-11.jpg)
-%%%
-
+:::
 ##### 2021.05.22
 
 ###### 15:27
@@ -40,12 +39,11 @@ At 14:45 we fly to Dubai, where we will spend 12 hours from 20:00 to 08:00 the n
 In the meantime, we’re on the plane; in half an hour it should take off.  
 Upd. Switching to airplane mode, takeoff in 10 minutes.
 
-%%%3
+:::3
 ![](+images/photo_1432@19-06-2021_19-33-57-768x1024.jpg)
 ![A smooth landing in Dubai is always pleasing)](+images/photo_1433@19-06-2021_19-33-57-768x1024.jpg)
 ![](+images/photo_1434@19-06-2021_19-33-57-768x1024.jpg)
-%%%
-
+:::
 ###### 19:33
 
 We’ve arrived in Dubai and landed smoothly :) Next—12-hour wait and then a 12-hour flight.  
@@ -91,12 +89,11 @@ Right now one of the seamen, who’s been here for over a year, is leaving.
 My impressions are far from the best…  
 Well, we’ll somehow try to survive these six months.
 
-%%%3
+:::3
 ![](+images/photo_1441@21-06-2021_20-05-54-1024x767.jpg)
 ![](+images/photo_1442@21-06-2021_20-05-55-1024x767.jpg)
 ![](+images/photo_1440@21-06-2021_20-05-54-1-1024x768.jpg)
-%%%
-
+:::
 ###### 20:05
 
 A few shots of Senegal on the way to the ship.
@@ -142,11 +139,10 @@ The Chief Officer got so upset that he wanted to resign, but I hope he’ll pull
 The old captain has left, and everyone says only good things about the new one, so I think it’ll be easier now.  
 Maybe karma decided that at the start of the contract I need a little shit to make everything seem good psychologically later.
 
-%%%2
+:::2
 ![2021.06.24 04:04 A local native gave me this bracelet with Senegal’s flags for being someone’s first time in Africa)](+images/photo_1445@24-06-2021_04-04-31-768x1024.jpg)
 ![](+images/photo_1446@24-06-2021_04-06-05-768x1024.jpg)
-%%%
-
+:::
 ##### 2021.06.24
 
 ###### 04:06
@@ -154,21 +150,19 @@ Maybe karma decided that at the start of the contract I need a little shit to ma
 Right now we’re unloading rice in sacks; about 2–3 thousand tons remain.  
 After that, we’ll head to Buchanan/Douala/Kribi for timber, which we’ll take to China.
 
-%%%3
+:::3
 ![](+images/photo_1447@24-06-2021_04-22-32-1024x768.jpg)
 ![](+images/photo_1448@24-06-2021_04-22-32-1024x768.jpg)
 ![](+images/photo_1449@24-06-2021_04-22-33-1024x768.jpg)
-%%%
-
+:::
 ###### 04:22
 
 They unload 50 kg sacks from the hold onto platforms, and then powerful Black guys neatly stack them into a truck. They work so fast and in sync that it’s frightening.  
 How much strength they have in their arms and how they withstand such work is astounding.
 
-%%%1
+:::1
 ![](+images/photo_1450@24-06-2021_16-24-13-1024x768.jpg)
-%%%
-
+:::
 ###### 16:24
 
 Unloading is gradually winding down.  
@@ -199,10 +193,9 @@ Today I participated in mooring operations for the first time in a long while, a
 Today during the inspection, the Bosun found a stowaway, so the captain announced a big search party to ensure there aren’t any more.  
 We just arrived on the ship, yet not a day goes by without an adventure.
 
-%%%1
+:::1
 ![](+images/photo_1456@02-07-2021_08-32-17-1024x767.jpg)
-%%%
-
+:::
 ##### 2021.06.29
 
 ###### 02:20 🌍 13°26.7'N 017°25.6'W
@@ -224,23 +217,21 @@ On the plus side, we have a good cook on board, so at least we’re not starving
 Also, I realize the Second Officer’s job is a bit easier than I thought, since on the last ship I was doing some of the Third Officer and Captain’s work.  
 It’ll be two weeks soon, and I’m already counting the days until departure. 😅
 
-%%%1
+:::1
 ![](+images/photo_1451@01-07-2021_20-31-18-1024x767.jpg)
-%%%
-
+:::
 ###### 17:20 Buchanan Port
 
 We docked in port; the mooring wasn’t the easiest. Immediately the PSC showed up, and even before entering port, the Coast Guard climbed on board.  
 All bribes are taken in diesel fuel—20 cans here, 30 cans there.  
 They say we might have to stay up to three weeks here because of the rainy season.
 
-%%%2
+:::2
 ![](+images/photo_1452@01-07-2021_20-31-18-1024x767.jpg)
 ![](+images/photo_1453@01-07-2021_20-31-19-1024x767.jpg)
 ![](+images/photo_1455@02-07-2021_07-46-50-1024x767.jpg)
 ![](+images/photo_1459@02-07-2021_17-01-10-1024x767.jpg)
-%%%
-
+:::
 ##### 2021.07.02
 
 ###### 14:21
@@ -251,12 +242,11 @@ So, first they load logs into the holds, and then on top of the hatch covers. Th
 
 Our logs, heh. However, the rainy season doesn’t even let us open the hatch covers. So far about 20 logs have been loaded, but we need to load 13,000 tons.
 
-%%%2
+:::2
 !c2[17:01 I’ve carried huge generators and tractors, I’ve carried grain, containers, and crates, but I never thought I’d spend my seagoing practice carrying timber, heh](+images/photo_1458@02-07-2021_14-21-59-1024x697.jpg)
 ![17:33 I’ve never docked at a pier like this either😅😅](+images/photo_1460@02-07-2021_17-33-26-767x1024.jpg)
 ![](+images/photo_1454@01-07-2021_20-31-19-767x1024.jpg)
-%%%
-
+:::
 ###### 20:49
 
 I got new information from the Chief Engineer that we won’t call at Douala or Kribi, but instead we’ll head south to Pointe-Noire for bunkering. It’s about a 5-day sail, maybe less. Consequently, we’ll have less cargo.  
@@ -266,21 +256,19 @@ And only after Singapore will we reach China, where we’ll deliver the logs to 
 
 ##### 2021.07.03
 
-%%%1
+:::1
 ![03:50 The holds are slowly filling up with logs; let’s see how long it takes](+images/2024-04-14_14.26.56.jpg)
-%%%
-
+:::
 ###### 14:42
 
 I wake up in the morning, come to prepare the daily report for the company, and the Third Officer tells me we have a Flag State inspection on board…  
 How I love good news first thing in the morning.
 
-%%%3
+:::3
 ![](+images/2024-04-14_14.43.02.jpg)
 ![](+images/2024-04-14_14.43.11.jpg)
 ![](+images/2024-04-14_14.43.07.jpg)
-%%%
-
+:::
 ###### 19:21
 
 This angry thing, resembling a pufferfish, was caught by our Black friends right during the fire drill.
@@ -299,15 +287,14 @@ Somehow, by willpower and “need,” you keep going, but each day the desire gr
 
 ###### 04:45
 
-%%%2
+:::2
 ![](+images/2024-04-14_14.47.59.jpg)
 
   <div class="">
     <b>IT</b>: *therapist compensation*<br>
     <b>Sea</b>: did a 100 kg piece of iron hit you in the sternum? Nah, just a mild concussion—rest in your cabin for a day and get back to work  
   </div>
-%%%
-
+:::
 ###### 08:18
 
 I’ve noticed a big difference between Muslim countries and non-Muslim ones.
@@ -319,23 +306,21 @@ Obviously it’s a matter of taste, and I’m by no means calling anyone to chan
 
 ###### 21.12
 
-%%%1
+:::1
 ![And this is what it looks like from the outside, heh](+images/2024-04-14_14.57.12.jpg)
-%%%
-
+:::
 ##### 2021.07.05
 
 ###### 02:54
 
 A strange, interesting plant on the beach. Its leaves are thick and fleshy. If anyone can tell me what it is, I owe you a beer!)
 
-%%%2
+:::2
 ![](+images/2024-04-14_14.58.32.jpg)
 ![](+images/2024-04-14_14.58.47.jpg)
 ![](+images/2024-04-14_14.58.40.jpg)
 ![How did he know?](+images/2024-04-14_14.59.08.png)
-%%%
-
+:::
 ###### 02:58
 
 An evening excursion to the beach on the border of Buchanan Port.
@@ -345,20 +330,19 @@ An incredibly beautiful and picturesque place, as if created specifically for ph
 The beach is less than a hundred meters outside the port boundary, though, and at first they didn’t want to let us in, but a kind guard gave us an escort, so we could go out and take some great shots.  
 Upd. It turned out the escort was given not to watch over us but for our protection, since people get kidnapped there.
 
-%%%3
+:::3
 ![](+images/2024-04-14_15.11.17.jpg)
 ![](+images/2024-04-14_15.10.23.jpg)
 ![](+images/2024-04-14_15.09.40.jpg)
 ![](+images/2024-04-14_15.10.15.jpg)
 ![](+images/2024-04-14_15.09.59.jpg)
 ![](+images/2024-04-14_15.10.30.jpg)
-%&23
+:::c3
 ![06:57 Another coal ship departs from the port.](+images/2024-04-14_15.14.41.jpg)
 ![07:46 But the only coal berth in the port won’t stay idle for long)](+images/2024-04-14_15.14.48.jpg)
-&%
+:::
 !c3[14:26 Fewer logs remain; we’ve even finished loading hold 5, so soon we’ll head to top up at Pointe-Noire.](+images/2024-04-14_15.54.22.jpg)
-%%%
-
+:::
 ###### 14:46
 
 Today there was a security incident on our ship—part of the cargo lashings needed to secure deck cargo was stolen.  
@@ -370,10 +354,9 @@ And I managed to get sick since yesterday. My throat hurts, I have a runny nose 
 So my already worn-out brain now doesn’t function at all because of illness. But of course, the watches weren’t canceled.  
 I hope it’s not COVID. _(Upd. I wish it were COVID...)_
 
-%%%1
+:::1
 ![20:40 It turns out that’s not all—new logs arrive as we work. Only the Great Goddess knows how long we’ll be here](+images/2024-04-14_15.54.22.jpg)
-%%%
-
+:::
 ###### 22:40
 
 > The Mykolaiv Shipbuilding Plant has officially ceased to exist  
@@ -394,11 +377,10 @@ So we were swindled. The agent should have explained this to us, but he was part
 
 I don’t yet know how to upload the video of the tropical downpour here, so here’s [a link to the post](https://t.me/katsu_travel/2043))
 
-%%%2
+:::2
 ![05:35 Once upon a time in Africa 🦁 (Nat Geo Wild)](+images/2024-04-14_16.12.18.jpg)
 ![20:46 They keep delivering new logs, so the work tempo has slowed down a lot, since unloaders are working on two fronts.](+images/2024-04-14_16.16.07.jpg)
-%%%
-
+:::
 ##### 2021.07.08
 
 ###### 16:19
@@ -406,19 +388,17 @@ I don’t yet know how to upload the video of the tropical downpour here, so her
 The [video itself](https://www.youtube.com/watch?v=mRsgiYEtwJs) I haven’t watched yet, but the title is inspiring.  
 Upd. It seems Captain Timur restricted access to some of his videos, so I can only enjoy the screenshot. That’s one reason I prefer to keep important things locally.
 
-%%%2
+:::2
 ![](+images/2024-04-14_16.19.43.png)
 ![17:00 A true traveler. Well, thanks, Google)](+images/2024-04-14_16.22.25.jpg)
-%%%
-
+:::
 ###### 19:45
 
 All that’s left for us. Meanwhile, locals claim that loading will finish today, and tomorrow we might be forced out of the port.
 
-%%%1
+:::1
 ![](+images/2024-04-14_16.28.17.jpg)
-%%%
-
+:::
 ###### 21:40
 
 According to the latest information, tomorrow at 11:00 the departure formalities will be completed, and the ship will cast off.

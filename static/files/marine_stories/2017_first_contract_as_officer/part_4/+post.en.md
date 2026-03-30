@@ -3,11 +3,10 @@
 A new cook will arrive around noon today.  
 Yesterday didn’t go well from midnight: first we had to drop anchor at 2 AM, then at 6 AM they called me to the bridge to gather the ship’s certificates for the agent. After that we raised anchor and sailed to another anchorage just to… sit there for 10 minutes and pick up another pilot! Then came a crazy mooring maneuver: the tugs behaved like maniacs, swinging us around in a tiny harbor barely 1.5–2 ship lengths long at full speed, the tow lines creaking like mad. Then endless delays with unloading and cargo paperwork, and now they apparently want to shift us bow to the quay. In short, the Arabs have driven us all crazy—nobody on board has a clue what’s happening, even though it’s only our second day in port. Right now we’re waiting for any info: will we be moved or not, when will unloading resume—we don’t know anything ourselves(
 
-%%%2
+:::2
 ![](+images/photo_145@02-03-2018_19-28-32-1024x768.jpg)
 ![](+images/photo_146@02-03-2018_19-28-33-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.03.08
 
 We’re anchored just outside Malta’s territorial waters and are bunker-refueling. There’s a chance we might not sail to England because our cranes are rattling so loudly during operation. We pray to all the gods of the world that this happens. We really hope to head straight to Ust-Luga.  
@@ -33,16 +32,15 @@ We’ve been storm-beating off Hull for two days now, drifting side to side beca
 
 We’re in Hull port. Right now we’re unloading all the pontoon hatch covers onto the quayside, after which we’ll use mooring winches to pull the ship forward about 30 m and load giant Siemens wind-turbine blades into the hold. Then we’ll pull back, close the hatches, pull forward again, and load another set of blades on the hatch covers.
 
-%%%2
-%&12
+:::2
+:::c2
 ![An English prison](+images/photo_147@20-03-2018_08-47-41-1024x576.jpg)
-&%
+:::
 ![](+images/photo_148@20-03-2018_08-57-16-1024x576.jpg)
 ![A childhood dream—a remote-control car](+images/photo_150@21-03-2018_09-27-45-1024x769.jpg)
 ![](+images/photo_149@20-03-2018_14-40-54-768x1024.jpg)
 ![](+images/photo_151@21-03-2018_14-37-25-768x1024.jpg)
-%%%
-
+:::
 ###### 14:40
 
 These are the Siemens wind-turbine blades we’re loading into the hold⸻large, aren’t they?
@@ -66,11 +64,10 @@ I hope they’re as few as possible 😅
 
 That’s it—we’re out of the dock and heading up the River Humber. Until next time, friends)
 
-%%%2
+:::2
 ![Wind farms off the English coast](+images/photo_152@22-03-2018_13-32-07-1024x769.jpg)
 ![Here we are passing the place that was on the charts used for our college exams. Nostalgia^^](+images/photo_154@23-03-2018_17-19-21-1024x576.jpg)
-%%%
-
+:::
 ##### 2018.03.24
 
 Good morning. We’re sailing between the British Firths and by midnight we’ll be approaching port. This is the shortest passage of the entire contract, heh.  
@@ -83,10 +80,9 @@ And here we are moored again…
 How I love mooring at 3 AM.  
 We deck officers are standing gangway watch again because the chief mate is short-staffed for unsecuring the cargo and unloading. And honestly, I don’t mind—less hassle.
 
-%%%1
+:::1
 ![Some photos of Ireland for your feed)](+images/photo_156@25-03-2018_14-59-03-2-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.03.26
 
 And once again we’ve shifted berth, for the last time. Soon they’ll close everything up and we’ll head out of here.
@@ -101,10 +97,9 @@ And unloading was simply the reverse process.
 
 Yay! We’ve left Belfast! Onward to Luga! We’re going home!!!
 
-%%%1
+:::1
 ![One of the first two posts—our route) <br>UPD: In the end we took the first route)](+images/photo_162@26-03-2018_10-21-34-edited.jpg)
-%%%
-
+:::
 ##### 2018.03.29
 
 Hello, we’re in Germany, preparing to go through the Kiel Canal)
@@ -113,7 +108,7 @@ Hello, we’re in Germany, preparing to go through the Kiel Canal)
 
 We entered the lock in the dark, so sorry for the lack of photos. But now we’re leaving it—it all went by quite quickly. In the Kiel Canal, the pilot boards with two helmsmen, and in the lock there’s a 1+1 mooring scheme—total ease.
 
-%%%3
+:::3
 ![](+images/photo_164@30-03-2018_09-03-22-1024x768.jpg)
 !c2[](+images/photo_166@30-03-2018_09-03-22-1024x479.jpg)
 !r2[](+images/photo_171@30-03-2018_09-20-47-768x1024.jpg)
@@ -124,8 +119,7 @@ We entered the lock in the dark, so sorry for the lack of photos. But now we’r
 ![](+images/photo_170@30-03-2018_09-20-47-1024x768.jpg)
 ![](+images/photo_172@30-03-2018_09-39-32-1024x768.jpg)
 ![](+images/photo_163@30-03-2018_09-03-22-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.03.30 13:00
 
 We’re out of the Kiel Canal—three days to go, and on April 2 our ship will dock in St. Petersburg and we’ll go home! URAAA!!!…  
@@ -139,22 +133,20 @@ After passing Kiel, we’re heading toward St. Petersburg. Today the crew member
 
 And here we are approaching St. Petersburg. Could it be that we’ll be home soon? Hard to believe.
 
-%%%3
+:::3
 ![](+images/photo_175@02-04-2018_12-38-33-1024x768.jpg)
 ![](+images/photo_176@02-04-2018_12-38-33-1024x768.jpg)
 ![](+images/photo_177@02-04-2018_14-03-52-1024x768.jpg)
 ![](+images/photo_178@02-04-2018_14-03-52-1024x576.jpg)
 !c2[](+images/photo_179@02-04-2018_14-03-57-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.04.02 17:00
 
 So, our vessel is now moored in St. Petersburg port. The mooring was long and in challenging icy conditions, but we handled it. Almost everyone on board is in “suitcase mode.” We’re all eagerly waiting to begin our journey home.
 
-%%%1
+:::1
 ![A few barrels of radioactive waste](+images/photo_180@02-04-2018_22-50-15-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.04.03
 
 Good morning, dear people)  
@@ -170,10 +162,9 @@ PSC passed us by—I signed the handover act together with the 3rd officer, and 
 
 And so, I’ve left the ship. We passed port customs and now we’re waiting for our bus. Everything is turning out as well as it could^^
 
-%%%1
+:::1
 ![](+images/photo_181@04-04-2018_11-52-13-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.04.04
 
 ###### 12:10
@@ -188,12 +179,11 @@ We got on the bus, hooray! Soon we’re on our way)
 
 Right now we’re passing by the Ruskiy Standard and Coca-Cola factories. Coincidence? I don’t think so.
 
-%%%3
+:::3
 ![](+images/photo_186@05-04-2018_09-08-24-576x1024.jpg)
 ![](+images/photo_187@05-04-2018_11-49-04-576x1024.jpg)
 ![](+images/photo_188@05-04-2018_11-49-04-768x1024.jpg)
-%%%
-
+:::
 [Three Sisters](<https://ru.wikipedia.org/wiki/Три_сестры_(монумент)>) — a monument at the tripoint border of [Belarus](https://ru.wikipedia.org/wiki/Белоруссия), [Russia](https://ru.wikipedia.org/wiki/Россия), and [Ukraine](https://ru.wikipedia.org/wiki/Украина). Operators from all three countries have coverage here simultaneously)
 
 ##### 2018.04.09

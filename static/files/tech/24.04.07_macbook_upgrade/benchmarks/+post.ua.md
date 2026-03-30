@@ -1,7 +1,6 @@
 ## Geekbench 6
 
-%%%2
-
+:::2
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Geekbench6_CPU.jpeg)
@@ -14,45 +13,40 @@
   ![](+images/M3Pro_Geekbench6_GPU_Metal.jpeg)
   ![](+images/M1Pro_Geekbench6_GPU_OpenCL.jpeg)
   ![](+images/M3Pro_Geekbench6_GPU_OpenCL.jpeg)
-%%%
-
+:::
 ## Amorphous Disk Mark
 
-%%%2
-
+:::2
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_AmorphousDiskMark.jpeg)
   ![](+images/M3Pro_AmorphousDiskMark.jpeg)
-%%%
+:::
 [Посилання на бенчмарк](https://apps.apple.com/ua/app/amorphousdiskmark/id1168254295)
 
 ## Amorphous Memory Mark
 
-%%%2
-
+:::2
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_AmorphousMemoryMark.jpeg)
   ![](+images/M3Pro_AmorphousMemoryMark.jpeg)
-%%%
+:::
 [Посилання на бенчмарк](https://apps.apple.com/ua/app/amorphousmemorymark/id1495719766)
 
 ## Browserbench Speedometer 3.0
 
-%%%2
-
+:::2
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
   ![](+images/M1Pro_Browserbench_Speedometer3.jpeg)
   ![](+images/M3Pro_Browserbench_Speedometer3.jpeg)
-%%%
+:::
 [Посилання на бенчмарк](https://browserbench.org/Speedometer3.0/)
 
 ## Mozilla Kraken
 
-%%%5
-
+:::5
   <p>TEST</p>
   <p>M3Pro</p>
   <p>M1Pro</p>
@@ -178,5 +172,5 @@
   <p>475.2ms +/- 0.3%</p>
   <p>*1.27x as slow*</p>
   <p>significant</p>
-%%%
+:::
 [Посилання на бенчмарк](https://mozilla.github.io/krakenbenchmark.mozilla.org/)

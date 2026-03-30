@@ -3,16 +3,15 @@ Last time we finished on September 8, a month after boarding the ship.
 
 I sent photos with very reduced quality so as not to exhaust the little internet traffic available to me.
 
-%%%3
+:::3
 ![](+images/photo_937@09-09-2020_02-16-26-768x1024.jpg)
 ![](+images/photo_939@09-09-2020_02-16-26-767x1024.jpg)
 ![](+images/photo_941@11-09-2020_23-43-35-767x1024.jpg)
-%&23
+:::c3
 ![](+images/photo_940@09-09-2020_04-44-09-1024x768.jpg)
 ![](+images/photo_938@09-09-2020_02-16-26-1024x767.jpg)
-&%
-%%%
-
+:::
+:::
 ##### 2020.09.09 06:00
 
 We’re discharging used oil. And grandpa (the chief engineer) had a birthday yesterday, and he and his underlings—the third and fourth engineers—“celebrated” heavily. And then they went on watch right after finishing the oil discharge.
@@ -38,10 +37,9 @@ We will survive! 😎
 I barely managed to wake up for my watch, I slept only a few hours in the last day, heh.
 We’re sailing in the Persian Gulf; around the ship on the waves, bioluminescent phytoplankton is glowing, it looks incredibly beautiful, but a smartphone camera cannot capture it.
 
-%%%1
+:::1
 ![Combination Ladder](+images/image-8-582x1024.png)
-%%%
-
+:::
 ##### 2020.09.10 12:41 (UTC+4)
 
 When we were handing over the pilot yesterday, just before that our combination ladder fell, which is used if the ship’s freeboard is over 9 meters. Good thing the pilot agreed to descend 10 meters by the standard pilot ladder. At least we recovered the combination ladder, but the mechanism, which had just been “repaired” in Piraeus, turned out to be in terrible condition. So now I have no clue how we’ll take the pilot on board.
@@ -76,7 +74,7 @@ An Arab official came, checked all temperatures, declared free pratique, and lef
 
 Here there should have been timelapse videos of leaving Jebel Ali and entering Shuwaikh, but WordPress won’t let me upload them.
 
-%%%3
+:::3
 ![](+images/photo_950@12-09-2020_15-00-17-1024x768.jpg)
 ![Vessels in Persian Gulf](+images/photo_952@12-09-2020_15-00-17-1024x768.jpg)
 ![](+images/photo_948@12-09-2020_15-00-17-1024x768.jpg)
@@ -85,8 +83,7 @@ Here there should have been timelapse videos of leaving Jebel Ali and entering S
 !r2[](+images/photo_946@12-09-2020_14-58-07-768x1024.jpg)
 ![Shuwaikh Port](+images/photo_944@12-09-2020_14-58-07-1024x768.jpg)
 ![](+images/photo_945@12-09-2020_14-58-07-1024x768.jpg)
-%%%
-
+:::
 ##### 2020.09.13 06:30
 
 Finally, I got a haircut for the first time in a month, such a relief!
@@ -95,15 +92,14 @@ The air is drier and not as hot, but once sunrise comes, it turns into real fier
 Let’s hope that in Fujairah at least they actually install the air conditioner, and don’t pull the usual trick.
 **Upd.** Holy naivety!
 
-%%%3  
+:::3
  ![](+images/photo_954@13-09-2020_16-29-44-1024x768.jpg)
 ![](+images/photo_955@13-09-2020_16-29-44-1024x768.jpg)
 ![This is the Fortune Trader—rusty and ugly…](+images/photo_957@13-09-2020_16-29-44-1024x768.jpg)
-%&13  
+:::c3
  ![](+images/photo_959@14-09-2020_17-47-26-767x1024.jpg)
-&%
-%%%
-
+:::
+:::
 ##### 2020.09.17 12:00
 
 Well, the discharge is finished and we’re preparing to depart from this f\*\*\*ing hot Kuwait.
@@ -179,10 +175,9 @@ The situation on the ship is getting worse; people are arguing, in the machine r
 Grandpa even had the nerve to try to lecture the captain. Dude, that grandpa is such an asshole that everyone here already hates him, while he considers himself strict but fair and a decent person.
 God knows what’s happening here…
 
-%%%1  
+:::1
  ![](+images/photo_960@30-09-2020_05-00-22-1024x767.jpg)
-%%%
-
+:::
 They painted the hatch covers; at least now it looks somewhat decent.
 
 In the next post I will describe how we passed through the Suez Canal and what happened afterward)

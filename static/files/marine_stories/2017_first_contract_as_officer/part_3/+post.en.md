@@ -2,15 +2,14 @@
 
 Hello to you in the New Year! Some of you have headaches, some are sleeping, and some are trudging to watch, and as I step onto the bridge I see a scene like this:
 
-%%%3
-%&13
+:::3
+:::c3
 ![A very heavy snowfall: huge flakes slam into the front porthole with all their force. When you first enter, you can lose your sense of orientation as if you’re in a 4D movie theater)](+images/photo_110@01-01-2018_06-53-52-1024x768.jpg)
-&%
+:::
 ![](+images/photo_113@01-01-2018_11-13-45-767x1024.jpg)
 ![](+images/photo_115@01-01-2018_11-17-19-1024x768.jpg)
 ![](+images/photo_116@01-01-2018_11-17-23-768x1024.jpg)
-%%%
-
+:::
 ##### 2018.01.03 17:45
 
 Hooray!! We’ve been confirmed that the cargo is **not** bound for Iraq but for Algeria, so by the end of February I should already be home^^
@@ -37,11 +36,10 @@ The route seems to have changed again: now it’s St. Pete → Iraq → Iraq →
 
 The only hope is a crew change in the Suez Canal, whether for better or worse.
 
-%%%2
+:::2
 ![](+images/photo_117@06-01-2018_16-14-58-768x1024.jpg)
 ![St. Pete covered in ice](+images/photo_118@06-01-2018_16-14-58-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.01.07 16:00
 
 Surprisingly (really?), the old Chief Officer left, and it’s easier to breathe now. The nervous twitch hasn’t gone away yet, but time will help 😅. We’ll see what happens at sea, but for now the new Chief Officer is just great.
@@ -67,23 +65,21 @@ By the way, today is exactly four months since we left port.
 Yesterday, for the first time in three months, we had a proper meal (the cook was replaced three months ago). One of the seamen made shawarma for everyone, and it was incredibly delicious. Considering how bad our current cook’s food is, I think anything would taste amazing 😅.  
 That’s all for now—report over.
 
-%%%2
+:::2
 ![](+images/photo_124@15-01-2018_20-00-05-1024x768.jpg)
 ![](+images/photo_126@15-01-2018_20-00-05-768x1024.jpg)
 ![](+images/photo_128@15-01-2018_20-00-05-1024x768.jpg)
 ![](+images/photo_133@16-01-2018_17-29-45-1024x768.jpg)
-%%%
-
+:::
 ##### 2018.01.16 19:00
 
 Because of extremely strong winds reaching 40–50 knots, last night we “dragged” so the ship had to be secured on two anchors, each with eight 27.5-meter chain stubs. Fortunately, the wind is only 30–35 knots now, but the forecast says it will worsen again :(  
 Other than that, everything’s fine. :)
 
-%%%2
+:::2
 ![](+images/photo_134@18-01-2018_10-15-46-1024x768.jpg)
 ![](+images/photo_140@18-01-2018_10-27-48-1024x768.jpg)
-%%%
-
+:::
 This is how we “cruised” while dragging two anchors and resetting them.
 
 ##### 2018.01.19

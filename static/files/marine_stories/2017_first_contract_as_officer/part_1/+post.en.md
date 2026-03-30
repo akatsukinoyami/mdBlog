@@ -43,25 +43,23 @@ And Katsu is back in Gibraltar again, hello everyone) Algeria is behind us and w
 Hello, dear friends, Katsu writes from the coast of England; we passed Gibraltar, crossed the Atlantic Ocean, passed the Bay of Biscay, and here we are in Falmouth.  
 Life seems relatively okay, though it’s psychologically tough—no real troubles, but a crazy fatigue, I don’t even have time for Alice, all thoughts are about work(((
 
-%%%2
+:::2
 ![Echo sounder, Radar, and Electronic Chart](+images/image-1024x768.png)
 ![Electronic Chart (ECDIS)](+images/image-1-1024x768.png)
-%%%
-
+:::
 ##### 2017.10.05
 
 Sweet dreams to all cuties, Katsu is leaving the internet space.
 
 2017.10.08 So, Katsu is approaching the Sound Strait, soon it will be Ust-Luga and inspections by the company management, as well as a new captain, which isn’t very pleasing. However, I have lifted my spirits and try to stay positive)
 
-%%%3
+:::3
 ![Ocean Energy](+images/photo_16@11-10-2017_20-12-23-1024x768.jpg)
 ![Ship’s Forecastle](+images/photo_17@11-10-2017_20-25-16-1024x768.jpg)
 !r2[View toward the stern](+images/photo_18@11-10-2017_20-25-16-768x1024.jpg)
 ![Navigational Bridge](+images/photo_19@11-10-2017_21-29-41-1024x768.jpg)
 ![Communication Station](+images/photo_20@11-10-2017_21-29-41-1024x768.jpg)
-%%%
-
+:::
 ##### 2017.10.10
 
 **Upd.** No post today, but during lifeboat drill I fell overboard)
@@ -88,16 +86,15 @@ Surprisingly, even though I slept only 4 hours, I woke up rather energetic after
 
 So, we weathered a Force 10 storm in the North Sea and now are hiding from an even greater horror in the Bay of Biscay at Force 12.
 
-%%%3
+:::3
 ![](+images/photo_24@19-10-2017_16-34-25-1-768x1024.jpg)
 ![](+images/photo_25@19-10-2017_16-34-27-768x1024.jpg)
 ![](+images/photo_26@19-10-2017_16-34-29-768x1024.jpg)
-%&23
+:::c3
 ![](+images/image-5-1024x768.png)
 ![](+images/image-6-1024x831.png)
-&%
-%%%
-
+:::
+:::
 [Øresund or Flintrannen Bridge](https://en.wikipedia.org/wiki/%C3%98resund_Bridge)
 
 **Upd.** We waited several days for the storm to subside before continuing our journey, yet we still encountered winds up to 86 knots. At full speed ahead, the ship was moving at about 3–4 knots (5–7 km/h)
