@@ -1,23 +1,23 @@
 # Build step
 
-FROM oven/bun:latest AS build
+FROM oven/bun:latest AS build-node
 
 WORKDIR /app
 
 COPY package.json bun.lock ./
 
-RUN bun --bun install --frozen-lockfile
+RUN bun install --frozen-lockfile
 
 COPY . .
 
-RUN bun --bun bake
+RUN bun bake
 
 # Serve step
 
-FROM nginx:alpine AS serve
+FROM nginx:alpine AS serve-node
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build-node /app/build /usr/share/nginx/html
 
 EXPOSE 80
