@@ -1,6 +1,8 @@
-%%%1
+:::1
+
 ![](+images/header.jpeg)
-%%%
+
+:::
 
 Fullmetal Panic - is a classic meha anime from the early 2000s.
 
@@ -12,11 +14,13 @@ The old animation doesn't spoil the impression, and is actually quite appropriat
 
 I recommend watching it; there are four seasons available, with the first having 24 episodes and the other three with 12 episodes each. The seasons were released in 2002, 2003, 2005, and 2018, so the last season will show you what has changed over the years.
 
-%%%3
+:::3
+
 ![](+images/1.jpg)
 ![](+images/3.jpg)
 ![](+images/4.jpg)
 ![](+images/5.jpg)
 ![](+images/6.jpg)
 ![](+images/2.jpg)
-%%%
+
+:::

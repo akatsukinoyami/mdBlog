@@ -4,22 +4,26 @@
 
 Hello, new journey! Katsu has arrived in Lviv for a short but eventful weekend, and… he was greeted by cold, rainy Lviv weather. “This is not Odessa,” hehehe)
 
-%%%3
+:::3
+
 ![Back then the station still looked old, but now the square in front has been renovated and the traffic regulated](+images/photo_762@16-03-2019_07-27-10-1024x768.jpg)
 ![](+images/photo_764@16-03-2019_07-27-10-768x1024.jpg)
 ![](+images/photo_765@16-03-2019_07-27-10-768x1024.jpg)
 ![The famous and notorious Masoch Café](+images/photo_769@16-03-2019_23-23-41-1024x768.jpg)
 ![](+images/photo_781@16-03-2019_23-23-42-768x1024.jpg)
 ![](+images/photo_770@16-03-2019_23-23-41-768x1024.jpg)
-%%%
+
+:::
 
 We only dropped in briefly for tea, but they managed to whip us pretty well on the backs. And two girls at the next table were tied up and given a soft-area “execution,” ahem.
 
-%%%3
+:::3
+
 ![](+images/photo_787@16-03-2019_23-23-42-768x1024.jpg)
 ![Another, and far from the last visit to the cat café!](+images/photo_777@16-03-2019_23-23-42-2-768x1024.jpg)
 ![](+images/photo_772@16-03-2019_23-23-41-1-edited.jpg)
-%%%
+
+:::
 
 ###### 21:38
 
@@ -27,10 +31,12 @@ Good evening, Katsu checking in again. Today we managed to visit the S&M Masoch 
 
 ###### 2019.03.17
 
-%%%2
+:::2
+
 ![Good morning! Although it’s almost three in the afternoon) we saw off one unorthodox friend to her train (she even performed her songs for us beforehand), grabbed a bite to eat, and now we’re thinking about how to make the most of our remaining time)](+images/photo_774@16-03-2019_23-23-41-1024x768.jpg)
 ![The cat is offering some good suggestions](+images/photo_788@17-03-2019_14-51-41-845x1024.jpg)
-%%%
+
+:::
 
 Love you all ❤️
 

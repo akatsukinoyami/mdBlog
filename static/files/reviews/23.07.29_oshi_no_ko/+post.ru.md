@@ -1,6 +1,8 @@
-%%%1
+:::1
+
 ![](+images/poster.jpg)
-%%%
+
+:::
 
 Данное произведение повествует превратности жизни в современном японском шоу-бизнесе. Небрежно назвать его просто "аниме" или "тайтл" у меня не поднимется рука. И оно выделяется из современного аниме по многим факторам.
 
@@ -33,19 +35,23 @@
 
 Не знаю что еще написать, но учитывая, что эмоции заставили меня написать уже столько - показывают насколько оно стоит того - посмотреть это произведение.
 
-%%%3
+:::3
+
 ![](+images/0001.jpg)
 ![](+images/0002.jpg)
 ![](+images/0003.webp)
 ![](+images/0004.jpg)
 ![](+images/0005.jpg)
 ![](+images/0006.webp)
-%%%
 
-%%%2
-@{h-70}[](https://www.youtube.com/embed/PgBvV9ofjmA)
-@{h-70}[](https://www.youtube.com/embed/ZRtdQ81jPUQ)
+:::
+
+:::2
+
+@[](https://www.youtube.com/embed/PgBvV9ofjmA){h-70}
+@[](https://www.youtube.com/embed/ZRtdQ81jPUQ){h-70}
 
 <p class="text-center">Anime Opening</p>
 <p class="text-center">Official Music Video</p>
-%%%
+
+:::

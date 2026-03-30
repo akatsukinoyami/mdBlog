@@ -3,9 +3,6 @@ import { type Entity } from '../types';
 export { classMerger } from './classMerger';
 export { clickOutside } from './clickOutside';
 export { highlight } from './highlight';
-export { closeImgModal, modal, openImgModal } from './imgModal.svelte';
-export { getConverter } from './showdown';
-export { fromStorage } from './stores';
 export { bgUrl, url } from './url';
 
 export function range(n: number): number[] {

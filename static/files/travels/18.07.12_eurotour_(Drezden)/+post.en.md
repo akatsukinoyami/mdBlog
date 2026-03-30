@@ -41,7 +41,8 @@ Hello, long-awaited Prague! Katsu has arrived!
 And now, Katsu is at KFC for the first time—everyone told him about this place, and here he is in person.  
 Still, it’s hard to manage here without knowing the language, hehe.
 
-%%%3
+:::3
+
 ![](+images/photo_285@13-07-2018_15-59-34-768x1024.jpg)
 ![](+images/photo_286@13-07-2018_15-59-34-768x1024.jpg)
 ![](+images/photo_289@13-07-2018_15-59-34-768x1024.jpg)
@@ -76,6 +77,7 @@ Still, it’s hard to manage here without knowing the language, hehe.
 ![](+images/photo_333@13-07-2018_19-24-08-1024x768.jpg)
 ![](+images/photo_335@13-07-2018_19-24-08-1024x768.jpg)
 ![](+images/photo_334@13-07-2018_19-24-08-1024x768.jpg)
-%%%
+
+:::
 
 Dresden is a city almost completely destroyed by Allied bombing (U.S. and U.K.) during WWII. So most of its “historic” buildings have been restored or rebuilt.

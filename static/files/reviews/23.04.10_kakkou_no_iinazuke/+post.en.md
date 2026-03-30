@@ -2,6 +2,8 @@ A cute romcom anime that I dropped for some reason a year ago - "Kakkou no Iinaz
 Erika Amano - is the daughter of wealthy parents who are hotel magnates and an influencer on Instagram.
 Nagi Umeno - is the son of owners of a small cafe, former bikers, and the brother of Sachi (Erika's biological sister). He's obsessed with studying and strives to be in first place on all tests.
 
-%%%1
+:::1
+
 ![](+images/footer.jpeg)
-%%%
+
+:::

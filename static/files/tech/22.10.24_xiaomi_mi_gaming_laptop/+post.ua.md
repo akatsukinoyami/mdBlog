@@ -1,6 +1,7 @@
 Я представляю вашій увазі ігровий ноутбук Xiaomi Mi Gaming Laptop (late 2018).
 
-%%%2
+:::2
+
 ![](+images/photo_windows.png)
 
   <div class="p-2">
@@ -14,11 +15,12 @@
     <p>Продається у зв’язку з бажанням придбати потужніший комп’ютер. У комплекті оригінальна коробка та блок живлення.</p>
     <p>Удачно продано, дякую за увагу)</p>
   </div>
-%%%
+
+:::
 
 ## Характеристики
 
-%%%2
+:::2
 
   <dt>CPU</dt>
   <dd>Intel Core i7-8750H 2.2–4 ГГц (6 ядер / 12 потоків)</dd>
@@ -44,20 +46,24 @@
   <dd>365×265×20,9 мм, 2,7 кг (без блока живлення)</dd>
   <dt>Блок живлення</dt>
   <dd>180 Вт MA100000340388930CM4 (0,5 кг)</dd>
-%%%
-  
+
+:::
+
 ## Фото
 
-%%%2
+:::2
+
 ![Верхня кришка ноутбука (анодований алюміній)](+images/photo_top.png)
 ![Права грань (читалка SD, USB 3.0)](+images/photo_right.png)
 ![Задня грань (RJ45, USB 3.0, HDMI, USB-C, роз’єм живлення)](+images/photo_back.png)
 ![Ліва грань (2×USB 3.0, гнізда для навушників та мікрофона)](+images/photo_left.png)
-%%%
+
+:::
 
 ## Програми та тести
 
-%%%2
+:::2
+
 ![Диспетчер пристроїв](+images/Device_Manager.png)
 ![AIDA64 — зведений звіт](+images/AIDA64_Summary.png)
 ![Керування дисками](+images/Disk_Management.png)
@@ -70,11 +76,13 @@
 ![Налаштування 5 макроклавіш з лівої сторони](+images/MiGamingBox_Macro.png)
 ![Налаштування підсвітки клавіатури (4 зони RGB)](+images/MiGamingBox_RGB_Keyboard.png)
 ![Налаштування бічної RGB-підсвітки](+images/MiGamingBox_RGB_SideBars.png)
-%%%
+
+:::
 
 ## FPS в іграх
 
-%%%2
+:::2
+
 ![Call of Duty: Warzone](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.28.47.39.jpeg)
 ![1080p, низькі налаштування](+images/Game_Call_of_Duty__Modern_Warfare_2019_Screenshot_2022.11.09_-_20.29.25.41.jpeg)
 ![Dead or Alive 5](+images/Game_DOA_2022-11-06_02-30-38-76_Large.jpeg)
@@ -95,4 +103,5 @@
 ![1080p, ультра](+images/Game_vermintide2_2022-11-06_00-34-38-00_Large.jpeg)
 ![](+images/Game_vermintide2_2022-11-06_00-34-45-31_Large.jpeg)
 ![](+images/Game_vermintide2_2022-11-06_00-35-00-40_Large.jpeg)
-%%%
+
+:::

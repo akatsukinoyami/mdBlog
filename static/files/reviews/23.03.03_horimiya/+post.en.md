@@ -10,6 +10,8 @@ The whole series is filled with warm and almost unrealistic relationships that y
 
 I really liked this anime, even though I had read the manga it was adapted from before.
 
-%%%1
+:::1
+
 ![](+images/footer.jpeg)
-%%%
+
+:::

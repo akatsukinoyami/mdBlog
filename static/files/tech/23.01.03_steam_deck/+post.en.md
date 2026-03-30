@@ -6,13 +6,15 @@ But now supply is fine, and people hardly wait in line.
 
 Since new items are taxed and charged more heavily, my friend gave the console a slightly used look to avoid government fees)
 
-%%%3
+:::3
+
 ![](+images/box_photo.jpeg)
 ![](+images/with_charger.jpeg)
 ![](+images/with_blanket.jpeg)
 ![](+images/screen_on.jpeg)
 ![](+images/backside.jpeg)
-%%%
+
+:::
 
 ## Specifications
 
@@ -58,10 +60,12 @@ At the time of writing, I’ve had the console for a month. I’m almost done pl
 
 AAA titles generally run at around 30 FPS on medium–low settings, while less demanding games can reach up to 60 FPS.
 
-%%%2
+:::2
+
 ![Cyberpunk 2077](+images/cyberpunk.jpg)
 ![Hatsune Miku Project Diva Mega Mix+](+images/hmpdmm+.jpg)
-%%%
+
+:::
 
 #### Docked Mode
 
@@ -73,9 +77,11 @@ Some simpler games can run at 1080p, but higher resolutions are not recommended.
 
 In the shutdown menu you can find “Switch to Desktop Mode,” and when you select it, you’ll be greeted with… KDE!
 
-%%%1
+:::1
+
 ![KDE interface on the console screen](+images/kde.png)
-%%%
+
+:::
 
 Yes, SteamOS is based on Arch Linux with the KDE desktop environment. This is an open operating system that does not forbid you from doing whatever you want.
 
@@ -101,9 +107,11 @@ PS4 and PSVita emulators are still in progress, but a PS3 emulator is available,
 
 In Windows/Linux or macOS, we get used to “hotkey” combinations to speed up work. The console also has many such shortcuts that greatly simplify working with the device and make it more enjoyable.
 
-%%%1
+:::1
+
 ![](+images/shortcuts.webp)
-%%%
+
+:::
 
 ## Conclusion
 

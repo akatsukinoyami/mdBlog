@@ -19,7 +19,7 @@ AMD Ryzen 5 5600 / 32Gb DDR4 3600Mhz / Nvidia RTX 3090
 
 На ПК нейросети размера 8х7B запускались в 23 слоях на GPU, а остальные слои на CPU.
 
-%%%4
+:::4
 
   <p>Модель</p>
   <p>MacBook Pro 2021</p>
@@ -149,4 +149,5 @@ AMD Ryzen 5 5600 / 32Gb DDR4 3600Mhz / Nvidia RTX 3090
     Pen: 10.61s|106.1ms/T|9.42T/s<br/>
     Ttl: 20.71s (4.83T/s)
   </p>
-%%%
+
+:::

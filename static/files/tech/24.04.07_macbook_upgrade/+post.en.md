@@ -4,7 +4,7 @@ This article will be a comparison between very different laptops, so you can not
 
 I'll start with the specs:
 
-%%%3
+:::3
 
   <p></p>
   <p>MacBook Pro 2021</p>
@@ -49,6 +49,7 @@ I'll start with the specs:
   <p>Цвет</p>
   <p>Space Gray</p>
   <p>Space Black</p>
-%%%
+
+:::
 
 I did a little comparison between these laptops and I want to share it.

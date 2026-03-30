@@ -6,7 +6,7 @@ I also wanted to test EA racing games, but their launcher refused to run under W
 
 ## Cyberpunk 2077
 
-%%%2
+:::2
 
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -20,11 +20,12 @@ I also wanted to test EA racing games, but their launcher refused to run under W
   ![](+images/M3Pro_CP_2077_Settings_2.jpeg)
   ![](+images/M1Pro_CP_2077_Settings_3.jpeg)
   ![](+images/M3Pro_CP_2077_Settings_3.jpeg)
-%%%
+
+:::
 
 ## The Witcher 3
 
-%%%2
+:::2
 
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -40,11 +41,12 @@ I also wanted to test EA racing games, but their launcher refused to run under W
   ![](+images/M3Pro_Witcher_3_Settings_3.jpeg)
   ![](+images/M1Pro_Witcher_3_Settings_4.jpeg)
   ![](+images/M3Pro_Witcher_3_Settings_4.jpeg)
-%%%
+
+:::
 
 ## Hogwarts Legacy
 
-%%%2
+:::2
 
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -56,11 +58,12 @@ I also wanted to test EA racing games, but their launcher refused to run under W
   ![](+images/M3Pro_Hogwarts_Settings_1.jpeg)
   ![](+images/M1Pro_Hogwarts_Settings_2.jpeg)
   ![](+images/M3Pro_Hogwarts_Settings_2.jpeg)
-%%%
+
+:::
 
 ## Scarlet Nexus
 
-%%%2
+:::2
 
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -68,11 +71,12 @@ I also wanted to test EA racing games, but their launcher refused to run under W
   ![](+images/M3Pro_Scarlet_Nexus_Ingame.jpeg)
   ![](+images/M1Pro_Scarlet_Nexus_Settings.jpeg)
   ![](+images/M3Pro_Scarlet_Nexus_Settings.jpeg)
-%%%
+
+:::
 
 ## The Elder Scrolls V: Skyrim
 
-%%%2
+:::2
 
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -82,13 +86,14 @@ I also wanted to test EA racing games, but their launcher refused to run under W
   ![](+images/M3Pro_Skyrim_Settings_1.jpeg)
   ![](+images/M1Pro_Skyrim_Settings_2.jpeg)
   ![](+images/M3Pro_Skyrim_Settings_2.jpeg)
-%%%
+
+:::
 
 ## Euro Truck Simulator 2
 
 The game is available natively on macOS, but its Metal HUD does not function.
 
-%%%3
+:::3
 
   <p>MacBook Pro 2021 Native</p>
   <p>MacBook Pro 2021 Whisky</p>
@@ -102,11 +107,12 @@ The game is available natively on macOS, but its Metal HUD does not function.
   ![](+images/M1Pro_ETS2_arm_Settings_2.jpeg)
   ![](+images/M1Pro_ETS2_x86_Settings_2.jpeg)
   ![](+images/M3Pro_ETS2_Settings_2.jpeg)
-%%%
+
+:::
 
 ## Snowrunner
 
-%%%2
+:::2
 
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -114,11 +120,12 @@ The game is available natively on macOS, but its Metal HUD does not function.
   ![](+images/M3Pro_Snowrunner_Ingame.jpeg)
   ![](+images/M1Pro_Snowrunner_Settings.jpeg)
   ![](+images/M3Pro_Snowrunner_Settings.jpeg)
-%%%
+
+:::
 
 ## Hatsune Miku: Project DIVA MegaMix+
 
-%%%2
+:::2
 
   <p>MacBook Pro 2021</p>
   <p>MacBook Pro 2023</p>
@@ -128,11 +135,12 @@ The game is available natively on macOS, but its Metal HUD does not function.
   ![](+images/M3Pro_HMPD_Settings_1.jpeg)
   ![](+images/M1Pro_HMPD_Settings_2.jpeg)
   ![](+images/M3Pro_HMPD_Settings_2.jpeg)
-%%%
+
+:::
 
 ## Timberborn
 
-%%%3
+:::3
 
   <p>MacBook Pro 2021 Native</p>
   <p>MacBook Pro 2021 Whisky</p>
@@ -143,4 +151,5 @@ The game is available natively on macOS, but its Metal HUD does not function.
   ![](+images/M1Pro_Timberborn_arm_Settings.jpeg)
   ![](+images/M1Pro_Timberborn_x86_Settings.jpeg)
   ![](+images/M3Pro_Timberborn_Settings.jpeg)
-%%%
+
+:::

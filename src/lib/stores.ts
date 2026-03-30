@@ -1,11 +1,10 @@
-import { get, writable } from 'svelte/store';
-import { defaultLang, defaultTheme, defaultTrafficEconomy } from './constants';
-import i18n from './i18n';
+import { defaultLang, defaultTheme, defaultTrafficEconomy, langs, themes } from './constants';
 import { type Lang, type Theme, type TrafficEconomy } from './types';
-import { fromStorage } from './utils';
+import { fromStorage } from './utils/stores';
 
-export const lang = fromStorage<Lang>('lang', defaultLang);
-export const theme = fromStorage<Theme>('theme', defaultTheme);
-export const codeTheme = fromStorage<Theme>('codeTheme', defaultTheme);
-export const trafficEconomy = fromStorage<TrafficEconomy>('trafficEconomy', defaultTrafficEconomy);
-export const title = writable<string>(i18n(get(lang))('title.app'));
+export const lang = fromStorage<Lang>('lang', defaultLang, langs);
+export const theme = fromStorage<Theme>('theme', defaultTheme, themes);
+export const trafficEconomy = fromStorage<TrafficEconomy>('trafficEconomy', defaultTrafficEconomy, [
+	'true',
+	'false'
+]);

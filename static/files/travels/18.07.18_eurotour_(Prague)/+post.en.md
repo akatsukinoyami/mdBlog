@@ -17,7 +17,8 @@ It was a fantastic day, but now I need to prepare for departure. Tomorrow at 09:
 
 There won’t be any photos from the Museum of Anti-Communism, since the symbols there are illegal in my country.
 
-%%%3
+:::3
+
 ![](+images/20180716_140248-rotated.jpg)
 ![](+images/20180716_140901-rotated.jpg)
 ![](+images/20180716_140926-rotated.jpg)
@@ -41,7 +42,8 @@ There won’t be any photos from the Museum of Anti-Communism, since the symbols
 ![](+images/20180716_183954.resized-1024x767.jpg)
 ![](+images/20180716_191948.resized-1024x767.jpg)
 ![](+images/20180716_192649.resized-1024x767.jpg)
-%%%
+
+:::
 
 ##### 2018.07.17
 

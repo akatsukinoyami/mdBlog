@@ -27,8 +27,8 @@
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
 		"@types/bun": "^1.2.15",
+		"@types/markdown-it": "^14.1.2",
 		"@types/node": "^22.15.30",
-		"@types/showdown": "^2.0.6",
 		"bun-types": "^1.2.15",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
@@ -43,9 +43,9 @@
 		"cookie": "^1.0.2",
 		"devalue": "^5.1.1",
 		"highlight.js": "^11.11.1",
+		"markdown-it": "^14.1.1",
 		"set-cookie-parser": "^2.7.1",
 		"sharp": "^0.34.2",
-		"showdown": "^2.1.0",
 		"svelte-sonner": "^1.0.4",
 		"yaml": "^2.8.0"
 	}

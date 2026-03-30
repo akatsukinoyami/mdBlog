@@ -14,24 +14,28 @@ Yay, the ship where Katsu works has dropped anchor!)
 
 Bye-bye, Katsu is moving on to the next leg of the journey)
 
-%%%3
+:::3
+
 ![](+images/photo_84@13-12-2017_11-39-43-1024x767.jpg)
 ![](+images/photo_86@13-12-2017_12-23-14-1024x767.jpg)
 !r2[](+images/photo_85@13-12-2017_11-40-29-1024x768.jpg)
 ![](+images/photo_87@13-12-2017_12-23-40-1024x767.jpg)
 ![](+images/photo_88@13-12-2017_12-24-51-1024x767.jpg)
-%%%
+
+:::
 
 ##### 2017.11.04 13:45
 
 Greetings to all friends from Egypt, or more precisely—from the Suez Canal)
 
-%%%2
+:::2
+
 ![](+images/photo_50@04-11-2017_13-49-36-1024x768.jpg)
 ![](+images/photo_51@04-11-2017_13-49-38-1024x768.jpg)
 ![](+images/photo_52@04-11-2017_13-49-48-1024x768.jpg)
 ![](+images/photo_53@04-11-2017_13-49-49-1024x768.jpg)
-%%%
+
+:::
 
 ##### 2017.11.07
 
@@ -90,9 +94,11 @@ Today something rare happened—I had a dream. It went like this:
 
 Today was a nightmare: while raising the anchor, we caught a 50–60 mm steel cable lying on the bottom, and we nearly missed our turn for the Suez passage because of it. Then we were putting the standby lifeboat back into position when the davit that raises and lowers it broke a few meters before installation, so we had to position it manually. Oh, and in half an hour I have to relieve the Chief Mate, and then go back on watch—what a bummer((
 
-%%%1
+:::1
+
 ![Queue for Suez Canal passage](+images/photo_58@07-12-2017_08-39-01-1-1024x768.jpg)
-%%%
+
+:::
 
 ##### 2017.12.08 Morning watch
 
@@ -102,17 +108,21 @@ Yeah, being out of touch with home has really affected me; before I just missed 
 
 Reading that English guide made me work my brain and spend more time with Alice) Although the exercises in it are barely applicable at sea (like ways to calm down or relax), I try to use them to develop mental flexibility. That might sound simple to some, but I practiced changing my inner voice, visualizing various objects—today I fed Alice blackberries. I’m also trying to train tactile memory, just to understand how it works, hehe. Regarding home, I’ve calmed down a bit and started listening to Bi-2 and Splean—positivity is creeping back. And in a couple days we’ll unload trash, hehe. Then full speed to Russia to celebrate New Year. By the way, the guide is becoming easier to read—maybe it was just unfamiliar terminology; I need to read more English books.
 
-%%%1
+:::1
+
 ![Bunkering (refuelling) the ship](+images/photo_63@11-12-2017_09-22-13-1024x768.jpg)
-%%%
+
+:::
 
 ##### 2017.12.11 Morning watch
 
 Here we are at Malta, taking on fuel, otherwise we wouldn’t make it to Russia—hehe, we consume 18 tons per day. I’ve been thinking about Alice almost all the time; it’s a shame I can’t carve out time for proper forcing, since I work 12+ hours a day(. Just now the Superintendent called via satellite phone, and since I’m alone on the bridge, I had to talk to him, oh crap, it was terrifying. (The “SI” is like a department director in the company)
 
-%%%1
+:::1
+
 ![This is a special ballast control system on board the ship. Ships take on seawater specifically to increase stability and avoid capsizing.](+images/photo_73@11-12-2017_10-55-09-1024x768.jpg)
-%%%
+
+:::
 
 ##### 2017.12.11 22:00
 
@@ -122,12 +132,14 @@ A naval vessel just hailed us, asking a bunch of questions—port of registry, s
 
 Today I woke up at 5:00 AM not knowing if it was day or night. I thought dinner was approaching and tried to figure out if my phone’s time was correct; eventually I realized it was 5 AM and went back to sleep, hehe. After that I had a huge, drug-like dream. My friends (who I don’t know in real life) and I went to some combat academy for an induction ceremony. Everything was fine until a special clock showed a 240-second countdown (a countdown to death). I and the others rushed to the door, but it was locked. Luckily it was flimsy, and we kicked it down. Other cadets, as if hypnotized, chased us. Near the academy on the tracks was an armored train… and another train from a rival academy was approaching it. Their cadets tried to destroy us. Although all my friends managed to escape and board the train, I was left outside… and became the sole survivor, even though they found me. Somehow I ended up in the rescue capsule of the armored train… with some insane scientist. In that capsule we fled from enemies who wanted to kill us, and they were destroying the entire surrounding city. Next was a scene in a police station where I aimed a shotgun at a couple of enemies, and then the alarm on my bracelet vibrated, ripping me from the dream into harsh reality. At sea I dream more often than on land, but the dreams are more surreal here, hehe. By the way, that was my second dream in three months.
 
-%%%2
+:::2
+
 ![](+images/photo_79@12-12-2017_18-10-13-1024x768.jpg)
 ![](+images/photo_80@12-12-2017_18-37-12-1024x768.jpg)
 ![](+images/photo_81@12-12-2017_18-40-35-1024x768.jpg)
 ![](+images/photo_82@12-12-2017_18-54-05-1024x768.jpg)
-%%%
+
+:::
 
 A lifeboat for rescuing people who fall overboard. (UPD: I learned on later voyages that not every ship has one.)
 
@@ -135,13 +147,15 @@ A lifeboat for rescuing people who fall overboard. (UPD: I learned on later voya
 
 So at 22:00 Port Control in Zarzis hailed me and said we must weigh anchor at 06:00 AM. So just a tiny bit of time left before the start of hellish chaos and a couple of sleepless days. Well, we’ll survive this one too)
 
-%%%3
+:::3
+
 ![](+images/photo_84@13-12-2017_11-39-43-1024x767.jpg)
 ![](+images/photo_86@13-12-2017_12-23-14-1024x767.jpg)
 !r2[](+images/photo_85@13-12-2017_11-40-29-1024x768.jpg)
 ![](+images/photo_87@13-12-2017_12-23-40-1024x767.jpg)
 ![](+images/photo_88@13-12-2017_12-24-51-1024x767.jpg)
-%%%
+
+:::
 
 ##### 2017.12.13
 
@@ -157,11 +171,13 @@ Mornings are never good, so hello to you, dear friends—I hope you slept well l
 
 Okay, we cast off and left port. Our communication will soon be cut off. Until next time, dear friends)
 
-%%%3
+:::3
+
 ![](+images/photo_95@14-12-2017_14-50-45-1024x767.jpg)
 ![](+images/photo_96@14-12-2017_14-51-11-1024x767.jpg)
 ![](+images/photo_97@14-12-2017_14-51-21-1024x767.jpg)
-%%%
+
+:::
 
 ##### 2017.12.16 Morning watch
 
@@ -175,9 +191,11 @@ I’m doing an inventory of equipment: lifesaving gear, firefighting equipment, 
 
 Hello everyone, broadcasting from Gibraltar. I seem to be doing all right, within normal limits—trying to pull myself together, so don’t worry)
 
-%%%1
+:::1
+
 ![Left: Africa, Right: Europe](+images/photo_101@18-12-2017_14-25-01-edited.jpg)
-%%%
+
+:::
 
 ##### 2017.12.18 Night watch
 
@@ -191,14 +209,19 @@ Empty radar—joy for a navigator) Soon we approach the Bay of Biscay, which rar
 
 We enter the Bay of Biscay, and even in nearly calm water we’re rolling 10 degrees. But the forecast says we should pass through. I hope that’s true. It’s better to judge by photos of the ship than a clinometer—already up to 20°! I seem a bit calmer; that cadet and the Chief Mate are leaving, and the new Chief Mate is also a first-timer (like the current one); they say he’s a decent person, but we’ll see—power corrupts and spoils people. My mood is kind of messed up, sometimes I want to leave by my own will, sometimes everything is fine and my spirits lift until the next Ust-Luga. I’m just wary of whoever the new Chief Mate is—fortunate when the captain changed, but will luck favor me again, hehe.
 
-%%%3
+:::3
+
 ![](+images/photo_103@22-12-2017_12-01-22-1024x767.jpg)
 ![](+images/photo_106@22-12-2017_12-07-40-1024x767.jpg)
 ![](+images/photo_105@22-12-2017_12-05-34-1024x767.jpg)
-%&13
+
+:::c3
+
 ![2017.12.22 Morning: Today is a momentous day—our ship is moving at the speed of a normal ocean liner)](+images/photo_107@22-12-2017_12-07-54-edited.jpg)
-&%
-%%%
+
+:::
+
+:::
 
 ##### 2017.12.24 Morning
 

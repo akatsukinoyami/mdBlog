@@ -6,16 +6,20 @@ My first impression was that the game asked us separately for the character's ni
 
 Performance also frequently leaves much to be desired. In some scenes, the Steam Deck at 720p delivers a full 60fps, and the 3090 at 4K hits 120fps. But in others, performance dropped below 30 on the Steam Deck and below 40 on the 3090. The game's graphics aren't exactly a masterpiece either. City scenes still look decent, but nature scenes are quite bad — almost PS3-level.
 
-%%%2
+:::2
+
 ![](+images/city.avif)
 ![](+images/nature.avif)
-%%%
+
+:::
 
 Another interesting thing — some cutscenes are made in the game engine, but key story moments are done in anime style.
 
-%%%1
+:::1
+
 ![](+images/anime.avif)
-%%%
+
+:::
 
 Another downside I recalled: not even the original Japanese voice acting covers all lines, and a character often speaks just one word, after which you read the rest in silence.
 
@@ -27,9 +31,11 @@ Inexplicable monsters called "humans" are breaking into the world. At the same t
 
 Once we become a recruit, we're sent to defend the border, where we must meet with an ally. But what happens there? Right — a "human" appears and causes a bloody massacre. Yet we don't just survive: we also gain a special power — the Archetype.
 
-%%%1
+:::1
+
 ![The "Archetype" system is the key leveling mechanic, replacing traditional classes. Characters awaken abilities of legendary heroes, switching combat roles (warrior, healer, mage, merchant). Archetypes can be developed, combined, and swapped to create powerful combinations.](+images/archtypes.webp)
-%%%
+
+:::
 
 The entire combat system will ultimately be built around Archetypes, but to unlock new ones we'll need to meet many new people and strengthen our relationships with them. Relationships with characters grow through quest chains where we help them and get to know them better.
 
