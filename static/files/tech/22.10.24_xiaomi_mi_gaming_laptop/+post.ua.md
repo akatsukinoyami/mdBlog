@@ -20,34 +20,41 @@
 
 ## Характеристики
 
-:::2
+CPU
+: Intel Core i7-8750HT 2.2-4GHz (6 ядер / 12 потоків)
 
-  <dt>CPU</dt>
-  <dd>Intel Core i7-8750H 2.2–4 ГГц (6 ядер / 12 потоків)</dd>
-  <dt>iGPU</dt>
-  <dd>Intel UHD Graphics 630 (GT2)</dd>
-  <dt>dGPU</dt>
-  <dd>NVIDIA GeForce GTX 1060 6 ГБ GDDR5 (192 bit)</dd>
-  <dt>ОЗП</dt>
-  <dd>16 ГБ (2×8 ГБ) Samsung M471A1K DDR4-2666 SDRAM (20-19-19-43)</dd>
-  <dt>SSD</dt>
-  <dd>256 ГБ NVMe 4×PCI-E 3.0 SAMSUNG MZVLB256HAHQ</dd>
-  <dt>HDD</dt>
-  <dd>1 ТБ SATA 3 Seagate ST1000LM048-2E7172</dd>
-  <dt>Екран</dt>
-  <dd>15,6" 16:9 IPS Full HD Panda LM156LF9L01 (матовий)</dd>
-  <dt>Аудіочип</dt>
-  <dd>Realtek ALC1220</dd>
-  <dt>Порти</dt>
-  <dd>4×USB 3.0, USB Type-C, HDMI, 3,5 мм mini-jack (окремо для навушників і мікрофона), RJ-45 Ethernet, кардрідер SD</dd>
-  <dt>Батарея</dt>
-  <dd>55 Вт·год SUNWODA G15B01W (знос 8 %)</dd>
-  <dt>Розміри та вага</dt>
-  <dd>365×265×20,9 мм, 2,7 кг (без блока живлення)</dd>
-  <dt>Блок живлення</dt>
-  <dd>180 Вт MA100000340388930CM4 (0,5 кг)</dd>
+iGPU
+: Intel UHD Graphics 630 (GT2)
 
-:::
+eGPU
+: nVidia GeForce GTX 1060 6GB GDDR5 (192bit)
+
+RAM
+: 16GB (2×8GB) Samsung M471A1K DDR4-2666 SDRAM (20-19-19-43)
+
+SSD
+: 256GB NVME 4×PCI-E 3.0 SAMSUNG MZVLB256HAHQ
+
+HDD
+: 1TB SATA 3.0 Seagate ST1000LM048-2E7172
+
+Екран
+: 15,6" 16:9 IPS FullHD Panda LM156LF9L01 (матовий)
+
+Звуковий чіп
+: Realtek ALC1220
+
+Порти
+: 4×USB 3.0, USB Type-C, HDMI, 3,5 мм mini-Jack (окремі роз'єми для навушників та мікрофона), RJ-45 Ethernet, зчитувач SD карт
+
+Акумулятор
+: 55 Вт•год SUNWODA G15B01W (знос 8%)
+
+Габарити і вага
+: 365×265×20,9 мм, 2,7 кг без урахування блоку живлення
+
+Блок живлення
+: 180W MA100000340388930CM4 (0,5 кг)
 
 ## Фото
 
