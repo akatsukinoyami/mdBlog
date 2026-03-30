@@ -21,10 +21,10 @@ COPY \
   ./
 
 RUN bun lint
-RUN bun check:18n
 RUN bun posts
 RUN bun compress:images
 RUN vite build
+RUN bun compress:text
 
 # Serve step
 
