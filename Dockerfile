@@ -1,6 +1,6 @@
 # Build step
 
-FROM oven/bun:latest as build
+FROM oven/bun:latest AS build
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ RUN bun --bun bake
 
 # Serve step
 
-FROM nginx:alpine
+FROM nginx:alpine AS serve
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
