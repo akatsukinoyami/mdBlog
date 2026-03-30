@@ -1,34 +1,34 @@
 <script lang="ts">
-  import { mdiUnfoldMoreHorizontal } from "@mdi/js";
-  import { type Snippet } from "svelte";
-  import i from "$lib/icons";
-  import { type Class } from "$lib/types";
-  import { classMerger, clickOutside } from "$lib/utils";
-  import Icon from "./icon.svelte";
+	import { mdiUnfoldMoreHorizontal } from '@mdi/js';
+	import { type Snippet } from 'svelte';
+	import i from '$lib/icons';
+	import { type Class } from '$lib/types';
+	import { classMerger, clickOutside } from '$lib/utils';
+	import Icon from './icon.svelte';
 
-  interface Props extends Record<string, unknown> {
-    options: Record<string, any>;
-    label?: string;
-    selectedId?: string;
-    open?: boolean;
-    class?: Class;
-    inline?: boolean;
-    compact?: boolean;
-    onchange?: (id: string) => void;
-    peroption?: Snippet<[id: string, selected: boolean]>;
-  }
+	interface Props extends Record<string, unknown> {
+		options: Record<string, any>;
+		label?: string;
+		selectedId?: string;
+		open?: boolean;
+		class?: Class;
+		inline?: boolean;
+		compact?: boolean;
+		onchange?: (id: string) => void;
+		peroption?: Snippet<[id: string, selected: boolean]>;
+	}
 
-  let {
-    label,
-    options = [],
-    selectedId = $bindable(""),
-    open = $bindable(false),
-    class: className = "",
-    inline = false,
-    compact = false,
-    onchange = () => {},
-    peroption,
-  }: Props = $props();
+	let {
+		label,
+		options = [],
+		selectedId = $bindable(''),
+		open = $bindable(false),
+		class: className = '',
+		inline = false,
+		compact = false,
+		onchange = () => {},
+		peroption
+	}: Props = $props();
 </script>
 
 <custom-select

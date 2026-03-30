@@ -3,10 +3,10 @@
 		mdiImageOffOutline,
 		mdiImageOutline,
 		mdiWeatherNight,
-		mdiWhiteBalanceSunny,
-	} from "@mdi/js";
-	import { lang, theme, trafficEconomy } from "$lib/stores";
-	import Icon from "./icon.svelte";
+		mdiWhiteBalanceSunny
+	} from '@mdi/js';
+	import { lang, theme, trafficEconomy } from '$lib/stores';
+	import Icon from './icon.svelte';
 
 	let mounted = $state(false);
 	$effect(() => {
@@ -15,12 +15,12 @@
 
 	const themeIcons = {
 		dark: mdiWeatherNight,
-		light: mdiWhiteBalanceSunny,
+		light: mdiWhiteBalanceSunny
 	};
 
 	const economyIcons = {
 		true: mdiImageOffOutline,
-		false: mdiImageOutline,
+		false: mdiImageOutline
 	};
 </script>
 

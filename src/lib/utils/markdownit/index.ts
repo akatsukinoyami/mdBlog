@@ -14,8 +14,7 @@ export function getConverter(path: string, economyMode: boolean) {
 	md.use(deflist);
 	md.use(spoilerPlugin);
 
-	md.renderer.rules.dl_open = () =>
-		'<dl class="grid md:grid-cols-2 grid-cols-1 gap-x-4 my-5">\n';
+	md.renderer.rules.dl_open = () => '<dl class="grid md:grid-cols-2 grid-cols-1 gap-x-4 my-5">\n';
 
 	return {
 		makeHtml: (content: string) => {

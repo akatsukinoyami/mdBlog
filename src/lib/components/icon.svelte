@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { type Snippet } from "svelte";
-	import { type Class } from "$lib/types";
-	import { classMerger } from "$lib/utils";
+	import { type Snippet } from 'svelte';
+	import { type Class } from '$lib/types';
+	import { classMerger } from '$lib/utils';
 
 	interface Props extends Record<string, unknown> {
 		path?: string | string[];
@@ -16,14 +16,14 @@
 	}
 
 	let {
-		path = "",
-		class: className = "",
-		pathClass = "",
+		path = '',
+		class: className = '',
+		pathClass = '',
 		size = 24,
 		height = size,
 		width = size,
 		viewBox = `0 0 ${width} ${height}`,
-		fill = "none",
+		fill = 'none',
 		children,
 		...rest
 	}: Props = $props();

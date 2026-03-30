@@ -1,33 +1,33 @@
 <script lang="ts">
-	import { toast } from "svelte-sonner";
-	import ImageModal from "$lib/components/imageModal.svelte";
-	import { Circle1 } from "$lib/components/spinners";
-	import { lang, trafficEconomy } from "$lib/stores";
-	import { type Entity, type Post } from "$lib/types";
-	import { url } from "$lib/utils";
-	import { highlight } from "$lib/utils/highlight";
-	import { openImgModal } from "$lib/utils/imgModal.svelte";
-	import { getConverter } from "$lib/utils/markdownit";
+	import { toast } from 'svelte-sonner';
+	import ImageModal from '$lib/components/imageModal.svelte';
+	import { Circle1 } from '$lib/components/spinners';
+	import { lang, trafficEconomy } from '$lib/stores';
+	import { type Entity, type Post } from '$lib/types';
+	import { url } from '$lib/utils';
+	import { highlight } from '$lib/utils/highlight';
+	import { openImgModal } from '$lib/utils/imgModal.svelte';
+	import { getConverter } from '$lib/utils/markdownit';
 
 	let { entity, path }: { entity: Entity; path: string } = $props();
 
 	async function loadPost(
 		post: Post[] | null,
-		economy = $trafficEconomy,
+		economy = $trafficEconomy
 	): Promise<string | number | undefined> {
 		if (!post) return;
 
 		const filename = post?.includes($lang)
 			? `+post.${$lang}.md`
-			: post?.includes("default")
+			: post?.includes('default')
 				? `+post.default.md`
 				: null;
 
 		if (!filename) return;
 
-		return fetch(url(["files", path, filename]))
+		return fetch(url(['files', path, filename]))
 			.then((res) => res.text())
-			.then((mdPost) => getConverter(path, economy === "true").makeHtml(mdPost))
+			.then((mdPost) => getConverter(path, economy === 'true').makeHtml(mdPost))
 			.catch((error) => toast.error(error.toString()));
 	}
 </script>

@@ -1,16 +1,16 @@
 <script lang="ts">
-  import { classMerger } from "$lib/utils";
-  import { hoverShadows } from "$lib/utils/markdownit/constants";
+	import { classMerger } from '$lib/utils';
+	import { hoverShadows } from '$lib/utils/markdownit/constants';
 
-  const inverted = new Set(["github", "caprover"]);
-  const links = [
-    ["t.me/nyawoobot", `telegram`, "Telegram"],
-    ["github.com/akatsukinoyami/mdBlog", `github`, "Github"],
-    ["svelte.dev", `svelte`, "Svelte"],
-    ["tailwindcss.com", `tailwind`, "TailwindCSS"],
-    ["hetzner.com", `hetzner`, "Hetzner"],
-    ["tailwindcss.com", `caprover`, "Caprover"],
-  ] as const;
+	const inverted = new Set(['github', 'caprover']);
+	const links = [
+		['t.me/nyawoobot', `telegram`, 'Telegram'],
+		['github.com/akatsukinoyami/mdBlog', `github`, 'Github'],
+		['svelte.dev', `svelte`, 'Svelte'],
+		['tailwindcss.com', `tailwind`, 'TailwindCSS'],
+		['hetzner.com', `hetzner`, 'Hetzner'],
+		['tailwindcss.com', `caprover`, 'Caprover']
+	] as const;
 </script>
 
 <footer
