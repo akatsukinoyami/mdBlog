@@ -4,8 +4,9 @@
 	import { Circle1 } from '$lib/components/spinners';
 	import { lang } from '$lib/stores';
 	import { type Entity } from '$lib/types';
-	import { getConverter, openImgModal, url } from '$lib/utils';
+	import { getConverter, url } from '$lib/utils';
 	import { highlight } from '$lib/utils/highlight';
+	import { openImgModal } from '$lib/utils/imgModal.svelte';
 
 	let { entity, path }: { entity: Entity; path: string } = $props();
 

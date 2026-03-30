@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { closeImgModal, modal } from '$lib/utils';
+	import { closeImgModal, modal } from '$lib/utils/imgModal.svelte';
 	import Icon from './icon.svelte';
 
 	const codes = new Set(['Escape', 'Return', 'Space']);
