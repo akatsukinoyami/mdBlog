@@ -22,7 +22,7 @@
 		size = 24,
 		height = size,
 		width = size,
-		viewBox = `0 0 ${width} ${height}`,
+		viewBox = '0 0 24 24', //`0 0 ${width} ${height}`,
 		fill = 'none',
 		children,
 		...rest
