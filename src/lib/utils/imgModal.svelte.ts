@@ -1,19 +1,16 @@
-import { get } from 'svelte/store';
-import { trafficEconomy } from '$lib/stores';
-
 interface Modal {
 	src: string | null;
 	alt: string | null;
 }
+
 export const modal = $state<Modal>({ src: null, alt: null });
 
 export function openImgModal(event: Event) {
 	const target = event.target;
 	if (!(target instanceof HTMLImageElement)) return;
 
-	modal.src = get(trafficEconomy)
-		? target.src.replaceAll('+imagesCompressed', '+images').replace('.webp', '')
-		: target.src;
+	// Always show the original — if economy mode served a compressed webp, strip it back
+	modal.src = target.src.replaceAll('+imagesCompressed', '+images').replace('.webp', '');
 	modal.alt = target.alt || '';
 }
 

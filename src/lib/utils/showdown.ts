@@ -1,11 +1,9 @@
 import showdown from 'showdown';
-import { get } from 'svelte/store';
 import { figcaption, figure, grid, iframe, img } from '../constants';
-import { trafficEconomy } from '../stores';
-import { url } from '.';
+import { url } from './url';
 
-export function getConverter(path: string) {
-	const economy = (yes: string, no: string) => (get(trafficEconomy) === 'true' ? yes : no);
+export function getConverter(path: string, economyMode: boolean) {
+	const economy = (yes: string, no: string) => (economyMode ? yes : no);
 
 	return new showdown.Converter({
 		tables: true,

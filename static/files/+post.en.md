@@ -7,3 +7,45 @@ In general, about me. I'm quite a typical person for the modern world. I studied
 I'm also passionate about Japanese culture, anime, and rhythm games like BeatSaber or Project Diva.
 
 More details will be shared in the upcoming posts.
+
+---
+
+## Syntax Test
+
+### Spoiler
+
+My favourite anime is ||Fullmetal Alchemist: Brotherhood||. The ending made me ||cry for two hours straight||.
+
+### Embed
+
+@[Rickroll](https://www.youtube.com/embed/dQw4w9WgXcQ){h-150}
+
+### 3-column grid
+
+:::3
+Item one
+Item two
+Item three
+:::
+
+### 2-column grid with a spanning cell
+
+:::2
+Normal cell
+
+:::c2
+This cell spans both columns
+:::
+:::
+
+### Images (standard)
+
+![A caption for this image](+images/test.jpg)
+
+### Image spanning 2 columns
+
+![c2:Wide image spanning two columns](+images/test.jpg)
+
+### Image spanning 2 rows
+
+![r2:Tall image spanning two rows](+images/test.jpg)
