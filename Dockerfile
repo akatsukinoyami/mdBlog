@@ -8,7 +8,17 @@ COPY package.json bun.lock ./
 
 RUN bun install --frozen-lockfile
 
-COPY . .
+COPY \
+  src \
+  static \
+  scripts \
+  svelte.config.js \
+  vite.config.ts \
+  tsconfig.json \
+  tailwind.config.ts \
+  biome.json \
+  bunfig.toml \
+  ./
 
 RUN bun bake
 
