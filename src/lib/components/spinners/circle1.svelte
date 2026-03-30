@@ -1,10 +1,10 @@
 <script lang="ts">
-  let {
-    size = 100, 
-    height = size,
-    width = size,
-    shadowColor = "after:shadow-[0_2px_0_#973c00_inset] dark:after:shadow-[0_2px_0_#fff_inset]"
-  } = $props();
+	let {
+		size = 100,
+		height = size,
+		width = size,
+		shadowColor = 'after:shadow-[0_2px_0_#973c00_inset] dark:after:shadow-[0_2px_0_#fff_inset]'
+	} = $props();
 </script>
 
 <span 

@@ -1,11 +1,11 @@
 <script lang="ts">
-  let {
-    height = 4.8,
-    barColor = "after:bg-amber-800 dark:after:bg-white",
-    barWidth = "after:w-48",
-    barHeight = "after:h-[4.8px]",
-    background = "bg-white/15",
-  } = $props();
+	let {
+		height = 4.8,
+		barColor = 'after:bg-amber-800 dark:after:bg-white',
+		barWidth = 'after:w-48',
+		barHeight = 'after:h-[4.8px]',
+		background = 'bg-white/15'
+	} = $props();
 </script>
 
 <span class={["w-full inline-block relative overflow-hidden",

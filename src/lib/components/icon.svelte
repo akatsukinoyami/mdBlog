@@ -1,7 +1,7 @@
 <script lang="ts">
+	import { type Snippet } from 'svelte';
+	import { type Class } from '$lib/types';
 	import { classMerger } from '$lib/utils';
-	import type { Snippet } from 'svelte';
-	import type { Class } from '$lib/types';
 
 	interface Props extends Record<string, unknown> {
 		path?: string | string[];

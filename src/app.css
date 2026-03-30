@@ -9,77 +9,77 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
-  h1 {
-    @apply text-3xl my-6 text-center;
-  }
-  h2 {
-    @apply text-2xl my-5 text-center;
-  }
-  h3 {
-    @apply text-xl my-4 text-center;
-  }
-  h4 {
-    @apply text-lg my-3;
-  }
-  h5 {
-    @apply text-base my-2 text-end;
-  }
-  h6 {
-    @apply text-sm my-1 text-end;
-  }
+	h1 {
+		@apply text-3xl my-6 text-center;
+	}
+	h2 {
+		@apply text-2xl my-5 text-center;
+	}
+	h3 {
+		@apply text-xl my-4 text-center;
+	}
+	h4 {
+		@apply text-lg my-3;
+	}
+	h5 {
+		@apply text-base my-2 text-end;
+	}
+	h6 {
+		@apply text-sm my-1 text-end;
+	}
 }
 
 a {
-  @apply hover:font-semibold;
+	@apply hover:font-semibold;
 }
 
 ul {
-  @apply list-inside list-disc;
+	@apply list-inside list-disc;
 }
 
 ol {
-  @apply list-inside list-decimal;
+	@apply list-inside list-decimal;
 }
 
 details {
-  @apply py-2 my-2 border border-x-0;
+	@apply py-2 my-2 border border-x-0;
 }
 
 summary {
-  @apply cursor-pointer;
+	@apply cursor-pointer;
 }
 
 blockquote {
-  @apply px-6 py-3 m-3 rounded-xl  bg-amber-900/5 dark:bg-black/5 ring ring-black/10 shadow-xl;
+	@apply px-6 py-3 m-3 rounded-xl bg-amber-900/5 dark:bg-black/5 ring ring-black/10 shadow-xl;
 }
 
 code {
-  @apply p-6 m-3 rounded-xl  bg-amber-900/5 dark:bg-black/5 ring ring-black/10 shadow-xl;
+	@apply p-6 m-3 rounded-xl bg-amber-900/5 dark:bg-black/5 ring ring-black/10 shadow-xl;
 }
 
 p {
-  @apply my-1;
+	@apply my-1;
 }
 
 @theme {
-  --animate-bar1: animloader 2s linear infinite;
-  @keyframes animloader {
-    0% {
-      left: 0;
-      transform: translateX(-100%);
-    }
-    100% {
-      left: 100%;
-      transform: translateX(0%);
-    }
-  }
+	--animate-bar1: animloader 2s linear infinite;
+	@keyframes animloader {
+		0% {
+			left: 0;
+			transform: translateX(-100%);
+		}
+		100% {
+			left: 100%;
+			transform: translateX(0%);
+		}
+	}
 }
 
 .text-justify-or-center {
-  text-align: justify;
-  text-align-last: center;
+	text-align: justify;
+	text-align-last: center;
 }
 
 .gradient-mask {
-  mask-image: linear-gradient(180deg, transparent 0%, black 60%);
+	mask-image: linear-gradient(180deg, transparent 0%, black 60%);
 }

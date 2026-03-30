@@ -1,11 +1,11 @@
-import hljs from "highlight.js";
+import hljs from 'highlight.js';
 
 export function highlight(_node: HTMLElement) {
-  hljs.highlightAll();
+	hljs.highlightAll();
 
-  return {
-    update() {
-      hljs.highlightAll();
-    },
-  };
+	return {
+		update() {
+			hljs.highlightAll();
+		}
+	};
 }

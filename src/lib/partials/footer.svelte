@@ -1,8 +1,8 @@
 <script>
-  import { hoverShadows } from "$lib/constants";
-  import { classMerger } from "$lib/utils";
+	import { hoverShadows } from '$lib/constants';
+	import { classMerger } from '$lib/utils';
 
-  const inverted = new Set(['github', 'caprover'])
+	const inverted = new Set(['github', 'caprover']);
 </script>
 
 <footer class="flex xl:flex-col w-full xl:w-max gap-4 xl:gap-0 justify-center fixed bottom-0 xl:right-6">

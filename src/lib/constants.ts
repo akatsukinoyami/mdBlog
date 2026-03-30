@@ -1,31 +1,30 @@
-import type { Lang, Theme, TrafficEconomy } from "./types";
+import type { Lang, Theme, TrafficEconomy } from './types';
 
 // Store values
 
-export const defaultTheme: Theme = "dark" as const;
-export const defaultTrafficEconomy: TrafficEconomy = "true" as const;
-export const defaultLang: Lang = "en" as const;
-export const langs: Lang[] = ["en", "ru", "ua"] as const;
-export const themes: Theme[] = ["dark", "light"] as const;
+export const defaultTheme: Theme = 'dark' as const;
+export const defaultTrafficEconomy: TrafficEconomy = 'true' as const;
+export const defaultLang: Lang = 'en' as const;
+export const langs: Lang[] = ['en', 'ru', 'ua'] as const;
+export const themes: Theme[] = ['dark', 'light'] as const;
 
 // HTML
 
-export const flex = "flex items-center";
+export const flex = 'flex items-center';
 
 export const hoverShadows =
-  "hover:drop-shadow-xl/50 hover:drop-shadow-amber-900 dark:hover:drop-shadow-gray-50";
+	'hover:drop-shadow-xl/50 hover:drop-shadow-amber-900 dark:hover:drop-shadow-gray-50';
 
-export const grid = "grid md:grid-cols-$1 grid-cols-1";
+export const grid = 'grid md:grid-cols-$1 grid-cols-1';
 
 export const textStroke = `
   text-shadow-[-1px_-1px_1px_var(--color-amber-50),-1px_1px_1px_var(--color-amber-50),1px_-1px_1px_var(--color-amber-50),1px_1px_1px_var(--color-amber-50)]
   dark:text-shadow-[-1px_-1px_1px_var(--color-gray-950),-1px_1px_1px_var(--color-gray-950),1px_-1px_1px_var(--color-gray-950),1px_1px_1px_var(--color-gray-950)]
 `;
 
-export const spanSize = (q?: "col" | "row") =>
-  q ? `md:${q}-span-$1 ${q}-span-1` : "";
-export const figure = (q?: "col" | "row") =>
-  `figure class="flex flex-col relative items-center gap-2 my-2 max-h-140 group ${spanSize(q)}"`;
+export const spanSize = (q?: 'col' | 'row') => (q ? `md:${q}-span-$1 ${q}-span-1` : '');
+export const figure = (q?: 'col' | 'row') =>
+	`figure class="flex flex-col relative items-center gap-2 my-2 max-h-140 group ${spanSize(q)}"`;
 
 export const iframe = 'iframe class="w-full rounded-lg shadow-2xl my-2 $1"';
 

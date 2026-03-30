@@ -2,13 +2,13 @@
 	import '../app.css';
 	import { Toaster } from 'svelte-sonner';
 	import i18n from '$lib/i18n';
-	import Navbar from '$lib/partials/navbar.svelte';
 	import Footer from '$lib/partials/footer.svelte';
 	import LocalStorage from '$lib/partials/localStorage.svelte';
+	import Navbar from '$lib/partials/navbar.svelte';
 	import { lang, title } from '$lib/stores';
 
 	let { children } = $props();
-  let t = $derived(i18n($lang));
+	let t = $derived(i18n($lang));
 </script>
 
 <svelte:head>

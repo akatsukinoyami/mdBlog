@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { lang } from '$lib/stores';
-	import { url, bgUrl } from '$lib/utils';
 	import { textStroke } from '$lib/constants';
-	import type { Class, Entity } from '$lib/types';
+	import { lang } from '$lib/stores';
+	import { type Class, type Entity } from '$lib/types';
+	import { bgUrl, url } from '$lib/utils';
 
 	interface Props extends Record<string, unknown> {
 		folderName: string;

@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { toast } from 'svelte-sonner';
-	import { getConverter, openImgModal, url } from '$lib/utils';
-	import { lang } from '$lib/stores';
-	import { highlight } from '$lib/utils/highlight';
 	import ImageModal from '$lib/components/imageModal.svelte';
 	import { Circle1 } from '$lib/components/spinners';
-	import type { Entity } from '$lib/types';
+	import { lang } from '$lib/stores';
+	import { type Entity } from '$lib/types';
+	import { getConverter, openImgModal, url } from '$lib/utils';
+	import { highlight } from '$lib/utils/highlight';
 
 	let { entity, path }: { entity: Entity; path: string } = $props();
 
@@ -15,7 +15,7 @@
 		return fetch(url(['files', path, file]))
 			.then((res) => res.text())
 			.then((mdPost) => getConverter(path).makeHtml(mdPost))
-			.catch(error => toast.error(error.toString()));
+			.catch((error) => toast.error(error.toString()));
 	}
 </script>
 

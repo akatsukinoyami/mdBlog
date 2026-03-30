@@ -1,5 +1,5 @@
 export async function load({ parent, params }) {
-  const { entity } = await parent();
+	const { entity } = await parent();
 
-  return { entity, path: params?.post || "" };
+	return { entity, path: params?.post || '' };
 }

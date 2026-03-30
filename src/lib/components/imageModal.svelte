@@ -1,20 +1,20 @@
 <script lang="ts">
-  import Icon from "./icon.svelte";
-  import { closeImgModal, modal } from "$lib/utils";
+	import { closeImgModal, modal } from '$lib/utils';
+	import Icon from './icon.svelte';
 
-  const codes = new Set(['Escape', 'Return', 'Space']);
+	const codes = new Set(['Escape', 'Return', 'Space']);
 
-  function onkeyup(e: KeyboardEvent) {
-    if (codes.has(e.code)) closeImgModal();
-  }  
-  
-  function onclick(e: MouseEvent) {
-    if (e.target === e.currentTarget) closeImgModal();
-  }
+	function onkeyup(e: KeyboardEvent) {
+		if (codes.has(e.code)) closeImgModal();
+	}
 
-  $effect(() => {
-    document.body.classList.toggle('overflow-hidden', !!modal.src)
-  })
+	function onclick(e: MouseEvent) {
+		if (e.target === e.currentTarget) closeImgModal();
+	}
+
+	$effect(() => {
+		document.body.classList.toggle('overflow-hidden', !!modal.src);
+	});
 </script>
 
 <svelte:window {onkeyup} />

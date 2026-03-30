@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { mdiCog } from '@mdi/js';
 	import { flex, hoverShadows } from '$lib/constants';
-	import { lang } from '$lib/stores';
 	import i18n from '$lib/i18n';
+	import { lang } from '$lib/stores';
 	import Icon from '../components/icon.svelte';
 
-  let t = $derived(i18n($lang));
+	let t = $derived(i18n($lang));
 </script>
 
 <div
