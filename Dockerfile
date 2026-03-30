@@ -14,10 +14,10 @@ RUN bun --bun bake
 
 # Serve step
 
-FROM cgr.dev/chainguard/nginx
+FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
 COPY --from=build /app/build /usr/share/nginx/html
 
-EXPOSE 8080
+EXPOSE 80
